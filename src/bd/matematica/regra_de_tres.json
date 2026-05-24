@@ -1,0 +1,70 @@
+[
+  {
+    "id": "MA-RT-001",
+    "subject": "matematica",
+    "topic": "regra_de_tres",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Se 3 cadernos custam R$ 9,00, quanto custam 7 cadernos?",
+    "options": [
+      "R$ 18,00",
+      "R$ 21,00",
+      "R$ 24,00",
+      "R$ 27,00"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regra de três direta: 3 → 9 e 7 → x. Calculando: x = (7 × 9) ÷ 3 = 63 ÷ 3 = R$ 21,00.",
+    "tags": ["regra_de_tres", "direta", "proporcao"]
+  },
+  {
+    "id": "MA-RT-002",
+    "subject": "matematica",
+    "topic": "regra_de_tres",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "4 operários constroem uma parede em 6 dias. Em quantos dias 8 operários constroem a mesma parede?",
+    "options": [
+      "12 dias",
+      "6 dias",
+      "4 dias",
+      "3 dias"
+    ],
+    "correctIndex": 3,
+    "explanation": "Regra de três inversa: mais operários, menos dias. 4 → 6 e 8 → x. Calculando: x = (4 × 6) ÷ 8 = 24 ÷ 8 = 3 dias.",
+    "tags": ["regra_de_tres", "inversa", "proporcao"]
+  },
+  {
+    "id": "MA-RT-003",
+    "subject": "matematica",
+    "topic": "regra_de_tres",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Um carro percorre 180 km em 2 horas. Qual a velocidade média por hora?",
+    "options": [
+      "80 km/h",
+      "90 km/h",
+      "100 km/h",
+      "70 km/h"
+    ],
+    "correctIndex": 1,
+    "explanation": "Velocidade média = distância ÷ tempo = 180 ÷ 2 = 90 km/h.",
+    "tags": ["regra_de_tres", "velocidade", "direta"]
+  },
+  {
+    "id": "MA-RT-004",
+    "subject": "matematica",
+    "topic": "regra_de_tres",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Uma torneira enche um tanque completamente em 6 horas. Que fração do tanque estará preenchida em 2 horas?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/3",
+      "2/5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Em 6 horas preenche 1 tanque. Em 2 horas preenche 2/6 = 1/3 do tanque.",
+    "tags": ["regra_de_tres", "fracao", "direta"]
+  }
+]

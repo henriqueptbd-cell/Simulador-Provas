@@ -1,0 +1,24 @@
+/* =============================================
+   BADGES
+   ============================================= */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.badge-subject {
+  background: var(--c-brand-tint);
+  color: var(--c-brand);
+}
+
+.badge-difficulty-easy   { background: var(--c-brand-tint); color: var(--c-brand-3); }
+.badge-difficulty-medium { background: var(--c-gold-tint);  color: var(--c-gold); }
+.badge-difficulty-hard   { background: var(--c-err-tint);   color: var(--c-err); }

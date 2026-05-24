@@ -1,0 +1,28 @@
+/* =============================================
+   SIMULADO PROVAS — Entrada CSS
+   Importa todos os módulos na ordem correta.
+   Para adicionar um componente: crie o arquivo
+   e adicione o @import aqui.
+   ============================================= */
+
+/* 1. Tokens e base */
+@import url('./variables.css');
+@import url('./base.css');
+
+/* 2. Componentes reutilizáveis */
+@import url('./components/buttons.css');
+@import url('./components/badges.css');
+@import url('./components/loading.css');
+@import url('./components/modal.css');
+@import url('./components/ads.css');
+@import url('./components/forms.css');
+
+/* 3. Layout global */
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+
+/* 4. Páginas */
+@import url('./pages/home.css');
+@import url('./pages/simulado.css');
+@import url('./pages/resultado.css');
+@import url('./pages/sobre.css');

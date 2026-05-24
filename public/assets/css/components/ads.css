@@ -1,0 +1,36 @@
+/* =============================================
+   PUBLICIDADE (ADSENSE)
+   ============================================= */
+
+.ad-banner-top {
+  background: var(--c-surface-2);
+  border-bottom: 1px solid var(--c-border);
+  padding: 8px 0;
+}
+
+.ad-mid { padding: 24px 0; }
+
+/* Placeholder visível apenas quando o AdSense ainda não foi configurado */
+.ad-placeholder {
+  background: var(--c-surface-2);
+  border: 1px dashed var(--c-border-2);
+  border-radius: var(--radius-sm);
+  color: var(--c-text-3);
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 728px;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Retângulo médio 300×250 */
+.ad-placeholder--rect {
+  max-width: 336px;
+  min-height: 280px;
+}

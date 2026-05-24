@@ -1,0 +1,38 @@
+/* =============================================
+   FOOTER
+   ============================================= */
+
+.site-footer {
+  background: var(--c-brand-3);
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  padding: 36px 20px;
+  margin-top: 60px;
+  transition: background var(--transition);
+}
+
+[data-theme="dark"] .site-footer {
+  background: var(--c-surface-2);
+  border-top: 1px solid var(--c-border);
+}
+
+.footer-brand {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+[data-theme="dark"] .footer-brand { color: var(--c-text); }
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-disclaimer {
+  font-size: 12px;
+  color: rgba(255,255,255,0.45);
+}
+
+[data-theme="dark"] .footer-disclaimer { color: var(--c-text-3); }

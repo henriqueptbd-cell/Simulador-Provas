@@ -1,0 +1,70 @@
+[
+  {
+    "id": "PT-CL-001",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'O aluno estudou bastante', a palavra 'bastante' exerce função de:",
+    "options": [
+      "Substantivo",
+      "Adjetivo",
+      "Advérbio",
+      "Pronome"
+    ],
+    "correctIndex": 2,
+    "explanation": "A palavra 'bastante' modifica o verbo 'estudou', funcionando como advérbio de intensidade.",
+    "tags": ["classes_gramaticais", "adverbio", "intensidade"]
+  },
+  {
+    "id": "PT-CL-002",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'Ela falou rapidamente', a palavra 'rapidamente' é:",
+    "options": [
+      "Substantivo",
+      "Verbo",
+      "Advérbio",
+      "Adjetivo"
+    ],
+    "correctIndex": 2,
+    "explanation": "A palavra modifica o verbo 'falou' e indica o modo como a ação foi realizada.",
+    "tags": ["classes_gramaticais", "adverbio", "modo"]
+  },
+  {
+    "id": "PT-CL-003",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'O candidato estudioso foi aprovado', a palavra 'estudioso' é:",
+    "options": [
+      "Substantivo",
+      "Adjetivo",
+      "Advérbio",
+      "Pronome"
+    ],
+    "correctIndex": 1,
+    "explanation": "A palavra 'estudioso' caracteriza o substantivo 'candidato', sendo um adjetivo.",
+    "tags": ["classes_gramaticais", "adjetivo"]
+  },
+  {
+    "id": "PT-CL-004",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'Ninguém faltou à reunião', a palavra 'ninguém' é um:",
+    "options": [
+      "Substantivo",
+      "Adjetivo",
+      "Pronome indefinido",
+      "Advérbio"
+    ],
+    "correctIndex": 2,
+    "explanation": "A palavra 'ninguém' substitui um substantivo e indica quantidade indeterminada, sendo pronome indefinido.",
+    "tags": ["classes_gramaticais", "pronome", "indefinido"]
+  }
+]

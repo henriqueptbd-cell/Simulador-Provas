@@ -1,0 +1,104 @@
+[
+  {
+    "id": "PT-CO-001",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à concordância verbal.",
+    "options": [
+      "Fazem dois anos que ele saiu.",
+      "Faz dois anos que ele saiu.",
+      "Faziam dois anos que ele saiu.",
+      "Fizeram dois anos que ele saiu."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'fazer' indicando tempo decorrido é impessoal e permanece no singular.",
+    "tags": ["concordancia", "verbo_impessoal", "fazer"]
+  },
+  {
+    "id": "PT-CO-002",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à concordância verbal.",
+    "options": [
+      "Existem bastante candidatos preparados.",
+      "Existe bastante candidatos preparados.",
+      "Existem bastantes candidatos preparados.",
+      "Existe bastantes candidatos preparados."
+    ],
+    "correctIndex": 2,
+    "explanation": "O verbo concorda com o sujeito 'candidatos' (plural) e 'bastantes' atua como pronome indefinido variável.",
+    "tags": ["concordancia", "plural", "pronome_indefinido"]
+  },
+  {
+    "id": "PT-CO-003",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a frase correta quanto ao uso do verbo 'haver'.",
+    "options": [
+      "Houveram muitas reclamações.",
+      "Houve muitas reclamações.",
+      "Haviam muitas reclamações.",
+      "Houveram muitas dúvidas."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'haver' com sentido de existir é impessoal e fica no singular.",
+    "tags": ["concordancia", "verbo_haver", "impessoal"]
+  },
+  {
+    "id": "PT-CO-004",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "Faltam cinco minutos para a prova.",
+      "Falta cinco minutos para a prova.",
+      "Faltou cinco minutos para a prova.",
+      "Faltaria cinco minutos para a prova."
+    ],
+    "correctIndex": 0,
+    "explanation": "O verbo concorda com o sujeito plural 'cinco minutos'.",
+    "tags": ["concordancia", "verbo", "sujeito_plural"]
+  },
+  {
+    "id": "PT-CO-005",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a frase correta quanto ao uso do índice de indeterminação do sujeito.",
+    "options": [
+      "Precisam-se de funcionários.",
+      "Precisa-se de funcionários.",
+      "Precisou-se de funcionários.",
+      "Precisariam-se de funcionários."
+    ],
+    "correctIndex": 1,
+    "explanation": "Com verbo transitivo indireto e índice de indeterminação do sujeito (-se), o verbo fica no singular.",
+    "tags": ["concordancia", "indice_indeterminacao", "voz_passiva"]
+  },
+  {
+    "id": "PT-CO-006",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à concordância nominal.",
+    "options": [
+      "Segue anexo os documentos.",
+      "Seguem anexo os documentos.",
+      "Seguem anexos os documentos.",
+      "Segue anexos os documentos."
+    ],
+    "correctIndex": 2,
+    "explanation": "O adjetivo 'anexos' e o verbo 'seguem' concordam com o sujeito plural 'os documentos'.",
+    "tags": ["concordancia", "nominal", "adjetivo"]
+  }
+]

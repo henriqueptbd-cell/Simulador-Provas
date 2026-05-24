@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultado — Simulado Provas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>(function(){var t=localStorage.getItem('sp_theme');if(t)document.documentElement.setAttribute('data-theme',t);})();</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="logo-icon">📚</span>
+        <span class="logo-text">Simulado Provas</span>
+      </a>
+      <button class="theme-toggle" aria-label="Modo escuro">🌙</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Score Principal -->
+    <section class="result-hero">
+      <div class="container">
+        <div class="score-circle-wrap">
+          <div class="score-circle" id="score-circle">
+            <span class="score-percent" id="score-percent">0%</span>
+          </div>
+          <div class="score-info">
+            <h1 class="result-label" id="result-label">Calculando...</h1>
+            <p class="score-detail" id="score-detail"></p>
+            <p class="result-date"  id="result-date"></p>
+          </div>
+        </div>
+        <div class="result-actions">
+          <button id="btn-retry" class="btn btn-primary btn-large">↺ Tentar novamente</button>
+          <a href="/" class="btn btn-outline btn-large">← Início</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Desempenho por Matéria -->
+    <section class="breakdown-section">
+      <div class="container">
+        <h2 class="section-title">Desempenho por Matéria</h2>
+        <div id="breakdown-grid" class="breakdown-grid"></div>
+      </div>
+    </section>
+
+    <!-- PUBLICIDADE - Retângulo (300x250) -->
+    <div class="ad-mid">
+      <div class="container" style="text-align:center;">
+        <!-- Inserir código Google AdSense aqui -->
+        <div class="ad-placeholder ad-placeholder--rect">Publicidade</div>
+      </div>
+    </div>
+
+    <!-- Revisão das Questões -->
+    <section class="review-section">
+      <div class="container">
+        <h2 class="section-title">Revisão das Questões</h2>
+        <div id="review-list" class="review-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">📚 Simulado Provas</p>
+      <p class="footer-text">Simulados gratuitos para concursos municipais</p>
+      <p class="footer-disclaimer">Este site não possui vínculo oficial com bancas organizadoras de concursos públicos.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/resultado.js"></script>
+</body>
+</html>

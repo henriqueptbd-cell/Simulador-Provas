@@ -1,0 +1,70 @@
+[
+  {
+    "id": "MA-FR-001",
+    "subject": "matematica",
+    "topic": "fracoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Quanto é 1/2 + 1/4?",
+    "options": [
+      "2/6",
+      "1/3",
+      "3/4",
+      "2/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tornando os denominadores iguais: 2/4 + 1/4 = 3/4.",
+    "tags": ["fracoes", "adicao", "denominador_comum"]
+  },
+  {
+    "id": "MA-FR-002",
+    "subject": "matematica",
+    "topic": "fracoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Quanto é 3/4 − 1/2?",
+    "options": [
+      "2/2",
+      "1/4",
+      "1/2",
+      "3/8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tornando os denominadores iguais: 3/4 − 2/4 = 1/4.",
+    "tags": ["fracoes", "subtracao", "denominador_comum"]
+  },
+  {
+    "id": "MA-FR-003",
+    "subject": "matematica",
+    "topic": "fracoes",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Quanto é 2/3 × 3/4?",
+    "options": [
+      "6/12",
+      "5/7",
+      "1/2",
+      "2/7"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiplica numerador por numerador e denominador por denominador: (2 × 3) ÷ (3 × 4) = 6/12 = 1/2.",
+    "tags": ["fracoes", "multiplicacao", "simplificacao"]
+  },
+  {
+    "id": "MA-FR-004",
+    "subject": "matematica",
+    "topic": "fracoes",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Quanto é 1/2 ÷ 1/4?",
+    "options": [
+      "1/8",
+      "1/2",
+      "4",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Divisão de frações: multiplica pela fração invertida. 1/2 × 4/1 = 4/2 = 2.",
+    "tags": ["fracoes", "divisao", "fracao_invertida"]
+  }
+]

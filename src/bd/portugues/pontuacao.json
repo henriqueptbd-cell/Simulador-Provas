@@ -1,0 +1,87 @@
+[
+  {
+    "id": "PT-PO-001",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que a pontuação está correta.",
+    "options": [
+      "Os candidatos, fizeram a prova ontem.",
+      "Os candidatos fizeram, a prova ontem.",
+      "Os candidatos fizeram a prova ontem.",
+      "Os candidatos fizeram a prova, ontem."
+    ],
+    "correctIndex": 2,
+    "explanation": "A frase não exige vírgula, pois não há elemento deslocado, explicativo ou intercalado.",
+    "tags": ["pontuacao", "virgula"]
+  },
+  {
+    "id": "PT-PO-002",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa com pontuação correta.",
+    "options": [
+      "Ontem os candidatos fizeram a prova.",
+      "Ontem, os candidatos fizeram a prova.",
+      "Ontem os candidatos, fizeram a prova.",
+      "Ontem, os candidatos, fizeram a prova."
+    ],
+    "correctIndex": 1,
+    "explanation": "O adjunto adverbial deslocado para o início da frase pode ser separado por vírgula.",
+    "tags": ["pontuacao", "virgula", "adjunto_adverbial"]
+  },
+  {
+    "id": "PT-PO-003",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da vírgula.",
+    "options": [
+      "Maria estudou bastante portanto passou.",
+      "Maria estudou bastante, portanto passou.",
+      "Maria, estudou bastante portanto passou.",
+      "Maria estudou, bastante portanto passou."
+    ],
+    "correctIndex": 1,
+    "explanation": "A conjunção conclusiva 'portanto' deve ser antecedida de vírgula.",
+    "tags": ["pontuacao", "virgula", "conjuncao_conclusiva"]
+  },
+  {
+    "id": "PT-PO-004",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que a pontuação está INCORRETA.",
+    "options": [
+      "Os alunos, chegaram cedo.",
+      "Ontem, choveu bastante.",
+      "Pedro, venha aqui.",
+      "Após a reunião, todos saíram."
+    ],
+    "correctIndex": 0,
+    "explanation": "Não se deve separar sujeito e verbo por vírgula. A alternativa A está incorreta.",
+    "tags": ["pontuacao", "virgula", "sujeito_verbo"]
+  },
+  {
+    "id": "PT-PO-005",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "O diretor, João Silva disse que a reunião foi produtiva.",
+      "O diretor João Silva, disse que a reunião foi produtiva.",
+      "O diretor, João Silva, disse que a reunião foi produtiva.",
+      "O diretor João Silva disse, que a reunião foi produtiva."
+    ],
+    "correctIndex": 2,
+    "explanation": "O aposto explicativo 'João Silva' deve ser isolado por vírgulas.",
+    "tags": ["pontuacao", "virgula", "aposto"]
+  }
+]

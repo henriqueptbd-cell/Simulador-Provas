@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-05-24",
+  "description": "Banco de questões para simulados de concursos municipais",
+  "subjects": [
+    {
+      "id": "portugues",
+      "label": "Língua Portuguesa",
+      "prefix": "PT",
+      "topics": [
+        { "id": "interpretacao",      "label": "Interpretação de Texto",  "prefix": "IN", "file": "portugues/interpretacao.json" },
+        { "id": "pontuacao",          "label": "Pontuação",               "prefix": "PO", "file": "portugues/pontuacao.json" },
+        { "id": "concordancia",       "label": "Concordância",            "prefix": "CO", "file": "portugues/concordancia.json" },
+        { "id": "crase",              "label": "Crase",                   "prefix": "CR", "file": "portugues/crase.json" },
+        { "id": "regencia",           "label": "Regência",                "prefix": "RE", "file": "portugues/regencia.json" },
+        { "id": "classes_gramaticais","label": "Classes Gramaticais",     "prefix": "CL", "file": "portugues/classes_gramaticais.json" },
+        { "id": "ortografia",         "label": "Ortografia",              "prefix": "OR", "file": "portugues/ortografia.json" }
+      ]
+    },
+    {
+      "id": "matematica",
+      "label": "Matemática",
+      "prefix": "MA",
+      "topics": [
+        { "id": "operacoes",    "label": "Operações e Aritmética",  "prefix": "OP", "file": "matematica/operacoes.json" },
+        { "id": "porcentagem",  "label": "Porcentagem",             "prefix": "PC", "file": "matematica/porcentagem.json" },
+        { "id": "regra_de_tres","label": "Regra de Três",           "prefix": "RT", "file": "matematica/regra_de_tres.json" },
+        { "id": "fracoes",      "label": "Frações",                 "prefix": "FR", "file": "matematica/fracoes.json" }
+      ]
+    },
+    {
+      "id": "raciocinio_logico",
+      "label": "Raciocínio Lógico",
+      "prefix": "RL",
+      "topics": [
+        { "id": "proposicoes", "label": "Proposições e Conectivos", "prefix": "PR", "file": "raciocinio_logico/proposicoes.json" },
+        { "id": "sequencias",  "label": "Sequências Numéricas",     "prefix": "SE", "file": "raciocinio_logico/sequencias.json" }
+      ]
+    }
+  ]
+}

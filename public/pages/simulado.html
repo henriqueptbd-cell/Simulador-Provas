@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulado — Simulado Provas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>(function(){var t=localStorage.getItem('sp_theme');if(t)document.documentElement.setAttribute('data-theme',t);})();</script>
+</head>
+<body>
+
+  <header class="exam-header">
+    <div class="container exam-header-inner">
+      <a href="/" class="exam-logo">📚 Simulado Provas</a>
+      <div class="exam-meta">
+        <span id="progress-text">Carregando...</span>
+      </div>
+      <div id="timer-wrap" class="timer-wrap hidden">
+        <span class="timer-icon">⏱</span>
+        <span id="timer-display" class="timer-display">60:00</span>
+      </div>
+      <button class="theme-toggle" aria-label="Modo escuro">🌙</button>
+      <button id="btn-pause" class="btn btn-icon hidden" title="Pausar simulado">⏸</button>
+    </div>
+    <div class="progress-bar-wrap">
+      <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+    </div>
+  </header>
+
+  <main class="exam-main">
+    <div class="container">
+
+      <!-- Estado: carregando -->
+      <div id="loading" class="loading-state">
+        <div class="spinner"></div>
+        <p>Carregando questões...</p>
+      </div>
+
+      <!-- Estado: erro -->
+      <div id="error-state" class="error-state hidden">
+        <p>Não foi possível carregar as questões.<br>Verifique sua conexão e tente novamente.</p>
+        <a href="/" class="btn btn-primary">← Voltar ao início</a>
+      </div>
+
+      <!-- Área da questão -->
+      <div id="question-area" class="question-area hidden">
+
+        <div class="question-card">
+          <div class="question-header">
+            <span id="question-number" class="question-number"></span>
+            <span id="question-subject" class="badge badge-subject"></span>
+            <span id="question-difficulty" class="badge"></span>
+          </div>
+          <p id="question-statement" class="question-statement"></p>
+          <div id="options-list" class="options-list"></div>
+          <button class="btn-help" id="btn-help">❓ Encontrou um problema nessa questão?</button>
+        </div>
+
+        <!-- Navegação -->
+        <div class="exam-nav">
+          <button id="btn-prev" class="btn btn-outline">← Anterior</button>
+          <div id="question-dots" class="question-dots"></div>
+          <button id="btn-next" class="btn btn-outline">Próxima →</button>
+        </div>
+
+        <!-- Finalizar -->
+        <div class="submit-area">
+          <button id="btn-submit" class="btn btn-primary btn-large">
+            ✅ Finalizar Simulado
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Overlay de pausa -->
+  <div id="pause-overlay" class="pause-overlay hidden">
+    <div class="pause-card">
+      <h2>⏸ Simulado Pausado</h2>
+      <p>O cronômetro está parado. Continue quando estiver pronto.</p>
+      <button id="btn-resume" class="btn btn-primary btn-large">▶ Continuar</button>
+      <br><br>
+      <a href="/" class="btn btn-outline">Abandonar simulado</a>
+    </div>
+  </div>
+
+  <!-- Modal de confirmação de envio -->
+  <div id="submit-modal" class="modal hidden">
+    <div class="modal-card">
+      <h2>Finalizar Simulado?</h2>
+      <p id="modal-unanswered"></p>
+      <div class="modal-actions">
+        <button id="btn-confirm-submit" class="btn btn-primary">Confirmar</button>
+        <button id="btn-cancel-submit" class="btn btn-outline">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Relato de problema -->
+  <div id="report-modal" class="modal hidden">
+    <div class="modal-card">
+      <h2>❓ Encontrou um Problema?</h2>
+      <p>Descreva o problema na questão e retornaremos em breve.</p>
+      <form id="report-form">
+        <div class="form-group">
+          <input type="text"  class="form-input" id="report-name"    placeholder="Seu nome"     required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-input" id="report-email"   placeholder="Seu e-mail"   required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-textarea" id="report-message" placeholder="Descreva o problema..." required></textarea>
+        </div>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-primary" id="report-send">Enviar</button>
+          <button type="button" class="btn btn-outline" id="btn-close-report">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script type="module" src="/assets/js/simulado.js"></script>
+</body>
+</html>

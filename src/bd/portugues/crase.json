@@ -1,0 +1,104 @@
+[
+  {
+    "id": "PT-CR-001",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+    "options": [
+      "Entreguei o documento a diretora.",
+      "Entreguei o documento à diretora.",
+      "Entreguei o documento á diretora.",
+      "Entreguei o documento para à diretora."
+    ],
+    "correctIndex": 1,
+    "explanation": "Há fusão da preposição exigida pelo verbo 'entregar' com o artigo feminino definido 'a'.",
+    "tags": ["crase", "regencia", "preposicao"]
+  },
+  {
+    "id": "PT-CR-002",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+    "options": [
+      "Cheguei à tarde ao escritório.",
+      "Cheguei a tarde ao escritório.",
+      "Cheguei á tarde ao escritório.",
+      "Cheguei para à tarde ao escritório."
+    ],
+    "correctIndex": 0,
+    "explanation": "Locuções adverbiais de tempo formadas por substantivos femininos normalmente recebem crase.",
+    "tags": ["crase", "locucao_adverbial", "tempo"]
+  },
+  {
+    "id": "PT-CR-003",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que o uso da crase está INCORRETO.",
+    "options": [
+      "Refiro-me à coordenadora.",
+      "Voltarei à cidade amanhã.",
+      "Entreguei o relatório à ele.",
+      "Dirigi-me à secretaria."
+    ],
+    "correctIndex": 2,
+    "explanation": "Não ocorre crase antes de pronome pessoal. A forma correta seria 'a ele'.",
+    "tags": ["crase", "pronomes", "incorreto"]
+  },
+  {
+    "id": "PT-CR-004",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "Fui à biblioteca estudar.",
+      "Fui a biblioteca estudar.",
+      "Fui á biblioteca estudar.",
+      "Fui para à biblioteca estudar."
+    ],
+    "correctIndex": 0,
+    "explanation": "O verbo 'ir' exige preposição 'a' e o substantivo 'biblioteca' admite artigo feminino, ocorrendo crase.",
+    "tags": ["crase", "preposicao", "artigo"]
+  },
+  {
+    "id": "PT-CR-005",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que NÃO ocorre crase.",
+    "options": [
+      "Cheguei à escola cedo.",
+      "Entreguei o relatório à gerente.",
+      "Refiro-me à ela.",
+      "Dirigi-me à secretaria."
+    ],
+    "correctIndex": 2,
+    "explanation": "Não ocorre crase antes de pronome pessoal do caso oblíquo. A forma correta é 'a ela'.",
+    "tags": ["crase", "pronome", "nao_ocorre"]
+  },
+  {
+    "id": "PT-CR-006",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+    "options": [
+      "Saiu às pressas do local.",
+      "Saiu as pressas do local.",
+      "Saiu á pressas do local.",
+      "Saiu para às pressas do local."
+    ],
+    "correctIndex": 0,
+    "explanation": "A locução adverbial feminina 'às pressas' recebe crase obrigatoriamente.",
+    "tags": ["crase", "locucao_adverbial", "obrigatoria"]
+  }
+]

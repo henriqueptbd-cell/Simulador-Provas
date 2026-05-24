@@ -1,0 +1,903 @@
+# Estrutura Base — Banco de Questões de Português (Concursos)
+
+## Objetivo
+
+Estruturar um banco de questões modular em JSON para:
+
+* app de simulados
+* treino mobile
+* aleatorização de questões
+* filtros por tema
+* revisão inteligente
+* expansão futura
+* integração com IA
+
+---
+
+# Estrutura de Pastas
+
+```txt
+/questions
+  /portugues
+    interpretacao.json
+    pontuacao.json
+    concordancia.json
+    crase.json
+    regencia.json
+    classes_gramaticais.json
+    ortografia.json
+```
+
+---
+
+# Estrutura Recomendada de Cada Questão
+
+```json
+{
+  "id": "PT-CR-001",
+  "subject": "portugues",
+  "topic": "crase",
+  "difficulty": "easy",
+  "style": "municipal_igecs",
+  "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+  "options": [
+    "Vou a escola todos os dias.",
+    "Vou à escola todos os dias.",
+    "Vou para à escola todos os dias.",
+    "Vou á escola todos os dias."
+  ],
+  "correctIndex": 1,
+  "explanation": "O verbo 'ir' exige preposição 'a' e o substantivo 'escola' admite artigo feminino 'a', ocorrendo crase.",
+  "tags": [
+    "crase",
+    "preposicao",
+    "artigo"
+  ]
+}
+```
+
+---
+
+# Padrão de IDs
+
+## Formato
+
+```txt
+PT-TEMA-NUMERO
+```
+
+## Exemplos
+
+```txt
+PT-IN-001  -> interpretação
+PT-PO-001  -> pontuação
+PT-CO-001  -> concordância
+PT-CR-001  -> crase
+PT-RE-001  -> regência
+PT-CL-001  -> classes gramaticais
+PT-OR-001  -> ortografia
+```
+
+---
+
+# Arquivos Iniciais Recomendados
+
+## interpretacao.json
+
+```json
+[
+  {
+    "id": "PT-IN-001",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia o trecho: 'O candidato chegou cedo ao local da prova para evitar atrasos.' Assinale a alternativa que apresenta a ideia principal do trecho.",
+    "options": [
+      "O candidato perdeu a prova.",
+      "O candidato queria evitar problemas com horário.",
+      "O candidato não sabia onde era a prova.",
+      "O candidato chegou atrasado."
+    ],
+    "correctIndex": 1,
+    "explanation": "O trecho indica claramente que o objetivo do candidato era evitar atrasos.",
+    "tags": [
+      "interpretacao",
+      "ideia_principal"
+    ]
+  }
+]
+```
+
+---
+
+## pontuacao.json
+
+```json
+[
+  {
+    "id": "PT-PO-001",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que a pontuação está correta.",
+    "options": [
+      "Os candidatos, fizeram a prova ontem.",
+      "Os candidatos fizeram, a prova ontem.",
+      "Os candidatos fizeram a prova ontem.",
+      "Os candidatos fizeram a prova, ontem."
+    ],
+    "correctIndex": 2,
+    "explanation": "A frase não exige vírgula, pois não há elemento deslocado ou explicativo.",
+    "tags": [
+      "pontuacao",
+      "virgula"
+    ]
+  }
+]
+```
+
+---
+
+## concordancia.json
+
+```json
+[
+  {
+    "id": "PT-CO-001",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à concordância verbal.",
+    "options": [
+      "Fazem dois anos que ele saiu.",
+      "Faz dois anos que ele saiu.",
+      "Faziam dois anos que ele saiu.",
+      "Fizeram dois anos que ele saiu."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'fazer' indicando tempo decorrido é impessoal e permanece no singular.",
+    "tags": [
+      "concordancia",
+      "verbo_impessoal"
+    ]
+  }
+]
+```
+
+---
+
+## crase.json
+
+```json
+[
+  {
+    "id": "PT-CR-001",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+    "options": [
+      "Entreguei o documento a diretora.",
+      "Entreguei o documento à diretora.",
+      "Entreguei o documento á diretora.",
+      "Entreguei o documento para à diretora."
+    ],
+    "correctIndex": 1,
+    "explanation": "Há fusão da preposição exigida pelo verbo com o artigo feminino.",
+    "tags": [
+      "crase",
+      "regencia"
+    ]
+  }
+]
+```
+
+---
+
+## regencia.json
+
+```json
+[
+  {
+    "id": "PT-RE-001",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à regência verbal.",
+    "options": [
+      "Assisti o filme ontem.",
+      "Assisti ao filme ontem.",
+      "Assisti no filme ontem.",
+      "Assisti para o filme ontem."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'assistir' no sentido de ver exige preposição 'a'.",
+    "tags": [
+      "regencia",
+      "verbos"
+    ]
+  }
+]
+```
+
+---
+
+## classes_gramaticais.json
+
+```json
+[
+  {
+    "id": "PT-CL-001",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'O aluno estudou bastante', a palavra 'bastante' exerce função de:",
+    "options": [
+      "Substantivo",
+      "Adjetivo",
+      "Advérbio",
+      "Pronome"
+    ],
+    "correctIndex": 2,
+    "explanation": "A palavra modifica o verbo 'estudou', funcionando como advérbio de intensidade.",
+    "tags": [
+      "classes_gramaticais",
+      "adverbio"
+    ]
+  }
+]
+```
+
+---
+
+## ortografia.json
+
+```json
+[
+  {
+    "id": "PT-OR-001",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa escrita corretamente.",
+    "options": [
+      "Excessão",
+      "Exceção",
+      "Exeção",
+      "Excesssão"
+    ],
+    "correctIndex": 1,
+    "explanation": "A grafia correta é 'exceção'.",
+    "tags": [
+      "ortografia",
+      "grafia"
+    ]
+  }
+]
+```
+
+---
+
+# Dificuldade Recomendada
+
+## Valores padronizados
+
+```txt
+easy
+medium
+hard
+```
+
+---
+
+# Estilo da Questão
+
+## Valores recomendados
+
+```txt
+municipal_igecs
+municipal_vunesp
+municipal_generico
+```
+
+---
+
+# Tags
+
+As tags ajudam:
+
+* filtros
+* IA
+* recomendações
+* revisão automática
+* estatísticas
+
+## Exemplos
+
+```json
+"tags": ["crase", "preposicao", "artigo"]
+```
+
+---
+
+# Estrutura Recomendada do App Futuro
+
+## Fluxo
+
+```txt
+JSON -> Engine do App -> Simulado -> Estatísticas -> Revisão
+```
+
+---
+
+# Próximo Passo Recomendado
+
+Gerar inicialmente:
+
+* 20 questões de interpretação
+* 15 de pontuação
+* 15 de concordância
+* 15 de crase
+* 10 de regência
+* 10 de classes gramaticais
+
+Total:
+
+```txt
+85 questões de português
+```
+
+Quantidade suficiente para:
+
+* começar os estudos
+* validar o sistema
+* criar simulados
+* testar aleatorização
+* medir desempenho
+
+---
+
+# Primeiras Questões Reais — interpretação.json
+
+```json
+[
+  {
+    "id": "PT-IN-002",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'A organização é fundamental para um bom desempenho no trabalho.' A ideia principal do trecho é:",
+    "options": [
+      "O trabalho deve ser evitado.",
+      "A organização melhora o desempenho.",
+      "A organização atrapalha o trabalho.",
+      "O desempenho depende apenas da experiência."
+    ],
+    "correctIndex": 1,
+    "explanation": "O texto afirma diretamente que a organização é fundamental para melhorar o desempenho.",
+    "tags": ["interpretacao", "ideia_principal"]
+  },
+  {
+    "id": "PT-IN-003",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Embora estivesse cansado, o servidor concluiu suas tarefas.' O trecho indica ideia de:",
+    "options": [
+      "Explicação",
+      "Adição",
+      "Oposição",
+      "Conclusão"
+    ],
+    "correctIndex": 2,
+    "explanation": "A expressão 'embora' estabelece relação de oposição/concessão.",
+    "tags": ["interpretacao", "conjuncao"]
+  },
+  {
+    "id": "PT-IN-004",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Os candidatos devem chegar com antecedência ao local da prova.' A finalidade da frase é:",
+    "options": [
+      "Narrar um fato",
+      "Descrever um ambiente",
+      "Dar uma orientação",
+      "Expressar dúvida"
+    ],
+    "correctIndex": 2,
+    "explanation": "A frase orienta os candidatos sobre comportamento esperado.",
+    "tags": ["interpretacao", "finalidade_textual"]
+  }
+]
+```
+
+---
+
+# Primeiras Questões Reais — crase.json
+
+```json
+[
+  {
+    "id": "PT-CR-002",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+    "options": [
+      "Cheguei à tarde ao escritório.",
+      "Cheguei a tarde ao escritório.",
+      "Cheguei á tarde ao escritório.",
+      "Cheguei para à tarde ao escritório."
+    ],
+    "correctIndex": 0,
+    "explanation": "Locuções adverbiais femininas normalmente recebem crase.",
+    "tags": ["crase", "locucao_adverbial"]
+  },
+  {
+    "id": "PT-CR-003",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que o uso da crase está incorreto.",
+    "options": [
+      "Refiro-me à coordenadora.",
+      "Voltarei à cidade amanhã.",
+      "Entreguei o relatório à ele.",
+      "Dirigi-me à secretaria."
+    ],
+    "correctIndex": 2,
+    "explanation": "Não ocorre crase antes de pronome pessoal masculino.",
+    "tags": ["crase", "pronomes"]
+  }
+]
+```
+
+---
+
+# Primeiras Questões Reais — concordancia.json
+
+```json
+[
+  {
+    "id": "PT-CO-002",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à concordância verbal.",
+    "options": [
+      "Existem bastante candidatos preparados.",
+      "Existe bastante candidatos preparados.",
+      "Existem bastantes candidatos preparados.",
+      "Existe bastantes candidatos preparados."
+    ],
+    "correctIndex": 2,
+    "explanation": "O verbo concorda com 'candidatos' e o termo 'bastantes' atua como pronome indefinido variável.",
+    "tags": ["concordancia", "plural"]
+  },
+  {
+    "id": "PT-CO-003",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a frase correta.",
+    "options": [
+      "Houveram muitas reclamações.",
+      "Houve muitas reclamações.",
+      "Haviam muitas reclamações.",
+      "Houveram muitas dúvidas."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'haver' com sentido de existir é impessoal.",
+    "tags": ["concordancia", "verbo_haver"]
+  }
+]
+```
+
+---
+
+# Primeiras Questões Reais — pontuacao.json
+
+```json
+[
+  {
+    "id": "PT-PO-002",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa com pontuação correta.",
+    "options": [
+      "Ontem os candidatos fizeram a prova.",
+      "Ontem, os candidatos fizeram a prova.",
+      "Ontem os candidatos, fizeram a prova.",
+      "Ontem, os candidatos, fizeram a prova."
+    ],
+    "correctIndex": 1,
+    "explanation": "O adjunto adverbial deslocado pode ser separado por vírgula.",
+    "tags": ["pontuacao", "virgula"]
+  }
+]
+```
+
+---
+
+# Banco Inicial de Questões — Português
+
+## interpretacao.json
+
+```json
+[
+  {
+    "id": "PT-IN-005",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'A leitura frequente melhora a escrita e amplia o vocabulário.' O trecho afirma que:",
+    "options": [
+      "A leitura prejudica a escrita.",
+      "O vocabulário não depende da leitura.",
+      "A leitura traz benefícios para a comunicação.",
+      "A escrita é mais importante que a leitura."
+    ],
+    "correctIndex": 2,
+    "explanation": "O texto associa a leitura à melhoria da escrita e do vocabulário.",
+    "tags": ["interpretacao", "ideia_principal"]
+  },
+  {
+    "id": "PT-IN-006",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Apesar das dificuldades, o projeto foi concluído com sucesso.' A expressão destacada indica:",
+    "options": [
+      "Conclusão",
+      "Oposição",
+      "Explicação",
+      "Comparação"
+    ],
+    "correctIndex": 1,
+    "explanation": "A expressão estabelece ideia de oposição ou concessão.",
+    "tags": ["interpretacao", "conjuncao"]
+  },
+  {
+    "id": "PT-IN-007",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'É necessário revisar o conteúdo antes da prova.' O trecho transmite ideia de:",
+    "options": [
+      "Obrigação",
+      "Dúvida",
+      "Condição",
+      "Possibilidade"
+    ],
+    "correctIndex": 0,
+    "explanation": "A expressão 'é necessário' indica obrigação ou necessidade.",
+    "tags": ["interpretacao", "modalizacao"]
+  }
+]
+```
+
+---
+
+## crase.json
+
+```json
+[
+  {
+    "id": "PT-CR-004",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "Fui à biblioteca estudar.",
+      "Fui a biblioteca estudar.",
+      "Fui á biblioteca estudar.",
+      "Fui para à biblioteca estudar."
+    ],
+    "correctIndex": 0,
+    "explanation": "O verbo exige preposição e o substantivo admite artigo feminino.",
+    "tags": ["crase", "preposicao"]
+  },
+  {
+    "id": "PT-CR-005",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que NÃO ocorre crase.",
+    "options": [
+      "Cheguei à escola cedo.",
+      "Entreguei o relatório à gerente.",
+      "Refiro-me à ela.",
+      "Dirigi-me à secretaria."
+    ],
+    "correctIndex": 2,
+    "explanation": "Não ocorre crase antes de pronome pessoal.",
+    "tags": ["crase", "pronome"]
+  },
+  {
+    "id": "PT-CR-006",
+    "subject": "portugues",
+    "topic": "crase",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da crase.",
+    "options": [
+      "Saiu às pressas do local.",
+      "Saiu as pressas do local.",
+      "Saiu á pressas do local.",
+      "Saiu para às pressas do local."
+    ],
+    "correctIndex": 0,
+    "explanation": "Locuções adverbiais femininas recebem crase.",
+    "tags": ["crase", "locucao"]
+  }
+]
+```
+
+---
+
+## concordancia.json
+
+```json
+[
+  {
+    "id": "PT-CO-004",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "Faltam cinco minutos para a prova.",
+      "Falta cinco minutos para a prova.",
+      "Faltou cinco minutos para a prova.",
+      "Faltaria cinco minutos para a prova."
+    ],
+    "correctIndex": 0,
+    "explanation": "O verbo concorda com o sujeito plural 'cinco minutos'.",
+    "tags": ["concordancia", "verbo"]
+  },
+  {
+    "id": "PT-CO-005",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a frase correta.",
+    "options": [
+      "Precisam-se de funcionários.",
+      "Precisa-se de funcionários.",
+      "Precisou-se de funcionários.",
+      "Precisariam-se de funcionários."
+    ],
+    "correctIndex": 1,
+    "explanation": "Com verbo transitivo indireto e índice de indeterminação do sujeito, o verbo fica no singular.",
+    "tags": ["concordancia", "indice_indeterminacao"]
+  },
+  {
+    "id": "PT-CO-006",
+    "subject": "portugues",
+    "topic": "concordancia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à concordância nominal.",
+    "options": [
+      "Segue anexo os documentos.",
+      "Seguem anexo os documentos.",
+      "Seguem anexos os documentos.",
+      "Segue anexos os documentos."
+    ],
+    "correctIndex": 2,
+    "explanation": "O adjetivo deve concordar com o substantivo plural 'documentos'.",
+    "tags": ["concordancia", "nominal"]
+  }
+]
+```
+
+---
+
+## pontuacao.json
+
+```json
+[
+  {
+    "id": "PT-PO-003",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto ao uso da vírgula.",
+    "options": [
+      "Maria estudou bastante portanto passou.",
+      "Maria estudou bastante, portanto passou.",
+      "Maria, estudou bastante portanto passou.",
+      "Maria estudou, bastante portanto passou."
+    ],
+    "correctIndex": 1,
+    "explanation": "A conjunção conclusiva deslocada deve ser isolada por vírgula.",
+    "tags": ["pontuacao", "virgula"]
+  },
+  {
+    "id": "PT-PO-004",
+    "subject": "portugues",
+    "topic": "pontuacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que a pontuação está INCORRETA.",
+    "options": [
+      "Os alunos, chegaram cedo.",
+      "Ontem, choveu bastante.",
+      "Pedro, venha aqui.",
+      "Após a reunião, todos saíram."
+    ],
+    "correctIndex": 0,
+    "explanation": "Não se separa sujeito e verbo por vírgula.",
+    "tags": ["pontuacao", "sujeito_verbo"]
+  }
+]
+```
+
+---
+
+## regencia.json
+
+```json
+[
+  {
+    "id": "PT-RE-002",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à regência.",
+    "options": [
+      "Prefiro mais café do que chá.",
+      "Prefiro café a chá.",
+      "Prefiro café do que chá.",
+      "Prefiro mais café a chá."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'preferir' exige estrutura sem intensificador e com preposição 'a'.",
+    "tags": ["regencia", "preferir"]
+  },
+  {
+    "id": "PT-RE-003",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a frase correta.",
+    "options": [
+      "Obedeci o regulamento.",
+      "Obedeci ao regulamento.",
+      "Obedeci no regulamento.",
+      "Obedeci para o regulamento."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'obedecer' exige preposição 'a'.",
+    "tags": ["regencia", "verbos"]
+  }
+]
+```
+
+---
+
+## classes_gramaticais.json
+
+```json
+[
+  {
+    "id": "PT-CL-002",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'Ela falou rapidamente', a palavra 'rapidamente' é:",
+    "options": [
+      "Substantivo",
+      "Verbo",
+      "Advérbio",
+      "Adjetivo"
+    ],
+    "correctIndex": 2,
+    "explanation": "A palavra modifica o verbo e indica modo.",
+    "tags": ["classes_gramaticais", "adverbio"]
+  },
+  {
+    "id": "PT-CL-003",
+    "subject": "portugues",
+    "topic": "classes_gramaticais",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Na frase 'O candidato estudioso foi aprovado', a palavra 'estudioso' é:",
+    "options": [
+      "Substantivo",
+      "Adjetivo",
+      "Advérbio",
+      "Pronome"
+    ],
+    "correctIndex": 1,
+    "explanation": "A palavra caracteriza o substantivo 'candidato'.",
+    "tags": ["classes_gramaticais", "adjetivo"]
+  }
+]
+```
+
+---
+
+## ortografia.json
+
+```json
+[
+  {
+    "id": "PT-OR-002",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "Paralização",
+      "Paralisação",
+      "Paralisasão",
+      "Paralizassão"
+    ],
+    "correctIndex": 1,
+    "explanation": "A grafia correta é 'paralisação'.",
+    "tags": ["ortografia", "grafia"]
+  },
+  {
+    "id": "PT-OR-003",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a palavra escrita corretamente.",
+    "options": [
+      "Beneficiente",
+      "Beneficente",
+      "Benefissente",
+      "Benificente"
+    ],
+    "correctIndex": 1,
+    "explanation": "A forma correta é 'beneficente'.",
+    "tags": ["ortografia", "vocabulos"]
+  }
+]
+```
+
+---
+
+# Próximo Passo Técnico
+
+Após gerar cerca de 80–100 questões:
+
+1. Criar sistema de embaralhamento
+2. Criar controle de acertos e erros
+3. Implementar revisão por dificuldade
+4. Adicionar estatísticas
+5. Separar simulados por banca
+6. Criar modo aleatório completo
+7. Criar algoritmo simples de repetição

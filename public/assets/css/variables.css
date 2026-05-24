@@ -1,0 +1,92 @@
+/* =============================================
+   TOKENS SEMÂNTICOS — light (padrão) + dark
+   ============================================= */
+
+:root {
+  /* --- Backgrounds --- */
+  --c-bg:         #faf9f6;
+  --c-surface:    #ffffff;
+  --c-surface-2:  #f5f3ef;
+
+  /* --- Texto --- */
+  --c-text:       #1a1a2e;
+  --c-text-2:     #6b7280;
+  --c-text-3:     #9ca3af;
+
+  /* --- Bordas --- */
+  --c-border:     #e5e7eb;
+  --c-border-2:   #d6d0c4;
+
+  /* --- Marca (verde) --- */
+  --c-brand:      #2d6a4f;   /* cor primária */
+  --c-brand-2:    #52b788;   /* variante clara */
+  --c-brand-3:    #1b4332;   /* variante escura / headings */
+  --c-brand-tint: #d8f3dc;   /* fundo de destaque verde */
+
+  /* --- Destaque (dourado) --- */
+  --c-gold:       #c8963e;
+  --c-gold-2:     #e9c46a;
+  --c-gold-tint:  #fef3cd;
+
+  /* --- Semânticos --- */
+  --c-ok:         #2d6a4f;
+  --c-ok-tint:    #d8f3dc;
+  --c-err:        #c1121f;
+  --c-err-tint:   #ffe5e8;
+
+  /* --- Sombras --- */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.07);
+  --shadow:    0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+
+  /* --- Tipografia --- */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  /* --- Bordas arredondadas --- */
+  --radius-sm:   6px;
+  --radius:      12px;
+  --radius-lg:   16px;
+  --radius-full: 9999px;
+
+  /* --- Animação --- */
+  --transition: 0.2s ease;
+
+  /* --- Layout --- */
+  --container: 960px;
+}
+
+/* =============================================
+   TEMA ESCURO
+   ============================================= */
+
+[data-theme="dark"] {
+  --c-bg:         #12141c;
+  --c-surface:    #1c1f2e;
+  --c-surface-2:  #171a27;
+
+  --c-text:       #dde1f0;
+  --c-text-2:     #7b8ab0;
+  --c-text-3:     #4a5270;
+
+  --c-border:     #252a40;
+  --c-border-2:   #1e2236;
+
+  --c-brand:      #52b788;
+  --c-brand-2:    #74c69d;
+  --c-brand-3:    #b7e4c7;
+  --c-brand-tint: #152a1f;
+
+  --c-gold:       #e9c46a;
+  --c-gold-2:     #f0d080;
+  --c-gold-tint:  #221e0f;
+
+  --c-ok:         #52b788;
+  --c-ok-tint:    #152a1f;
+  --c-err:        #f87171;
+  --c-err-tint:   #2a1515;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow:    0 4px 16px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+}

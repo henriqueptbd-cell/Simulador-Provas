@@ -1,0 +1,125 @@
+/* =============================================
+   FORMS — inputs, textareas, filter pills, toast
+   ============================================= */
+
+/* --- Inputs & Textareas --- */
+.form-group { margin-bottom: 14px; }
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.5;
+  transition: border-color var(--transition), background var(--transition);
+  outline: none;
+}
+
+.form-input:focus,
+.form-textarea:focus { border-color: var(--c-brand); }
+
+.form-textarea { resize: vertical; min-height: 100px; }
+
+::placeholder { color: var(--c-text-3); }
+
+/* --- Filter Pills --- */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 24px;
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  background: var(--c-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--c-border);
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--c-text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 2px;
+}
+
+.filter-pill {
+  padding: 4px 14px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--c-border);
+  background: transparent;
+  color: var(--c-text-2);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: var(--font-body);
+}
+
+.filter-pill:hover {
+  border-color: var(--c-brand-2);
+  color: var(--c-brand);
+}
+
+.filter-pill.active {
+  background: var(--c-brand-tint);
+  border-color: var(--c-brand);
+  color: var(--c-brand);
+  font-weight: 600;
+}
+
+/* --- Help Button --- */
+.btn-help {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--c-text-3);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--c-border);
+  background: transparent;
+  margin-top: 18px;
+  transition: all var(--transition);
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+.btn-help:hover {
+  color: var(--c-gold);
+  border-color: var(--c-gold);
+  background: var(--c-gold-tint);
+}
+
+/* --- Toast --- */
+.toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--c-brand);
+  color: #fff;
+  padding: 11px 22px;
+  border-radius: var(--radius-full);
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 200;
+  box-shadow: var(--shadow-lg);
+  white-space: nowrap;
+  animation: fadeIn 0.25s ease;
+}
+
+.toast.error { background: var(--c-err); }

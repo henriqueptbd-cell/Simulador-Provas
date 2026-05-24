@@ -1,0 +1,87 @@
+[
+  {
+    "id": "RL-SE-001",
+    "subject": "raciocinio_logico",
+    "topic": "sequencias",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Qual é o próximo número da sequência: 2, 4, 6, 8, ___?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "A sequência aumenta de 2 em 2 (números pares). O próximo é 8 + 2 = 10.",
+    "tags": ["sequencias", "progressao_aritmetica", "razao_2"]
+  },
+  {
+    "id": "RL-SE-002",
+    "subject": "raciocinio_logico",
+    "topic": "sequencias",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Qual é o próximo número da sequência: 1, 4, 9, 16, ___?",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "36"
+    ],
+    "correctIndex": 2,
+    "explanation": "A sequência é formada por quadrados perfeitos: 1², 2², 3², 4², 5² = 25.",
+    "tags": ["sequencias", "quadrados_perfeitos", "potenciacao"]
+  },
+  {
+    "id": "RL-SE-003",
+    "subject": "raciocinio_logico",
+    "topic": "sequencias",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Qual é o próximo número da sequência: 1, 2, 4, 8, 16, ___?",
+    "options": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "correctIndex": 2,
+    "explanation": "A sequência dobra a cada termo (razão 2). O próximo é 16 × 2 = 32.",
+    "tags": ["sequencias", "progressao_geometrica", "razao_2"]
+  },
+  {
+    "id": "RL-SE-004",
+    "subject": "raciocinio_logico",
+    "topic": "sequencias",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Qual é o próximo número da sequência: 3, 6, 12, 24, ___?",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "A sequência multiplica por 2 a cada termo. O próximo é 24 × 2 = 48.",
+    "tags": ["sequencias", "progressao_geometrica", "razao_2"]
+  },
+  {
+    "id": "RL-SE-005",
+    "subject": "raciocinio_logico",
+    "topic": "sequencias",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Qual é o próximo número da sequência de Fibonacci: 1, 1, 2, 3, 5, 8, ___?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "Na sequência de Fibonacci, cada termo é a soma dos dois anteriores. 5 + 8 = 13.",
+    "tags": ["sequencias", "fibonacci", "soma_anterior"]
+  }
+]

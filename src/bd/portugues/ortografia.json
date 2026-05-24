@@ -1,0 +1,70 @@
+[
+  {
+    "id": "PT-OR-001",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa escrita corretamente.",
+    "options": [
+      "Excessão",
+      "Exceção",
+      "Exeção",
+      "Excesssão"
+    ],
+    "correctIndex": 1,
+    "explanation": "A grafia correta é 'exceção', com 'c' e cedilha.",
+    "tags": ["ortografia", "grafia"]
+  },
+  {
+    "id": "PT-OR-002",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta.",
+    "options": [
+      "Paralização",
+      "Paralisação",
+      "Paralisasão",
+      "Paralizassão"
+    ],
+    "correctIndex": 1,
+    "explanation": "A grafia correta é 'paralisação', com 's'.",
+    "tags": ["ortografia", "grafia"]
+  },
+  {
+    "id": "PT-OR-003",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a palavra escrita corretamente.",
+    "options": [
+      "Beneficiente",
+      "Beneficente",
+      "Benefissente",
+      "Benificente"
+    ],
+    "correctIndex": 1,
+    "explanation": "A forma correta é 'beneficente', sem o 'i' depois de 'benefic'.",
+    "tags": ["ortografia", "vocabulos"]
+  },
+  {
+    "id": "PT-OR-004",
+    "subject": "portugues",
+    "topic": "ortografia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa em que todas as palavras estão grafadas corretamente.",
+    "options": [
+      "descrição, discurso, deserção",
+      "descrição, discurso, desserção",
+      "descrição, discurço, deserção",
+      "discripção, discurso, deserção"
+    ],
+    "correctIndex": 0,
+    "explanation": "As três palavras na alternativa A estão grafadas corretamente conforme a norma ortográfica.",
+    "tags": ["ortografia", "grafia", "grupo"]
+  }
+]

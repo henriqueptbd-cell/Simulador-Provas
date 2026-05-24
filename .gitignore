@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (NUNCA subir o .env real)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build (se adicionar bundler no futuro)
+dist/
+build/
+
+# Cobertura de testes (se adicionar no futuro)
+coverage/
+
+# Relatos de usuários (dados pessoais — não subir)
+reports.json

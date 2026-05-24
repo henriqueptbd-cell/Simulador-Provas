@@ -1,0 +1,155 @@
+[
+  {
+    "id": "PT-IN-001",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia o trecho: 'O candidato chegou cedo ao local da prova para evitar atrasos.' Assinale a alternativa que apresenta a ideia principal do trecho.",
+    "options": [
+      "O candidato perdeu a prova.",
+      "O candidato queria evitar problemas com horário.",
+      "O candidato não sabia onde era a prova.",
+      "O candidato chegou atrasado."
+    ],
+    "correctIndex": 1,
+    "explanation": "O trecho indica claramente que o objetivo do candidato era evitar atrasos, chegando cedo.",
+    "tags": ["interpretacao", "ideia_principal"]
+  },
+  {
+    "id": "PT-IN-002",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'A organização é fundamental para um bom desempenho no trabalho.' A ideia principal do trecho é:",
+    "options": [
+      "O trabalho deve ser evitado.",
+      "A organização melhora o desempenho.",
+      "A organização atrapalha o trabalho.",
+      "O desempenho depende apenas da experiência."
+    ],
+    "correctIndex": 1,
+    "explanation": "O texto afirma diretamente que a organização é fundamental para melhorar o desempenho.",
+    "tags": ["interpretacao", "ideia_principal"]
+  },
+  {
+    "id": "PT-IN-003",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Embora estivesse cansado, o servidor concluiu suas tarefas.' O trecho indica ideia de:",
+    "options": [
+      "Explicação",
+      "Adição",
+      "Oposição",
+      "Conclusão"
+    ],
+    "correctIndex": 2,
+    "explanation": "A expressão 'embora' estabelece relação de oposição ou concessão entre as duas ideias.",
+    "tags": ["interpretacao", "conjuncao", "concessao"]
+  },
+  {
+    "id": "PT-IN-004",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Os candidatos devem chegar com antecedência ao local da prova.' A finalidade da frase é:",
+    "options": [
+      "Narrar um fato",
+      "Descrever um ambiente",
+      "Dar uma orientação",
+      "Expressar dúvida"
+    ],
+    "correctIndex": 2,
+    "explanation": "A frase orienta os candidatos sobre o comportamento esperado antes da prova.",
+    "tags": ["interpretacao", "finalidade_textual"]
+  },
+  {
+    "id": "PT-IN-005",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'A leitura frequente melhora a escrita e amplia o vocabulário.' O trecho afirma que:",
+    "options": [
+      "A leitura prejudica a escrita.",
+      "O vocabulário não depende da leitura.",
+      "A leitura traz benefícios para a comunicação.",
+      "A escrita é mais importante que a leitura."
+    ],
+    "correctIndex": 2,
+    "explanation": "O texto associa a leitura frequente à melhoria da escrita e à ampliação do vocabulário.",
+    "tags": ["interpretacao", "ideia_principal"]
+  },
+  {
+    "id": "PT-IN-006",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Apesar das dificuldades, o projeto foi concluído com sucesso.' A expressão 'Apesar das dificuldades' indica:",
+    "options": [
+      "Conclusão",
+      "Oposição",
+      "Explicação",
+      "Comparação"
+    ],
+    "correctIndex": 1,
+    "explanation": "A expressão 'apesar de' estabelece ideia de oposição ou concessão em relação ao que vem depois.",
+    "tags": ["interpretacao", "conjuncao", "concessao"]
+  },
+  {
+    "id": "PT-IN-007",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'É necessário revisar o conteúdo antes da prova.' O trecho transmite ideia de:",
+    "options": [
+      "Obrigação",
+      "Dúvida",
+      "Condição",
+      "Possibilidade"
+    ],
+    "correctIndex": 0,
+    "explanation": "A expressão 'é necessário' indica obrigação ou necessidade em relação à ação de revisar.",
+    "tags": ["interpretacao", "modalizacao"]
+  },
+  {
+    "id": "PT-IN-008",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'Caso o servidor não apresente os documentos, o benefício será cancelado.' O trecho indica ideia de:",
+    "options": [
+      "Certeza",
+      "Condição",
+      "Oposição",
+      "Explicação"
+    ],
+    "correctIndex": 1,
+    "explanation": "A expressão 'caso' introduz uma oração condicional — o cancelamento depende da falta de documentos.",
+    "tags": ["interpretacao", "condicao", "conjuncao"]
+  },
+  {
+    "id": "PT-IN-009",
+    "subject": "portugues",
+    "topic": "interpretacao",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Leia: 'O relatório, que foi entregue ontem, continha erros graves.' A oração 'que foi entregue ontem' exerce função de:",
+    "options": [
+      "Sujeito da frase.",
+      "Explicação sobre o relatório.",
+      "Ideia de tempo.",
+      "Consequência dos erros."
+    ],
+    "correctIndex": 1,
+    "explanation": "A oração é uma subordinada adjetiva explicativa, pois acrescenta informação sobre 'o relatório'.",
+    "tags": ["interpretacao", "oracao_adjetiva", "sintaxe"]
+  }
+]

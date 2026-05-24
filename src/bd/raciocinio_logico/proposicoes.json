@@ -1,0 +1,87 @@
+[
+  {
+    "id": "RL-PR-001",
+    "subject": "raciocinio_logico",
+    "topic": "proposicoes",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "A negação da proposição 'Todos os servidores são pontuais' é:",
+    "options": [
+      "Nenhum servidor é pontual.",
+      "Algum servidor não é pontual.",
+      "Todos os servidores são pontuais.",
+      "Os servidores nunca são pontuais."
+    ],
+    "correctIndex": 1,
+    "explanation": "A negação de 'todo A é B' é 'algum A não é B'. A negação não afirma que nenhum é pontual, apenas que existe ao menos um que não é.",
+    "tags": ["proposicoes", "negacao", "quantificadores"]
+  },
+  {
+    "id": "RL-PR-002",
+    "subject": "raciocinio_logico",
+    "topic": "proposicoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "A proposição composta 'P e Q' (conjunção) é verdadeira apenas quando:",
+    "options": [
+      "P é verdadeira e Q é falsa.",
+      "P é falsa e Q é verdadeira.",
+      "P e Q são ambas verdadeiras.",
+      "P e Q são ambas falsas."
+    ],
+    "correctIndex": 2,
+    "explanation": "Na conjunção (E), o resultado só é verdadeiro quando ambas as proposições são verdadeiras.",
+    "tags": ["proposicoes", "conjuncao", "tabela_verdade"]
+  },
+  {
+    "id": "RL-PR-003",
+    "subject": "raciocinio_logico",
+    "topic": "proposicoes",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Dada a condicional 'Se chove, então a rua molha', qual é a sua contrapositiva?",
+    "options": [
+      "Se a rua molha, então chove.",
+      "Se não chove, então a rua não molha.",
+      "Se a rua não molha, então não chove.",
+      "Chove e a rua não molha."
+    ],
+    "correctIndex": 2,
+    "explanation": "A contrapositiva de 'Se P então Q' é 'Se não Q então não P'. Aqui: 'Se a rua não molha, então não chove.'",
+    "tags": ["proposicoes", "condicional", "contrapositiva"]
+  },
+  {
+    "id": "RL-PR-004",
+    "subject": "raciocinio_logico",
+    "topic": "proposicoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Analise o argumento: 'Todos os concurseiros estudam. João é concurseiro. Logo:'",
+    "options": [
+      "João não estuda.",
+      "João talvez estude.",
+      "João estuda.",
+      "Nem todos estudam."
+    ],
+    "correctIndex": 2,
+    "explanation": "Silogismo válido: se todos os A são B, e João é A, então João é B. Logo, João estuda.",
+    "tags": ["proposicoes", "silogismo", "argumento"]
+  },
+  {
+    "id": "RL-PR-005",
+    "subject": "raciocinio_logico",
+    "topic": "proposicoes",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "A proposição composta 'P ou Q' (disjunção inclusiva) é falsa apenas quando:",
+    "options": [
+      "P é verdadeira.",
+      "Q é falsa.",
+      "P e Q são ambas falsas.",
+      "P é falsa e Q é verdadeira."
+    ],
+    "correctIndex": 2,
+    "explanation": "Na disjunção (OU), o resultado é falso somente quando ambas as proposições são falsas.",
+    "tags": ["proposicoes", "disjuncao", "tabela_verdade"]
+  }
+]

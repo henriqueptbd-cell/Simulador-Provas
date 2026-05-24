@@ -1,0 +1,70 @@
+[
+  {
+    "id": "PT-RE-001",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à regência verbal.",
+    "options": [
+      "Assisti o filme ontem.",
+      "Assisti ao filme ontem.",
+      "Assisti no filme ontem.",
+      "Assisti para o filme ontem."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'assistir' no sentido de ver exige preposição 'a', formando 'assistir a algo'.",
+    "tags": ["regencia", "verbos", "assistir"]
+  },
+  {
+    "id": "PT-RE-002",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à regência do verbo 'preferir'.",
+    "options": [
+      "Prefiro mais café do que chá.",
+      "Prefiro café a chá.",
+      "Prefiro café do que chá.",
+      "Prefiro mais café a chá."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'preferir' exige a preposição 'a' para o segundo termo e não admite o intensificador 'mais'.",
+    "tags": ["regencia", "preferir", "verbos"]
+  },
+  {
+    "id": "PT-RE-003",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Assinale a frase correta.",
+    "options": [
+      "Obedeci o regulamento.",
+      "Obedeci ao regulamento.",
+      "Obedeci no regulamento.",
+      "Obedeci para o regulamento."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'obedecer' é transitivo indireto e exige preposição 'a'.",
+    "tags": ["regencia", "verbos", "obedecer"]
+  },
+  {
+    "id": "PT-RE-004",
+    "subject": "portugues",
+    "topic": "regencia",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Assinale a alternativa correta quanto à regência verbal.",
+    "options": [
+      "Ele aspirava o cargo de gerente.",
+      "Ele aspirava ao cargo de gerente.",
+      "Ele aspirava no cargo de gerente.",
+      "Ele aspirava para o cargo de gerente."
+    ],
+    "correctIndex": 1,
+    "explanation": "O verbo 'aspirar' no sentido de desejar/ambicionar é transitivo indireto e exige preposição 'a'.",
+    "tags": ["regencia", "verbos", "aspirar"]
+  }
+]

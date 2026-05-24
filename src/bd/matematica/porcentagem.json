@@ -1,0 +1,87 @@
+[
+  {
+    "id": "MA-PC-001",
+    "subject": "matematica",
+    "topic": "porcentagem",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Quanto é 10% de 500?",
+    "options": [
+      "5",
+      "50",
+      "500",
+      "0,5"
+    ],
+    "correctIndex": 1,
+    "explanation": "10% de 500 = 500 × 0,10 = 50.",
+    "tags": ["porcentagem", "calculo_basico"]
+  },
+  {
+    "id": "MA-PC-002",
+    "subject": "matematica",
+    "topic": "porcentagem",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Quanto é 20% de 150?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "20% de 150 = 150 × 0,20 = 30.",
+    "tags": ["porcentagem", "calculo_basico"]
+  },
+  {
+    "id": "MA-PC-003",
+    "subject": "matematica",
+    "topic": "porcentagem",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Um produto custava R$ 200,00 e teve aumento de 15%. Qual é o novo preço?",
+    "options": [
+      "R$ 215,00",
+      "R$ 220,00",
+      "R$ 230,00",
+      "R$ 225,00"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aumento de 15%: 200 × 0,15 = 30. Novo preço: 200 + 30 = R$ 230,00.",
+    "tags": ["porcentagem", "aumento", "aplicacao"]
+  },
+  {
+    "id": "MA-PC-004",
+    "subject": "matematica",
+    "topic": "porcentagem",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Um produto custa R$ 80,00. Com desconto de 10%, qual o valor a pagar?",
+    "options": [
+      "R$ 70,00",
+      "R$ 72,00",
+      "R$ 75,00",
+      "R$ 78,00"
+    ],
+    "correctIndex": 1,
+    "explanation": "Desconto de 10%: 80 × 0,10 = 8. Valor a pagar: 80 - 8 = R$ 72,00.",
+    "tags": ["porcentagem", "desconto", "aplicacao"]
+  },
+  {
+    "id": "MA-PC-005",
+    "subject": "matematica",
+    "topic": "porcentagem",
+    "difficulty": "hard",
+    "style": "municipal_igecs",
+    "statement": "Após um desconto de 20%, um produto passou a custar R$ 160,00. Qual era o preço original?",
+    "options": [
+      "R$ 180,00",
+      "R$ 192,00",
+      "R$ 200,00",
+      "R$ 128,00"
+    ],
+    "correctIndex": 2,
+    "explanation": "Se após 20% de desconto sobrou 80% = R$ 160,00, então 100% = 160 ÷ 0,80 = R$ 200,00.",
+    "tags": ["porcentagem", "preco_original", "inverso"]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "MA-OP-001",
+    "subject": "matematica",
+    "topic": "operacoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Resolva a expressão respeitando a ordem das operações: 12 + 8 × 2.",
+    "options": [
+      "40",
+      "28",
+      "32",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "A multiplicação tem prioridade sobre a adição. Resolve-se primeiro 8 × 2 = 16, depois 12 + 16 = 28.",
+    "tags": ["operacoes", "ordem_das_operacoes", "multiplicacao"]
+  },
+  {
+    "id": "MA-OP-002",
+    "subject": "matematica",
+    "topic": "operacoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Qual é o Máximo Divisor Comum (MDC) de 12 e 18?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "Os divisores comuns de 12 e 18 são 1, 2, 3 e 6. O maior deles é 6.",
+    "tags": ["operacoes", "mdc", "divisibilidade"]
+  },
+  {
+    "id": "MA-OP-003",
+    "subject": "matematica",
+    "topic": "operacoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Qual é o Mínimo Múltiplo Comum (MMC) de 4 e 6?",
+    "options": [
+      "2",
+      "12",
+      "24",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Decompondo: 4 = 2² e 6 = 2 × 3. O MMC é 2² × 3 = 12.",
+    "tags": ["operacoes", "mmc", "multiplos"]
+  },
+  {
+    "id": "MA-OP-004",
+    "subject": "matematica",
+    "topic": "operacoes",
+    "difficulty": "easy",
+    "style": "municipal_igecs",
+    "statement": "Quanto vale 2³ (dois elevado ao cubo)?",
+    "options": [
+      "6",
+      "5",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "2³ = 2 × 2 × 2 = 8.",
+    "tags": ["operacoes", "potenciacao"]
+  },
+  {
+    "id": "MA-OP-005",
+    "subject": "matematica",
+    "topic": "operacoes",
+    "difficulty": "medium",
+    "style": "municipal_igecs",
+    "statement": "Qual é a raiz quadrada de 144?",
+    "options": [
+      "10",
+      "11",
+      "14",
+      "12"
+    ],
+    "correctIndex": 3,
+    "explanation": "12 × 12 = 144, portanto a raiz quadrada de 144 é 12.",
+    "tags": ["operacoes", "radiciacao", "raiz_quadrada"]
+  }
+]

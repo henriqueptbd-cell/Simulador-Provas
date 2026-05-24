@@ -1,0 +1,157 @@
+/* ===== SOBRE ===== */
+
+.sobre-hero {
+  padding: 4rem 0 2.5rem;
+  text-align: center;
+  background: var(--c-surface);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.sobre-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: var(--c-text);
+  margin: 0 0 0.75rem;
+}
+
+.sobre-subtitle {
+  font-size: 1.15rem;
+  color: var(--c-text-muted);
+  margin: 0;
+}
+
+/* Grid de cards */
+.sobre-section {
+  padding: 3.5rem 0;
+}
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.sobre-card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  transition: box-shadow var(--transition);
+}
+
+.sobre-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.sobre-card-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--c-text);
+  margin: 0 0 0.75rem;
+}
+
+.sobre-card p {
+  font-size: 0.95rem;
+  color: var(--c-text-muted);
+  line-height: 1.7;
+  margin: 0 0 0.75rem;
+}
+
+.sobre-card p:last-child {
+  margin-bottom: 0;
+}
+
+.sobre-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sobre-list li {
+  font-size: 0.95rem;
+  color: var(--c-text-muted);
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.sobre-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--c-primary);
+  font-weight: 700;
+}
+
+/* Seção contato */
+.sobre-contato {
+  padding: 3rem 0 4rem;
+  background: var(--c-surface);
+  border-top: 1px solid var(--c-border);
+}
+
+.sobre-contato-desc {
+  text-align: center;
+  color: var(--c-text-muted);
+  margin: 0.5rem 0 2rem;
+  line-height: 1.7;
+}
+
+.contato-card {
+  max-width: 540px;
+  margin: 0 auto;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.contato-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+}
+
+.contato-item + .contato-item {
+  border-top: 1px solid var(--c-border);
+}
+
+.contato-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.contato-item strong {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--c-text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.contato-link {
+  color: var(--c-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.contato-link:hover {
+  text-decoration: underline;
+}
+
+.contato-text {
+  font-size: 0.9rem;
+  color: var(--c-text);
+  line-height: 1.5;
+}
