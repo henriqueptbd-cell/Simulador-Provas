@@ -18,6 +18,10 @@ app.get('/simulado', (req, res) => res.sendFile(path.join(PAGES, 'simulado.html'
 app.get('/resultado',(req, res) => res.sendFile(path.join(PAGES, 'resultado.html')));
 app.get('/sobre',    (req, res) => res.sendFile(path.join(PAGES, 'sobre.html')));
 
-app.listen(PORT, () => {
-  console.log(`Simulado Provas rodando em http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Simulado Provas rodando em http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app;
