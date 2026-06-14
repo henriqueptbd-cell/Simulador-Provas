@@ -6,8 +6,9 @@ async function get(url) {
   return res.json();
 }
 
-export function getSubjects() {
-  return get(`${BASE}/subjects`);
+export function getSubjects(params = {}) {
+  const qs = new URLSearchParams(params).toString();
+  return get(`${BASE}/subjects${qs ? '?' + qs : ''}`);
 }
 
 export function getStats() {

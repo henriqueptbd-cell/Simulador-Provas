@@ -29,20 +29,24 @@ router.get('/stats', (req, res) => {
   }
 });
 
-// GET /api/questions/subjects
+// GET /api/questions/subjects?discipline=...&exam=...&difficulty=...&style=...
 router.get('/subjects', (req, res) => {
   try {
+    const { discipline, exam, difficulty, style } = req.query;
     const dirs = getSubjectDirs();
     const stats = getStats();
+    const filters = { discipline, exam, difficulty, style };
+    const hasFilter = Object.values(filters).some(Boolean);
 
     const subjects = dirs.map(id => {
       const meta = loadSubjectMeta(id);
-      return {
-        id,
-        label: meta.label || id,
-        icon:  meta.icon  || '📚',
-        totalQuestions: stats.bySubject[id] || 0
-      };
+      let count = stats.bySubject[id] || 0;
+
+      if (hasFilter) {
+        count = applyFilters(loadSubject(id), filters).length;
+      }
+
+      return { id, label: meta.label || id, icon: meta.icon || '📚', totalQuestions: count };
     });
 
     res.json({ subjects });

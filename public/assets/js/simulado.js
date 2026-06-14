@@ -49,10 +49,10 @@ async function init() {
 
 async function fetchQuestions(config) {
   if (config.mode === 'full') {
-    const data = await getRandomQuestions({
-      subjects:   config.subjects.join(','),
-      perSubject: config.perSubject
-    });
+    const params = { subjects: config.subjects.join(','), perSubject: config.perSubject };
+    if (config.discipline) params.discipline = config.discipline;
+    if (config.exam)       params.exam       = config.exam;
+    const data = await getRandomQuestions(params);
     return data.questions;
   }
 

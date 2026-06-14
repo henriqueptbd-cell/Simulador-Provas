@@ -107,24 +107,44 @@ function renderFilters({ difficulties, styles, disciplines, exams }) {
 
   // Bind de clique unificado
   bar.querySelectorAll('.filter-pill').forEach(pill => {
-    pill.addEventListener('click', () => {
+    pill.addEventListener('click', async () => {
       const filter = pill.dataset.filter;
       bar.querySelectorAll(`.filter-pill[data-filter="${filter}"]`).forEach(p => p.classList.remove('active'));
       pill.classList.add('active');
       activeFilters[filter] = pill.dataset.value;
+
+      // Qualquer filtro muda quais matérias têm questões — sempre re-busca
+      await refreshSubjects();
       renderSubjectGrid();
     });
   });
 }
 
+async function refreshSubjects() {
+  try {
+    const params = {};
+    if (activeFilters.discipline) params.discipline = activeFilters.discipline;
+    if (activeFilters.exam)       params.exam       = activeFilters.exam;
+    if (activeFilters.difficulty) params.difficulty = activeFilters.difficulty;
+    if (activeFilters.style)      params.style      = activeFilters.style;
+    const data = await getSubjects(params);
+    availableSubjects = data.subjects.filter(s => s.totalQuestions > 0);
+  } catch (err) {
+    console.error('Erro ao atualizar matérias:', err);
+  }
+}
+
 function startFullSimulado() {
-  saveConfig({
+  const config = {
     mode:       'full',
     subjects:   availableSubjects.map(s => s.id),
     perSubject: PER_SUBJECT,
     timed:      true,
     duration:   FULL_DURATION
-  });
+  };
+  if (activeFilters.discipline) config.discipline = activeFilters.discipline;
+  if (activeFilters.exam)       config.exam       = activeFilters.exam;
+  saveConfig(config);
   window.location.href = '/simulado';
 }
 
@@ -147,18 +167,27 @@ function renderSubjectGrid() {
 
   const discLabel = catalog.disciplines.find(d => d.id === activeFilters.discipline)?.label || '';
   const examLabel = catalog.exams.find(e => e.id === activeFilters.exam)?.label || '';
-  const filterNote = (discLabel                ? ' · ' + discLabel : '')
-                   + (examLabel                ? ' · ' + examLabel : '')
-                   + (activeFilters.difficulty ? ' · ' + (DIFF_LABELS[activeFilters.difficulty] || activeFilters.difficulty) : '')
+  const hasContextFilter = activeFilters.discipline || activeFilters.exam;
+
+  const filterNote = (activeFilters.difficulty ? ' · ' + (DIFF_LABELS[activeFilters.difficulty] || activeFilters.difficulty) : '')
                    + (activeFilters.style      ? ' · ' + styleLabel(activeFilters.style) : '');
 
+  if (!availableSubjects.length) {
+    grid.innerHTML = '<p class="empty-state">Nenhuma matéria encontrada para os filtros selecionados.</p>';
+    return;
+  }
+
   for (const subject of availableSubjects) {
+    const countText = hasContextFilter
+      ? `${subject.totalQuestions} questão(ões)${filterNote}`
+      : `até ${MAX_PRACTICE} questões${filterNote}`;
+
     const card = document.createElement('div');
     card.className = 'subject-card fade-in';
     card.innerHTML = `
       <div class="subject-icon">${subject.icon}</div>
       <div class="subject-name">${subject.label}</div>
-      <div class="subject-count">até ${MAX_PRACTICE} questões${filterNote}</div>
+      <div class="subject-count">${countText}</div>
     `;
     card.addEventListener('click', () => startPractice(subject));
     grid.appendChild(card);

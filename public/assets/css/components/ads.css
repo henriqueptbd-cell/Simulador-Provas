@@ -2,6 +2,13 @@
    PUBLICIDADE (ADSENSE)
    ============================================= */
 
+/* Ocultar espaços de publicidade enquanto AdSense não estiver configurado.
+   Remover as regras abaixo após inserir o código real do AdSense. */
+.ad-banner-top,
+.ad-mid {
+  display: none;
+}
+
 .ad-banner-top {
   background: var(--c-surface-2);
   border-bottom: 1px solid var(--c-border);
@@ -10,7 +17,7 @@
 
 .ad-mid { padding: 24px 0; }
 
-/* Placeholder visível apenas quando o AdSense ainda não foi configurado */
+/* Placeholder — usado apenas em dev para visualizar posicionamento */
 .ad-placeholder {
   background: var(--c-surface-2);
   border: 1px dashed var(--c-border-2);
