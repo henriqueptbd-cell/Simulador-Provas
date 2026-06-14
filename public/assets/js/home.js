@@ -6,12 +6,44 @@ const PER_SUBJECT   = 5;
 const FULL_DURATION = 60 * 60; // 60 minutos
 const MAX_PRACTICE  = 20;
 
+let revealObserver;
+
+function countUp(el, target, duration = 900) {
+  if (!el) return;
+  const start = performance.now();
+  const step = (now) => {
+    const t = Math.min((now - start) / duration, 1);
+    const ease = 1 - Math.pow(1 - t, 3); // cubic ease-out
+    el.textContent = Math.round(ease * target);
+    if (t < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+function initReveal() {
+  revealObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    }
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+}
+
+function observeReveal(el) {
+  if (revealObserver) revealObserver.observe(el);
+}
+
 let availableSubjects = [];
 let catalog = { disciplines: [], exams: [], courses: [] };
 let activeFilters = { difficulty: '', style: '', discipline: '', exam: '' };
 
 async function init() {
   initTheme();
+  initReveal();
   renderHistory();
   await loadData();
   bindActions();
@@ -22,8 +54,8 @@ async function loadData() {
     const [statsData, subjectsData, filtersData, catalogData] = await Promise.all([
       getStats(), getSubjects(), getFilters(), getCatalog()
     ]);
-    document.getElementById('stat-questions').textContent = statsData.totalQuestions;
-    document.getElementById('stat-subjects').textContent  = subjectsData.subjects.length;
+    countUp(document.getElementById('stat-questions'), statsData.totalQuestions);
+    countUp(document.getElementById('stat-subjects'),  subjectsData.subjects.length);
     availableSubjects = subjectsData.subjects;
     catalog = catalogData;
     renderFilters({ ...filtersData, ...catalogData });
@@ -177,13 +209,14 @@ function renderSubjectGrid() {
     return;
   }
 
-  for (const subject of availableSubjects) {
+  availableSubjects.forEach((subject, i) => {
     const countText = hasContextFilter
       ? `${subject.totalQuestions} questão(ões)${filterNote}`
       : `até ${MAX_PRACTICE} questões${filterNote}`;
 
     const card = document.createElement('div');
-    card.className = 'subject-card fade-in';
+    card.className = 'subject-card reveal';
+    card.style.setProperty('--reveal-delay', `${i * 60}ms`);
     card.innerHTML = `
       <div class="subject-icon">${subject.icon}</div>
       <div class="subject-name">${subject.label}</div>
@@ -191,7 +224,8 @@ function renderSubjectGrid() {
     `;
     card.addEventListener('click', () => startPractice(subject));
     grid.appendChild(card);
-  }
+    observeReveal(card);
+  });
 }
 
 function startPractice(subject) {
