@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "discipline": "engenharia_software_1",
+    "discipline_label": "Engenharia de Software 1",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["ADS", "SI", "CC"]
+  },
+  "questions": [
+    {
+      "id": "QS-AU1-001",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Segundo a ISO 25010, qualidade de software é definida como:",
+      "options": [
+        "A ausência total de bugs no sistema entregue.",
+        "O grau em que o produto atende aos requisitos e expectativas dos usuários.",
+        "A velocidade com que o software é desenvolvido e entregue.",
+        "O número de funcionalidades implementadas em cada sprint."
+      ],
+      "correctIndex": 1,
+      "explanation": "A ISO 25010 define qualidade como o grau em que o produto satisfaz requisitos e expectativas dos usuários. Ausência de bugs é apenas um dos atributos, não a definição completa.",
+      "tags": ["iso25010", "conceito_qualidade", "definicao"]
+    },
+    {
+      "id": "QS-AU1-002",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Produtividade no desenvolvimento de software é calculada como:",
+      "options": [
+        "Número de desenvolvedores dividido pelo tempo gasto.",
+        "Resultado entregue dividido pelos recursos utilizados.",
+        "Quantidade de bugs corrigidos por sprint.",
+        "Tempo total do projeto dividido pelo custo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Produtividade = Resultado Entregue ÷ Recursos Utilizados. Exemplos de resultado: story points, funcionalidades. Exemplos de recurso: tempo, tamanho da equipe.",
+      "tags": ["produtividade", "formula", "metricas"]
+    },
+    {
+      "id": "QS-AU1-003",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "O 'Paradoxo da Produtividade' no desenvolvimento de software afirma que:",
+      "options": [
+        "Equipes maiores sempre entregam software mais rápido.",
+        "Ignorar qualidade para entregar mais rápido gera dívida técnica e queda de produtividade futura.",
+        "Alta qualidade reduz a velocidade de entrega permanentemente.",
+        "Produtividade e qualidade são conceitos independentes que não se influenciam."
+      ],
+      "correctIndex": 1,
+      "explanation": "O paradoxo é que tentar ganhar velocidade sacrificando qualidade gera dívida técnica, mais manutenção e queda de velocidade a longo prazo. Qualidade sustenta produtividade.",
+      "tags": ["paradoxo_produtividade", "divida_tecnica", "qualidade"]
+    },
+    {
+      "id": "QS-AU1-004",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Qual das alternativas NÃO é uma prática ágil que garante qualidade de software?",
+      "options": [
+        "Definition of Done (DoD).",
+        "Testes automatizados.",
+        "Aumento do número de reuniões presenciais.",
+        "Code Review."
+      ],
+      "correctIndex": 2,
+      "explanation": "As práticas ágeis que garantem qualidade são: DoD, testes automatizados, integração contínua, refatoração, code review e DevOps. Aumentar reuniões presenciais não é uma prática de qualidade técnica.",
+      "tags": ["praticas_ageis", "qualidade", "definition_of_done"]
+    },
+    {
+      "id": "QS-AU1-005",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "MTBF e MTTR são métricas utilizadas para medir, respectivamente:",
+      "options": [
+        "Tempo médio de desenvolvimento e tempo médio de testes.",
+        "Tempo médio entre falhas e tempo médio de recuperação.",
+        "Tempo médio de build e tempo médio de revisão de código.",
+        "Taxa de falhas e taxa de retrabalho."
+      ],
+      "correctIndex": 1,
+      "explanation": "MTBF = Mean Time Between Failures (tempo médio entre falhas) — métrica de confiabilidade. MTTR = Mean Time To Recover (tempo médio de recuperação) — métrica DevOps de resiliência.",
+      "tags": ["metricas", "mtbf", "mttr", "devops"]
+    },
+    {
+      "id": "QS-AU1-006",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "A ISO 25010 define 8 características de qualidade de software. Qual das alternativas abaixo apresenta APENAS características presentes nesse modelo?",
+      "options": [
+        "Funcionalidade, Confiabilidade, Usabilidade e Produtividade.",
+        "Funcionalidade, Segurança, Manutenibilidade e Portabilidade.",
+        "Desempenho, Escalabilidade, Compatibilidade e Testabilidade.",
+        "Usabilidade, Disponibilidade, Interoperabilidade e Velocidade."
+      ],
+      "correctIndex": 1,
+      "explanation": "As 8 características da ISO 25010 são: Funcionalidade, Confiabilidade, Usabilidade, Desempenho, Segurança, Manutenibilidade, Portabilidade e Compatibilidade. Produtividade, Escalabilidade e Velocidade não fazem parte do modelo.",
+      "tags": ["iso25010", "caracteristicas_qualidade", "fatores"]
+    },
+    {
+      "id": "QS-AU1-007",
+      "subject": "qualidade_software",
+      "topic": "qualidade_e_produtividade",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Qual das alternativas descreve corretamente 'dívida técnica'?",
+      "options": [
+        "Custo financeiro de licenças de software não pagas.",
+        "Custo futuro gerado por soluções rápidas e de baixa qualidade adotadas no presente.",
+        "Número de bugs acumulados sem correção no backlog.",
+        "Déficit de desenvolvedores em relação à demanda do projeto."
+      ],
+      "correctIndex": 1,
+      "explanation": "Dívida técnica (technical debt) é o custo futuro — em tempo, esforço e dinheiro — causado por atalhos técnicos feitos hoje. Quanto mais cresce, mais lenta e cara fica a manutenção.",
+      "tags": ["divida_tecnica", "qualidade", "manutencao"]
+    }
+  ]
+}

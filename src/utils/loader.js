@@ -11,6 +11,19 @@ function getSubjectDirs() {
   );
 }
 
+function loadSubjectMeta(subject) {
+  const cacheKey = `_meta_${subject}`;
+  if (cache[cacheKey] !== undefined) return cache[cacheKey];
+
+  const metaPath = path.join(BD_DIR, subject, '_meta.json');
+  const meta = fs.existsSync(metaPath)
+    ? JSON.parse(fs.readFileSync(metaPath, 'utf8'))
+    : {};
+
+  cache[cacheKey] = meta;
+  return meta;
+}
+
 function loadSubject(subject) {
   if (cache[subject]) return cache[subject];
 
@@ -20,12 +33,29 @@ function loadSubject(subject) {
   }
 
   const questions = [];
-  const files = fs.readdirSync(subjectDir).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(subjectDir)
+    .filter(f => f.endsWith('.json') && f !== '_meta.json');
 
   for (const file of files) {
     const raw = fs.readFileSync(path.join(subjectDir, file), 'utf8');
     const data = JSON.parse(raw);
-    questions.push(...data);
+
+    if (Array.isArray(data)) {
+      questions.push(...data);
+    } else {
+      // Novo formato: { _meta, questions }
+      const fileMeta = data._meta || {};
+      const qs = (data.questions || []).map(q => ({
+        discipline:       fileMeta.discipline       || undefined,
+        discipline_label: fileMeta.discipline_label || undefined,
+        exam:             fileMeta.exam             || undefined,
+        exam_label:       fileMeta.exam_label       || undefined,
+        semester:         fileMeta.semester         || undefined,
+        courses:          fileMeta.courses          || undefined,
+        ...q
+      }));
+      questions.push(...qs);
+    }
   }
 
   cache[subject] = questions;
@@ -41,6 +71,47 @@ function loadAll() {
   return all;
 }
 
+function getCatalog() {
+  const subjects = getSubjectDirs();
+  const disciplines = new Map();
+  const exams = new Map();
+  const courses = new Set();
+
+  for (const subject of subjects) {
+    const subjectDir = path.join(BD_DIR, subject);
+    const files = fs.readdirSync(subjectDir)
+      .filter(f => f.endsWith('.json') && f !== '_meta.json');
+
+    for (const file of files) {
+      const raw = fs.readFileSync(path.join(subjectDir, file), 'utf8');
+      const data = JSON.parse(raw);
+      if (Array.isArray(data) || !data._meta) continue;
+
+      const m = data._meta;
+      if (m.discipline) disciplines.set(m.discipline, m.discipline_label || m.discipline);
+      if (m.exam)       exams.set(m.exam, m.exam_label || m.exam);
+      if (Array.isArray(m.courses)) m.courses.forEach(c => courses.add(c));
+    }
+  }
+
+  return {
+    disciplines: [...disciplines.entries()].map(([id, label]) => ({ id, label })),
+    exams:       [...exams.entries()].map(([id, label]) => ({ id, label })),
+    courses:     [...courses].sort()
+  };
+}
+
+function enrichQuestions(questions) {
+  return questions.map(q => {
+    const meta = loadSubjectMeta(q.subject);
+    return {
+      ...q,
+      subjectLabel: meta.label || q.subject,
+      subjectIcon:  meta.icon  || '📚'
+    };
+  });
+}
+
 function getStats() {
   const all = loadAll();
   const bySubject = {};
@@ -54,4 +125,4 @@ function getStats() {
   return { totalQuestions: total, bySubject };
 }
 
-module.exports = { loadSubject, loadAll, getSubjectDirs, getStats };
+module.exports = { loadSubject, loadAll, getSubjectDirs, getStats, loadSubjectMeta, getCatalog, enrichQuestions };

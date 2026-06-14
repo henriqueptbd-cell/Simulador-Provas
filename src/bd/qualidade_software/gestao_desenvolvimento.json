@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "discipline": "engenharia_software_1",
+    "discipline_label": "Engenharia de Software 1",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["ADS", "SI", "CC"]
+  },
+  "questions": [
+    {
+      "id": "QS-AU6-001",
+      "subject": "qualidade_software",
+      "topic": "gestao_desenvolvimento",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "SOA (Service Oriented Architecture) é uma arquitetura baseada em:",
+      "options": [
+        "Bancos de dados relacionais integrados em uma única instância.",
+        "Serviços independentes que se comunicam entre si via APIs.",
+        "Interfaces gráficas padronizadas para todos os módulos do sistema.",
+        "Frameworks de front-end com componentes reutilizáveis."
+      ],
+      "correctIndex": 1,
+      "explanation": "SOA (Arquitetura Orientada a Serviços) é uma estrutura baseada em serviços independentes que se comunicam via APIs. Promove reutilização de componentes, flexibilidade e escalabilidade. Exemplo: sistemas bancários integrados.",
+      "tags": ["soa", "arquitetura", "api"]
+    },
+    {
+      "id": "QS-AU6-002",
+      "subject": "qualidade_software",
+      "topic": "gestao_desenvolvimento",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Na customização de software, o risco associado ao excesso de personalização é:",
+      "options": [
+        "Redução da segurança do sistema contra ataques externos.",
+        "Incompatibilidade com normas ISO de qualidade.",
+        "Aumento do custo e da complexidade de manutenção.",
+        "Perda de funcionalidades padrão do sistema."
+      ],
+      "correctIndex": 2,
+      "explanation": "O excesso de customização aumenta custo e complexidade, pois cada alteração no padrão precisa ser mantida separadamente. O equilíbrio entre padrão e personalização é essencial na gestão do desenvolvimento.",
+      "tags": ["customizacao", "risco", "gestao"]
+    },
+    {
+      "id": "QS-AU6-003",
+      "subject": "qualidade_software",
+      "topic": "gestao_desenvolvimento",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Qual das alternativas abaixo é uma ferramenta de gestão de tarefas amplamente utilizada em ambientes ágeis?",
+      "options": [
+        "SonarQube.",
+        "Burp Suite.",
+        "Jira.",
+        "Git."
+      ],
+      "correctIndex": 2,
+      "explanation": "Jira e Trello são ferramentas de gestão de tarefas em ambientes ágeis. SonarQube e Burp Suite são ferramentas de segurança/qualidade de código. Git é uma ferramenta de controle de versão.",
+      "tags": ["ferramentas_ageis", "jira", "gestao"]
+    },
+    {
+      "id": "QS-AU6-004",
+      "subject": "qualidade_software",
+      "topic": "gestao_desenvolvimento",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "A gestão eficiente do desenvolvimento de software busca entregar o produto com qualidade, dentro do prazo e:",
+      "options": [
+        "Com o maior número possível de funcionalidades extras.",
+        "Com o menor número de desenvolvedores possível.",
+        "Dentro do custo previsto e do escopo definido.",
+        "Sem necessidade de documentação para agilizar o processo."
+      ],
+      "correctIndex": 2,
+      "explanation": "A gestão de projetos visa entregar o software com QUALIDADE, no PRAZO, dentro do CUSTO e com o ESCOPO definido — o triângulo de ferro do gerenciamento de projetos. Funcionalidades extras e falta de documentação vão contra boas práticas.",
+      "tags": ["gestao", "qualidade", "prazo", "custo", "escopo"]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { getSubjects, getStats, getFilters } from './api.js';
+import { getSubjects, getStats, getFilters, getCatalog } from './api.js';
 import { saveConfig, loadHistory } from './storage.js';
 import { initTheme } from './theme.js';
 
@@ -7,7 +7,8 @@ const FULL_DURATION = 60 * 60; // 60 minutos
 const MAX_PRACTICE  = 20;
 
 let availableSubjects = [];
-let activeFilters = { difficulty: '', style: '' };
+let catalog = { disciplines: [], exams: [], courses: [] };
+let activeFilters = { difficulty: '', style: '', discipline: '', exam: '' };
 
 async function init() {
   initTheme();
@@ -18,13 +19,14 @@ async function init() {
 
 async function loadData() {
   try {
-    const [statsData, subjectsData, filtersData] = await Promise.all([
-      getStats(), getSubjects(), getFilters()
+    const [statsData, subjectsData, filtersData, catalogData] = await Promise.all([
+      getStats(), getSubjects(), getFilters(), getCatalog()
     ]);
     document.getElementById('stat-questions').textContent = statsData.totalQuestions;
     document.getElementById('stat-subjects').textContent  = subjectsData.subjects.length;
     availableSubjects = subjectsData.subjects;
-    renderFilters(filtersData);
+    catalog = catalogData;
+    renderFilters({ ...filtersData, ...catalogData });
   } catch (err) {
     console.error('Erro ao carregar dados:', err);
   }
@@ -49,11 +51,21 @@ function styleLabel(s) {
   return parts[parts.length - 1].toUpperCase();
 }
 
-function renderFilters({ difficulties, styles }) {
+function renderFilters({ difficulties, styles, disciplines, exams }) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = '';
 
   const groups = [
+    {
+      filter: 'discipline',
+      label:  'Disciplina:',
+      items:  (disciplines || []).map(d => ({ value: d.id, label: d.label }))
+    },
+    {
+      filter: 'exam',
+      label:  'Prova:',
+      items:  (exams || []).map(e => ({ value: e.id, label: e.label }))
+    },
     {
       filter: 'difficulty',
       label:  'Dificuldade:',
@@ -133,7 +145,11 @@ function renderSubjectGrid() {
   const grid = document.getElementById('subject-grid');
   grid.innerHTML = '';
 
-  const filterNote = (activeFilters.difficulty ? ' · ' + (DIFF_LABELS[activeFilters.difficulty] || activeFilters.difficulty) : '')
+  const discLabel = catalog.disciplines.find(d => d.id === activeFilters.discipline)?.label || '';
+  const examLabel = catalog.exams.find(e => e.id === activeFilters.exam)?.label || '';
+  const filterNote = (discLabel                ? ' · ' + discLabel : '')
+                   + (examLabel                ? ' · ' + examLabel : '')
+                   + (activeFilters.difficulty ? ' · ' + (DIFF_LABELS[activeFilters.difficulty] || activeFilters.difficulty) : '')
                    + (activeFilters.style      ? ' · ' + styleLabel(activeFilters.style) : '');
 
   for (const subject of availableSubjects) {
@@ -157,8 +173,10 @@ function startPractice(subject) {
     timed:      false,
     duration:   0
   };
-  if (activeFilters.difficulty) config.difficulty = activeFilters.difficulty;
-  if (activeFilters.style)      config.style      = activeFilters.style;
+  if (activeFilters.difficulty)  config.difficulty  = activeFilters.difficulty;
+  if (activeFilters.style)       config.style       = activeFilters.style;
+  if (activeFilters.discipline)  config.discipline  = activeFilters.discipline;
+  if (activeFilters.exam)        config.exam        = activeFilters.exam;
 
   saveConfig(config);
   window.location.href = '/simulado';

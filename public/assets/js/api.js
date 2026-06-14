@@ -27,3 +27,7 @@ export function getRandomQuestions(params = {}) {
 export function getFilters() {
   return get(`${BASE}/filters`);
 }
+
+export function getCatalog() {
+  return get(`${BASE}/catalog`);
+}

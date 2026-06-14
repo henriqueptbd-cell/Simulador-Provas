@@ -1,30 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { loadSubject, loadAll, getSubjectDirs, getStats } = require('../utils/loader');
-
-const SUBJECT_LABELS = {
-  portugues: 'Português',
-  matematica: 'Matemática',
-  raciocinio_logico: 'Raciocínio Lógico',
-  fisica: 'Física',
-  biologia: 'Biologia',
-  quimica: 'Química',
-  historia: 'História',
-  geografia: 'Geografia',
-  ingles: 'Inglês'
-};
-
-const SUBJECT_ICONS = {
-  portugues: '📝',
-  matematica: '🔢',
-  raciocinio_logico: '🧩',
-  fisica: '⚛️',
-  biologia: '🧬',
-  quimica: '🧪',
-  historia: '📜',
-  geografia: '🌍',
-  ingles: '🌐'
-};
+const { loadSubject, loadAll, getSubjectDirs, getStats, loadSubjectMeta, getCatalog, enrichQuestions } = require('../utils/loader');
 
 function shuffle(arr) {
   const copy = [...arr];
@@ -33,6 +9,15 @@ function shuffle(arr) {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
+}
+
+function applyFilters(questions, { difficulty, style, discipline, exam }) {
+  let qs = questions;
+  if (difficulty) qs = qs.filter(q => q.difficulty === difficulty);
+  if (style)      qs = qs.filter(q => q.style === style);
+  if (discipline) qs = qs.filter(q => q.discipline === discipline);
+  if (exam)       qs = qs.filter(q => q.exam === exam);
+  return qs;
 }
 
 // GET /api/questions/stats
@@ -50,14 +35,26 @@ router.get('/subjects', (req, res) => {
     const dirs = getSubjectDirs();
     const stats = getStats();
 
-    const subjects = dirs.map(id => ({
-      id,
-      label: SUBJECT_LABELS[id] || id,
-      icon: SUBJECT_ICONS[id] || '📚',
-      totalQuestions: stats.bySubject[id] || 0
-    }));
+    const subjects = dirs.map(id => {
+      const meta = loadSubjectMeta(id);
+      return {
+        id,
+        label: meta.label || id,
+        icon:  meta.icon  || '📚',
+        totalQuestions: stats.bySubject[id] || 0
+      };
+    });
 
     res.json({ subjects });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET /api/questions/catalog
+router.get('/catalog', (req, res) => {
+  try {
+    res.json(getCatalog());
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -85,11 +82,12 @@ router.get('/filters', (req, res) => {
   }
 });
 
-// GET /api/questions/random?subjects=portugues,matematica&perSubject=5&total=20&difficulty=easy&style=municipal_igecs
+// GET /api/questions/random?subjects=...&perSubject=5&total=20&difficulty=easy&style=...&discipline=...&exam=...
 router.get('/random', (req, res) => {
   try {
-    const { subjects, perSubject, total, difficulty, style } = req.query;
+    const { subjects, perSubject, total, difficulty, style, discipline, exam } = req.query;
     const perSubjectCount = Math.min(parseInt(perSubject) || 5, 20);
+    const filters = { difficulty, style, discipline, exam };
 
     let questions = [];
 
@@ -97,9 +95,7 @@ router.get('/random', (req, res) => {
       const list = subjects.split(',').map(s => s.trim()).filter(Boolean);
       for (const subject of list) {
         try {
-          let qs = loadSubject(subject);
-          if (difficulty) qs = qs.filter(q => q.difficulty === difficulty);
-          if (style)      qs = qs.filter(q => q.style === style);
+          const qs = applyFilters(loadSubject(subject), filters);
           questions.push(...shuffle(qs).slice(0, perSubjectCount));
         } catch {
           // ignore unknown subjects
@@ -108,24 +104,22 @@ router.get('/random', (req, res) => {
       questions = shuffle(questions);
     } else {
       const all = loadAll();
-      let allQs = Object.values(all).flat();
-      if (difficulty) allQs = allQs.filter(q => q.difficulty === difficulty);
-      if (style)      allQs = allQs.filter(q => q.style === style);
-      questions = shuffle(allQs);
+      questions = shuffle(applyFilters(Object.values(all).flat(), filters));
     }
 
     if (total) questions = questions.slice(0, parseInt(total));
 
-    res.json({ count: questions.length, questions });
+    res.json({ count: questions.length, questions: enrichQuestions(questions) });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
-// GET /api/questions?subject=portugues&topic=crase&difficulty=easy&limit=10
+// GET /api/questions?subject=...&topic=...&difficulty=...&style=...&discipline=...&exam=...&limit=10
 router.get('/', (req, res) => {
   try {
-    const { subject, topic, difficulty, style, limit } = req.query;
+    const { subject, topic, difficulty, style, discipline, exam, limit } = req.query;
+    const filters = { difficulty, style, discipline, exam };
 
     let questions;
     if (subject) {
@@ -136,11 +130,10 @@ router.get('/', (req, res) => {
     }
 
     if (topic) questions = questions.filter(q => q.topic === topic);
-    if (difficulty) questions = questions.filter(q => q.difficulty === difficulty);
-    if (style) questions = questions.filter(q => q.style === style);
+    questions = applyFilters(questions, filters);
     if (limit) questions = questions.slice(0, parseInt(limit));
 
-    res.json({ count: questions.length, questions });
+    res.json({ count: questions.length, questions: enrichQuestions(questions) });
   } catch (err) {
     res.status(404).json({ error: err.message });
   }

@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "discipline": "engenharia_software_1",
+    "discipline_label": "Engenharia de Software 1",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["ADS", "SI", "CC"]
+  },
+  "questions": [
+    {
+      "id": "QS-AU2-001",
+      "subject": "qualidade_software",
+      "topic": "engenharia_seguranca",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "A tríade CIA da segurança da informação é formada por:",
+      "options": [
+        "Controle, Integridade e Autenticidade.",
+        "Confidencialidade, Integridade e Disponibilidade.",
+        "Criptografia, Identificação e Autenticação.",
+        "Conformidade, Integridade e Auditoria."
+      ],
+      "correctIndex": 1,
+      "explanation": "CIA = Confidencialidade (informação acessível só a quem tem permissão), Integridade (informação não alterada indevidamente) e Disponibilidade (sistema disponível quando necessário). É a base da segurança da informação.",
+      "tags": ["cia", "seguranca", "principios"]
+    },
+    {
+      "id": "QS-AU2-002",
+      "subject": "qualidade_software",
+      "topic": "engenharia_seguranca",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "O conceito 'Shift Left' em segurança de software significa:",
+      "options": [
+        "Mover a equipe de segurança para outro departamento da empresa.",
+        "Antecipar as práticas de segurança para as fases iniciais do desenvolvimento.",
+        "Priorizar segurança apenas na fase de testes, antes da implantação.",
+        "Reduzir o número de requisitos de segurança para agilizar o desenvolvimento."
+      ],
+      "correctIndex": 1,
+      "explanation": "Shift Left significa 'mover para a esquerda' na linha do tempo do desenvolvimento, ou seja, antecipar a segurança para requisitos e design, em vez de só testar no final. Reduz custo de correção.",
+      "tags": ["shift_left", "seguranca", "sdlc"]
+    },
+    {
+      "id": "QS-AU2-003",
+      "subject": "qualidade_software",
+      "topic": "engenharia_seguranca",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Qual é a diferença entre SAST e DAST?",
+      "options": [
+        "SAST testa sistemas em produção; DAST analisa o código-fonte em repouso.",
+        "SAST analisa o código sem executá-lo; DAST testa o sistema em execução.",
+        "SAST e DAST são sinônimos para análise estática de código.",
+        "SAST é usado apenas em ambientes ágeis; DAST em ambientes tradicionais."
+      ],
+      "correctIndex": 1,
+      "explanation": "SAST (Static Application Security Testing) analisa o código-fonte sem executar o sistema. DAST (Dynamic Application Security Testing) testa o sistema enquanto está rodando, simulando ataques externos.",
+      "tags": ["sast", "dast", "testes_seguranca"]
+    },
+    {
+      "id": "QS-AU2-004",
+      "subject": "qualidade_software",
+      "topic": "engenharia_seguranca",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "DevSecOps é melhor descrito como:",
+      "options": [
+        "Uma metodologia ágil que substitui o Scrum em projetos de segurança.",
+        "A integração da segurança ao pipeline de desenvolvimento e operações (DevOps).",
+        "Uma ferramenta de análise de vulnerabilidades desenvolvida pela OWASP.",
+        "Um conjunto de normas ISO voltadas para segurança em ambientes ágeis."
+      ],
+      "correctIndex": 1,
+      "explanation": "DevSecOps é a evolução do DevOps que integra segurança (Sec) ao pipeline. A segurança deixa de ser responsabilidade de um time isolado e passa a ser automatizada e compartilhada por todos.",
+      "tags": ["devsecops", "devops", "seguranca"]
+    },
+    {
+      "id": "QS-AU2-005",
+      "subject": "qualidade_software",
+      "topic": "engenharia_seguranca",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "O modelo STRIDE, da Microsoft, é utilizado para:",
+      "options": [
+        "Definir os níveis de maturidade de segurança de uma organização.",
+        "Modelar ameaças identificando categorias de ataques antes da implementação.",
+        "Classificar vulnerabilidades encontradas após testes de intrusão.",
+        "Padronizar requisitos não funcionais de segurança em contratos de software."
+      ],
+      "correctIndex": 1,
+      "explanation": "STRIDE é um modelo de Threat Modeling (modelagem de ameaças): Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. É aplicado na fase de projeto para antecipar vetores de ataque.",
+      "tags": ["stride", "threat_modeling", "seguranca"]
+    },
+    {
+      "id": "QS-AU2-006",
+      "subject": "qualidade_software",
+      "topic": "engenharia_seguranca",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Qual dos itens abaixo é um exemplo de Requisito Não Funcional (RNF) de segurança?",
+      "options": [
+        "O sistema deve permitir cadastro de clientes.",
+        "O sistema deve exibir relatórios em PDF.",
+        "O sistema deve criptografar dados sensíveis em repouso e em trânsito.",
+        "O sistema deve ter tela de login com campo de e-mail e senha."
+      ],
+      "correctIndex": 2,
+      "explanation": "RNFs de segurança descrevem como o sistema deve se comportar em relação à proteção, não o que ele faz. Criptografia de dados é um RNF. Cadastro de clientes e tela de login são requisitos funcionais.",
+      "tags": ["rnf", "seguranca", "requisitos"]
+    }
+  ]
+}

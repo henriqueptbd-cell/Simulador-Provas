@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "discipline": "engenharia_software_1",
+    "discipline_label": "Engenharia de Software 1",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["ADS", "SI", "CC"]
+  },
+  "questions": [
+    {
+      "id": "QS-AU4-001",
+      "subject": "qualidade_software",
+      "topic": "modelos_de_qualidade",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "O CMMI foi desenvolvido por qual instituição?",
+      "options": [
+        "ISO (International Organization for Standardization).",
+        "ABNT (Associação Brasileira de Normas Técnicas).",
+        "Software Engineering Institute (SEI) da Carnegie Mellon University.",
+        "SOFTEX (Associação para Promoção da Excelência do Software Brasileiro)."
+      ],
+      "correctIndex": 2,
+      "explanation": "O CMMI (Capability Maturity Model Integration) foi criado pelo SEI da Carnegie Mellon University. A SOFTEX criou o MPS.BR; a ISO criou o SPICE/ISO 15504.",
+      "tags": ["cmmi", "sei", "modelo_maturidade"]
+    },
+    {
+      "id": "QS-AU4-002",
+      "subject": "qualidade_software",
+      "topic": "modelos_de_qualidade",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Uma empresa cujos projetos são planejados e monitorados individualmente, mas ainda não possui processos organizacionais padronizados, está no nível CMMI:",
+      "options": [
+        "Nível 1 — Inicial.",
+        "Nível 2 — Gerenciado.",
+        "Nível 3 — Definido.",
+        "Nível 4 — Gerenciado Quantitativamente."
+      ],
+      "correctIndex": 1,
+      "explanation": "Nível 2 (Gerenciado): projetos são planejados e monitorados, mas os processos ainda não estão padronizados em toda a organização. Isso só ocorre no nível 3 (Definido).",
+      "tags": ["cmmi", "niveis_maturidade", "gerenciado"]
+    },
+    {
+      "id": "QS-AU4-003",
+      "subject": "qualidade_software",
+      "topic": "modelos_de_qualidade",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "O MPS.BR foi criado com foco especial em:",
+      "options": [
+        "Grandes multinacionais de tecnologia com operações globais.",
+        "Empresas brasileiras, especialmente pequenas e médias, com menor custo de implementação.",
+        "Órgãos governamentais federais para certificação de sistemas públicos.",
+        "Startups de base tecnológica em fase de aceleração."
+      ],
+      "correctIndex": 1,
+      "explanation": "O MPS.BR foi criado pela SOFTEX adaptado à realidade brasileira, com foco em PMEs (pequenas e médias empresas), custo menor de implementação e compatibilidade com modelos internacionais como CMMI e SPICE.",
+      "tags": ["mpsbr", "softex", "brasil"]
+    },
+    {
+      "id": "QS-AU4-004",
+      "subject": "qualidade_software",
+      "topic": "modelos_de_qualidade",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Qual é a ordem CORRETA dos níveis de maturidade do MPS.BR, do MENOR para o MAIOR?",
+      "options": [
+        "A, B, C, D, E, F, G.",
+        "G, F, E, D, C, B, A.",
+        "1, 2, 3, 4, 5, 6, 7.",
+        "Inicial, Gerenciado, Definido, Quantitativo, Otimizado."
+      ],
+      "correctIndex": 1,
+      "explanation": "O MPS.BR tem 7 níveis de G (menor) a A (maior): G-Parcialmente gerenciado, F-Gerenciado, E-Parcialmente definido, D-Largamente definido, C-Definido, B-Gerenciado quantitativamente, A-Em otimização. A sequência A a G é do maior para o menor.",
+      "tags": ["mpsbr", "niveis_maturidade", "ordem"]
+    },
+    {
+      "id": "QS-AU4-005",
+      "subject": "qualidade_software",
+      "topic": "modelos_de_qualidade",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "O SPICE (ISO 15504) e o CMMI têm quantos níveis, respectivamente?",
+      "options": [
+        "5 e 7.",
+        "6 e 7.",
+        "6 e 5.",
+        "7 e 5."
+      ],
+      "correctIndex": 2,
+      "explanation": "SPICE/ISO 15504 tem 6 níveis (0 a 5): Incompleto, Executado, Gerenciado, Estabelecido, Previsível e Otimizado. CMMI tem 5 níveis (1 a 5): Inicial, Gerenciado, Definido, Gerenciado Quantitativamente e Otimizado.",
+      "tags": ["spice", "cmmi", "comparacao", "niveis"]
+    },
+    {
+      "id": "QS-AU4-006",
+      "subject": "qualidade_software",
+      "topic": "modelos_de_qualidade",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "No Scrum, o ciclo de trabalho iterativo é chamado de:",
+      "options": [
+        "Kanban.",
+        "Sprint.",
+        "Backlog.",
+        "Daily."
+      ],
+      "correctIndex": 1,
+      "explanation": "No Scrum, o ciclo de trabalho iterativo (geralmente de 1 a 4 semanas) é a Sprint. O Backlog é a lista de tarefas, o Daily é a reunião diária e o Kanban é outro framework ágil.",
+      "tags": ["scrum", "sprint", "agil"]
+    }
+  ]
+}

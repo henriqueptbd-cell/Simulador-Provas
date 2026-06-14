@@ -63,7 +63,12 @@ export function groupBySubject(details) {
   const groups = {};
   for (const d of details) {
     const s = d.question.subject;
-    if (!groups[s]) groups[s] = { correct: 0, total: 0, icon: SUBJECT_ICONS[s] || '📚', label: SUBJECT_LABELS[s] || s };
+    if (!groups[s]) groups[s] = {
+      correct: 0,
+      total: 0,
+      icon:  d.question.subjectIcon  || SUBJECT_ICONS[s]  || '📚',
+      label: d.question.subjectLabel || SUBJECT_LABELS[s] || s
+    };
     groups[s].total++;
     if (d.isCorrect) groups[s].correct++;
   }

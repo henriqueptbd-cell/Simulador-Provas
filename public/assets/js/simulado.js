@@ -58,8 +58,10 @@ async function fetchQuestions(config) {
 
   // Modo prática: aleatório, máx. 20, com filtros opcionais
   const params = { subjects: config.subjects[0], perSubject: 20 };
-  if (config.difficulty) params.difficulty = config.difficulty;
-  if (config.style)      params.style      = config.style;
+  if (config.difficulty)  params.difficulty  = config.difficulty;
+  if (config.style)       params.style       = config.style;
+  if (config.discipline)  params.discipline  = config.discipline;
+  if (config.exam)        params.exam        = config.exam;
 
   const data = await getRandomQuestions(params);
   return data.questions;
@@ -119,7 +121,7 @@ function renderQuestion(index) {
   $('progress-bar').style.width = `${((index + 1) / total) * 100}%`;
 
   $('question-number').textContent = `Questão ${index + 1}`;
-  $('question-subject').textContent = `${SUBJECT_ICONS[q.subject] || ''} ${SUBJECT_LABELS[q.subject] || q.subject}`;
+  $('question-subject').textContent = `${q.subjectIcon || SUBJECT_ICONS[q.subject] || ''} ${q.subjectLabel || SUBJECT_LABELS[q.subject] || q.subject}`;
 
   const diffBadge = $('question-difficulty');
   diffBadge.textContent = DIFFICULTY_LABELS[q.difficulty] || q.difficulty;

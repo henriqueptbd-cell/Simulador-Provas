@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "discipline": "engenharia_software_1",
+    "discipline_label": "Engenharia de Software 1",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["ADS", "SI", "CC"]
+  },
+  "questions": [
+    {
+      "id": "QS-AU3-001",
+      "subject": "qualidade_software",
+      "topic": "normas_e_padroes",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "A norma ISO/IEC 12207 tem como objetivo principal:",
+      "options": [
+        "Definir critérios ergonômicos para interfaces gráficas.",
+        "Estabelecer processos para todo o ciclo de vida do software.",
+        "Avaliar a maturidade dos processos de desenvolvimento de uma organização.",
+        "Padronizar linguagens de programação utilizadas em projetos de software."
+      ],
+      "correctIndex": 1,
+      "explanation": "A ISO/IEC 12207 define processos para todo o ciclo de vida do software: da concepção à descontinuação. Ela organiza os processos em Primários, de Apoio e Organizacionais.",
+      "tags": ["iso12207", "ciclo_de_vida", "normas"]
+    },
+    {
+      "id": "QS-AU3-002",
+      "subject": "qualidade_software",
+      "topic": "normas_e_padroes",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Segundo a ISO/IEC 12207, qual das alternativas apresenta apenas Processos PRIMÁRIOS?",
+      "options": [
+        "Documentação, Verificação e Auditoria.",
+        "Gestão, Infraestrutura e Treinamento.",
+        "Aquisição, Fornecimento, Desenvolvimento, Operação e Manutenção.",
+        "Validação, Garantia da Qualidade e Gestão."
+      ],
+      "correctIndex": 2,
+      "explanation": "Os Processos Primários da ISO 12207 são: Aquisição, Fornecimento, Desenvolvimento, Operação e Manutenção. Documentação, Verificação e Auditoria são Processos de Apoio. Gestão, Infraestrutura e Treinamento são Organizacionais.",
+      "tags": ["iso12207", "processos_primarios", "ciclo_de_vida"]
+    },
+    {
+      "id": "QS-AU3-003",
+      "subject": "qualidade_software",
+      "topic": "normas_e_padroes",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "A ISO 9241-11 define usabilidade como o grau em que um produto pode ser usado por usuários específicos para atingir objetivos com:",
+      "options": [
+        "Rapidez, precisão e baixo custo.",
+        "Eficácia, eficiência e satisfação em um contexto específico de uso.",
+        "Segurança, confiabilidade e portabilidade.",
+        "Funcionalidade, manutenibilidade e compatibilidade."
+      ],
+      "correctIndex": 1,
+      "explanation": "A definição exata da ISO 9241-11 é: grau em que um produto pode ser usado por usuários específicos para atingir objetivos específicos com EFICÁCIA, EFICIÊNCIA e SATISFAÇÃO em um contexto específico de uso.",
+      "tags": ["iso9241", "usabilidade", "definicao"]
+    },
+    {
+      "id": "QS-AU3-004",
+      "subject": "qualidade_software",
+      "topic": "normas_e_padroes",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Qual é a diferença fundamental entre a ISO 12207 e a ISO 9241-11?",
+      "options": [
+        "ISO 12207 é brasileira; ISO 9241-11 é internacional.",
+        "ISO 12207 foca em segurança; ISO 9241-11 foca em desempenho.",
+        "ISO 12207 foca no processo de desenvolvimento; ISO 9241-11 foca na qualidade de uso pelo usuário.",
+        "ISO 12207 define métricas de produtividade; ISO 9241-11 define métricas de custo."
+      ],
+      "correctIndex": 2,
+      "explanation": "ISO 12207 = foco no PROCESSO (ciclo de vida do software). ISO 9241-11 = foco no USUÁRIO (ergonomia e usabilidade). Qualidade técnica + qualidade de uso = software de excelência.",
+      "tags": ["iso12207", "iso9241", "comparacao"]
+    },
+    {
+      "id": "QS-AU3-005",
+      "subject": "qualidade_software",
+      "topic": "normas_e_padroes",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Um sistema bancário foi desenvolvido seguindo rigorosamente a ISO 12207, com todos os processos documentados e auditados. Porém, os usuários reclamam que é difícil encontrar as funcionalidades e que o sistema é lento para operar. Com base nas normas estudadas, qual é a conclusão correta?",
+      "options": [
+        "O sistema tem qualidade plena pois seguiu a ISO 12207.",
+        "O sistema falha nos critérios da ISO 9241-11, pois apresenta problemas de eficiência e usabilidade.",
+        "A ISO 12207 garante automaticamente a usabilidade do sistema.",
+        "As reclamações dos usuários não têm relevância técnica para avaliação de qualidade."
+      ],
+      "correctIndex": 1,
+      "explanation": "Um sistema pode estar tecnicamente correto (ISO 12207) e ainda falhar na qualidade de uso (ISO 9241-11). As reclamações indicam problemas de eficiência e usabilidade — componentes da ISO 9241-11. Qualidade total exige ambas as normas.",
+      "tags": ["iso12207", "iso9241", "usabilidade", "caso_pratico"]
+    }
+  ]
+}

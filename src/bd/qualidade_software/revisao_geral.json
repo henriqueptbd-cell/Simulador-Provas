@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "discipline": "engenharia_software_1",
+    "discipline_label": "Engenharia de Software 1",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["ADS", "SI", "CC"]
+  },
+  "questions": [
+    {
+      "id": "QS-MULTI-001",
+      "subject": "qualidade_software",
+      "topic": "revisao_geral",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Analise as afirmações abaixo e marque a alternativa CORRETA:\nI. O MPS.BR é compatível com o CMMI e tem 7 níveis de maturidade.\nII. A ISO 9241-11 define os processos do ciclo de vida do software.\nIII. DevSecOps integra segurança ao pipeline de desenvolvimento.\nIV. O PMBOK é publicado pelo IEEE.",
+      "options": [
+        "Apenas I e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "I, II e III estão corretas.",
+        "Todas estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I - CORRETA: MPS.BR tem 7 níveis (G a A) e é compatível com CMMI. II - ERRADA: ISO 9241-11 define usabilidade/ergonomia; quem define ciclo de vida é a ISO 12207. III - CORRETA: DevSecOps integra segurança ao pipeline DevOps. IV - ERRADA: PMBOK é publicado pelo PMI; SWEBOK é publicado pelo IEEE.",
+      "tags": ["revisao", "multiplas_afirmacoes", "iso", "modelos"]
+    },
+    {
+      "id": "QS-MULTI-002",
+      "subject": "qualidade_software",
+      "topic": "revisao_geral",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "No contexto de métricas de qualidade, associe corretamente:\n1. Lead Time\n2. MTBF\n3. Complexidade Ciclomática\n4. MTTR\n\nA. Métrica de produto que mede a complexidade do código.\nB. Tempo desde a solicitação até a entrega.\nC. Tempo médio de recuperação após uma falha.\nD. Tempo médio entre falhas do sistema.",
+      "options": [
+        "1-B, 2-D, 3-A, 4-C.",
+        "1-A, 2-C, 3-B, 4-D.",
+        "1-D, 2-B, 3-C, 4-A.",
+        "1-C, 2-A, 3-D, 4-B."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lead Time (1-B): tempo total da solicitação à entrega. MTBF (2-D): Mean Time Between Failures, tempo médio entre falhas. Complexidade Ciclomática (3-A): métrica de produto que mede a complexidade do código-fonte. MTTR (4-C): Mean Time To Recover, tempo médio de recuperação.",
+      "tags": ["metricas", "lead_time", "mtbf", "mttr", "associacao"]
+    },
+    {
+      "id": "QS-MULTI-003",
+      "subject": "qualidade_software",
+      "topic": "revisao_geral",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Qual modelo de qualidade tem como característica exclusiva ser adaptado especialmente para empresas brasileiras de pequeno e médio porte?",
+      "options": [
+        "CMMI.",
+        "SPICE (ISO 15504).",
+        "MPS.BR.",
+        "ISO 25010."
+      ],
+      "correctIndex": 2,
+      "explanation": "O MPS.BR foi criado pela SOFTEX especificamente para atender à realidade das empresas brasileiras, com menor custo de implementação e foco em PMEs. CMMI e SPICE são modelos internacionais; ISO 25010 define características de qualidade do produto.",
+      "tags": ["mpsbr", "brasil", "pme", "comparacao"]
+    }
+  ]
+}
