@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "banco_de_dados",
+    "discipline_label": "Banco de Dados",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "SQL-COUNT-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Considere uma tabela tbcurso com 454 registros, onde a coluna turno possui valores 'matutino', 'noturno', 'vespertino' e 'EaD', podendo haver repeti\u00e7\u00f5es.\n\nQual comando retorna a quantidade TOTAL de registros da tabela?",
+      "options": [
+        "SELECT turno, COUNT(*) FROM tbcurso;",
+        "SELECT COUNT(turno) FROM tbcurso;",
+        "SELECT COUNT(*) FROM tbcurso;",
+        "SELECT SUM(*) FROM tbcurso;"
+      ],
+      "correctIndex": 2,
+      "explanation": "C est\u00e1 correta: COUNT(*) conta todos os registros da tabela, independentemente de valores nulos. A est\u00e1 errada: incluiria turno no SELECT sem GROUP BY, gerando erro. B est\u00e1 errada: COUNT(turno) conta apenas registros onde turno n\u00e3o \u00e9 NULL (funcionaria, mas COUNT(*) \u00e9 mais adequado para total geral). D est\u00e1 errada: SUM n\u00e3o funciona com asterisco e \u00e9 para somar n\u00fameros, n\u00e3o contar.",
+      "tags": ["count", "funcoes_agrupadoras", "select"]
+    },
+    {
+      "id": "SQL-DISTINCT-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Uma tabela tbcurso possui 454 registros, mas apenas 69 munic\u00edpios diferentes. O professor quer listar cada munic\u00edpio UMA \u00daNICA vez, em ordem alfab\u00e9tica.\n\nQual comando atende a esse requisito?",
+      "options": [
+        "SELECT municipio FROM tbcurso ORDER BY municipio ASC;",
+        "SELECT UNIQUE municipio FROM tbcurso ORDER BY municipio ASC;",
+        "SELECT DISTINCT municipio FROM tbcurso ORDER BY municipio ASC;",
+        "SELECT municipio FROM tbcurso GROUP BY municipio ORDER BY municipio ASC;"
+      ],
+      "correctIndex": 2,
+      "explanation": "C est\u00e1 correta: DISTINCT elimina duplicatas, retornando cada munic\u00edpio uma vez. A est\u00e1 errada: sem DISTINCT, retorna todos os 454 registros com repeti\u00e7\u00f5es. B est\u00e1 errada: UNIQUE n\u00e3o \u00e9 palavra-chave v\u00e1lida no SELECT (funciona apenas em CONSTRAINT). D tamb\u00e9m funcionaria (GROUP BY municipio), mas DISTINCT \u00e9 a forma mais adequada e direta para este caso.",
+      "tags": ["distinct", "eliminar_duplicatas", "order_by"]
+    },
+    {
+      "id": "SQL-GROUPBY-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Analise as afirma\u00e7\u00f5es sobre GROUP BY em SQL:\n\nI. O GROUP BY agrupa registros com valores iguais em uma ou mais colunas.\nII. Quando se usa GROUP BY, qualquer coluna no SELECT que n\u00e3o esteja no GROUP BY precisa ser usada dentro de uma fun\u00e7\u00e3o agrupadora.\nIII. GROUP BY e DISTINCT s\u00e3o completamente id\u00eanticos e podem ser usados de forma intercambi\u00e1vel em qualquer situa\u00e7\u00e3o.\nIV. O GROUP BY deve vir antes do WHERE na ordem das cl\u00e1usulas.\n\nAssinale a alternativa correta:",
+      "options": [
+        "Apenas I e II est\u00e3o corretas.",
+        "Apenas I e III est\u00e3o corretas.",
+        "Apenas II e IV est\u00e3o corretas.",
+        "Apenas III e IV est\u00e3o corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I correta: GROUP BY agrupa registros com valores iguais. II correta: essa \u00e9 a regra fundamental do GROUP BY. III falsa: n\u00e3o s\u00e3o id\u00eanticos; GROUP BY permite fun\u00e7\u00f5es agrupadoras, DISTINCT n\u00e3o. IV falsa: a ordem correta \u00e9 WHERE (filtra linhas) antes de GROUP BY.",
+      "tags": ["group_by", "regra", "sintaxe"]
+    },
+    {
+      "id": "SQL-HAVING-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Um professor quer listar apenas os turnos que possuem MAIS DE 100 cursos. Os dados est\u00e3o na tabela tbcurso, com as colunas turno e outras informa\u00e7\u00f5es.\n\nQual comando executa corretamente essa consulta?",
+      "options": [
+        "SELECT turno, COUNT(*) FROM tbcurso WHERE COUNT(*) > 100 GROUP BY turno;",
+        "SELECT turno, COUNT(*) FROM tbcurso GROUP BY turno HAVING COUNT(*) > 100;",
+        "SELECT turno, COUNT(*) FROM tbcurso GROUP BY turno WHERE COUNT(*) > 100;",
+        "SELECT turno, COUNT(*) FROM tbcurso HAVING COUNT(*) > 100 GROUP BY turno;"
+      ],
+      "correctIndex": 1,
+      "explanation": "B est\u00e1 correta: GROUP BY turno agrupa, HAVING COUNT(*) > 100 filtra os grupos. A est\u00e1 errada: WHERE n\u00e3o pode usar fun\u00e7\u00e3o agrupadora. C est\u00e1 errada: a ordem est\u00e1 incorreta (WHERE depois de GROUP BY n\u00e3o existe). D est\u00e1 errada: HAVING deve vir depois do GROUP BY.",
+      "tags": ["having", "group_by", "filtro_agregado"]
+    },
+    {
+      "id": "SQL-LIMIT-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Uma consulta retorna 454 registros ordenados por unidade. O professor quer ver APENAS os 10 primeiros registros dessa listagem.\n\nQual cl\u00e1usula deve ser adicionada ao final do SELECT?",
+      "options": [
+        "LIMIT 10",
+        "LIMIT 0 OFFSET 10",
+        "OFFSET 10",
+        "TOP 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "A est\u00e1 correta: LIMIT 10 restringe o resultado a 10 registros. B est\u00e1 errada: LIMIT 0 OFFSET 10 retornaria 0 registros (pula 10, pega 0). C est\u00e1 errada: OFFSET sozinho n\u00e3o funciona, precisa de LIMIT. D est\u00e1 errada: TOP \u00e9 sintaxe do SQL Server, n\u00e3o do PostgreSQL.",
+      "tags": ["limit", "paginação", "top"]
+    },
+    {
+      "id": "SQL-OFFSET-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Um sistema de paginação mostra 50 registros por página. O usuário está na página 3.\n\nQual combina\u00e7\u00e3o LIMIT e OFFSET deve ser usada para buscar os registros corretos?",
+      "options": [
+        "LIMIT 50 OFFSET 0",
+        "LIMIT 50 OFFSET 50",
+        "LIMIT 50 OFFSET 100",
+        "LIMIT 50 OFFSET 150"
+      ],
+      "correctIndex": 2,
+      "explanation": "C est\u00e1 correta: p\u00e1gina 1: OFFSET 0, p\u00e1gina 2: OFFSET 50, p\u00e1gina 3: OFFSET 100. A \u00e9 p\u00e1gina 1, B \u00e9 p\u00e1gina 2, D \u00e9 p\u00e1gina 4.",
+      "tags": ["offset", "limit", "paginação"]
+    },
+    {
+      "id": "SQL-AGREGACAO-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Correlacione cada fun\u00e7\u00e3o agrupadora \u00e0 sua descri\u00e7\u00e3o correta:\n\n1. COUNT(*)\n2. SUM(vaga)\n3. AVG(vaga)\n4. MIN(vaga)\n\nA. Retorna o menor valor da coluna\nB. Soma todos os valores da coluna\nC. Conta o n\u00famero de registros\nD. Calcula a m\u00e9dia dos valores\n\nAssinale a alternativa com a correla\u00e7\u00e3o CORRETA:",
+      "options": [
+        "1-A, 2-B, 3-C, 4-D",
+        "1-C, 2-B, 3-D, 4-A",
+        "1-C, 2-D, 3-B, 4-A",
+        "1-B, 2-C, 3-D, 4-A"
+      ],
+      "correctIndex": 1,
+      "explanation": "B est\u00e1 correta: COUNT(*) conta registros (1-C), SUM(vaga) soma valores (2-B), AVG(vaga) calcula m\u00e9dia (3-D), MIN(vaga) retorna menor valor (4-A). As demais op\u00e7\u00f5es apresentam correla\u00e7\u00f5es incorretas entre fun\u00e7\u00f5es e descri\u00e7\u00f5es.",
+      "tags": ["funcoes_agrupadoras", "count", "sum", "avg", "min"]
+    },
+    {
+      "id": "SQL-AGREGACAO-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Considere a tabela tbcurso com as colunas: turno (texto) e vaga (inteiro).\n\nQual comando calcula CORRETAMENTE a m\u00e9dia de vagas por turno?",
+      "options": [
+        "SELECT turno, AVG(vaga) FROM tbcurso;",
+        "SELECT turno, AVG(vaga) FROM tbcurso GROUP BY turno;",
+        "SELECT turno, AVG(*) FROM tbcurso GROUP BY turno;",
+        "SELECT turno, AVG(vaga) FROM tbcurso ORDER BY turno;"
+      ],
+      "correctIndex": 1,
+      "explanation": "B est\u00e1 correta: GROUP BY turno agrupa por turno, e AVG(vaga) calcula a m\u00e9dia dentro de cada grupo. A est\u00e1 errada: falta GROUP BY, geraria erro (turno n\u00e3o est\u00e1 agregada). C est\u00e1 errada: AVG n\u00e3o aceita asterisco, apenas nomes de colunas num\u00e9ricas. D est\u00e1 errada: ORDER BY ordena, mas sem GROUP BY a consulta falha.",
+      "tags": ["avg", "group_by", "media"]
+    },
+    {
+      "id": "SQL-MINMAX-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Um professor quer saber, em uma \u00fanica consulta, qual o menor n\u00famero de vagas e qual o maior n\u00famero de vagas oferecidos em toda a tabela tbcurso.\n\nQual comando atende a esse requisito?",
+      "options": [
+        "SELECT MIN(vaga), MAX(vaga) FROM tbcurso;",
+        "SELECT vaga MIN, vaga MAX FROM tbcurso;",
+        "SELECT LEAST(vaga), GREATEST(vaga) FROM tbcurso;",
+        "SELECT MIN(vaga) AND MAX(vaga) FROM tbcurso;"
+      ],
+      "correctIndex": 0,
+      "explanation": "A est\u00e1 correta: MIN(vaga) retorna o menor valor, MAX(vaga) retorna o maior valor. B est\u00e1 errada: sintaxe incorreta. C est\u00e1 errada: LEAST e GREATEST n\u00e3o s\u00e3o fun\u00e7\u00f5es agrupadoras padr\u00e3o (comparam valores dentro de uma linha). D est\u00e1 errada: AND n\u00e3o separa colunas no SELECT, usa-se v\u00edrgula.",
+      "tags": ["min", "max", "funcoes_agrupadoras"]
+    },
+    {
+      "id": "SQL-ORDERBY-AGREG-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "A consulta a seguir lista a quantidade de cursos por unidade:\n\nSELECT unidade, COUNT(*) AS quantidade\nFROM tbcurso\nGROUP BY unidade;\n\nO professor deseja ordenar o resultado da unidade com MENOS cursos para a com MAIS cursos.\n\nQual cl\u00e1usula deve ser adicionada ao final da consulta?",
+      "options": [
+        "ORDER BY unidade ASC;",
+        "ORDER BY quantidade ASC;",
+        "ORDER BY quantidade DESC;",
+        "ORDER BY COUNT(*) ASC;"
+      ],
+      "correctIndex": 1,
+      "explanation": "B est\u00e1 correta: ORDER BY quantidade ASC ordena do menor para o maior (ASC \u00e9 crescente). A est\u00e1 errada: ordenaria por nome da unidade, n\u00e3o pela quantidade. C est\u00e1 errada: DESC ordenaria do maior para o menor. D \u00e9 v\u00e1lida (ORDER BY COUNT(*) ASC) mas usar o alias quantidade \u00e9 mais leg\u00edvel.",
+      "tags": ["order_by", "alias", "count", "ordenacao"]
+    },
+    {
+      "id": "SQL-AS-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual comando SQL renomeia a coluna resultante de COUNT(*) para \"Total de cursos\"?",
+      "options": [
+        "SELECT COUNT(*) AS \"Total de cursos\" FROM tbcurso;",
+        "SELECT COUNT(*) AS Total de cursos FROM tbcurso;",
+        "SELECT COUNT(*) \"Total de cursos\" FROM tbcurso;",
+        "SELECT COUNT(*) = 'Total de cursos' FROM tbcurso;"
+      ],
+      "correctIndex": 0,
+      "explanation": "A est\u00e1 correta: AS seguido do apelido entre aspas duplas (necess\u00e1rio quando h\u00e1 espa\u00e7os). B est\u00e1 errada: faltam aspas no apelido com espa\u00e7o. C \u00e9 v\u00e1lida em alguns SGBDs (omite AS) mas a A \u00e9 a mais expl\u00edcita e padr\u00e3o. D est\u00e1 errada: = n\u00e3o \u00e9 usado para renomear colunas.",
+      "tags": ["as", "alias", "renomear_coluna"]
+    },
+    {
+      "id": "SQL-GROUPBY-HAVING-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula7_funcoes_agrupadoras",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Analise a consulta SQL abaixo e assinale a alternativa que descreve CORRETAMENTE o que ela faz:\n\nSELECT unidade, turno, COUNT(*) AS total\nFROM tbcurso\nWHERE vaga > 30\nGROUP BY unidade, turno\nHAVING COUNT(*) >= 5\nORDER BY total DESC\nLIMIT 10;",
+      "options": [
+        "Lista todas as unidades e turnos com mais de 5 cursos, sem filtro de vagas.",
+        "Lista as 10 primeiras combina\u00e7\u00f5es de unidade e turno que t\u00eam pelo menos 5 cursos com mais de 30 vagas cada, ordenadas da maior para a menor quantidade.",
+        "Lista todos os cursos com mais de 30 vagas, agrupados por unidade e turno que tenham mais de 5 cursos no total.",
+        "A consulta gerar\u00e1 erro porque n\u00e3o se pode usar WHERE e HAVING juntos."
+      ],
+      "correctIndex": 1,
+      "explanation": "B est\u00e1 correta: WHERE vaga > 30 filtra cursos com mais de 30 vagas ANTES do agrupamento; GROUP BY unidade, turno; HAVING COUNT(*) >= 5 filtra grupos com 5 ou mais cursos; ORDER BY total DESC ordena do maior para o menor; LIMIT 10 pega os 10 primeiros. A est\u00e1 errada: ignorou o WHERE. C est\u00e1 errada: a consulta lista combina\u00e7\u00f5es, n\u00e3o cursos individuais. D est\u00e1 errada: WHERE e HAVING podem ser usados juntos (WHERE filtra linhas, HAVING filtra grupos).",
+      "tags": ["where", "group_by", "having", "limit", "order_by", "combinacao"]
+    }
+  ]
+}

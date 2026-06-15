@@ -5,7 +5,7 @@
     "semester": 2,
     "exam": "p2",
     "exam_label": "P2",
-    "courses": ["ADS", "SI", "CC"]
+    "courses": ["DSM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "qualidade_software",
       "topic": "normas_e_padroes",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "A norma ISO/IEC 12207 tem como objetivo principal:",
       "options": [
         "Definir critérios ergonômicos para interfaces gráficas.",
@@ -30,7 +30,7 @@
       "subject": "qualidade_software",
       "topic": "normas_e_padroes",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Segundo a ISO/IEC 12207, qual das alternativas apresenta apenas Processos PRIMÁRIOS?",
       "options": [
         "Documentação, Verificação e Auditoria.",
@@ -47,7 +47,7 @@
       "subject": "qualidade_software",
       "topic": "normas_e_padroes",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "A ISO 9241-11 define usabilidade como o grau em que um produto pode ser usado por usuários específicos para atingir objetivos com:",
       "options": [
         "Rapidez, precisão e baixo custo.",
@@ -64,7 +64,7 @@
       "subject": "qualidade_software",
       "topic": "normas_e_padroes",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual é a diferença fundamental entre a ISO 12207 e a ISO 9241-11?",
       "options": [
         "ISO 12207 é brasileira; ISO 9241-11 é internacional.",
@@ -81,7 +81,7 @@
       "subject": "qualidade_software",
       "topic": "normas_e_padroes",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Um sistema bancário foi desenvolvido seguindo rigorosamente a ISO 12207, com todos os processos documentados e auditados. Porém, os usuários reclamam que é difícil encontrar as funcionalidades e que o sistema é lento para operar. Com base nas normas estudadas, qual é a conclusão correta?",
       "options": [
         "O sistema tem qualidade plena pois seguiu a ISO 12207.",

@@ -5,7 +5,7 @@
     "semester": 2,
     "exam": "p2",
     "exam_label": "P2",
-    "courses": ["ADS", "SI", "CC"]
+    "courses": ["DSM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "qualidade_software",
       "topic": "gestao_desenvolvimento",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "SOA (Service Oriented Architecture) é uma arquitetura baseada em:",
       "options": [
         "Bancos de dados relacionais integrados em uma única instância.",
@@ -30,7 +30,7 @@
       "subject": "qualidade_software",
       "topic": "gestao_desenvolvimento",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Na customização de software, o risco associado ao excesso de personalização é:",
       "options": [
         "Redução da segurança do sistema contra ataques externos.",
@@ -47,7 +47,7 @@
       "subject": "qualidade_software",
       "topic": "gestao_desenvolvimento",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual das alternativas abaixo é uma ferramenta de gestão de tarefas amplamente utilizada em ambientes ágeis?",
       "options": [
         "SonarQube.",
@@ -64,7 +64,7 @@
       "subject": "qualidade_software",
       "topic": "gestao_desenvolvimento",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "A gestão eficiente do desenvolvimento de software busca entregar o produto com qualidade, dentro do prazo e:",
       "options": [
         "Com o maior número possível de funcionalidades extras.",

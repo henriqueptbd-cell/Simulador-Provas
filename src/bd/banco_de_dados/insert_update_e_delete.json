@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "banco_de_dados",
+    "discipline_label": "Banco de Dados",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "SQL-MULTITAB-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Em um banco de dados relacional, qual \u00e9 a fun\u00e7\u00e3o da Foreign Key (FK)?",
+      "options": [
+        "Identificar unicamente um registro dentro da pr\u00f3pria tabela.",
+        "Ligar uma tabela a outra, referenciando a PK da tabela relacionada.",
+        "Armazenar grandes volumes de dados textuais.",
+        "Definir a ordem de classifica\u00e7\u00e3o dos registros."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: a Foreign Key (FK) liga uma tabela a outra, referenciando a Primary Key (PK) da tabela relacionada. A alternativa A descreve a PK, n\u00e3o a FK. A alternativa C n\u00e3o tem rela\u00e7\u00e3o com chaves estrangeiras. A alternativa D descreve a fun\u00e7\u00e3o do ORDER BY.",
+      "tags": ["foreign_key", "chave_estrangeira", "relacionamento"]
+    },
+    {
+      "id": "SQL-MULTITAB-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual \u00e9 a principal vantagem da normaliza\u00e7\u00e3o em um modelo de dados relacional?",
+      "options": [
+        "Aumentar a quantidade de dados repetidos nas tabelas.",
+        "Facilitar a cria\u00e7\u00e3o autom\u00e1tica de \u00edndices.",
+        "Centralizar os dados em um \u00fanico local, evitando repeti\u00e7\u00e3o e facilitando atualiza\u00e7\u00f5es.",
+        "Eliminar completamente o uso de chaves estrangeiras."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C est\u00e1 correta: a normaliza\u00e7\u00e3o evita redund\u00e2ncia e facilita atualiza\u00e7\u00f5es. A alternativa A \u00e9 o oposto da normaliza\u00e7\u00e3o. A alternativa B n\u00e3o \u00e9 a vantagem principal. A alternativa D \u00e9 falsa, pois a normaliza\u00e7\u00e3o utiliza FKs.",
+      "tags": ["normalizacao", "modelo_relacional", "redundancia"]
+    },
+    {
+      "id": "SQL-MULTITAB-003",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "O que \u00e9 o produto cartesiano em uma consulta SQL com m\u00faltiplas tabelas?",
+      "options": [
+        "O resultado de uma consulta que utiliza DISTINCT.",
+        "Todas as combina\u00e7\u00f5es poss\u00edveis entre os registros das tabelas listadas no FROM.",
+        "A ordena\u00e7\u00e3o autom\u00e1tica dos resultados em ordem alfab\u00e9tica.",
+        "A exclus\u00e3o de registros duplicados no resultado final."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: produto cartesiano \u00e9 a combina\u00e7\u00e3o de todos os registros das tabelas. A alternativa A descreve o DISTINCT. A alternativa C descreve o ORDER BY. A alternativa D descreve DISTINCT ou GROUP BY.",
+      "tags": ["produto_cartesiano", "from", "combinacoes"]
+    },
+    {
+      "id": "SQL-MULTITAB-004",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Uma tabela tbunidade possui 8 registros. Uma tabela tbcurso possui 15 registros. Uma tabela tbcurso_por_unidade possui 60 registros.\n\nQuantos registros ter\u00e1 o produto cartesiano gerado pelo FROM com as tr\u00eas tabelas?",
+      "options": [
+        "83 registros",
+        "720 registros",
+        "7.200 registros",
+        "72.000 registros"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C est\u00e1 correta: produto cartesiano = multiplica\u00e7\u00e3o: 8 \u00d7 15 \u00d7 60 = 7.200 registros. A alternativa A \u00e9 a soma (8+15+60=83). A alternativa B \u00e9 8\u00d715\u00d76? n\u00e3o corresponde. A alternativa D \u00e9 um valor muito acima, sem rela\u00e7\u00e3o.",
+      "tags": ["produto_cartesiano", "multiplicacao", "calculo"]
+    },
+    {
+      "id": "SQL-MULTITAB-005",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Para que serve o comando AS quando utilizado para renomear uma tabela no FROM de uma consulta SQL?",
+      "options": [
+        "Criar uma nova tabela permanente no banco de dados.",
+        "Simplificar a escrita da consulta, permitindo usar um apelido (alias) para a tabela.",
+        "Ordenar os resultados da consulta de forma decrescente.",
+        "Filtrar registros duplicados no resultado final."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: AS cria um apelido (alias) para simplificar a consulta. A alternativa A \u00e9 fun\u00e7\u00e3o do CREATE TABLE. A alternativa C \u00e9 fun\u00e7\u00e3o do ORDER BY DESC. A alternativa D \u00e9 fun\u00e7\u00e3o do DISTINCT.",
+      "tags": ["as", "alias", "apelido"]
+    },
+    {
+      "id": "SQL-MULTITAB-006",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Observe a consulta SQL abaixo:\n\nSELECT unidade, nome\nFROM tbunidade AS u, tbcurso AS c, tbcurso_por_unidade AS cu\nWHERE u.id = cu.idunidade AND c.id = cu.idcurso;\n\nO que aconteceria se tent\u00e1ssemos usar tbunidade.id (nome original) no lugar de u.id na condi\u00e7\u00e3o WHERE?",
+      "options": [
+        "A consulta executaria normalmente, sem qualquer diferen\u00e7a.",
+        "A consulta geraria um erro, pois ap\u00f3s usar AS n\u00e3o se pode mais usar o nome original da tabela.",
+        "A consulta seria executada mais rapidamente usando o nome original.",
+        "A consulta ordenaria os resultados automaticamente pelo nome da unidade."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: ap\u00f3s usar AS para renomear uma tabela, n\u00e3o se pode mais usar o nome original na consulta, gerando erro. A alternativa A \u00e9 falsa. A alternativa C \u00e9 falsa, n\u00e3o h\u00e1 ganho de velocidade. A alternativa D \u00e9 falsa, AS n\u00e3o ordena resultados.",
+      "tags": ["as", "alias", "erro_comum"]
+    },
+    {
+      "id": "SQL-MULTITAB-007",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "No relacionamento entre tabelas em uma consulta SQL, como se faz a liga\u00e7\u00e3o correta no WHERE?",
+      "options": [
+        "coluna1 = coluna2 (qualquer coluna, sem crit\u00e9rio)",
+        "PK_da_tabelaA = FK_da_tabelaB",
+        "FK_da_tabelaA = FK_da_tabelaB",
+        "COUNT(*) = SUM(vaga)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: a liga\u00e7\u00e3o correta \u00e9 PK de uma tabela com FK da outra. A alternativa A \u00e9 vaga e pode gerar produto cartesiano indesejado. A alternativa C \u00e9 errada: FK n\u00e3o se liga diretamente a outra FK. A alternativa D envolve fun\u00e7\u00f5es agrupadoras, n\u00e3o liga\u00e7\u00e3o de tabelas.",
+      "tags": ["primary_key", "foreign_key", "where", "ligacao"]
+    },
+    {
+      "id": "SQL-MULTITAB-008",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Analise as afirma\u00e7\u00f5es sobre chaves prim\u00e1rias (PK) e chaves estrangeiras (FK):\n\nI. Uma coluna pode ser FK sem ser PK.\nII. Uma coluna pode ser PK sem ser FK.\nIII. Toda FK precisa ser obrigatoriamente uma PK em outra tabela.\nIV. A FK de uma tabela sempre tem o mesmo nome da PK que referencia.\n\nAssinale a alternativa com apenas afirma\u00e7\u00f5es VERDADEIRAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, II e III.",
+        "Apenas II e III.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 0,
+      "explanation": "As alternativas I e II est\u00e3o corretas. I: uma coluna pode ser FK sem ser PK (ex: idturno \u00e9 FK mas n\u00e3o \u00e9 PK). II: uma coluna pode ser PK sem ser FK (ex: id da tbunidade). III \u00e9 falsa: a FK referencia uma PK (a PK existe em outra tabela), mas isso n\u00e3o torna a FK uma PK. IV \u00e9 falsa: n\u00e3o \u00e9 obrigat\u00f3rio ter o mesmo nome.",
+      "tags": ["primary_key", "foreign_key", "conceitos", "verdadeiro_falso"]
+    },
+    {
+      "id": "SQL-MULTITAB-009",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Considere as tabelas:\n- tbunidade (id PK, unidade)\n- tbcurso (id PK, nome)\n- tbcurso_por_unidade (idunidade FK, idcurso FK, vaga)\n\nUm aluno escreveu a seguinte consulta:\n\nSELECT unidade, nome\nFROM tbunidade, tbcurso, tbcurso_por_unidade;\n\nO que acontece ao executar esta consulta?",
+      "options": [
+        "A consulta retorna corretamente as unidades com seus respectivos cursos.",
+        "A consulta retorna o produto cartesiano (todas combina\u00e7\u00f5es poss\u00edveis), gerando um resultado enorme e sem sentido.",
+        "A consulta gera erro porque falta a cl\u00e1usula WHERE.",
+        "A consulta retorna apenas os registros onde as chaves s\u00e3o iguais automaticamente."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: sem WHERE ligando PK com FK, o FROM gera o produto cartesiano. A alternativa A \u00e9 falsa: faltam as condi\u00e7\u00f5es de jun\u00e7\u00e3o. A alternativa C \u00e9 falsa: WHERE \u00e9 opcional (mas sem ele d\u00e1 produto cartesiano). A alternativa D \u00e9 falsa: o SGBD n\u00e3o adivinha as liga\u00e7\u00f5es automaticamente.",
+      "tags": ["produto_cartesiano", "where", "erro_comum"]
+    },
+    {
+      "id": "SQL-MULTITAB-010",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Qual comando lista corretamente os cursos dispon\u00edveis no munic\u00edpio de 'S\u00e3o Jos\u00e9 dos Campos', sabendo que voc\u00ea N\u00c3O sabe o id da unidade?",
+      "options": [
+        "SELECT nome FROM tbcurso WHERE unidade = 'S\u00e3o Jos\u00e9 dos Campos';",
+        "SELECT nome FROM tbunidade, tbcurso WHERE unidade LIKE '%S\u00e3o Jos\u00e9 dos Campos%';",
+        "SELECT nome FROM tbunidade, tbcurso, tbcurso_por_unidade WHERE tbunidade.id = tbcurso_por_unidade.idunidade AND tbcurso.id = tbcurso_por_unidade.idcurso AND unidade LIKE '%S\u00e3o Jos\u00e9 dos Campos%';",
+        "SELECT nome FROM tbunidade JOIN tbcurso ON tbunidade.id = tbcurso.id WHERE unidade = 'S\u00e3o Jos\u00e9 dos Campos';"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C est\u00e1 correta: faz a liga\u00e7\u00e3o correta entre as tr\u00eas tabelas e filtra pelo nome do munic\u00edpio com LIKE. A alternativa A est\u00e1 errada: tbcurso n\u00e3o tem coluna unidade. A alternativa B est\u00e1 errada: falta ligar as tabelas corretamente. A alternativa D est\u00e1 errada: JOIN com condi\u00e7\u00e3o errada (ligou id de unidade com id de curso).",
+      "tags": ["consulta", "like", "multi_tabelas", "sem_id"]
+    },
+    {
+      "id": "SQL-MULTITAB-011",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Quando duas tabelas no FROM possuem colunas com o mesmo nome (por exemplo, ambas t\u00eam uma coluna chamada 'id'), o que \u00e9 obrigat\u00f3rio fazer na consulta?",
+      "options": [
+        "Renomear uma das colunas permanentemente com ALTER TABLE.",
+        "Usar o nome da tabela antes do nome da coluna (ex: tbcurso.id).",
+        "Excluir uma das colunas duplicadas da tabela.",
+        "Usar DISTINCT para resolver a ambiguidade."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: deve-se usar o prefixo com o nome (ou alias) da tabela para desambiguar. A alternativa A \u00e9 errada: ALTER TABLE altera a estrutura, n\u00e3o \u00e9 necess\u00e1rio para consulta. A alternativa C \u00e9 errada: n\u00e3o se exclui coluna por causa de consulta. A alternativa D \u00e9 errada: DISTINCT elimina duplicatas de resultado, n\u00e3o resolve ambiguidade de colunas.",
+      "tags": ["prefixo", "ambiguidade", "mesmo_nome"]
+    },
+    {
+      "id": "SQL-MULTITAB-012",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula8_consulta_multiplas_tabelas",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Considere a consulta que lista unidades com 5 cursos no mesmo turno:\n\nSELECT unidade, tbturno.nome, COUNT(*) AS Cursos\nFROM tbunidade, tbcurso_por_unidade, tbturno\nWHERE tbunidade.id = tbcurso_por_unidade.idunidade\n  AND tbturno.id = tbcurso_por_unidade.idturno\nGROUP BY unidade, tbturno.nome\nHAVING COUNT(*) = 5;\n\nPor que o HAVING \u00e9 utilizado nesta consulta ao inv\u00e9s do WHERE?",
+      "options": [
+        "Porque WHERE n\u00e3o pode ser usado com a fun\u00e7\u00e3o COUNT(*).",
+        "Porque WHERE filtra linhas (antes do GROUP BY), enquanto HAVING filtra grupos (depois do GROUP BY).",
+        "Porque WHERE n\u00e3o funciona corretamente com m\u00faltiplas tabelas.",
+        "Porque HAVING \u00e9 semanticamente mais r\u00e1pido que WHERE."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B est\u00e1 correta: WHERE filtra linhas individuais ANTES do agrupamento; HAVING filtra grupos DEPOIS do GROUP BY. A alternativa A \u00e9 falsa: WHERE pode ser usado com COUNT(*) se n\u00e3o estiver em contexto de grupo. A alternativa C \u00e9 falsa: WHERE funciona perfeitamente com m\u00faltiplas tabelas. A alternativa D \u00e9 falsa: a diferen\u00e7a n\u00e3o \u00e9 performance, e sim o momento de aplica\u00e7\u00e3o do filtro.",
+      "tags": ["having", "where", "diferenca", "group_by"]
+    }
+  ]
+}

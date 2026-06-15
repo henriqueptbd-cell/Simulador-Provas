@@ -5,7 +5,7 @@
     "semester": 2,
     "exam": "p2",
     "exam_label": "P2",
-    "courses": ["ADS", "SI", "CC"]
+    "courses": ["DSM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "qualidade_software",
       "topic": "pmbok_swebok",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual é a diferença fundamental entre PMBOK e SWEBOK?",
       "options": [
         "PMBOK é voltado para técnicas de engenharia; SWEBOK é voltado para gestão de projetos.",
@@ -30,7 +30,7 @@
       "subject": "qualidade_software",
       "topic": "pmbok_swebok",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Os grupos de processos do PMBOK, na ordem correta, são:",
       "options": [
         "Iniciação, Execução, Planejamento, Monitoramento, Encerramento.",
@@ -47,7 +47,7 @@
       "subject": "qualidade_software",
       "topic": "pmbok_swebok",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "O PMI (Project Management Institute) é reconhecido por oferecer qual certificação de referência mundial em gerenciamento de projetos?",
       "options": [
         "CCNA.",
@@ -64,7 +64,7 @@
       "subject": "qualidade_software",
       "topic": "pmbok_swebok",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Em um projeto de sistema de delivery, o gerente define prazos, controla custos e organiza a equipe. O desenvolvedor levanta requisitos, modela o sistema e realiza testes. Qual guia orienta cada papel, respectivamente?",
       "options": [
         "SWEBOK orienta o gerente; PMBOK orienta o desenvolvedor.",
