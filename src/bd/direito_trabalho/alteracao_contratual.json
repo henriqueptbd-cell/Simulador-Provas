@@ -1,0 +1,182 @@
+{
+  "_meta": {
+    "discipline": "direito_do_trabalho",
+    "discipline_label": "Direito do Trabalho",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADS", "SI", "CC", "ADM"]
+  },
+  "questions": [
+    {
+      "id": "ALT-CLI-001",
+      "subject": "direito_trabalho",
+      "topic": "alteracao_contratual",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 468 da CLT, sobre a alteração das condições do contrato individual de trabalho, assinale a alternativa correta.",
+      "options": [
+        "O empregador pode alterar unilateralmente o contrato sempre que entender necessário, independentemente da concordância do empregado.",
+        "A alteração contratual é lícita apenas por mútuo consentimento e desde que não resulte, direta ou indiretamente, prejuízos ao empregado.",
+        "A alteração unilateral é permitida desde que o empregado receba um adicional de 25% sobre o salário.",
+        "Qualquer alteração contratual, mesmo com prejuízo ao empregado, é válida se houver concordância expressa do sindicato."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: conforme art. 468 da CLT, a alteração das condições contratuais só é lícita por mútuo consentimento e desde que não resulte prejuízos ao empregado, sob pena de nulidade. A está errada: alteração unilateral é vedada. C está errada: adicional de 25% é para transferência, não para qualquer alteração. D está errada: mesmo com concordância sindical, o prejuízo ao empregado torna a alteração nula.",
+      "tags": ["artigo_468", "mutuo_consentimento", "alteracao_contratual"]
+    },
+    {
+      "id": "ALT-TRA-002",
+      "subject": "direito_trabalho",
+      "topic": "transferencia_do_empregado",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Sobre a transferência do empregado prevista no artigo 469 da CLT, analise as afirmações e marque a alternativa correta.\n\nI. É vedado ao empregador transferir o empregado, sem sua anuência, para localidade diversa da que resultar do contrato.\nII. Não se considera transferência a mudança que não acarretar necessariamente a mudança do domicílio do empregado.\nIII. Em caso de necessidade de serviço, o empregador pode transferir o empregado, mas deve pagar adicional nunca inferior a 25% do salário enquanto durar a situação.\nIV. A transferência por extinção do estabelecimento é vedada, mesmo com anuência do empregado.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "Apenas II, III e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: art. 469 caput veda transferência sem anuência. II está correta: §1º do art. 469 não considera transferência a que não mudar domicílio. III está correta: §3º do art. 469 permite transferência por necessidade de serviço com adicional mínimo de 25%. IV está errada: art. 469 §2º afirma que, extinto o estabelecimento, é lícita a transferência. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["transferencia", "artigo_469", "adicional_25_porcento", "anuencia"]
+    },
+    {
+      "id": "ALT-INT-003",
+      "subject": "direito_trabalho",
+      "topic": "interrupcao_do_contrato",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "O artigo 473 da CLT elenca hipóteses de interrupção do contrato de trabalho, nas quais o empregado pode deixar de comparecer ao serviço sem prejuízo do salário. Assinale a alternativa que apresenta uma dessas hipóteses com o respectivo prazo CORRETO.",
+      "options": [
+        "Falecimento do cônjuge — 3 dias consecutivos.",
+        "Casamento — 2 dias consecutivos.",
+        "Nascimento de filho — 5 dias consecutivos (ou 20 dias pela empresa cidadã).",
+        "Doação voluntária de sangue — 2 dias a cada 6 meses."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: art. 473, III — 5 dias consecutivos para nascimento de filho, adoção ou guarda compartilhada, com possibilidade de 20 dias para a empresa cidadã. A está errada: falecimento do cônjuge é 2 dias consecutivos (inciso I). B está errada: casamento é 3 dias consecutivos (inciso II). D está errada: doação de sangue é 1 dia a cada 12 meses (inciso IV).",
+      "tags": ["interrupcao", "artigo_473", "nascimento_filho", "licenca_paternidade"]
+    },
+    {
+      "id": "ALT-INT-004",
+      "subject": "direito_trabalho",
+      "topic": "interrupcao_do_contrato",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "São hipóteses de interrupção do contrato de trabalho (art. 473 da CLT) as seguintes, EXCETO:",
+      "options": [
+        "Alistamento eleitoral — até 2 dias consecutivos ou não.",
+        "Realização de provas de exame vestibular para ingresso em ensino superior.",
+        "Acompanhamento de filho de até 6 anos em consulta médica — 1 dia por ano.",
+        "Licença médica por doença comum superior a 15 dias."
+      ],
+      "correctIndex": 3,
+      "explanation": "Alternativa D é a exceção, pois licença médica por doença comum superior a 15 dias caracteriza suspensão do contrato, não interrupção. As demais são hipóteses do art. 473: alistamento eleitoral (inciso V), provas de vestibular (inciso VII) e acompanhamento de filho em consulta médica (inciso XI).",
+      "tags": ["interrupcao", "artigo_473", "doenca", "suspensao"]
+    },
+    {
+      "id": "ALT-SUS-005",
+      "subject": "direito_trabalho",
+      "topic": "suspensao_do_contrato",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "No caso de auxílio-doença, a suspensão do contrato de trabalho ocorre a partir de qual momento?",
+      "options": [
+        "A partir do primeiro dia de afastamento.",
+        "A partir do 15º dia de afastamento, sendo os primeiros 15 dias pagos pelo empregador.",
+        "A partir do 16º dia de afastamento, sendo os primeiros 15 dias de responsabilidade do empregador.",
+        "A suspensão só ocorre após 30 dias de afastamento, com rescisão automática."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: nos casos de auxílio-doença, os primeiros 15 dias são pagos pelo empregador (não há suspensão); a partir do 16º dia, o contrato fica suspenso, com o empregado recebendo o benefício previdenciário. A e B estão erradas quanto ao marco. D está errada: não há rescisão automática aos 30 dias.",
+      "tags": ["auxilio_doenca", "suspensao", "15_dias", "previdencia"]
+    },
+    {
+      "id": "ALT-LAY-006",
+      "subject": "direito_trabalho",
+      "topic": "suspensao_lay_off",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "O artigo 476-A da CLT trata da suspensão do contrato de trabalho para participação do empregado em curso ou programa de qualificação profissional (lay-off). Analise as afirmações e marque a alternativa correta.\n\nI. A suspensão pode durar de 2 a 5 meses, mediante previsão em convenção ou acordo coletivo e aquiescência formal do empregado.\nII. Durante a suspensão, o empregador pode conceder ajuda compensatória mensal, sem natureza salarial.\nIII. Se o empregador descumprir e não ministrar o curso, fica descaracterizada a suspensão, devendo pagar salários e encargos do período.\nIV. Se o empregado for dispensado nos 3 meses subsequentes ao retorno, o empregador paga multa de, no mínimo, 50% sobre a última remuneração.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: art. 476-A caput — suspensão de 2 a 5 meses com previsão em acordo/convenção e aquiescência do empregado. II está correta: §3º do art. 476-A — ajuda compensatória mensal sem natureza salarial. III está correta: §6º — se não ministrar o curso ou empregado trabalhar, suspensão descaracterizada com pagamento de salários. IV está errada: a multa é de no mínimo 100% (cem por cento) sobre a última remuneração, conforme §5º, não 50%. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["lay_off", "artigo_476_a", "suspensao_qualificacao", "multa_100_porcento"]
+    },
+    {
+      "id": "ALT-SUS-007",
+      "subject": "direito_trabalho",
+      "topic": "suspensao_aposentadoria",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 475 da CLT, sobre a aposentadoria por invalidez, assinale a alternativa correta.",
+      "options": [
+        "O contrato de trabalho é extinto automaticamente com a aposentadoria por invalidez.",
+        "O contrato fica suspenso durante o prazo fixado pela previdência para efetivação do benefício; recuperada a capacidade, o empregado tem direito à função que ocupava.",
+        "O empregador é obrigado a readmitir o empregado aposentado por invalidez em qualquer hipótese, sem possibilidade de indenização.",
+        "A aposentadoria por invalidez não interfere no contrato de trabalho, que continua em vigor normalmente."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 475 da CLT — suspensão do contrato durante o prazo do benefício; recuperada a capacidade e cancelada a aposentadoria, assegura-se o direito à função. A está errada: não extingue, suspende. C está errada: o empregador pode indenizar o empregado nos termos dos arts. 477 e 478. D está errada: há suspensão, não continua normalmente.",
+      "tags": ["aposentadoria_invalidez", "artigo_475", "suspensao_contrato"]
+    },
+    {
+      "id": "ALT-REV-008",
+      "subject": "direito_trabalho",
+      "topic": "reversao_de_cargos",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Sobre a reversão de cargos (alteração das funções do empregado), o conteúdo estudado afirma que:",
+      "options": [
+        "A reversão é sempre possível, independentemente do cargo, desde que o empregado concorde.",
+        "Em cargos de confiança (gestão), é possível a reversão, mas em cargos em geral não é permitida.",
+        "A reversão é vedada em qualquer situação, pois caracteriza alteração unilateral prejudicial.",
+        "O empregador pode reverter o empregado de um cargo de confiança a qualquer momento, sem necessidade de anuência."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: reversão de cargos em geral não é possível. Por outro lado, em cargos de confiança (cargos de gestão) sim. A está errada: em cargos comuns não é possível. C está errada: há exceção para cargo de confiança. D está errada: embora possível, a reversão precisa respeitar condições.",
+      "tags": ["reversao", "cargo_confianca", "alteracao_contratual"]
+    },
+    {
+      "id": "ALT-DIF-009",
+      "subject": "direito_trabalho",
+      "topic": "diferenca_interrupcao_suspensao",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "A principal diferença entre interrupção e suspensão do contrato de trabalho é que:",
+      "options": [
+        "Na interrupção, o empregado não recebe salário; na suspensão, recebe normalmente.",
+        "Na interrupção, o empregado continua recebendo salário (ou mantém direitos), e o tempo conta para todos os efeitos; na suspensão, o contrato fica paralisado, sem salário e sem contagem do tempo para certos fins.",
+        "Tanto na interrupção quanto na suspensão o empregado perde o salário, mas na suspensão perde também o vínculo.",
+        "A interrupção ocorre apenas por vontade do empregador, enquanto a suspensão ocorre por vontade do empregado."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: na interrupção (ex.: art. 473 — licença casamento, luto), o empregado não trabalha mas recebe salário e o tempo conta para férias, FGTS etc. Na suspensão (ex.: auxílio-doença após 15 dias, lay-off), o contrato fica paralisado, sem salário (exceto benefício previdenciário ou ajuda compensatória) e o tempo não conta para alguns direitos. A está errada: na interrupção há salário. C está errada: não perde vínculo. D está errada: ambas podem decorrer de lei ou acordo.",
+      "tags": ["interrupcao", "suspensao", "diferenca", "salario"]
+    },
+    {
+      "id": "ALT-MUL-010",
+      "subject": "direito_trabalho",
+      "topic": "multa_dispensa_lay_off",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "De acordo com o art. 476-A, §5º da CLT, se ocorrer a dispensa do empregado no transcurso do período de suspensão contratual para qualificação profissional ou nos três meses subsequentes ao retorno, o empregador pagará:",
+      "options": [
+        "Apenas as parcelas rescisórias normais, sem multa adicional.",
+        "Multa de 50% sobre o valor da última remuneração mensal anterior à suspensão.",
+        "Multa de, no mínimo, 100% sobre o valor da última remuneração mensal anterior à suspensão, além das parcelas indenizatórias.",
+        "Multa correspondente a 5 salários mínimos, a ser recolhida ao sindicato."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: conforme o §5º do art. 476-A, o empregador pagará ao empregado, além das parcelas indenizatórias, multa a ser estabelecida em convenção ou acordo coletivo, sendo de, no mínimo, 100% sobre o valor da última remuneração mensal anterior à suspensão. A está errada: há multa adicional. B está errada: o mínimo é 100%, não 50%. D está errada: não há previsão de salários mínimos fixos.",
+      "tags": ["lay_off", "multa_100_porcento", "dispensa_3_meses", "artigo_476_a"]
+    }
+  ]
+}

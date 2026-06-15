@@ -1,0 +1,182 @@
+{
+  "_meta": {
+    "discipline": "direito_do_trabalho",
+    "discipline_label": "Direito do Trabalho",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADS", "SI", "CC", "ADM"]
+  },
+  "questions": [
+    {
+      "id": "DT-MOD-001",
+      "subject": "direito_trabalho",
+      "topic": "estagio_profissional",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Sobre o Estágio Profissional regulamentado pela Lei nº 11.788/2008, analise as afirmações e marque a alternativa CORRETA:\n\nI. O estágio pode ser remunerado ou não remunerado, sendo aceitos estudantes de nível superior, educação profissional, ensino médio e educação especial.\nII. A duração máxima do contrato de estágio é de 3 anos, com jornada diária de até 8 horas.\nIII. O estagiário remunerado recebe bolsa-auxílio e tem direito a descanso a cada 12 meses, equiparado a férias.\nIV. Em caso de rescisão do contrato pelo empregador, o estagiário não tem direito a nenhuma verba rescisória.",
+      "options": [
+        "Apenas I e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I, II e III estão corretas.",
+        "Apenas II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: o estágio pode ser remunerado ou não, e abrange estudantes de nível superior, educação profissional, ensino médio e educação especial (Lei 11.788/2008). II está errada: o tempo máximo do contrato é de 2 anos (não 3) e a jornada diária máxima é de 6 horas. III está correta: o estagiário remunerado tem direito a bolsa-auxílio e a descanso a cada 12 meses, equiparado a férias. IV está errada: na rescisão por parte do empregador, o estagiário tem direito a receber a bolsa-auxílio proporcional aos dias trabalhados.",
+      "tags": ["estagio", "lei_11788", "direitos_trabalhistas"]
+    },
+    {
+      "id": "DT-MOD-002",
+      "subject": "direito_trabalho",
+      "topic": "jovem_aprendiz",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "A respeito do contrato de trabalho do Jovem Aprendiz (Lei nº 10.097/2000), assinale a alternativa correta.",
+      "options": [
+        "O aprendiz deve ter idade entre 16 e 24 anos, e o empregador recolhe FGTS à alíquota de 8% sobre a remuneração.",
+        "O jovem aprendiz não tem direito a FGTS, mas tem direito a saque do fundo em caso de rescisão sem justa causa.",
+        "O contrato de aprendizagem pode ser firmado com adolescentes a partir de 14 anos, com depósito de FGTS de 2% e direito ao saque do FGTS na rescisão sem justa causa.",
+        "A Lei do Aprendiz determina que todas as empresas, inclusive microempresas, devem ter de 5% a 15% de aprendizes entre seus funcionários."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: a Lei nº 10.097/2000 permite aprendizes a partir de 14 anos (até 24 anos), o FGTS é depositado a 2% da remuneração e, na rescisão sem justa causa, o aprendiz tem direito ao saque do FGTS. A está errada: o FGTS do aprendiz é 2%, não 8%. B está errada: o aprendiz tem direito a FGTS (2%). D está errada: a cota de 5% a 15% aplica-se a empresas de médio e grande porte, não a microempresas.",
+      "tags": ["jovem_aprendiz", "lei_10097", "fgts"]
+    },
+    {
+      "id": "DT-MOD-003",
+      "subject": "direito_trabalho",
+      "topic": "trabalhador_eventual_avulso",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Distinga o Trabalhador Eventual do Trabalhador Avulso e marque a alternativa que apresenta a diferença fundamental entre as duas modalidades.",
+      "options": [
+        "O trabalhador eventual tem vínculo empregatício, enquanto o avulso não tem.",
+        "O trabalhador avulso tem sua força de trabalho intermediada obrigatoriamente por sindicato, enquanto o eventual atua por conta própria sem intermediação sindical.",
+        "O trabalhador eventual tem direito a FGTS e 13º salário, já o avulso não possui esses direitos.",
+        "O trabalhador avulso presta serviços exclusivamente na zona rural, enquanto o eventual atua em áreas urbanas."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: a principal diferença é que o trabalhador avulso é intermediado por sindicato (obrigatório), enquanto o eventual atua sem intermediação sindical. A está errada: nenhum dos dois tem vínculo empregatício. C está errada: ambos podem ter direitos como FGTS e 13º, mas por mecanismos diferentes (o avulso recebe via sindicato, conforme Lei 12.023/2009). D está errada: avulso pode atuar em áreas urbanas ou rurais.",
+      "tags": ["trabalhador_eventual", "trabalhador_avulso", "sindicato"]
+    },
+    {
+      "id": "DT-MOD-004",
+      "subject": "direito_trabalho",
+      "topic": "trabalhador_domestico",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Com base na Lei Complementar nº 150/2015, que regulamenta o trabalho doméstico, assinale a alternativa INCORRETA.",
+      "options": [
+        "O empregado doméstico presta serviços de forma contínua, subordinada, onerosa e pessoal à pessoa ou família, no âmbito residencial, por mais de 2 dias por semana.",
+        "O contrato de trabalho doméstico pode ser escrito ou verbal, mas o empregador deve registrar na CTPS.",
+        "O trabalhador doméstico tem direito a férias, 13º salário, FGTS, seguro-desemprego, INSS e vale-transporte.",
+        "O trabalho doméstico exercido até 2 vezes por semana gera todos os direitos da CLT, incluindo FGTS e multa rescisória."
+      ],
+      "correctIndex": 3,
+      "explanation": "Alternativa D é a incorreta, pois a lei estabelece que o trabalho doméstico por mais de 2 dias por semana gera vínculo empregatício com direitos. Até 2 dias por semana (diarista), não se caracteriza o emprego doméstico com todos os direitos. A, B e C estão corretas de acordo com a LC 150/2015.",
+      "tags": ["trabalhador_domestico", "lc_150", "direitos_trabalhistas"]
+    },
+    {
+      "id": "DT-MOD-005",
+      "subject": "direito_trabalho",
+      "topic": "servidor_publico",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Sobre o vínculo do Servidor Público (regime estatutário), analise as afirmações e marque a alternativa CORRETA:\n\nI. O servidor público adquire estabilidade no emprego após 3 anos de estágio probatório.\nII. A extinção do contrato do servidor público estável só pode ocorrer por exoneração, que depende de processo administrativo disciplinar, avaliação de desempenho insuficiente ou decisão judicial transitada em julgado.\nIII. O servidor público não tem direito a férias anuais remuneradas, pois seu regime é diferenciado da CLT.\nIV. A aposentadoria do servidor é feita pelo Regime Geral da Previdência Social (RGPS), igual ao trabalhador da iniciativa privada.",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas III e IV estão corretas.",
+        "Apenas I, II e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: o servidor público tem estabilidade após 3 anos de estágio probatório. II está correta: a exoneração (extinção do vínculo) se dá por PAD, avaliação insuficiente ou decisão judicial transitada em julgado. III está errada: o servidor tem direito a férias anuais remuneradas. IV está errada: o servidor tem regime próprio de previdência (RPPS), não o RGPS. Portanto, apenas I e II estão corretas.",
+      "tags": ["servidor_publico", "regime_estatutario", "estabilidade", "exoneracao"]
+    },
+    {
+      "id": "DT-MOD-006",
+      "subject": "direito_trabalho",
+      "topic": "trabalhador_cooperado",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Sobre o trabalhador cooperado, analise as afirmações e marque a alternativa CORRETA:\n\nI. O cooperado é sócio da cooperativa por meio de termo de adesão, participando dos resultados.\nII. A cooperativa intermedeia a mão de obra de seus membros para empresas tomadoras.\nIII. O cooperado possui vínculo empregatício com a empresa onde presta serviço, pois há subordinação direta.\nIV. O cooperado tem todos os direitos da CLT garantidos pela cooperativa, como FGTS e 13º salário.",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas III e IV estão corretas.",
+        "Apenas I, II e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: o cooperado assina termo de adesão e torna-se dono da cooperativa, participando dos resultados. II está correta: a cooperativa oferece os serviços de seus membros a terceiros. III está errada: o cooperado não tem vínculo empregatício com a empresa tomadora. IV está errada: o cooperado não tem direitos da CLT na relação com a tomadora, pois o vínculo é societário com a cooperativa.",
+      "tags": ["cooperado", "cooperativa", "falta_vinculo_empregaticio"]
+    },
+    {
+      "id": "DT-MOD-007",
+      "subject": "direito_trabalho",
+      "topic": "trabalhador_voluntario",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Leia as afirmativas sobre o trabalho voluntário e assinale a alternativa que apresenta uma característica INCORRETA dessa modalidade.",
+      "options": [
+        "O trabalho voluntário é realizado de forma espontânea, sem remuneração, em instituições públicas ou privadas sem fins lucrativos.",
+        "O voluntário pode atuar em atividades cívicas, educacionais, sociais, culturais ou científicas.",
+        "O trabalho voluntário gera vínculo empregatício se prestado por mais de 90 dias consecutivos.",
+        "Não há subordinação típica de emprego entre o voluntário e a instituição."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C é a incorreta: o trabalho voluntário, por definição, não gera vínculo empregatício, independentemente do tempo de prestação. A, B e D estão corretas e alinhadas com a definição de trabalho voluntário.",
+      "tags": ["trabalho_voluntario", "nao_remunerado", "sem_vinculo"]
+    },
+    {
+      "id": "DT-MOD-008",
+      "subject": "direito_trabalho",
+      "topic": "trabalhador_temporario",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "A Lei nº 6.019/1974, alterada pela Reforma Trabalhista (Lei 13.467/2017), regula o trabalho temporário. Sobre essa modalidade, assinale a alternativa correta.",
+      "options": [
+        "O trabalho temporário é vedado pela CLT e só pode ocorrer em situações de calamidade pública.",
+        "O trabalhador temporário tem vínculo direto com a empresa tomadora, que deve recolher todos os encargos trabalhistas.",
+        "O contrato de trabalho temporário pode ser utilizado para substituição de funcionário permanente em licença-maternidade ou para demanda complementar de serviços.",
+        "O temporário não tem direito a FGTS nem a férias proporcionais."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: o trabalho temporário é permitido para atender necessidade transitória de substituição de pessoal regular ou acréscimo extraordinário de serviços (art. 2º da Lei 6.019/1974). A está errada: não é vedado. B está errada: o vínculo é com a empresa de trabalho temporário, não com a tomadora. D está errada: o temporário tem direitos como FGTS e férias proporcionais.",
+      "tags": ["trabalho_temporario", "lei_6019", "reforma_trabalhista"]
+    },
+    {
+      "id": "DT-MOD-009",
+      "subject": "direito_trabalho",
+      "topic": "trabalhador_rural",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "De acordo com a Lei nº 5.889/1973, que rege o trabalho rural, marque a alternativa correta.",
+      "options": [
+        "O trabalhador rural não tem direito a FGTS, pois é regido por lei específica anterior à CLT.",
+        "O trabalhador rural tem os mesmos direitos previstos na CLT, como férias, 13º salário e FGTS.",
+        "O trabalho rural só se aplica a atividades agrícolas, excluindo pecuária e agroindústria.",
+        "O vínculo de emprego rural é sempre temporário, com duração máxima de 6 meses."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o trabalhador rural possui os mesmos direitos previstos na CLT, como férias, 13º salário, FGTS e outros. A está errada: tem direito a FGTS sim. C está errada: aplica-se também à pecuária, agroindustrial e similares. D está errada: o contrato pode ser por prazo indeterminado, não necessariamente temporário.",
+      "tags": ["trabalhador_rural", "lei_5889", "direitos_clt"]
+    },
+    {
+      "id": "DT-MOD-010",
+      "subject": "direito_trabalho",
+      "topic": "trabalho_intermitente",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "O trabalho intermitente foi introduzido pela Reforma Trabalhista (Lei 13.467/2017). Sobre essa modalidade, analise as afirmações e marque a alternativa correta.\n\nI. No contrato de trabalho intermitente, a prestação de serviços não é contínua, alternando períodos de inatividade com convocação do empregado.\nII. O empregado intermitente tem direito a férias proporcionais, 13º salário proporcional, repouso semanal remunerado e FGTS.\nIII. A convocação do empregado intermitente deve ser feita com antecedência mínima de 3 dias corridos, e o empregado tem o prazo de 1 dia útil para responder.\nIV. Durante o período de inatividade, o empregado intermitente recebe salário normalmente, como se estivesse à disposição.",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 1,
+      "explanation": "I está correta: o trabalho intermitente é caracterizado pela alternância de períodos de atividade e inatividade. II está correta: o intermitente tem direito a férias proporcionais, 13º proporcional, repouso semanal e FGTS (art. 452-A da CLT). III está correta: a convocação exige antecedência de 3 dias corridos e resposta em 1 dia útil (art. 452-A, §3º, CLT). IV está errada: durante a inatividade, o empregado não recebe salário; só recebe pelos períodos trabalhados. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["trabalho_intermitente", "reforma_trabalhista_2017", "lei_13467"]
+    }
+  ]
+}

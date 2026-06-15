@@ -1,0 +1,182 @@
+{
+  "_meta": {
+    "discipline": "direito_do_trabalho",
+    "discipline_label": "Direito do Trabalho",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADS", "SI", "CC", "ADM"]
+  },
+  "questions": [
+    {
+      "id": "JOR-CON-001",
+      "subject": "direito_trabalho",
+      "topic": "conceitos_iniciais",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Sobre os conceitos de jornada de trabalho e duração do trabalho, assinale a alternativa correta.",
+      "options": [
+        "Jornada de trabalho e duração do trabalho são expressões sinônimas, ambas se referem ao tempo semanal de trabalho incluindo o repouso.",
+        "Jornada de trabalho significa o tempo em horas trabalhadas por dia (incluindo tempo à disposição), enquanto duração do trabalho se refere ao tempo semanal, incluindo repouso semanal e férias.",
+        "Duração do trabalho é o tempo diário efetivamente trabalhado, e jornada é o tempo semanal de trabalho.",
+        "Jornada de trabalho é o tempo de trabalho mais o intervalo intrajornada; duração é o tempo de trabalho sem os intervalos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: jornada de trabalho significa o tempo em horas que trabalhamos em um dia (tempo efetivamente trabalhado + tempo à disposição). Duração do trabalho significa o tempo de duração em uma semana, incluindo repouso semanal remunerado e férias. A, C e D invertem ou confundem os conceitos.",
+      "tags": ["jornada", "duracao_trabalho", "conceitos"]
+    },
+    {
+      "id": "JOR-LIM-002",
+      "subject": "direito_trabalho",
+      "topic": "limites_constitucionais",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 7º, inciso XIII da Constituição Federal e o artigo 58 da CLT, os limites normais da duração do trabalho são:",
+      "options": [
+        "8 horas diárias e 40 horas semanais, sem possibilidade de compensação.",
+        "8 horas diárias e 44 horas semanais, facultada a compensação de horários mediante acordo ou convenção coletiva.",
+        "10 horas diárias e 50 horas semanais, com adicional obrigatório de 100%.",
+        "6 horas diárias e 36 horas semanais, salvo negociação individual."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 7º, XIII da CF/88 estabelece duração do trabalho normal não superior a 8 horas diárias e 44 semanais, facultada a compensação de horários e a redução da jornada mediante acordo ou convenção coletiva. Art. 58 CLT também fixa 8 horas diárias. A está errada: são 44 semanais, e é permitida compensação. C e D estão erradas quanto aos limites.",
+      "tags": ["limite_jornada", "artigo_58", "constituicao_artigo_7"]
+    },
+    {
+      "id": "JOR-MIN-003",
+      "subject": "direito_trabalho",
+      "topic": "tolerancia_minutos",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "O §1º do artigo 58 da CLT e a Súmula nº 366 do TST tratam das variações de horário no registro de ponto. Assinale a alternativa correta.",
+      "options": [
+        "As variações de até 5 minutos diários não são descontadas nem computadas como hora extra, desde que o total diário não ultrapasse 10 minutos.",
+        "Qualquer atraso, mesmo de 1 minuto, deve ser descontado ou pago como hora extra.",
+        "O limite de tolerância é de 15 minutos diários, independentemente de compensação.",
+        "A tolerância só se aplica para saídas antecipadas, não para atrasos na entrada."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternativa A está correta: conforme art. 58 §1º e Súmula 366, não serão descontadas nem computadas como jornada extraordinária as variações de horário não excedentes de 5 minutos, observado o limite máximo de 10 minutos diários. Se ultrapassado esse limite, considera-se extra a totalidade do tempo que exceder a jornada normal. B, C e D estão erradas.",
+      "tags": ["tolerancia_minutos", "cartao_ponto", "sumula_366"]
+    },
+    {
+      "id": "JOR-DES-004",
+      "subject": "direito_trabalho",
+      "topic": "tempo_deslocamento",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "De acordo com o §2º do artigo 58 da CLT, o tempo despendido pelo empregado desde a sua residência até o posto de trabalho e para o retorno:",
+      "options": [
+        "Deve ser computado como jornada de trabalho se o transporte for fornecido pelo empregador.",
+        "Não será computado na jornada de trabalho, por não ser tempo à disposição do empregador.",
+        "Será computado como hora extra se ultrapassar 1 hora por dia.",
+        "Conta como tempo à disposição apenas quando o empregador exigir que o empregado vá de transporte coletivo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 58 §2º CLT — o tempo de deslocamento residência-trabalho, caminhando ou por qualquer meio de transporte, inclusive o fornecido pelo empregador, não será computado na jornada de trabalho por não ser tempo à disposição. A, C e D estão incorretas.",
+      "tags": ["deslocamento", "artigo_58_2", "tempo_a_disposicao"]
+    },
+    {
+      "id": "JOR-EXT-005",
+      "subject": "direito_trabalho",
+      "topic": "horas_extras",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Sobre as horas extras, de acordo com o artigo 59 da CLT e o artigo 7º, inciso XVI da Constituição Federal, é correto afirmar:",
+      "options": [
+        "A duração diária pode ser acrescida de até 4 horas extras, com adicional mínimo de 100%.",
+        "A duração diária pode ser acrescida de até 2 horas extras, mediante acordo individual, convenção ou acordo coletivo, com adicional mínimo de 50% sobre a hora normal.",
+        "Horas extras são permitidas apenas em caso de força maior, sem limite diário.",
+        "O adicional de hora extra é de 20% para trabalho noturno e 50% para diurno."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 59 CLT permite acréscimo de até 2 horas extras, por acordo individual, convenção ou acordo coletivo, e o adicional mínimo é de 50% (art. 7º, XVI CF). A está errada: limite 2 horas, adicional 50%. C errada: não é só força maior. D errada: o adicional mínimo da hora extra é 50% em qualquer horário (no noturno, adicional de 20% se acumula).",
+      "tags": ["horas_extras", "artigo_59", "adicional_50_porcento"]
+    },
+    {
+      "id": "JOR-BAN-006",
+      "subject": "direito_trabalho",
+      "topic": "banco_de_horas",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Analise as afirmações sobre o banco de horas (compensação de jornada) previsto no artigo 59 da CLT e marque a alternativa CORRETA:\n\nI. O período máximo para compensação das horas é de 1 ano, e a formalidade pode ser acordo coletivo, convenção coletiva ou acordo individual escrito (para compensação no mesmo mês).\nII. A compensação pode ser feita mesmo sem acordo, desde que respeitado o limite de 44 horas semanais.\nIII. O banco de horas exige o pagamento de horas extras sobre as horas excedentes se não houver compensação dentro do prazo.\nIV. A prestação de horas extras habituais descaracteriza o acordo de banco de horas, segundo o art. 59-B.",
+      "options": [
+        "Apenas I e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I, II e III estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: banco de horas com acordo coletivo/convenção tem prazo de 1 ano; acordo individual escrito tem prazo de 6 meses. III está correta: se não compensar no prazo, as horas devem ser pagas como extras. II está errada: compensação exige acordo (individual escrito ou coletivo), não pode ser sem formalidade (art. 59 caput e §2º). IV está errada: art. 59-B afirma exatamente o contrário: 'A prestação de horas extras habituais não descaracteriza o acordo de compensação de jornada e o banco de horas.' Portanto, apenas I e III corretas.",
+      "tags": ["banco_de_horas", "compensacao", "artigo_59", "acordo_coletivo"]
+    },
+    {
+      "id": "JOR-INT-007",
+      "subject": "direito_trabalho",
+      "topic": "intervalos",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 71 da CLT e o conteúdo sobre intervalos, assinale a alternativa correta.",
+      "options": [
+        "Para jornada superior a 6 horas, o intervalo intrajornada é obrigatório de, no mínimo, 1 hora e, no máximo, 2 horas, não sendo computado na jornada.",
+        "Intervalo intrajornada é obrigatório apenas para jornadas superiores a 8 horas.",
+        "O intervalo interjornada mínimo é de 8 horas entre o término de uma jornada e o início da seguinte.",
+        "A redução do intervalo intrajornada para menos de 1 hora pode ser feita por acordo individual escrito, independentemente de autorização do Ministério do Trabalho."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternativa A está correta: art. 71 CLT — para trabalho contínuo superior a 6 horas, intervalo mínimo de 1 hora e máximo de 2 horas (salvo disposição em contrário em convenção ou acordo), e o intervalo não é computado na duração do trabalho. B está errada: é a partir de 6 horas. C errada: intervalo interjornada é de 11 horas (art. 66 CLT). D errada: a redução do intervalo depende de ato do Ministério do Trabalho, não apenas acordo individual (art. 71 §3º).",
+      "tags": ["intervalo_intrajornada", "artigo_71", "intervalo_interjornada"]
+    },
+    {
+      "id": "JOR-RSR-008",
+      "subject": "direito_trabalho",
+      "topic": "repouso_semanal_remunerado",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Sobre o Repouso Semanal Remunerado (RSR), de acordo com a CLT e a Lei 605/49, marque a alternativa INCORRETA.",
+      "options": [
+        "Todo empregado tem direito a no mínimo 24 horas contínuas de descanso remunerado por semana, preferencialmente no domingo.",
+        "O repouso semanal é devido inclusive para trabalhadores avulsos, domésticos e servidores públicos.",
+        "A remuneração do RSR para quem trabalha por mês corresponde a um dia de serviço, incluindo as horas extraordinárias habitualmente prestadas.",
+        "O empregado só tem direito ao repouso semanal se trabalhar todos os 6 dias da semana sem faltas."
+      ],
+      "correctIndex": 3,
+      "explanation": "Alternativa D é a incorreta: o repouso semanal remunerado é um direito garantido independentemente de faltas, embora faltas não justificadas possam afetar a remuneração do RSR. A afirmação 'só tem direito se trabalhar todos os 6 dias sem faltas' é errada. A, B e C estão corretas conforme a legislação.",
+      "tags": ["repouso_semanal", "rsr", "lei_605_49"]
+    },
+    {
+      "id": "JOR-NOT-009",
+      "subject": "direito_trabalho",
+      "topic": "trabalho_noturno",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Sobre o trabalho noturno urbano, de acordo com o artigo 73 da CLT, analise as afirmações e marque a alternativa correta.\n\nI. A hora noturna do trabalhador urbano é computada como 52 minutos e 30 segundos.\nII. O adicional noturno para o trabalhador urbano é de, no mínimo, 20% sobre a hora diurna.\nIII. O trabalho noturno urbano é aquele realizado entre 22h de um dia e 5h do dia seguinte.\nIV. O adicional noturno não incide sobre as horas extras realizadas no período noturno.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e III estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: art. 73 §1º — hora noturna urbana de 52min30s. II está correta: art. 73 caput — adicional mínimo de 20%. III está correta: art. 73 caput — período das 22h às 5h. IV está errada: o adicional noturno incide também sobre as horas extras realizadas no período noturno (haverá adicional de extra + adicional noturno, cumulativos). Portanto, apenas I, II e III estão corretas.",
+      "tags": ["trabalho_noturno", "adicional_noturno", "hora_reduzida", "artigo_73"]
+    },
+    {
+      "id": "JOR-PON-010",
+      "subject": "direito_trabalho",
+      "topic": "folha_de_ponto",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 74 da CLT, sobre a obrigatoriedade do registro de ponto, é correto afirmar:",
+      "options": [
+        "Todas as empresas, independentemente do número de empregados, são obrigadas a manter folha de ponto.",
+        "A folha de ponto é obrigatória apenas para estabelecimentos com mais de 20 trabalhadores, e a dispensa por norma coletiva é inválida.",
+        "O cartão de ponto britânico (horários sempre redondos) é plenamente aceito pela Justiça do Trabalho como prova fiel.",
+        "A pré-assinalação do período de repouso é vedada pela CLT."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 74 §2º CLT — para estabelecimentos com mais de 20 trabalhadores é obrigatória a anotação da hora de entrada e saída. Ainda, norma coletiva que torne dispensável a folha ponto é inválida. A está errada: não é para todos. C está errada: o chamado cartão de ponto britânico (horários sempre em minutos redondos) é invalidado pela Justiça do Trabalho. D está errada: a pré-assinalação do período de repouso é permitida (art. 74 §2º).",
+      "tags": ["folha_ponto", "artigo_74", "obrigatoriedade", "cartao_ponto_britanico"]
+    }
+  ]
+}
