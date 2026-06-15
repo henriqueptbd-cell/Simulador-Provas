@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "discipline": "design_digital",
+    "discipline_label": "Design Digital",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "DD-A08-001",
+      "subject": "design_digital",
+      "topic": "planejamento_visual_layout",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "No design de layouts, o princípio de 'proximidade' estabelece que:",
+      "options": [
+        "Elementos não relacionados devem ficar próximos para criar contraste.",
+        "Itens relacionados entre si devem ser agrupados para organizar informações e facilitar a leitura.",
+        "Todos os elementos devem ter a mesma distância entre si, independentemente de relação.",
+        "Elementos devem ser distribuídos aleatoriamente pela página para gerar criatividade."
+      ],
+      "correctIndex": 1,
+      "explanation": "Proximidade = agrupar itens relacionados para organizar e facilitar leitura. A está errada: não relacionados devem ficar separados. C está errada: distâncias podem variar conforme relação. D está errada: aleatoriedade prejudica organização.",
+      "tags": ["proximidade", "layout", "composicao"]
+    },
+    {
+      "id": "DD-A08-002",
+      "subject": "design_digital",
+      "topic": "planejamento_visual_layout",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "O que o princípio de 'contraste' proporciona em um layout?",
+      "options": [
+        "Uniformidade visual entre todos os elementos da página.",
+        "Destacar elementos importantes, criando 'conflito' visual para atrair atenção.",
+        "Eliminar qualquer diferença entre fontes e cores.",
+        "Garantir que todos os textos tenham o mesmo tamanho e estilo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Contraste destaca elementos importantes e cria atração visual. A está errada: uniformidade é oposta ao contraste. C e D estão erradas: contraste trabalha com diferenças, não eliminação delas.",
+      "tags": ["contraste", "layout", "hierarquia_visual"]
+    },
+    {
+      "id": "DD-A08-003",
+      "subject": "design_digital",
+      "topic": "planejamento_visual_layout",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Quais são as 5 características fundamentais de layout e composição apresentadas na aula?",
+      "options": [
+        "Cores, tipografia, imagens, animações e vídeos.",
+        "Proximidade, espaço em branco, alinhamento, contraste/hierarquia e repetição.",
+        "Margens, colunas, módulos, calhas e breakpoints.",
+        "Copyright, Copyleft, Royalty free, Rights-managed e Domínio público."
+      ],
+      "correctIndex": 1,
+      "explanation": "As 5 características são: proximidade, espaço em branco, alinhamento, contraste/hierarquia e repetição. A está errada: são elementos, não princípios de composição. C está errada: é anatomia de grid. D está errada: são tipos de direitos autorais.",
+      "tags": ["layout", "composicao", "principios_design"]
+    },
+    {
+      "id": "DD-A08-004",
+      "subject": "design_digital",
+      "topic": "planejamento_visual_layout",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Você está desenvolvendo o layout de um site institucional. Para garantir uma boa experiência visual, você precisa aplicar os princípios de design corretamente. Assinale a alternativa que descreve uma aplicação INCORRETA de um princípio de layout:",
+      "options": [
+        "Utilizar o mesmo padrão de botões em todas as páginas para aplicar o princípio da repetição.",
+        "Agrupar as informações de contato em um único bloco para aplicar o princípio da proximidade.",
+        "Usar 7 tipos diferentes de fontes na mesma página para criar contraste e hierarquia.",
+        "Deixar margens generosas ao redor do conteúdo principal para criar espaço em branco (respiro)."
+      ],
+      "correctIndex": 2,
+      "explanation": "Usar 7 tipos diferentes de fontes é incorreto - o princípio do contraste não recomenda excesso de variações, e a boa prática sugere evitar muitos tipos de fontes. A está correta: repetição de padrão é boa prática. B está correta: agrupar contato é proximidade. D está correta: margens generosas são espaço em branco adequado.",
+      "tags": ["layout_pratico", "fontes", "contraste", "erro_comum"],
+      "practical": true
+    },
+    {
+      "id": "DD-A08-005",
+      "subject": "design_digital",
+      "topic": "planejamento_visual_layout",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Analise as afirmações sobre layout e composição e assinale a alternativa CORRETA:\n\nI. O espaço em branco (respiro) é considerado perda de espaço e deve ser minimizado ao máximo.\nII. O alinhamento dos elementos deve ser feito com apoio dos grids para manter aparência organizada.\nIII. A repetição de elementos (como cores, fontes e botões) ajuda o usuário a se familiarizar com a interface.\nIV. O contraste deve ser evitado em layouts profissionais, pois causa confusão visual.",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas III e IV estão corretas.",
+        "Apenas I e IV estão corretas."
+      ],
+      "correctIndex": 1,
+      "explanation": "II e III estão corretas: alinhamento com grids e repetição para familiarização são boas práticas. I está errada: espaço em branco é essencial para respiro. IV está errada: contraste é importante para destacar elementos, não deve ser evitado.",
+      "tags": ["layout", "espaco_branco", "repeticao", "alinhamento"]
+    }
+  ]
+}

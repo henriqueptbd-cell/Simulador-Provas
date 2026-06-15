@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "discipline": "design_digital",
+    "discipline_label": "Design Digital",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "DD-A07-001",
+      "subject": "design_digital",
+      "topic": "direitos_autorais",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "O que são direitos morais no contexto da Lei de Direitos Autorais brasileira (Lei 9.610/98)?",
+      "options": [
+        "Direitos relacionados ao uso comercial da obra, que podem ser transferidos.",
+        "Direitos relacionados ao reconhecimento da autoria, sendo inalteráveis e intransferíveis.",
+        "Direitos que permitem qualquer pessoa modificar a obra sem citar o autor.",
+        "Direitos que expiram automaticamente após 10 anos da criação da obra."
+      ],
+      "correctIndex": 1,
+      "explanation": "Direitos morais são de reconhecimento da autoria, inalteráveis e intransferíveis. A está errada: isso descreve direitos patrimoniais. C está errada: violaria os direitos morais. D está errada: direitos autorais não expiram em 10 anos (no Brasil, geralmente 70 anos após a morte do autor).",
+      "tags": ["direitos_morais", "lei_9610", "autoria"]
+    },
+    {
+      "id": "DD-A07-002",
+      "subject": "design_digital",
+      "topic": "direitos_autorais",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual é a principal característica da licença Creative Commons CC BY (Atribuição)?",
+      "options": [
+        "Permite cópia e distribuição apenas para fins educacionais, sem necessidade de crédito.",
+        "Permite cópia, reprodução, modificação e distribuição para fins lucrativos ou não, desde que seja atribuído o crédito ao autor.",
+        "Não permite modificações nem distribuição comercial em nenhuma hipótese.",
+        "Permite uso apenas mediante pagamento de royalties para o autor."
+      ],
+      "correctIndex": 1,
+      "explanation": "CC BY permite cópia, modificação e distribuição (inclusive comercial) desde que dê crédito ao autor. A está errada: não é restrita a fins educacionais. C está errada: permite modificações sim. D está errada: não exige pagamento, é gratuita com atribuição.",
+      "tags": ["creative_commons", "cc_by", "licencas"]
+    },
+    {
+      "id": "DD-A07-003",
+      "subject": "design_digital",
+      "topic": "direitos_autorais",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Qual a diferença entre Copyright e Copyleft?",
+      "options": [
+        "Copyright exige atribuição ao autor, Copyleft não exige nenhum tipo de atribuição.",
+        "Copyright dá todos os direitos ao autor (uso só com autorização), Copyleft permite alterações desde que a nova obra mantenha a mesma licença e sem uso comercial.",
+        "Copyright só se aplica a softwares, Copyleft só a obras artísticas.",
+        "Copyright permite uso comercial ilimitado, Copyleft permite apenas uso pessoal."
+      ],
+      "correctIndex": 1,
+      "explanation": "Copyright = autor tem todos os direitos, uso só com autorização. Copyleft = permite alterações, mas nova obra mantém mesma licença, sem uso comercial (similar ao CC SA). A está errada: Copyleft exige atribuição sim. C está errada: ambos se aplicam a vários tipos de obra. D está errada: Copyleft não permite uso comercial.",
+      "tags": ["copyright", "copyleft", "licencas"]
+    },
+    {
+      "id": "DD-A07-004",
+      "subject": "design_digital",
+      "topic": "direitos_autorais",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Você precisa criar uma apresentação para um trabalho da faculdade e quer usar imagens da internet sem infringir direitos autorais. Qual das seguintes práticas é a MAIS SEGURA e recomendada?",
+      "options": [
+        "Pegar qualquer imagem do Google Imagens, pois tudo na internet é domínio público.",
+        "Usar imagens de bancos gratuitos como Unsplash ou Pixabay, que disponibilizam imagens livres de direitos autorais ou com licenças permissivas.",
+        "Baixar imagens de qualquer site e remover as marcas d'água com Photoshop.",
+        "Usar imagens de redes sociais sem se preocupar com créditos, pois elas são automaticamente de domínio público após serem postadas."
+      ],
+      "correctIndex": 1,
+      "explanation": "Bancos como Unsplash e Pixabay são seguros e recomendados. A está errada: nem tudo no Google é domínio público. C está errada: remover marca d'água é ilegal. D está errada: postar em rede social não torna a obra domínio público.",
+      "tags": ["bancos_imagens", "direitos_autorais_pratica", "unsplash", "pixabay"],
+      "practical": true
+    },
+    {
+      "id": "DD-A07-005",
+      "subject": "design_digital",
+      "topic": "direitos_autorais",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "De acordo com os Art. 46 a 48 da Lei 9.610/98, assinale a alternativa que apresenta uma hipótese legal de uso de imagem SEM autorização do autor:",
+      "options": [
+        "Utilizar uma foto de um artista famoso para estampar camisetas que você venderá na internet.",
+        "Reproduzir uma obra de arte completa em um livro didático para ilustrar uma análise crítica, indicando o nome do autor e a origem.",
+        "Postar um filme completo no YouTube para que seus seguidores assistam gratuitamente.",
+        "Modificar uma foto de banco de imagens pago e redistribuí-la como sua sem pagar a licença."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a lei permite citação em livros para fins de estudo ou crítica, com indicação de nome e origem. A está errada: uso comercial de imagem de artista sem autorização é ilegal. C está errada: distribuir filme completo viola direitos. D está errada: modificar e redistribuir sem licença viola direitos patrimoniais.",
+      "tags": ["lei_9610", "excecoes", "uso_sem_autorizacao", "art46"]
+    }
+  ]
+}

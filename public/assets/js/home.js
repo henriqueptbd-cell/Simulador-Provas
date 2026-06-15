@@ -75,6 +75,7 @@ const STYLE_LABELS = {
   municipal_vunesp:   'VUNESP',
   municipal_generico: 'Genérica',
   tecnico_adm:        'Técnico em Adm.',
+  fatec_dsm:          'FATEC DSM',
 };
 
 function styleLabel(s) {
