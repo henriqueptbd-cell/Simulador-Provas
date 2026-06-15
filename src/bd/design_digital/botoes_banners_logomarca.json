@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "discipline": "design_digital",
+    "discipline_label": "Design Digital",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "DD-A05-001",
+      "subject": "design_digital",
+      "topic": "botoes_banners_logomarca",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "O que significa a sigla CTA no contexto de design digital para e-commerce?",
+      "options": [
+        "Click to Access - clique para acessar uma página secundária.",
+        "Call to Action - chamada para ação, elemento que induz o usuário a realizar uma tarefa.",
+        "Color to Attention - cor para atenção, técnica de contraste visual.",
+        "Code to Algorithm - código para algoritmo, referência à programação do banner."
+      ],
+      "correctIndex": 1,
+      "explanation": "Call to Action (CTA) está correta pois é o termo usado para medir a eficácia de botões e banners em gerar engajamento. A está errada pois não é uma sigla real da área. C está errada pois não existe no contexto. D está errada pois se refere à programação, não ao design.",
+      "tags": ["cta", "banners", "marketing_digital"]
+    },
+    {
+      "id": "DD-A05-002",
+      "subject": "design_digital",
+      "topic": "botoes_banners_logomarca",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual é a diferença fundamental entre logotipo e logomarca?",
+      "options": [
+        "Logotipo é a parte desenhada (símbolo/ícone) e logomarca é a parte escrita estilizada.",
+        "Logotipo é a parte escrita estilizada do nome da marca, enquanto logomarca é o símbolo ou ícone que representa a marca.",
+        "Logotipo e logomarca são sinônimos, não há diferença técnica.",
+        "Logotipo só é usado em materiais impressos, logomarca apenas em materiais digitais."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: logotipo = nome escrito de forma estilizada; logomarca = desenho/símbolo. A está invertida. C está errada pois existe diferença conceitual. D está errada pois ambos podem ser usados em qualquer meio.",
+      "tags": ["logotipo", "logomarca", "identidade_visual"]
+    },
+    {
+      "id": "DD-A05-003",
+      "subject": "design_digital",
+      "topic": "botoes_banners_logomarca",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Um banner promocional em um e-commerce deve focar em dois elementos fundamentais para ser estratégico. Quais são eles?",
+      "options": [
+        "Cores vibrantes e animações complexas.",
+        "Comunicação e promoção.",
+        "Texto longo e descrição detalhada do produto.",
+        "Logotipo da empresa e selos de segurança."
+      ],
+      "correctIndex": 1,
+      "explanation": "Comunicação e promoção estão corretas conforme a aula: banner estratégico foca nesses dois elementos. A está errada pois são recursos secundários. C está errada pois texto longo prejudica a objetividade. D está errada pois são elementos complementares, não os fundamentais.",
+      "tags": ["banner_estrategico", "comunicacao", "promocao"]
+    },
+    {
+      "id": "DD-A05-004",
+      "subject": "design_digital",
+      "topic": "botoes_banners_logomarca",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Considere que você precisa criar um banner para uma loja virtual de roupas. O objetivo é divulgar uma liquidação de verão com 20% de desconto. Seguindo as boas práticas apresentadas na aula, qual conjunto de ações é o mais adequado?",
+      "options": [
+        "Usar apenas texto, sem imagens, para não poluir o visual; posicionar no rodapé do site.",
+        "Criar banner clicável com link direto para a coleção em liquidação, posicionar na parte superior ou lateral, usar frase curta e criativa.",
+        "Utilizar banner estático sem link, com texto longo explicando cada produto em promoção, posicionar na página de contato.",
+        "Criar banner animado com 10 imagens em sequência, sem definir um objetivo claro de navegação."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta pois segue as dicas: banner clicável, posicionamento estratégico (superior/lateral), frase curta e criativa. A está errada pois banner só com texto é ineficaz e rodapé não é local de destaque. C está errada pois texto longo e página de contato não são adequados. D está errada pois excesso de imagens sem objetivo claro prejudica a comunicação.",
+      "tags": ["banner_pratico", "cta", "posicionamento"],
+      "practical": true
+    },
+    {
+      "id": "DD-A05-005",
+      "subject": "design_digital",
+      "topic": "botoes_banners_logomarca",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Analise as afirmações sobre tipos de banners e assinale a alternativa CORRETA:\n\nI. O banner tipo 'home' ocupa a página inicial e é o mais visível.\nII. O banner 'informativo' também é chamado de 'régua' ou 'vitrine'.\nIII. Mini banners ficam sempre no rodapé do site e não são clicáveis.\nIV. Banners mobile são exclusivos para aplicativos, não aparecem em navegadores.",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas I, II e IV estão corretas.",
+        "Apenas I e III estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I e II estão corretas: banner home ocupa página inicial; banner informativo = régua/vitrine. III está errada pois mini banners ficam ao lado da vitrine de produtos e podem ser clicáveis. IV está errada pois banners mobile aparecem em celulares e tablets via navegador também.",
+      "tags": ["tipos_banner", "home", "mobile"]
+    }
+  ]
+}

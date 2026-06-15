@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "discipline": "design_digital",
+    "discipline_label": "Design Digital",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "DD-A06-001",
+      "subject": "design_digital",
+      "topic": "layout_grids",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual é a função principal de um grid no design de interfaces digitais?",
+      "options": [
+        "Decorar a página com linhas visíveis para o usuário final.",
+        "Organizar as informações dentro de uma estrutura, mantendo consistência visual entre as telas.",
+        "Aumentar o peso das imagens para melhorar o SEO do site.",
+        "Substituir a necessidade de usar cores e tipografia no layout."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a função principal do grid é organizar informações com consistência visual. A está errada pois as linhas do grid não são visíveis ao usuário final. C e D estão erradas pois grid não tem relação direta com SEO nem substitui cores/tipografia.",
+      "tags": ["grid", "organizacao", "consistencia_visual"]
+    },
+    {
+      "id": "DD-A06-002",
+      "subject": "design_digital",
+      "topic": "layout_grids",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Na anatomia de um grid, como são chamados os espaços em branco de separação entre colunas e linhas?",
+      "options": [
+        "Margens",
+        "Módulos",
+        "Calhas (gutters)",
+        "Zonas espaciais"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calhas (gutters) estão corretas - são espaços em branco que separam colunas e linhas. Margens (A) são espaços entre borda e conteúdo. Módulos (B) são unidades formadas por coluna + linha base. Zonas espaciais (D) são conjuntos de módulos.",
+      "tags": ["grid", "gutters", "calhas", "anatomia_grid"]
+    },
+    {
+      "id": "DD-A06-003",
+      "subject": "design_digital",
+      "topic": "layout_grids",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "O que são breakpoints no contexto de design responsivo com grids?",
+      "options": [
+        "Pontos de parada obrigatória onde o usuário precisa recarregar a página.",
+        "Intervalos de layouts predeterminados para diferentes tamanhos de tela (celular, tablet, desktop).",
+        "Erros de renderização que ocorrem quando o grid não suporta uma resolução.",
+        "Linhas invisíveis que impedem a reorganização do conteúdo em telas menores."
+      ],
+      "correctIndex": 1,
+      "explanation": "Breakpoints são intervalos de layouts para diferentes tamanhos de tela. A está errada, não são pontos de parada para recarregar. C e D estão erradas pois não são erros nem linhas que impedem reorganização.",
+      "tags": ["breakpoints", "responsividade", "grid"]
+    },
+    {
+      "id": "DD-A06-004",
+      "subject": "design_digital",
+      "topic": "layout_grids",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Você foi contratado para desenvolver o layout responsivo de um portal de notícias que precisa exibir: manchetes, imagens, textos, boxes de informações complementares e anúncios. O volume de informações é muito grande e os conteúdos não necessariamente se relacionam entre si. Qual tipo de grid é o mais adequado para este projeto?",
+      "options": [
+        "Grid de uma coluna, pois é mais simples.",
+        "Grid de duas colunas, ideal para revistas.",
+        "Grid modular, que utiliza colunas verticais com múltiplas guias horizontais.",
+        "Grid hierárquico, que divide a tela apenas horizontalmente."
+      ],
+      "correctIndex": 2,
+      "explanation": "Grid modular é o mais adequado para portais de notícias com grande volume de informações não relacionadas, pois usa colunas + guias horizontais (módulos). A está errada: uma coluna é para textos contínuos como livros. B está errada: duas colunas é para revistas com menos complexidade. D está errada: grid hierárquico divide horizontalmente, mas o modular oferece mais controle.",
+      "tags": ["grid_modular", "portal_noticias", "layout_complexo"],
+      "practical": true
+    },
+    {
+      "id": "DD-A06-005",
+      "subject": "design_digital",
+      "topic": "layout_grids",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Analise as afirmações sobre anatomia e tipos de grid e assinale a alternativa CORRETA:\n\nI. As margens são espaços fixos que não se alteram em nenhum breakpoint.\nII. As colunas em grids responsivos devem ter largura percentual (relativa), não fixa em pixels.\nIII. O grid de linha de base serve como referência visual para disposição horizontal de elementos textuais.\nIV. Em um grid, as calhas (gutters) têm largura variável dentro de um mesmo breakpoint.",
+      "options": [
+        "Apenas I e III estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas."
+      ],
+      "correctIndex": 1,
+      "explanation": "II e III estão corretas: colunas devem ter largura percentual para responsividade; grid de linha de base serve para elementos textuais. I está errada: margens podem se adaptar em breakpoints diferentes. IV está errada: gutters têm largura fixa dentro de um mesmo breakpoint (mudam apenas entre breakpoints).",
+      "tags": ["anatomia_grid", "breakpoints", "gutters", "colunas"]
+    }
+  ]
+}
