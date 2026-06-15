@@ -86,12 +86,13 @@ router.get('/filters', (req, res) => {
   }
 });
 
-// GET /api/questions/random?subjects=...&perSubject=5&total=20&difficulty=easy&style=...&discipline=...&exam=...
+// GET /api/questions/random?subjects=...&perSubject=5&total=20&difficulty=easy&style=...&discipline=...&exam=...&exclude=id1,id2
 router.get('/random', (req, res) => {
   try {
-    const { subjects, perSubject, total, difficulty, style, discipline, exam } = req.query;
+    const { subjects, perSubject, total, difficulty, style, discipline, exam, exclude } = req.query;
     const perSubjectCount = Math.min(parseInt(perSubject) || 5, 20);
     const filters = { difficulty, style, discipline, exam };
+    const excludeSet = exclude ? new Set(exclude.split(',').filter(Boolean)) : null;
 
     let questions = [];
 
@@ -100,7 +101,13 @@ router.get('/random', (req, res) => {
       for (const subject of list) {
         try {
           const qs = applyFilters(loadSubject(subject), filters);
-          questions.push(...shuffle(qs).slice(0, perSubjectCount));
+          if (excludeSet && excludeSet.size > 0) {
+            const unseen = qs.filter(q => !excludeSet.has(q.id));
+            const seen   = qs.filter(q =>  excludeSet.has(q.id));
+            questions.push(...[...shuffle(unseen), ...shuffle(seen)].slice(0, perSubjectCount));
+          } else {
+            questions.push(...shuffle(qs).slice(0, perSubjectCount));
+          }
         } catch {
           // ignore unknown subjects
         }

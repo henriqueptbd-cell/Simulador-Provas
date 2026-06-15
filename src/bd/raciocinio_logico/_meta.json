@@ -1,5 +1,7 @@
 {
   "label": "Raciocínio Lógico",
   "icon": "🧩",
-  "prefix": "RL"
+  "prefix": "RL",
+  "discipline": "raciocinio_logico",
+  "discipline_label": "Raciocínio Lógico"
 }

@@ -1,5 +1,5 @@
 import { getSubjects, getStats, getFilters, getCatalog } from './api.js';
-import { saveConfig, loadHistory } from './storage.js';
+import { saveConfig, loadHistory, getSeenQuestions, resetSeenQuestions } from './storage.js';
 import { initTheme } from './theme.js';
 
 const PER_SUBJECT   = 5;
@@ -74,6 +74,7 @@ const STYLE_LABELS = {
   municipal_igecs:    'IGECS',
   municipal_vunesp:   'VUNESP',
   municipal_generico: 'Genérica',
+  tecnico_adm:        'Técnico em Adm.',
 };
 
 function styleLabel(s) {
@@ -214,6 +215,18 @@ function renderSubjectGrid() {
       ? `${subject.totalQuestions} questão(ões)${filterNote}`
       : `até ${MAX_PRACTICE} questões${filterNote}`;
 
+    const seen  = getSeenQuestions(subject.id);
+    const total = subject.totalQuestions;
+    const showProgress = seen.length > 0 && total > MAX_PRACTICE;
+    const seenCapped   = Math.min(seen.length, total);
+    const pct          = Math.round((seenCapped / total) * 100);
+    const progressHtml = showProgress
+      ? `<div class="subject-progress">
+           <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+           <span class="progress-label">${seenCapped}/${total} vistas</span>
+         </div>`
+      : '';
+
     const card = document.createElement('div');
     card.className = 'subject-card reveal';
     card.style.setProperty('--reveal-delay', `${i * 60}ms`);
@@ -221,6 +234,7 @@ function renderSubjectGrid() {
       <div class="subject-icon">${subject.icon}</div>
       <div class="subject-name">${subject.label}</div>
       <div class="subject-count">${countText}</div>
+      ${progressHtml}
     `;
     card.addEventListener('click', () => startPractice(subject));
     grid.appendChild(card);
@@ -229,12 +243,20 @@ function renderSubjectGrid() {
 }
 
 function startPractice(subject) {
+  let seen = getSeenQuestions(subject.id);
+  if (seen.length >= subject.totalQuestions) {
+    resetSeenQuestions(subject.id);
+    seen = [];
+  }
+
   const config = {
-    mode:       'practice',
-    subjects:   [subject.id],
-    perSubject: MAX_PRACTICE,
-    timed:      false,
-    duration:   0
+    mode:           'practice',
+    subjects:       [subject.id],
+    perSubject:     MAX_PRACTICE,
+    timed:          false,
+    duration:       0,
+    seenQuestions:  seen,
+    totalQuestions: subject.totalQuestions
   };
   if (activeFilters.difficulty)  config.difficulty  = activeFilters.difficulty;
   if (activeFilters.style)       config.style       = activeFilters.style;

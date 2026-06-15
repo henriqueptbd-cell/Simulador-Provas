@@ -5,7 +5,7 @@
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
-    "courses": ["ADS", "SI", "CC", "ADM"]
+    "courses": ["ADM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "direito_trabalho",
       "topic": "conceitos_iniciais",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre os conceitos de jornada de trabalho e duração do trabalho, assinale a alternativa correta.",
       "options": [
         "Jornada de trabalho e duração do trabalho são expressões sinônimas, ambas se referem ao tempo semanal de trabalho incluindo o repouso.",
@@ -30,7 +30,7 @@
       "subject": "direito_trabalho",
       "topic": "limites_constitucionais",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 7º, inciso XIII da Constituição Federal e o artigo 58 da CLT, os limites normais da duração do trabalho são:",
       "options": [
         "8 horas diárias e 40 horas semanais, sem possibilidade de compensação.",
@@ -47,7 +47,7 @@
       "subject": "direito_trabalho",
       "topic": "tolerancia_minutos",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O §1º do artigo 58 da CLT e a Súmula nº 366 do TST tratam das variações de horário no registro de ponto. Assinale a alternativa correta.",
       "options": [
         "As variações de até 5 minutos diários não são descontadas nem computadas como hora extra, desde que o total diário não ultrapasse 10 minutos.",
@@ -64,7 +64,7 @@
       "subject": "direito_trabalho",
       "topic": "tempo_deslocamento",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o §2º do artigo 58 da CLT, o tempo despendido pelo empregado desde a sua residência até o posto de trabalho e para o retorno:",
       "options": [
         "Deve ser computado como jornada de trabalho se o transporte for fornecido pelo empregador.",
@@ -81,7 +81,7 @@
       "subject": "direito_trabalho",
       "topic": "horas_extras",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre as horas extras, de acordo com o artigo 59 da CLT e o artigo 7º, inciso XVI da Constituição Federal, é correto afirmar:",
       "options": [
         "A duração diária pode ser acrescida de até 4 horas extras, com adicional mínimo de 100%.",
@@ -98,7 +98,7 @@
       "subject": "direito_trabalho",
       "topic": "banco_de_horas",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Analise as afirmações sobre o banco de horas (compensação de jornada) previsto no artigo 59 da CLT e marque a alternativa CORRETA:\n\nI. O período máximo para compensação das horas é de 1 ano, e a formalidade pode ser acordo coletivo, convenção coletiva ou acordo individual escrito (para compensação no mesmo mês).\nII. A compensação pode ser feita mesmo sem acordo, desde que respeitado o limite de 44 horas semanais.\nIII. O banco de horas exige o pagamento de horas extras sobre as horas excedentes se não houver compensação dentro do prazo.\nIV. A prestação de horas extras habituais descaracteriza o acordo de banco de horas, segundo o art. 59-B.",
       "options": [
         "Apenas I e III estão corretas.",
@@ -115,7 +115,7 @@
       "subject": "direito_trabalho",
       "topic": "intervalos",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 71 da CLT e o conteúdo sobre intervalos, assinale a alternativa correta.",
       "options": [
         "Para jornada superior a 6 horas, o intervalo intrajornada é obrigatório de, no mínimo, 1 hora e, no máximo, 2 horas, não sendo computado na jornada.",
@@ -132,7 +132,7 @@
       "subject": "direito_trabalho",
       "topic": "repouso_semanal_remunerado",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o Repouso Semanal Remunerado (RSR), de acordo com a CLT e a Lei 605/49, marque a alternativa INCORRETA.",
       "options": [
         "Todo empregado tem direito a no mínimo 24 horas contínuas de descanso remunerado por semana, preferencialmente no domingo.",
@@ -149,7 +149,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalho_noturno",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o trabalho noturno urbano, de acordo com o artigo 73 da CLT, analise as afirmações e marque a alternativa correta.\n\nI. A hora noturna do trabalhador urbano é computada como 52 minutos e 30 segundos.\nII. O adicional noturno para o trabalhador urbano é de, no mínimo, 20% sobre a hora diurna.\nIII. O trabalho noturno urbano é aquele realizado entre 22h de um dia e 5h do dia seguinte.\nIV. O adicional noturno não incide sobre as horas extras realizadas no período noturno.",
       "options": [
         "Apenas I, II e III estão corretas.",
@@ -166,7 +166,7 @@
       "subject": "direito_trabalho",
       "topic": "folha_de_ponto",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 74 da CLT, sobre a obrigatoriedade do registro de ponto, é correto afirmar:",
       "options": [
         "Todas as empresas, independentemente do número de empregados, são obrigadas a manter folha de ponto.",

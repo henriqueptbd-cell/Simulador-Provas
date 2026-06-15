@@ -1,5 +1,7 @@
 {
   "label": "Qualidade de Software",
   "icon": "⚙️",
-  "prefix": "QS"
+  "prefix": "QS",
+  "discipline": "engenharia_software_1",
+  "discipline_label": "Engenharia de Software 1"
 }

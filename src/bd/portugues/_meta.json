@@ -1,5 +1,7 @@
 {
   "label": "Língua Portuguesa",
   "icon": "📝",
-  "prefix": "PT"
+  "prefix": "PT",
+  "discipline": "portugues",
+  "discipline_label": "Língua Portuguesa"
 }

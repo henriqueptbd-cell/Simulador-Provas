@@ -1,5 +1,7 @@
 {
   "label": "Direito do Trabalho",
   "icon": "⚖️",
-  "prefix": "DT"
+  "prefix": "DT",
+  "discipline": "direito_do_trabalho",
+  "discipline_label": "Direito do Trabalho"
 }

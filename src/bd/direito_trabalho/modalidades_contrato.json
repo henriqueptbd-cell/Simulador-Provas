@@ -5,7 +5,7 @@
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
-    "courses": ["ADS", "SI", "CC", "ADM"]
+    "courses": ["ADM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "direito_trabalho",
       "topic": "estagio_profissional",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o Estágio Profissional regulamentado pela Lei nº 11.788/2008, analise as afirmações e marque a alternativa CORRETA:\n\nI. O estágio pode ser remunerado ou não remunerado, sendo aceitos estudantes de nível superior, educação profissional, ensino médio e educação especial.\nII. A duração máxima do contrato de estágio é de 3 anos, com jornada diária de até 8 horas.\nIII. O estagiário remunerado recebe bolsa-auxílio e tem direito a descanso a cada 12 meses, equiparado a férias.\nIV. Em caso de rescisão do contrato pelo empregador, o estagiário não tem direito a nenhuma verba rescisória.",
       "options": [
         "Apenas I e III estão corretas.",
@@ -30,7 +30,7 @@
       "subject": "direito_trabalho",
       "topic": "jovem_aprendiz",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "A respeito do contrato de trabalho do Jovem Aprendiz (Lei nº 10.097/2000), assinale a alternativa correta.",
       "options": [
         "O aprendiz deve ter idade entre 16 e 24 anos, e o empregador recolhe FGTS à alíquota de 8% sobre a remuneração.",
@@ -47,7 +47,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_eventual_avulso",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Distinga o Trabalhador Eventual do Trabalhador Avulso e marque a alternativa que apresenta a diferença fundamental entre as duas modalidades.",
       "options": [
         "O trabalhador eventual tem vínculo empregatício, enquanto o avulso não tem.",
@@ -64,7 +64,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_domestico",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Com base na Lei Complementar nº 150/2015, que regulamenta o trabalho doméstico, assinale a alternativa INCORRETA.",
       "options": [
         "O empregado doméstico presta serviços de forma contínua, subordinada, onerosa e pessoal à pessoa ou família, no âmbito residencial, por mais de 2 dias por semana.",
@@ -81,7 +81,7 @@
       "subject": "direito_trabalho",
       "topic": "servidor_publico",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o vínculo do Servidor Público (regime estatutário), analise as afirmações e marque a alternativa CORRETA:\n\nI. O servidor público adquire estabilidade no emprego após 3 anos de estágio probatório.\nII. A extinção do contrato do servidor público estável só pode ocorrer por exoneração, que depende de processo administrativo disciplinar, avaliação de desempenho insuficiente ou decisão judicial transitada em julgado.\nIII. O servidor público não tem direito a férias anuais remuneradas, pois seu regime é diferenciado da CLT.\nIV. A aposentadoria do servidor é feita pelo Regime Geral da Previdência Social (RGPS), igual ao trabalhador da iniciativa privada.",
       "options": [
         "Apenas I e II estão corretas.",
@@ -98,7 +98,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_cooperado",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o trabalhador cooperado, analise as afirmações e marque a alternativa CORRETA:\n\nI. O cooperado é sócio da cooperativa por meio de termo de adesão, participando dos resultados.\nII. A cooperativa intermedeia a mão de obra de seus membros para empresas tomadoras.\nIII. O cooperado possui vínculo empregatício com a empresa onde presta serviço, pois há subordinação direta.\nIV. O cooperado tem todos os direitos da CLT garantidos pela cooperativa, como FGTS e 13º salário.",
       "options": [
         "Apenas I e II estão corretas.",
@@ -115,7 +115,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_voluntario",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Leia as afirmativas sobre o trabalho voluntário e assinale a alternativa que apresenta uma característica INCORRETA dessa modalidade.",
       "options": [
         "O trabalho voluntário é realizado de forma espontânea, sem remuneração, em instituições públicas ou privadas sem fins lucrativos.",
@@ -132,7 +132,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_temporario",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "A Lei nº 6.019/1974, alterada pela Reforma Trabalhista (Lei 13.467/2017), regula o trabalho temporário. Sobre essa modalidade, assinale a alternativa correta.",
       "options": [
         "O trabalho temporário é vedado pela CLT e só pode ocorrer em situações de calamidade pública.",
@@ -149,7 +149,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_rural",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com a Lei nº 5.889/1973, que rege o trabalho rural, marque a alternativa correta.",
       "options": [
         "O trabalhador rural não tem direito a FGTS, pois é regido por lei específica anterior à CLT.",
@@ -166,7 +166,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalho_intermitente",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O trabalho intermitente foi introduzido pela Reforma Trabalhista (Lei 13.467/2017). Sobre essa modalidade, analise as afirmações e marque a alternativa correta.\n\nI. No contrato de trabalho intermitente, a prestação de serviços não é contínua, alternando períodos de inatividade com convocação do empregado.\nII. O empregado intermitente tem direito a férias proporcionais, 13º salário proporcional, repouso semanal remunerado e FGTS.\nIII. A convocação do empregado intermitente deve ser feita com antecedência mínima de 3 dias corridos, e o empregado tem o prazo de 1 dia útil para responder.\nIV. Durante o período de inatividade, o empregado intermitente recebe salário normalmente, como se estivesse à disposição.",
       "options": [
         "Apenas I e II estão corretas.",

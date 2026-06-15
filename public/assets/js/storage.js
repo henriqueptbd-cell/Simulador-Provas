@@ -35,3 +35,19 @@ export function saveToHistory(result) {
 }
 
 export function loadHistory() { return read(KEYS.history) || []; }
+
+const SEEN_PREFIX = 'sp_seen_';
+
+export function getSeenQuestions(subject) {
+  return read(SEEN_PREFIX + subject) || [];
+}
+
+export function addSeenQuestions(subject, ids) {
+  const seen = new Set(getSeenQuestions(subject));
+  ids.forEach(id => seen.add(id));
+  write(SEEN_PREFIX + subject, [...seen]);
+}
+
+export function resetSeenQuestions(subject) {
+  try { localStorage.removeItem(SEEN_PREFIX + subject); } catch {}
+}

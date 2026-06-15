@@ -78,6 +78,12 @@ function getCatalog() {
   const courses = new Set();
 
   for (const subject of subjects) {
+    // Lê disciplina do _meta.json da pasta (funciona para formatos antigos e novos)
+    const subjectMeta = loadSubjectMeta(subject);
+    if (subjectMeta.discipline) {
+      disciplines.set(subjectMeta.discipline, subjectMeta.discipline_label || subjectMeta.discipline);
+    }
+
     const subjectDir = path.join(BD_DIR, subject);
     const files = fs.readdirSync(subjectDir)
       .filter(f => f.endsWith('.json') && f !== '_meta.json');

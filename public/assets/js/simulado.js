@@ -1,5 +1,5 @@
 import { getQuestions, getRandomQuestions } from './api.js';
-import { loadConfig, saveResult } from './storage.js';
+import { loadConfig, saveResult, addSeenQuestions } from './storage.js';
 import { Timer } from './timer.js';
 import {
   prepareQuestion, calculateResult,
@@ -56,14 +56,21 @@ async function fetchQuestions(config) {
     return data.questions;
   }
 
-  // Modo prática: aleatório, máx. 20, com filtros opcionais
+  // Modo prática: prioriza questões não vistas via exclude, máx. 20
+  const seen = config.seenQuestions || [];
   const params = { subjects: config.subjects[0], perSubject: 20 };
+  if (seen.length)        params.exclude     = seen.join(',');
   if (config.difficulty)  params.difficulty  = config.difficulty;
   if (config.style)       params.style       = config.style;
   if (config.discipline)  params.discipline  = config.discipline;
   if (config.exam)        params.exam        = config.exam;
 
   const data = await getRandomQuestions(params);
+
+  const subject = config.subjects[0];
+  const ids = data.questions.map(q => q.id).filter(Boolean);
+  if (ids.length) addSeenQuestions(subject, ids);
+
   return data.questions;
 }
 
