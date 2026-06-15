@@ -1,0 +1,182 @@
+{
+  "_meta": {
+    "discipline": "direito_do_trabalho",
+    "discipline_label": "Direito do Trabalho",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADS", "SI", "CC", "ADM"]
+  },
+  "questions": [
+    {
+      "id": "GDT-FER-001",
+      "subject": "direito_trabalho",
+      "topic": "ferias",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Sobre o direito a férias previsto na CLT, assinale a alternativa correta.",
+      "options": [
+        "O período aquisitivo é de 6 meses de trabalho, e as férias devem ser concedidas nos 6 meses seguintes.",
+        "O empregado tem direito a 30 dias corridos de férias após 12 meses de trabalho, acrescidos de 1/3 do salário, podendo ser fracionadas em até 3 períodos com concordância do empregado.",
+        "As férias podem ser iniciadas a qualquer dia, inclusive véspera de feriado, desde que o empregado concorde.",
+        "O empregado pode vender todo o período de férias em dinheiro (abono pecuniário integral)."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: após 12 meses (período aquisitivo) o empregado tem direito a 30 dias de férias com acréscimo de 1/3, podendo ser fracionadas em até 3 períodos (um de no mínimo 14 dias e os demais de no mínimo 5 dias) mediante concordância do empregado. A está errada: período aquisitivo é 12 meses e concessivo 12 meses. C está errada: é vedado início das férias nos 2 dias anteriores a feriado ou repouso semanal (art. 134 §3º). D está errada: só é possível converter 1/3 (abono pecuniário), não o período inteiro.",
+      "tags": ["ferias", "periodo_aquisitivo", "fracionamento", "terco_constitucional"]
+    },
+    {
+      "id": "GDT-FER-002",
+      "subject": "direito_trabalho",
+      "topic": "ferias_atraso",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 137 da CLT, se a empresa não conceder as férias dentro do período concessivo de 12 meses após o aquisitivo, a consequência é:",
+      "options": [
+        "O empregado perde o direito às férias daquele período.",
+        "A empresa deve pagar as férias em dobro, independentemente de o empregado ter gozado ou não o descanso.",
+        "A empresa pode prorrogar o período concessivo por mais 6 meses sem penalidade.",
+        "O empregado tem direito a férias triplicadas e pode rescindir o contrato por justa causa."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 137 da CLT — sempre que as férias forem concedidas após o prazo de 12 meses do período concessivo, o empregador pagará em dobro a respectiva remuneração. A está errada: o direito não é perdido, mas há penalidade. C está errada: não há prorrogação sem penalidade. D está errada: não é triplicada.",
+      "tags": ["ferias_vencidas", "pagamento_em_dobro", "artigo_137"]
+    },
+    {
+      "id": "GDT-DEC-003",
+      "subject": "direito_trabalho",
+      "topic": "decimo_terceiro",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "Sobre o 13º salário, é correto afirmar:",
+      "options": [
+        "O 13º salário é pago em parcela única até o dia 20 de dezembro, sem descontos.",
+        "A primeira parcela do 13º salário deve ser paga até 30 de novembro, sem descontos (exceto pensão alimentícia), e a segunda parcela até 20 de dezembro com os descontos de INSS e IR.",
+        "Apenas empregados que completaram 12 meses de trabalho na empresa têm direito ao 13º salário.",
+        "O 13º salário não incide sobre horas extras, adicionais ou comissões."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o 13º salário é pago em duas parcelas: 1ª até 30/11 (sem descontos, exceto pensão alimentícia) e 2ª até 20/12 (com descontos de INSS e IR). A está errada: são duas parcelas. C está errada: o 13º é proporcional aos meses trabalhados no ano. D está errada: integram o 13º as verbas adicionais (horas extras, adicional noturno, comissões etc.).",
+      "tags": ["decimo_terceiro", "parcelas", "prazos_pagamento"]
+    },
+    {
+      "id": "GDT-RES-004",
+      "subject": "direito_trabalho",
+      "topic": "rescisao_contrato_determinado",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "No contrato de trabalho por prazo determinado, se o empregador resolver rescindir o contrato antes do prazo estipulado (sem justa causa), o empregado terá direito a:",
+      "options": [
+        "Apenas saldo de salários e férias vencidas, sem direito a FGTS.",
+        "Saldo de salários, 13º proporcional, férias proporcionais, levantamento do FGTS, acrescido de indenização de 50% do salário dos dias faltantes para o término do contrato.",
+        "Aviso prévio de 30 dias, indenização de 40% do FGTS e seguro-desemprego.",
+        "Somente ao saldo de salários, pois a rescisão antecipada por iniciativa do empregador não gera direitos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: na extinção antes do tempo pelo empregador, o empregado tem direito a saldo de salários, 13º proporcional, férias proporcionais, levantamento do FGTS, acrescido de indenização de 50% do salário dos dias faltantes para o término do contrato. A está errada: há mais direitos. C está errada: aviso prévio não é devido nessa modalidade. D está errada: há sim direitos.",
+      "tags": ["contrato_prazo_determinado", "rescisao_antecipada", "indenizacao_50_porcento"]
+    },
+    {
+      "id": "GDT-RES-005",
+      "subject": "direito_trabalho",
+      "topic": "rescisao_indeterminado_sem_justa_causa",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "Na dispensa sem justa causa de um empregado com contrato por prazo indeterminado, são devidas as seguintes verbas, EXCETO:",
+      "options": [
+        "Saldo de salários, 13º proporcional, férias vencidas e/ou proporcionais.",
+        "Aviso prévio (indenizado ou trabalhado) e indenização de 40% sobre o saldo do FGTS.",
+        "Multa de 100% sobre o valor do FGTS recolhido durante o contrato.",
+        "Indenização adicional de um salário mensal se a dispensa ocorrer nos 30 dias que antecedem a data-base (reajuste salarial)."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C é a exceção: a multa sobre o FGTS na dispensa sem justa causa é de 40%, não 100%. A, B e D estão corretas: saldo de salários, 13º proporcional, férias proporcionais/vencidas, aviso prévio, indenização de 40% do FGTS e indenização adicional de um salário mensal se a dispensa ocorrer nos 30 dias anteriores à data-base (Súmula 314 TST).",
+      "tags": ["dispensa_sem_justa_causa", "indenizacao_40_porcento", "data_base"]
+    },
+    {
+      "id": "GDT-JUS-006",
+      "subject": "direito_trabalho",
+      "topic": "justa_causa",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "De acordo com o artigo 482 da CLT, constituem hipóteses de justa causa para dispensa do empregado, EXCETO:",
+      "options": [
+        "Ato de improbidade (ex.: atestado médico falso).",
+        "Embriaguez habitual ou em serviço.",
+        "Desídia no desempenho das funções.",
+        "Participação em greve legal, devidamente comunicada ao sindicato."
+      ],
+      "correctIndex": 3,
+      "explanation": "Alternativa D é a exceção: a participação em greve legal não constitui justa causa. As demais são hipóteses do art. 482 da CLT: ato de improbidade, embriaguez habitual e desídia. A greve legal é direito constitucional e não pode ser punida com dispensa por justa causa.",
+      "tags": ["justa_causa", "artigo_482", "greve"]
+    },
+    {
+      "id": "GDT-RES-007",
+      "subject": "direito_trabalho",
+      "topic": "rescisao_indireta",
+      "difficulty": "hard",
+      "style": "fatec_ads",
+      "statement": "A rescisão indireta ocorre quando o empregado pede a rescisão do contrato por falta grave do empregador (art. 483 da CLT). Nessa modalidade, o empregado tem direito a:",
+      "options": [
+        "Saldo de salários, férias vencidas e proporcionais, 13º salário, mas sem aviso prévio, sem indenização de 40% do FGTS e sem levantamento imediato do FGTS.",
+        "Todas as verbas da dispensa sem justa causa, incluindo aviso prévio, 40% do FGTS e seguro-desemprego.",
+        "Apenas saldo de salários, perdendo os demais direitos.",
+        "Aviso prévio indenizado em dobro, mas sem FGTS."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternativa A está correta: na rescisão indireta o empregado tem direito a saldo de salários, férias vencidas/proporcionais e 13º salário, mas não fará jus a aviso prévio, indenização do FGTS (40%) e levantamento dos depósitos do FGTS (não pode sacar). Não é equiparada à dispensa sem justa causa. B, C e D estão erradas.",
+      "tags": ["rescisao_indireta", "artigo_483", "direitos_limitados"]
+    },
+    {
+      "id": "GDT-ACO-008",
+      "subject": "direito_trabalho",
+      "topic": "acordo_extincao",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "Sobre a extinção do contrato por acordo entre empregado e empregador (distrato), prevista no art. 484-A da CLT, é correto afirmar:",
+      "options": [
+        "O empregado recebe todas as verbas da dispensa sem justa causa, incluindo aviso prévio integral e 40% do FGTS.",
+        "O aviso prévio, se indenizado, e a multa de 40% do FGTS são reduzidos pela metade; o empregado pode sacar até 80% do FGTS, mas não tem direito ao seguro-desemprego.",
+        "O acordo não permite o saque do FGTS, apenas a rescisão normal.",
+        "O empregador paga multa de 100% do FGTS e o empregado mantém direito ao seguro-desemprego."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: art. 484-A — no acordo, o aviso prévio (indenizado) e a indenização de 40% do FGTS são pagos pela metade; o trabalhador pode movimentar até 80% da conta vinculada do FGTS; e não autoriza ingresso no seguro-desemprego. A, C e D estão erradas.",
+      "tags": ["distrato", "acordo_empregado_empregador", "artigo_484_a", "fgts_80_porcento"]
+    },
+    {
+      "id": "GDT-RES-009",
+      "subject": "direito_trabalho",
+      "topic": "rescisao_determinado_empregado",
+      "difficulty": "medium",
+      "style": "fatec_ads",
+      "statement": "No contrato por prazo determinado, se o empregado pedir demissão antes do prazo final, a consequência é:",
+      "options": [
+        "O empregado deve indenizar o empregador em 50% da remuneração correspondente aos dias que faltarem para o término do contrato, descontados das verbas rescisórias, e não poderá levantar o FGTS.",
+        "O empregado não sofre nenhuma penalidade, recebendo todas as verbas normalmente.",
+        "O empregador pode reter todo o saldo de salários como indenização.",
+        "O empregado tem direito ao seguro-desemprego normalmente."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternativa A está correta: na extinção antes do tempo por iniciativa do empregado, ele deverá indenizar o empregador com 50% da remuneração dos dias faltantes (descontado das verbas rescisórias) e não poderá levantar os depósitos do FGTS. B, C e D estão incorretas.",
+      "tags": ["pedido_demissao", "contrato_determinado", "indenizacao_50_porcento"]
+    },
+    {
+      "id": "GDT-FER-010",
+      "subject": "direito_trabalho",
+      "topic": "ferias_proporcionais",
+      "difficulty": "easy",
+      "style": "fatec_ads",
+      "statement": "No cálculo das férias proporcionais na rescisão do contrato de trabalho, considerando salário de R$ 3.000,00 e 8 meses trabalhados, o valor correto é obtido pela fórmula:",
+      "options": [
+        "R$ 3.000,00 ÷ 12 × 8 + 1/3 sobre o valor proporcional.",
+        "Salário bruto multiplicado por 8, sem 1/3.",
+        "Salário bruto integral, independentemente dos meses trabalhados.",
+        "Apenas o saldo de salários, sem direito a férias proporcionais em caso de pedido de demissão."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternativa A está correta: o cálculo é (salário bruto ÷ 12 × meses trabalhados) + 1/3 desse valor. No exemplo: R$ 3.000,00/12 = R$ 250,00 × 8 = R$ 2.000,00 + 1/3 (R$ 666,67) = R$ 2.666,67. As demais alternativas estão erradas.",
+      "tags": ["ferias_proporcionais", "calculo", "rescisao"]
+    }
+  ]
+}
