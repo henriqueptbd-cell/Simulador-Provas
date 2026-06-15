@@ -5,7 +5,7 @@
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
-    "courses": ["ADS", "SI", "CC", "ADM"]
+    "courses": ["ADM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "direito_trabalho",
       "topic": "alteracao_contratual",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 468 da CLT, sobre a alteração das condições do contrato individual de trabalho, assinale a alternativa correta.",
       "options": [
         "O empregador pode alterar unilateralmente o contrato sempre que entender necessário, independentemente da concordância do empregado.",
@@ -30,7 +30,7 @@
       "subject": "direito_trabalho",
       "topic": "transferencia_do_empregado",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre a transferência do empregado prevista no artigo 469 da CLT, analise as afirmações e marque a alternativa correta.\n\nI. É vedado ao empregador transferir o empregado, sem sua anuência, para localidade diversa da que resultar do contrato.\nII. Não se considera transferência a mudança que não acarretar necessariamente a mudança do domicílio do empregado.\nIII. Em caso de necessidade de serviço, o empregador pode transferir o empregado, mas deve pagar adicional nunca inferior a 25% do salário enquanto durar a situação.\nIV. A transferência por extinção do estabelecimento é vedada, mesmo com anuência do empregado.",
       "options": [
         "Apenas I, II e III estão corretas.",
@@ -47,7 +47,7 @@
       "subject": "direito_trabalho",
       "topic": "interrupcao_do_contrato",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O artigo 473 da CLT elenca hipóteses de interrupção do contrato de trabalho, nas quais o empregado pode deixar de comparecer ao serviço sem prejuízo do salário. Assinale a alternativa que apresenta uma dessas hipóteses com o respectivo prazo CORRETO.",
       "options": [
         "Falecimento do cônjuge — 3 dias consecutivos.",
@@ -64,7 +64,7 @@
       "subject": "direito_trabalho",
       "topic": "interrupcao_do_contrato",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "São hipóteses de interrupção do contrato de trabalho (art. 473 da CLT) as seguintes, EXCETO:",
       "options": [
         "Alistamento eleitoral — até 2 dias consecutivos ou não.",
@@ -81,7 +81,7 @@
       "subject": "direito_trabalho",
       "topic": "suspensao_do_contrato",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "No caso de auxílio-doença, a suspensão do contrato de trabalho ocorre a partir de qual momento?",
       "options": [
         "A partir do primeiro dia de afastamento.",
@@ -98,7 +98,7 @@
       "subject": "direito_trabalho",
       "topic": "suspensao_lay_off",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O artigo 476-A da CLT trata da suspensão do contrato de trabalho para participação do empregado em curso ou programa de qualificação profissional (lay-off). Analise as afirmações e marque a alternativa correta.\n\nI. A suspensão pode durar de 2 a 5 meses, mediante previsão em convenção ou acordo coletivo e aquiescência formal do empregado.\nII. Durante a suspensão, o empregador pode conceder ajuda compensatória mensal, sem natureza salarial.\nIII. Se o empregador descumprir e não ministrar o curso, fica descaracterizada a suspensão, devendo pagar salários e encargos do período.\nIV. Se o empregado for dispensado nos 3 meses subsequentes ao retorno, o empregador paga multa de, no mínimo, 50% sobre a última remuneração.",
       "options": [
         "Apenas I, II e III estão corretas.",
@@ -115,7 +115,7 @@
       "subject": "direito_trabalho",
       "topic": "suspensao_aposentadoria",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 475 da CLT, sobre a aposentadoria por invalidez, assinale a alternativa correta.",
       "options": [
         "O contrato de trabalho é extinto automaticamente com a aposentadoria por invalidez.",
@@ -132,7 +132,7 @@
       "subject": "direito_trabalho",
       "topic": "reversao_de_cargos",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre a reversão de cargos (alteração das funções do empregado), o conteúdo estudado afirma que:",
       "options": [
         "A reversão é sempre possível, independentemente do cargo, desde que o empregado concorde.",
@@ -149,7 +149,7 @@
       "subject": "direito_trabalho",
       "topic": "diferenca_interrupcao_suspensao",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "A principal diferença entre interrupção e suspensão do contrato de trabalho é que:",
       "options": [
         "Na interrupção, o empregado não recebe salário; na suspensão, recebe normalmente.",
@@ -166,7 +166,7 @@
       "subject": "direito_trabalho",
       "topic": "multa_dispensa_lay_off",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o art. 476-A, §5º da CLT, se ocorrer a dispensa do empregado no transcurso do período de suspensão contratual para qualificação profissional ou nos três meses subsequentes ao retorno, o empregador pagará:",
       "options": [
         "Apenas as parcelas rescisórias normais, sem multa adicional.",

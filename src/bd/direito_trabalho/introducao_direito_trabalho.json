@@ -5,7 +5,7 @@
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
-    "courses": ["ADS", "SI", "CC", "ADM"]
+    "courses": ["ADM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "direito_trabalho",
       "topic": "conceito_e_objeto",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o conceito e a finalidade do Direito do Trabalho, assinale a alternativa correta.",
       "options": [
         "O Direito do Trabalho regula apenas as relações entre empregados e empregadores do setor privado, excluindo servidores públicos.",
@@ -30,7 +30,7 @@
       "subject": "direito_trabalho",
       "topic": "divisao_do_direito_trabalho",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O Direito do Trabalho divide-se em Direito Individual do Trabalho e Direito Coletivo do Trabalho. A respeito dessa divisão, marque a alternativa correta.",
       "options": [
         "O Direito Individual regula as relações coletivas entre sindicatos e empregadores, enquanto o Direito Coletivo cuida do contrato individual de trabalho.",
@@ -47,7 +47,7 @@
       "subject": "direito_trabalho",
       "topic": "fontes_do_direito_trabalho",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "São exemplos de fontes do Direito do Trabalho, EXCETO:",
       "options": [
         "Constituição Federal e Consolidação das Leis do Trabalho (CLT).",
@@ -64,7 +64,7 @@
       "subject": "direito_trabalho",
       "topic": "principios_do_direito_trabalho",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Analise as afirmações sobre os princípios do Direito do Trabalho e marque a alternativa CORRETA:\n\nI. O princípio da proteção do trabalhador subdivide-se em in dubio pro operário, norma mais favorável e condição mais benéfica.\nII. O princípio da primazia da realidade determina que os documentos prevalecem sobre os fatos ocorridos na relação de trabalho.\nIII. O princípio da dignidade humana refere-se à proteção dos direitos humanos inerentes a cada indivíduo e à satisfação de suas necessidades básicas.\nIV. O princípio da irrenunciabilidade de direitos impede o trabalhador de abrir mão de direitos de ordem pública, como férias.",
       "options": [
         "Apenas I, II e III estão corretas.",
@@ -81,7 +81,7 @@
       "subject": "direito_trabalho",
       "topic": "relacao_de_emprego",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre a relação de emprego e a relação de trabalho, assinale a alternativa correta.",
       "options": [
         "Todo trabalhador é empregado, pois toda relação de trabalho gera vínculo de emprego.",
@@ -98,7 +98,7 @@
       "subject": "direito_trabalho",
       "topic": "empregado_e_empregador",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 3º da CLT, são requisitos caracterizadores da relação de emprego (empregado), EXCETO:",
       "options": [
         "Pessoalidade — o serviço deve ser prestado pessoalmente pelo empregado, sem substituição por terceiro.",
@@ -115,7 +115,7 @@
       "subject": "direito_trabalho",
       "topic": "contrato_por_prazo_determinado",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O contrato de trabalho por prazo determinado tem previsão no art. 443, §2º da CLT. Sobre ele, assinale a alternativa correta.",
       "options": [
         "O prazo máximo do contrato por prazo determinado é de 90 dias, prorrogável uma única vez por igual período.",
@@ -132,7 +132,7 @@
       "subject": "direito_trabalho",
       "topic": "contrato_de_experiencia",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "O contrato de experiência é uma espécie de contrato por prazo determinado. Sobre ele, marque a alternativa INCORRETA.",
       "options": [
         "O prazo máximo do contrato de experiência é de 90 dias.",
@@ -149,7 +149,7 @@
       "subject": "direito_trabalho",
       "topic": "contrato_intermitente",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o contrato de trabalho intermitente, introduzido pela Lei 13.467/2017 (Reforma Trabalhista), analise as afirmações e marque a alternativa correta:\n\nI. O trabalhador intermitente presta serviços apenas quando convocado pela empresa, recebendo somente pelas horas trabalhadas.\nII. O contrato intermitente garante ao trabalhador todos os direitos do contrato convencional (férias, 13º, FGTS, repouso semanal), exceto o seguro-desemprego.\nIII. O salário do intermitente deve ser igual ou superior ao salário mínimo por hora ou ao valor pago a outros funcionários da mesma atividade.\nIV. Durante os períodos de inatividade, o trabalhador intermitente recebe um salário mínimo proporcional.",
       "options": [
         "Apenas I, II e III estão corretas.",
@@ -166,7 +166,7 @@
       "subject": "direito_trabalho",
       "topic": "trabalhador_temporario_e_autonomo",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Compare o trabalhador temporário e o trabalhador autônomo e assinale a alternativa correta.",
       "options": [
         "Ambos possuem vínculo de emprego com a empresa tomadora dos serviços.",

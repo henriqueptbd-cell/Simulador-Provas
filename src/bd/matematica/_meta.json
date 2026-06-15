@@ -1,5 +1,7 @@
 {
   "label": "Matemática",
   "icon": "🔢",
-  "prefix": "MA"
+  "prefix": "MA",
+  "discipline": "matematica",
+  "discipline_label": "Matemática"
 }

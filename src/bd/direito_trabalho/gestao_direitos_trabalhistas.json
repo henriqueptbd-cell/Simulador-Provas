@@ -5,7 +5,7 @@
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
-    "courses": ["ADS", "SI", "CC", "ADM"]
+    "courses": ["ADM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "direito_trabalho",
       "topic": "ferias",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o direito a férias previsto na CLT, assinale a alternativa correta.",
       "options": [
         "O período aquisitivo é de 6 meses de trabalho, e as férias devem ser concedidas nos 6 meses seguintes.",
@@ -30,7 +30,7 @@
       "subject": "direito_trabalho",
       "topic": "ferias_atraso",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 137 da CLT, se a empresa não conceder as férias dentro do período concessivo de 12 meses após o aquisitivo, a consequência é:",
       "options": [
         "O empregado perde o direito às férias daquele período.",
@@ -47,7 +47,7 @@
       "subject": "direito_trabalho",
       "topic": "decimo_terceiro",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre o 13º salário, é correto afirmar:",
       "options": [
         "O 13º salário é pago em parcela única até o dia 20 de dezembro, sem descontos.",
@@ -64,7 +64,7 @@
       "subject": "direito_trabalho",
       "topic": "rescisao_contrato_determinado",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "No contrato de trabalho por prazo determinado, se o empregador resolver rescindir o contrato antes do prazo estipulado (sem justa causa), o empregado terá direito a:",
       "options": [
         "Apenas saldo de salários e férias vencidas, sem direito a FGTS.",
@@ -81,7 +81,7 @@
       "subject": "direito_trabalho",
       "topic": "rescisao_indeterminado_sem_justa_causa",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Na dispensa sem justa causa de um empregado com contrato por prazo indeterminado, são devidas as seguintes verbas, EXCETO:",
       "options": [
         "Saldo de salários, 13º proporcional, férias vencidas e/ou proporcionais.",
@@ -98,7 +98,7 @@
       "subject": "direito_trabalho",
       "topic": "justa_causa",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "De acordo com o artigo 482 da CLT, constituem hipóteses de justa causa para dispensa do empregado, EXCETO:",
       "options": [
         "Ato de improbidade (ex.: atestado médico falso).",
@@ -115,7 +115,7 @@
       "subject": "direito_trabalho",
       "topic": "rescisao_indireta",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "A rescisão indireta ocorre quando o empregado pede a rescisão do contrato por falta grave do empregador (art. 483 da CLT). Nessa modalidade, o empregado tem direito a:",
       "options": [
         "Saldo de salários, férias vencidas e proporcionais, 13º salário, mas sem aviso prévio, sem indenização de 40% do FGTS e sem levantamento imediato do FGTS.",
@@ -132,7 +132,7 @@
       "subject": "direito_trabalho",
       "topic": "acordo_extincao",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "Sobre a extinção do contrato por acordo entre empregado e empregador (distrato), prevista no art. 484-A da CLT, é correto afirmar:",
       "options": [
         "O empregado recebe todas as verbas da dispensa sem justa causa, incluindo aviso prévio integral e 40% do FGTS.",
@@ -149,7 +149,7 @@
       "subject": "direito_trabalho",
       "topic": "rescisao_determinado_empregado",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "No contrato por prazo determinado, se o empregado pedir demissão antes do prazo final, a consequência é:",
       "options": [
         "O empregado deve indenizar o empregador em 50% da remuneração correspondente aos dias que faltarem para o término do contrato, descontados das verbas rescisórias, e não poderá levantar o FGTS.",
@@ -166,7 +166,7 @@
       "subject": "direito_trabalho",
       "topic": "ferias_proporcionais",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "tecnico_adm",
       "statement": "No cálculo das férias proporcionais na rescisão do contrato de trabalho, considerando salário de R$ 3.000,00 e 8 meses trabalhados, o valor correto é obtido pela fórmula:",
       "options": [
         "R$ 3.000,00 ÷ 12 × 8 + 1/3 sobre o valor proporcional.",
