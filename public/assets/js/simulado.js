@@ -39,7 +39,9 @@ async function init() {
     renderQuestion(0);
 
     if (config.timed && config.duration) {
-      setupTimer(config.duration);
+      setupTimer(config.duration, false);
+    } else if (config.mode === 'practice') {
+      setupTimer(0, true);
     }
   } catch (err) {
     console.error(err);
@@ -74,19 +76,24 @@ async function fetchQuestions(config) {
   return data.questions;
 }
 
-function setupTimer(seconds) {
+function setupTimer(seconds, countUp = false) {
+  const display = $('timer-display');
+  display.textContent = countUp ? '00:00' : state.timer?.format(seconds) ?? '00:00';
+
   $('timer-wrap').classList.remove('hidden');
   $('btn-pause').classList.remove('hidden');
 
   state.timer = new Timer({
     seconds,
-    onTick: (rem) => {
-      const display = $('timer-display');
-      display.textContent = state.timer.format(rem);
-      display.className = 'timer-display' +
-        (rem <= 60 ? ' danger' : rem <= 300 ? ' warning' : '');
+    countUp,
+    onTick: (val) => {
+      display.textContent = state.timer.format(val);
+      if (!countUp) {
+        display.className = 'timer-display' +
+          (val <= 60 ? ' danger' : val <= 300 ? ' warning' : '');
+      }
     },
-    onEnd: () => submitExam(true)
+    onEnd: countUp ? () => {} : () => submitExam(true)
   });
 
   state.timer.start();
