@@ -11,10 +11,10 @@ Gere questões de múltipla escolha no formato JSON abaixo. Siga as regras à ri
   "_meta": {
     "discipline":        "nome_da_disciplina",
     "discipline_label":  "Nome Legível da Disciplina",
-    "semester":          1,
-    "exam":              "p1",
-    "exam_label":        "P1",
-    "courses":           ["ADS", "SI", "CC"]
+    "semester":          2,
+    "exam":              "p2",
+    "exam_label":        "P2",
+    "courses":           ["DSM"]
   },
   "questions": [
     {
@@ -22,7 +22,7 @@ Gere questões de múltipla escolha no formato JSON abaixo. Siga as regras à ri
       "subject":      "nome_da_materia",
       "topic":        "nome_do_topico",
       "difficulty":   "easy",
-      "style":        "fatec_ads",
+      "style":        "fatec_dsm",
       "statement":    "Enunciado da questão?",
       "options": [
         "Alternativa A.",
@@ -82,6 +82,7 @@ O campo `statement` suporta `\n` para quebra de linha — use sempre que o enunc
 ## Valores de `style`
 
 **Faculdade** → `<instituicao>_<curso>`
+- `fatec_dsm` — FATEC / DSM ← **padrão para este projeto**
 - `fatec_ads` — FATEC / ADS
 - `fatec_administracao` — FATEC / Administração
 - `usp_si` — USP / Sistemas de Informação
@@ -104,4 +105,4 @@ O campo `statement` suporta `\n` para quebra de linha — use sempre que o enunc
 | `semester`         | Semestre do curso (número) |
 | `exam`             | Id da prova: `p1`, `p2`, `final`, `sub`, `vestibular`, `enem` |
 | `exam_label`       | Nome legível da prova (ex: `"P2"`, `"Prova Final"`) |
-| `courses`          | Cursos que aproveitam o conteúdo (ex: `["ADS", "SI", "CC"]`) |
+| `courses`          | Cursos que aproveitam o conteúdo — para este projeto use `["DSM"]` |

@@ -5,7 +5,7 @@
     "semester": 2,
     "exam": "p2",
     "exam_label": "P2",
-    "courses": ["ADS", "SI", "CC"]
+    "courses": ["DSM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "qualidade_software",
       "topic": "modelos_de_qualidade",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "O CMMI foi desenvolvido por qual instituição?",
       "options": [
         "ISO (International Organization for Standardization).",
@@ -30,7 +30,7 @@
       "subject": "qualidade_software",
       "topic": "modelos_de_qualidade",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Uma empresa cujos projetos são planejados e monitorados individualmente, mas ainda não possui processos organizacionais padronizados, está no nível CMMI:",
       "options": [
         "Nível 1 — Inicial.",
@@ -47,7 +47,7 @@
       "subject": "qualidade_software",
       "topic": "modelos_de_qualidade",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "O MPS.BR foi criado com foco especial em:",
       "options": [
         "Grandes multinacionais de tecnologia com operações globais.",
@@ -64,7 +64,7 @@
       "subject": "qualidade_software",
       "topic": "modelos_de_qualidade",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual é a ordem CORRETA dos níveis de maturidade do MPS.BR, do MENOR para o MAIOR?",
       "options": [
         "A, B, C, D, E, F, G.",
@@ -81,7 +81,7 @@
       "subject": "qualidade_software",
       "topic": "modelos_de_qualidade",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "O SPICE (ISO 15504) e o CMMI têm quantos níveis, respectivamente?",
       "options": [
         "5 e 7.",
@@ -98,7 +98,7 @@
       "subject": "qualidade_software",
       "topic": "modelos_de_qualidade",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "No Scrum, o ciclo de trabalho iterativo é chamado de:",
       "options": [
         "Kanban.",

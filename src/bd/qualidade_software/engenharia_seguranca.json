@@ -5,7 +5,7 @@
     "semester": 2,
     "exam": "p2",
     "exam_label": "P2",
-    "courses": ["ADS", "SI", "CC"]
+    "courses": ["DSM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "qualidade_software",
       "topic": "engenharia_seguranca",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "A tríade CIA da segurança da informação é formada por:",
       "options": [
         "Controle, Integridade e Autenticidade.",
@@ -30,7 +30,7 @@
       "subject": "qualidade_software",
       "topic": "engenharia_seguranca",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "O conceito 'Shift Left' em segurança de software significa:",
       "options": [
         "Mover a equipe de segurança para outro departamento da empresa.",
@@ -47,7 +47,7 @@
       "subject": "qualidade_software",
       "topic": "engenharia_seguranca",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual é a diferença entre SAST e DAST?",
       "options": [
         "SAST testa sistemas em produção; DAST analisa o código-fonte em repouso.",
@@ -64,7 +64,7 @@
       "subject": "qualidade_software",
       "topic": "engenharia_seguranca",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "DevSecOps é melhor descrito como:",
       "options": [
         "Uma metodologia ágil que substitui o Scrum em projetos de segurança.",
@@ -81,7 +81,7 @@
       "subject": "qualidade_software",
       "topic": "engenharia_seguranca",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "O modelo STRIDE, da Microsoft, é utilizado para:",
       "options": [
         "Definir os níveis de maturidade de segurança de uma organização.",
@@ -98,7 +98,7 @@
       "subject": "qualidade_software",
       "topic": "engenharia_seguranca",
       "difficulty": "easy",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual dos itens abaixo é um exemplo de Requisito Não Funcional (RNF) de segurança?",
       "options": [
         "O sistema deve permitir cadastro de clientes.",

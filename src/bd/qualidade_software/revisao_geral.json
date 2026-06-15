@@ -5,7 +5,7 @@
     "semester": 2,
     "exam": "p2",
     "exam_label": "P2",
-    "courses": ["ADS", "SI", "CC"]
+    "courses": ["DSM"]
   },
   "questions": [
     {
@@ -13,7 +13,7 @@
       "subject": "qualidade_software",
       "topic": "revisao_geral",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Analise as afirmações abaixo e marque a alternativa CORRETA:\nI. O MPS.BR é compatível com o CMMI e tem 7 níveis de maturidade.\nII. A ISO 9241-11 define os processos do ciclo de vida do software.\nIII. DevSecOps integra segurança ao pipeline de desenvolvimento.\nIV. O PMBOK é publicado pelo IEEE.",
       "options": [
         "Apenas I e III estão corretas.",
@@ -30,7 +30,7 @@
       "subject": "qualidade_software",
       "topic": "revisao_geral",
       "difficulty": "hard",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "No contexto de métricas de qualidade, associe corretamente:\n\n1. Lead Time\n2. MTBF\n3. Complexidade Ciclomática\n4. MTTR\n\nA. Métrica de produto que mede a complexidade do código.\nB. Tempo desde a solicitação até a entrega.\nC. Tempo médio de recuperação após uma falha.\nD. Tempo médio entre falhas do sistema.",
       "options": [
         "1-B, 2-D, 3-A, 4-C.",
@@ -47,7 +47,7 @@
       "subject": "qualidade_software",
       "topic": "revisao_geral",
       "difficulty": "medium",
-      "style": "fatec_ads",
+      "style": "fatec_dsm",
       "statement": "Qual modelo de qualidade tem como característica exclusiva ser adaptado especialmente para empresas brasileiras de pequeno e médio porte?",
       "options": [
         "CMMI.",

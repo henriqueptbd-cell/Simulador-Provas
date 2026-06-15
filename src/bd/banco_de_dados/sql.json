@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "banco_de_dados",
+    "discipline_label": "Banco de Dados",
+    "semester": 2,
+    "exam": "p2",
+    "exam_label": "P2",
+    "courses": ["DSM"]
+  },
+  "questions": [
+    {
+      "id": "SQL-INSERT-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Considere a tabela criada com o comando:\n\nCREATE TABLE tbpessoa (\n    id INTEGER PRIMARY KEY,\n    nome VARCHAR(40) NOT NULL,\n    email VARCHAR(30),\n    idade INTEGER\n);\n\nQual das alternativas a seguir insere CORRETAMENTE um registro nesta tabela?",
+      "options": [
+        "INSERT INTO tbpessoa VALUES (1, 'Ana', 'ana@email.com', 22);",
+        "INSERT INTO tbpessoa (id, nome, email, idade) VALUES (1, 'Ana', 'ana@email.com', 22);",
+        "INSERT INTO tbpessoa (nome, email, idade) VALUES ('Ana', 'ana@email.com', 22);",
+        "INSERT INTO tbpessoa SET id=1, nome='Ana', email='ana@email.com', idade=22;"
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa correta é a B, pois especifica as colunas e os valores na mesma ordem. A é válida APENAS se os valores estiverem na ordem exata das colunas da tabela, mas é considerada má prática. C é inválida porque a coluna id é PK e NOT NULL, então é obrigatória. D usa sintaxe do MySQL (SET), não é SQL padrão.",
+      "tags": ["insert", "sintaxe", "dml"]
+    },
+    {
+      "id": "SQL-INSERT-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Considere a tabela tbpessoa com as colunas: id (INTEGER PRIMARY KEY), nome (VARCHAR(40) NOT NULL), email (VARCHAR(30)), idade (INTEGER).\n\nAnalise os comandos INSERT abaixo:\n\nI. INSERT INTO tbpessoa(id, nome) VALUES (1, 'Carlos');\nII. INSERT INTO tbpessoa(nome, id) VALUES ('Mariana', 2);\nIII. INSERT INTO tbpessoa(id, nome, email) VALUES (3, 'Julia', NULL);\nIV. INSERT INTO tbpessoa(id, nome, idade) VALUES (4, 'Rafael');\n\nQuais comandos serão executados com sucesso?",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, II e III.",
+        "Apenas II, III e IV.",
+        "I, II, III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "I correta: informa id e nome (email e idade ficam NULL). II correta: a ordem dos valores segue a ordem das colunas especificadas (nome, id). III correta: NULL é permitido na coluna email. IV incorreta: especificou 3 colunas mas forneceu apenas 2 valores, causando erro de quantidade.",
+      "tags": ["insert", "null", "ordem_colunas", "dml"]
+    },
+    {
+      "id": "SQL-SELECT-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Dada a tabela tbpessoa com as colunas id, nome, email e idade, qual comando SELECT exibe APENAS os nomes e emails de todas as pessoas?",
+      "options": [
+        "SELECT * FROM tbpessoa;",
+        "SELECT nome, email FROM tbpessoa;",
+        "SELECT nome AND email FROM tbpessoa;",
+        "SELECT nome, email WHERE FROM tbpessoa;"
+      ],
+      "correctIndex": 1,
+      "explanation": "B está correta: SELECT nome, email especifica exatamente as duas colunas desejadas. A está errada: SELECT * traz todas as colunas (id, nome, email, idade). C está errada: AND não é usado para separar colunas, a vírgula é o correto. D está errada: a ordem das cláusulas está invertida (WHERE vem depois de FROM).",
+      "tags": ["select", "colunas", "dml"]
+    },
+    {
+      "id": "SQL-SELECT-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual a ordem CORRETA das cláusulas em um comando SELECT básico?",
+      "options": [
+        "WHERE → SELECT → FROM → ORDER BY",
+        "SELECT → FROM → WHERE → ORDER BY",
+        "SELECT → WHERE → FROM → ORDER BY",
+        "FROM → SELECT → WHERE → ORDER BY"
+      ],
+      "correctIndex": 1,
+      "explanation": "B está correta: a ordem padrão é SELECT (quais colunas), FROM (de onde), WHERE (filtro opcional), ORDER BY (ordenação opcional). As demais alternativas apresentam sequências inválidas que gerariam erro de sintaxe.",
+      "tags": ["select", "order_by", "where", "sintaxe"]
+    },
+    {
+      "id": "SQL-WHERE-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Considere a tabela tbpessoa com registros que possuem idades: 18, 25, 30, NULL, 40.\n\nQual comando SELECT retornaria apenas as pessoas com idade maior que 25 anos?",
+      "options": [
+        "SELECT * FROM tbpessoa WHERE idade > 25;",
+        "SELECT * FROM tbpessoa WHERE idade >= 25;",
+        "SELECT * FROM tbpessoa WHERE idade > 25 AND idade IS NOT NULL;",
+        "SELECT * FROM tbpessoa WHERE idade > 25 OR idade IS NOT NULL;"
+      ],
+      "correctIndex": 2,
+      "explanation": "C está correta: a condição idade > 25 exclui valores NULL (pois NULL não é maior que 25) e também exclui 18 e 25, retornando apenas 30 e 40. A está incorreta: embora pareça correta, alguns SGBDs podem ter comportamento estranho com NULL. B está incorreta: incluiria idade=25 também. D está incorreta: OR idade IS NOT NULL traria praticamente todos os registros.",
+      "tags": ["where", "operadores_comparacao", "null"]
+    },
+    {
+      "id": "SQL-WHERE-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Analise as afirmações sobre operadores lógicos e comparação em SQL:\n\nI. Para verificar se uma coluna é nula, deve-se usar \"= NULL\".\nII. O operador \"<>\" significa \"diferente de\".\nIII. A expressão \"WHERE idade BETWEEN 18 AND 25\" é equivalente a \"WHERE idade >= 18 AND idade <= 25\".\nIV. O operador OR retorna verdadeiro se AMBAS as condições forem verdadeiras.\n\nAssinale a alternativa que contém apenas afirmações VERDADEIRAS:",
+      "options": [
+        "I e II apenas.",
+        "II e III apenas.",
+        "I, II e III apenas.",
+        "II, III e IV apenas."
+      ],
+      "correctIndex": 1,
+      "explanation": "II correta: <> é o operador de diferença em SQL. III correta: BETWEEN é equivalente a >= e <= combinados com AND. I falsa: para verificar NULL usa-se IS NULL, não = NULL. IV falsa: OR retorna verdadeiro se PELO MENOS UMA condição for verdadeira (AND exige ambas).",
+      "tags": ["where", "null", "between", "operadores_logicos"]
+    },
+    {
+      "id": "SQL-LIKE-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Dada uma tabela tbpessoa com uma coluna nome, qual comando SELECT retorna todas as pessoas cujo nome COMEÇA com a letra 'M'?",
+      "options": [
+        "SELECT * FROM tbpessoa WHERE nome LIKE '%M%';",
+        "SELECT * FROM tbpessoa WHERE nome LIKE 'M%';",
+        "SELECT * FROM tbpessoa WHERE nome LIKE '%M';",
+        "SELECT * FROM tbpessoa WHERE nome LIKE '_M%';"
+      ],
+      "correctIndex": 1,
+      "explanation": "B está correta: 'M%' significa letra M seguida de qualquer conjunto de caracteres (incluindo vazio). A está errada: '%M%' significa M em qualquer posição. C está errada: '%M' significa termina com M. D está errada: '_M%' significa segunda letra é M.",
+      "tags": ["like", "operadores_texto", "where"]
+    },
+    {
+      "id": "SQL-LIKE-002",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Considere uma tabela tbaluno com a coluna nome. O professor quer encontrar alunos cujo nome tenha a letra 's' como SEGUNDA letra (case insensitive).\n\nQual comando atende a esse requisito?",
+      "options": [
+        "SELECT * FROM tbaluno WHERE nome LIKE '_s%';",
+        "SELECT * FROM tbaluno WHERE nome LIKE '_s%' OR nome LIKE '_S%';",
+        "SELECT * FROM tbaluno WHERE nome ILIKE '_s%';",
+        "SELECT * FROM tbaluno WHERE nome ILIKE '%s_%';"
+      ],
+      "correctIndex": 2,
+      "explanation": "C está correta: ILIKE '_s%' ignora maiúsculas/minúsculas, '_' representa exatamente um caractere qualquer, 's' é a segunda letra, '%' representa o resto. A está errada: LIKE é case sensitive, só pegaria 's' minúsculo. B está errada: funciona mas é verbosa, ILIKE é mais elegante. D está errada: '%s_%' significa s em qualquer posição que tenha pelo menos um caractere depois.",
+      "tags": ["like", "ilike", "operadores_texto", "case_insensitive"]
+    },
+    {
+      "id": "SQL-ORDERBY-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Qual comando SELECT lista todas as pessoas da tabela tbpessoa ordenadas por nome em ordem alfabética decrescente (do Z ao A)?",
+      "options": [
+        "SELECT * FROM tbpessoa ORDER BY nome;",
+        "SELECT * FROM tbpessoa ORDER BY nome ASC;",
+        "SELECT * FROM tbpessoa ORDER BY nome DESC;",
+        "SELECT * FROM tbpessoa ORDER BY nome DEC;"
+      ],
+      "correctIndex": 2,
+      "explanation": "C está correta: ORDER BY nome DESC ordena do Z ao A (decrescente). A está errada: ORDER BY nome sem ASC/DESC usa ASC (crescente) por padrão. B está errada: ASC é crescente (A ao Z). D está errada: DEC não é palavra-chave válida em SQL, o correto é DESC.",
+      "tags": ["order_by", "desc", "ordenacao"]
+    },
+    {
+      "id": "SQL-DDL-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "easy",
+      "style": "fatec_dsm",
+      "statement": "Observe o comando DDL abaixo e assinale a alternativa CORRETA sobre sua execução:\n\nCREATE TABLE tbdepartamento (\n    iddepartamento INTEGER PRIMARY KEY,\n    nome VARCHAR(20) NOT NULL\n);",
+      "options": [
+        "A coluna iddepartamento pode receber valores nulos.",
+        "A coluna nome pode receber valores nulos.",
+        "A coluna iddepartamento NÃO pode receber valores repetidos.",
+        "A tabela será criada apenas se a tabela tbdepartamento já existir."
+      ],
+      "correctIndex": 2,
+      "explanation": "C está correta: PRIMARY KEY garante valores únicos e não nulos. A está errada: PK não permite NULL. B está errada: NOT NULL na coluna nome proíbe valores nulos. D está errada: CREATE TABLE sem IF NOT EXISTS tentará criar a tabela e dará erro se ela já existir.",
+      "tags": ["ddl", "create_table", "primary_key", "not_null"]
+    },
+    {
+      "id": "SQL-DTL-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "medium",
+      "style": "fatec_dsm",
+      "statement": "Sobre os comandos de transação em SQL, analise as afirmações:\n\nI. BEGIN inicia uma transação.\nII. COMMIT desfaz todas as alterações feitas desde o BEGIN.\nIII. ROLLBACK confirma e salva permanentemente as alterações.\nIV. Transações garantem que um conjunto de operações seja executado por completo ou nenhuma delas seja aplicada.\n\nAssinale a alternativa CORRETA:",
+      "options": [
+        "Apenas I e II estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas III e IV estão corretas."
+      ],
+      "correctIndex": 1,
+      "explanation": "I correta: BEGIN ou START TRANSACTION inicia uma transação. IV correta: esse é o princípio da atomicidade em transações. II falsa: COMMIT que confirma, ROLLBACK desfaz. III falsa: ROLLBACK desfaz, COMMIT confirma.",
+      "tags": ["dtl", "transacoes", "begin", "commit", "rollback"]
+    },
+    {
+      "id": "SQL-NULL-001",
+      "subject": "modelagem_banco_dados",
+      "topic": "sql_aula6",
+      "difficulty": "hard",
+      "style": "fatec_dsm",
+      "statement": "Considere a tabela tbpessoa com 5 registros, onde a coluna idade tem os seguintes valores: [25, NULL, 30, 25, NULL].\n\nQuantos registros seriam retornados pela consulta abaixo?\n\nSELECT * FROM tbpessoa WHERE idade != 25;",
+      "options": [
+        "1 registro",
+        "2 registros",
+        "3 registros",
+        "Nenhum registro"
+      ],
+      "correctIndex": 0,
+      "explanation": "A consulta retorna apenas 1 registro (o com idade=30). Registros com idade=NULL NÃO são retornados porque NULL nunca é igual ou diferente de qualquer valor, incluindo 25. A condição 'idade != 25' avalia como NULL para os registros com idade NULL, e NULL não é considerado verdadeiro no WHERE. Portanto: idade=30 (true → retorna), idade=25 (false → não retorna), idade=NULL (NULL → não retorna).",
+      "tags": ["null", "where", "operadores_comparacao", "pegadinha"]
+    }
+  ]
+}
