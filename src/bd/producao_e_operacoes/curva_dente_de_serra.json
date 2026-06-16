@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "ADM-PROD-005",
+      "subject": "producao_e_operacoes",
+      "topic": "curva_dente_de_serra",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que representa a curva dente de serra na gestão de estoques?",
+      "options": [
+        "O aumento contínuo dos custos de armazenagem ao longo do tempo.",
+        "A redução gradativa dos preços de compra dos fornecedores.",
+        "O comportamento do estoque ao longo do tempo: diminui com as vendas e aumenta na reposição.",
+        "A variação da demanda sazonal ao longo do ano."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a curva dente de serra representa o estoque caindo conforme as vendas e subindo nos momentos de reposição. A alternativa A descreve um comportamento de custo, não do estoque. A alternativa B trata de preços, não de níveis de estoque. A alternativa D fala de sazonalidade, que é um conceito diferente.",
+      "tags": ["curva_dente_de_serra", "estoque", "reposicao"]
+    },
+    {
+      "id": "ADM-PROD-006",
+      "subject": "producao_e_operacoes",
+      "topic": "curva_dente_de_serra",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O Walmart aperfeiçoou o controle da curva dente de serra utilizando tecnologia e integração de dados. Qual sistema específico permite que o fornecedor acompanhe o estoque e realize a reposição automaticamente?",
+      "options": [
+        "ERP (Enterprise Resource Planning)",
+        "CRM (Customer Relationship Management)",
+        "VMI (Vendor Managed Inventory)",
+        "MRP (Material Requirements Planning)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: VMI (Vendor Managed Inventory) é o sistema no qual o fornecedor acompanha o estoque e faz a reposição. A alternativa A (ERP) é um sistema integrado de gestão empresarial. A alternativa B (CRM) é focado em relacionamento com clientes. A alternativa D (MRP) é planejamento de necessidades de materiais.",
+      "tags": ["walmart", "vmi", "vendor_managed_inventory", "reposicao"]
+    },
+    {
+      "id": "ADM-PROD-012",
+      "subject": "producao_e_operacoes",
+      "topic": "curva_dente_de_serra",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "A curva dente de serra permite ao Walmart identificar padrões de consumo e tomar decisões estratégicas. Com base nesse conceito, qual das seguintes afirmações é VERDADEIRA?",
+      "options": [
+        "Produtos com alta demanda apresentam ciclos de reposição mais longos na curva dente de serra.",
+        "A curva dente de serra é uma ferramenta exclusivamente teórica, sem aplicação prática.",
+        "A análise da curva permite ajustar quantidades de compra, frequência de reposição e estratégias promocionais.",
+        "Quanto mais longo o ciclo da curva dente de serra, menor o custo de armazenagem."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a análise da curva dente de serra ajuda a ajustar compras, frequência e promoções. A alternativa A é falsa: produtos com alta demanda têm ciclos mais curtos (reposição mais frequente). B é falsa: a curva é uma ferramenta prática, como demonstrado pelo Walmart. D é falsa: ciclos mais longos significam mais tempo em estoque, aumentando custos de armazenagem.",
+      "tags": ["walmart", "curva_dente_de_serra", "padroes_consumo", "decisao"]
+    }
+  ]
+}

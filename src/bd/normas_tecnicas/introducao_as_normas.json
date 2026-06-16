@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "normas_tecnicas",
+    "discipline_label": "Normas Técnicas",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "NRM-INTRO-001",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que são normas técnicas, segundo o texto?",
+      "options": [
+        "Leis federais de cumprimento obrigatório e caráter punitivo.",
+        "Documentos estabelecidos por consenso que fornecem regras, diretrizes ou características para atividades ou seus resultados.",
+        "Sugestões opcionais para melhorias de processos produtivos.",
+        "Manuais exclusivos para engenheiros e tecnólogos."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: normas técnicas são documentos consensuais que fornecem regras e diretrizes. A alternativa A é falsa: não são leis, embora possam ser referenciadas por leis. A alternativa C é falsa: não são opcionais quando incorporadas em regulamentos. A alternativa D é falsa: beneficiam diversos profissionais, não apenas engenheiros.",
+      "tags": ["normas_tecnicas", "definicao", "consenso"]
+    },
+    {
+      "id": "NRM-INTRO-002",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Qual é a sigla das normas técnicas brasileiras e qual entidade as desenvolve?",
+      "options": [
+        "ISO - International Organization for Standardization",
+        "NBR - Associação Brasileira de Normas Técnicas (ABNT)",
+        "INMETRO - Instituto Nacional de Metrologia",
+        "NR - Ministério do Trabalho"
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: as normas brasileiras são as NBRs, desenvolvidas pela ABNT. A alternativa A é a sigla das normas internacionais. A alternativa C é o órgão de metrologia. A alternativa D são as Normas Regulamentadoras de segurança do trabalho.",
+      "tags": ["abnt", "nbr", "normas_brasileiras"]
+    },
+    {
+      "id": "NRM-INTRO-003",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Em que ano foi fundada a Associação Brasileira de Normas Técnicas (ABNT)?",
+      "options": [
+        "1940",
+        "1945",
+        "1947",
+        "1961"
+      ],
+      "correctIndex": 0,
+      "explanation": "A alternativa A está correta: a ABNT foi fundada em 1940. A alternativa C (1947) é o ano de fundação da ISO (Organização Internacional de Normalização). As demais alternativas não correspondem à data correta.",
+      "tags": ["abnt", "fundacao", "1940"]
+    },
+    {
+      "id": "NRM-INTRO-004",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Qual é a sigla da organização internacional responsável pela normalização técnica global e em que ano foi fundada?",
+      "options": [
+        "OIT - 1919",
+        "OMS - 1948",
+        "ISO - 1947",
+        "IEC - 1906"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a ISO (International Organization for Standardization) foi fundada em 1947. A OIT é Organização Internacional do Trabalho, a OMS é Organização Mundial da Saúde, a IEC é Comissão Eletrotécnica Internacional (embora exista, não é a principal organização geral de normalização).",
+      "tags": ["iso", "organizacao_internacional", "1947"]
+    },
+    {
+      "id": "NRM-INTRO-005",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre a importância das normas técnicas para a indústria e empresas:\n\nI. Garantem interoperabilidade entre produtos de diferentes fornecedores.\nII. Aumentam a variedade de componentes, gerando mais opções no mercado.\nIII. Reduzem desperdício de matéria-prima e otimizam estoques.\nIV. A certificação em normas como ISO 9001 é frequentemente um pré-requisito para exportação ou participação em licitações.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, III e IV.",
+        "Apenas II, III e IV.",
+        "I, II, III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "As afirmações I, III e IV estão corretas. I: interoperabilidade é garantida pelas normas. III: redução de desperdício e otimização de estoques. IV: certificação é pré-requisito para exportação e licitações. II é falsa: a padronização MINIMIZA a variedade de componentes, não aumenta.",
+      "tags": ["industria", "interoperabilidade", "iso9001", "custos"]
+    },
+    {
+      "id": "NRM-INTRO-006",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Para o consumidor, as normas técnicas são importantes porque:\n\nI. Garantem a segurança dos produtos (ex: selo do Inmetro em brinquedos).\nII. Dificultam a comparação entre produtos de diferentes marcas.\nIII. Facilitam escolhas mais conscientes baseadas em critérios técnicos claros.\nIV. Aumentam os preços dos produtos sem trazer benefícios.\n\nAssinale a alternativa correta:",
+      "options": [
+        "Apenas I e III.",
+        "Apenas II e IV.",
+        "Apenas I, II e III.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 0,
+      "explanation": "As afirmações I e III estão corretas. I: normas garantem segurança (ex: selo Inmetro). III: facilitam escolhas conscientes. II é falsa: as normas FACILITAM a comparação entre produtos. IV é falsa: normas trazem benefícios como segurança e qualidade, não apenas aumento de preços.",
+      "tags": ["consumidor", "seguranca", "inmetro", "escolha_consciente"]
+    },
+    {
+      "id": "NRM-INTRO-007",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Qual é a relação entre normas técnicas e inovação tecnológica, segundo o texto?",
+      "options": [
+        "As normas engessam a criatividade e impedem a inovação.",
+        "As normas são irrelevantes para processos inovadores.",
+        "Ao padronizar o básico, as normas liberam os inovadores para focarem no que é diferencial.",
+        "Normas e inovação são conceitos opostos e incompatíveis."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: normas padronizam o básico, liberando esforços para inovação diferenciada (ex: protocolo TCP/IP). A alternativa A é um mito desfeito no texto. A alternativa B é falsa: normas são importantes até para inovação. A alternativa D é falsa: não são opostos, são complementares.",
+      "tags": ["inovacao", "padronizacao", "tcpip"]
+    },
+    {
+      "id": "NRM-INTRO-008",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre o papel das normas na segurança e saúde:\n\nI. Na engenharia civil, normas de cálculo estrutural garantem que edifícios resistam a ventos e sobrecargas.\nII. Na área elétrica, normas de instalação evitam incêndios causados por curtos-circuitos.\nIII. Normas técnicas não têm aplicação na área da saúde, apenas na indústria.\nIV. O desenvolvimento tecnológico sem normas seria caótico e perigoso.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, II e IV.",
+        "Apenas II, III e IV.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "As afirmações I, II e IV estão corretas. I: normas de engenharia garantem segurança estrutural. II: normas elétricas previnem incêndios. IV: desenvolvimento sem normas seria caótico. III é falsa: normas têm aplicação na saúde, como normas hospitalares e de equipamentos médicos.",
+      "tags": ["seguranca", "engenharia_civil", "normas_eletricas", "prevencao"]
+    },
+    {
+      "id": "NRM-INTRO-009",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que significa a sigla NBR, muito utilizada no contexto brasileiro?",
+      "options": [
+        "Norma Brasileira de Regulamentação",
+        "Norma Básica de Referência",
+        "Norma Brasileira",
+        "Nova Base Regulatória"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: NBR significa Norma Brasileira. É a sigla utilizada pela ABNT para identificar suas normas técnicas. As demais alternativas são interpretações incorretas da sigla.",
+      "tags": ["nbr", "sigla", "norma_brasileira"]
+    },
+    {
+      "id": "NRM-INTRO-010",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Qual dos seguintes é um exemplo de norma técnica citada no texto como relevante para a acessibilidade?",
+      "options": [
+        "NBR ISO 9001",
+        "NBR 9050",
+        "NR-18",
+        "ISO 14001"
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a NBR 9050 é a norma de acessibilidade mencionada no texto. A alternativa A é a norma de sistemas de gestão da qualidade. A alternativa C é uma Norma Regulamentadora de segurança na construção civil. A alternativa D é a norma de gestão ambiental.",
+      "tags": ["nbr9050", "acessibilidade", "norma_tecnica"]
+    },
+    {
+      "id": "NRM-INTRO-011",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Qual é o principal desafio da normalização na era digital, segundo o texto?",
+      "options": [
+        "Falta de interesse das empresas em adotar padrões.",
+        "A velocidade da inovação tecnológica é maior que o tempo tradicional de criação de uma norma por consenso.",
+        "Os organismos internacionais não reconhecem as normas brasileiras.",
+        "As normas digitais são mais caras que as normas tradicionais."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: o principal desafio é a velocidade da inovação superar o tempo de criação de normas. As demais alternativas não são apontadas como principais desafios no texto.",
+      "tags": ["era_digital", "inovacao_tecnologica", "desafios"]
+    },
+    {
+      "id": "NRM-INTRO-012",
+      "subject": "normas_tecnicas",
+      "topic": "introducao_as_normas",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Com base no texto, qual é a conclusão sobre a importância das normas técnicas para o profissional do futuro?",
+      "options": [
+        "O conhecimento das normas é apenas uma obrigação burocrática sem impacto na carreira.",
+        "Normas técnicas são importantes apenas para profissionais da engenharia.",
+        "Quem domina as normas domina a linguagem da qualidade e está apto a operar no mercado globalizado.",
+        "As normas técnicas serão substituídas por inteligência artificial nos próximos anos."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: dominar normas é dominar a linguagem da qualidade para atuar globalmente. A alternativa A é falsa: vai além de obrigação burocrática. A alternativa B é falsa: beneficia profissionais de diversas áreas. A alternativa D é especulativa e não condiz com o texto.",
+      "tags": ["profissional_futuro", "qualidade", "mercado_globalizado"]
+    }
+  ]
+}
