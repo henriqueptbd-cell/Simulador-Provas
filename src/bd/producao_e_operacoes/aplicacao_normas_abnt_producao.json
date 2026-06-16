@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "discipline": "normas_tecnicas",
-    "discipline_label": "Normas Técnicas",
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
@@ -10,7 +10,7 @@
   "questions": [
     {
       "id": "NRM-WEG-001",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -27,7 +27,7 @@
     },
     {
       "id": "NRM-WEG-002",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -44,7 +44,7 @@
     },
     {
       "id": "NRM-WEG-003",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -61,7 +61,7 @@
     },
     {
       "id": "NRM-WEG-004",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -78,7 +78,7 @@
     },
     {
       "id": "NRM-WEG-005",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -95,7 +95,7 @@
     },
     {
       "id": "NRM-WEG-006",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -112,7 +112,7 @@
     },
     {
       "id": "NRM-WEG-007",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -129,7 +129,7 @@
     },
     {
       "id": "NRM-WEG-008",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "hard",
       "style": "tecnico_adm",
@@ -146,7 +146,7 @@
     },
     {
       "id": "NRM-WEG-009",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "hard",
       "style": "tecnico_adm",
@@ -163,7 +163,7 @@
     },
     {
       "id": "NRM-WEG-010",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -180,7 +180,7 @@
     },
     {
       "id": "NRM-WEG-011",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -197,7 +197,7 @@
     },
     {
       "id": "NRM-WEG-012",
-      "subject": "normas_tecnicas",
+      "subject": "producao_e_operacoes",
       "topic": "aplicacao_normas_abnt_producao",
       "difficulty": "hard",
       "style": "tecnico_adm",

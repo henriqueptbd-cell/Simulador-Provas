@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "discipline": "seguranca_do_trabalho",
-    "discipline_label": "Segurança do Trabalho",
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
@@ -10,7 +10,7 @@
   "questions": [
     {
       "id": "SEG-TRAB-001",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -27,7 +27,7 @@
     },
     {
       "id": "SEG-TRAB-002",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -44,7 +44,7 @@
     },
     {
       "id": "SEG-TRAB-003",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -61,7 +61,7 @@
     },
     {
       "id": "SEG-TRAB-004",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -78,7 +78,7 @@
     },
     {
       "id": "SEG-TRAB-005",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -95,7 +95,7 @@
     },
     {
       "id": "SEG-TRAB-006",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -112,7 +112,7 @@
     },
     {
       "id": "SEG-TRAB-007",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -129,7 +129,7 @@
     },
     {
       "id": "SEG-TRAB-008",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "hard",
       "style": "tecnico_adm",
@@ -146,7 +146,7 @@
     },
     {
       "id": "SEG-TRAB-009",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -163,7 +163,7 @@
     },
     {
       "id": "SEG-TRAB-010",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "hard",
       "style": "tecnico_adm",
@@ -180,7 +180,7 @@
     },
     {
       "id": "SEG-TRAB-011",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -197,7 +197,7 @@
     },
     {
       "id": "SEG-TRAB-012",
-      "subject": "seguranca_do_trabalho",
+      "subject": "producao_e_operacoes",
       "topic": "normas_regulamentadoras",
       "difficulty": "hard",
       "style": "tecnico_adm",
