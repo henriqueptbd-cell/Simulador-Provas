@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "ADM-PROD-001",
+      "subject": "producao_e_operacoes",
+      "topic": "gestao_de_compras",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O Sistema Toyota de Produção (TPS) revolucionou a gestão de compras com a filosofia Just in Time (JIT). Qual é o princípio fundamental do JIT?",
+      "options": [
+        "Comprar em grandes volumes para garantir desconto e evitar faltas.",
+        "Manter estoques elevados para proteger a produção contra imprevistos.",
+        "Comprar apenas o necessário, no momento exato e na quantidade certa.",
+        "Centralizar as compras em um único fornecedor global."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: o JIT preconiza comprar apenas o necessário, na hora certa e na quantidade exata. A alternativa A descreve o modelo tradicional pré-Toyota (grandes estoques). A alternativa B é o oposto do JIT. A alternativa D não é um princípio fundamental do JIT, que prioriza parcerias com poucos fornecedores confiáveis, mas não necessariamente um único.",
+      "tags": ["toyota", "just_in_time", "jit", "tps"]
+    },
+    {
+      "id": "ADM-PROD-002",
+      "subject": "producao_e_operacoes",
+      "topic": "gestao_de_compras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "No caso da Toyota, a gestão de compras passou a ter papel estratégico. Qual das seguintes ações foi implementada pela montadora para fortalecer sua cadeia de suprimentos?",
+      "options": [
+        "Aumentar o número de fornecedores para reduzir riscos.",
+        "Reduzir o número de fornecedores e estabelecer contratos de longo prazo.",
+        "Centralizar todas as compras em um único fornecedor internacional.",
+        "Eliminar a necessidade de auditoria nos fornecedores."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a Toyota reduziu o número de fornecedores, optando por poucos e altamente confiáveis, com contratos de longo prazo. A alternativa A é o oposto do que a Toyota fez. A alternativa C é incorreta pois a Toyota trabalha com uma rede de parceiros, não um único. A alternativa D é falsa: a Toyota realiza auditorias e desenvolvimento conjunto com fornecedores.",
+      "tags": ["toyota", "fornecedores", "contrato_longo_prazo", "parcerias"]
+    },
+    {
+      "id": "ADM-PROD-011",
+      "subject": "producao_e_operacoes",
+      "topic": "gestao_de_compras",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "No caso da Toyota, os compradores passaram a atuar como gestores de relacionamento e risco. Isso implica que:\n\nI. Os compradores devem garantir que os fornecedores entreguem com qualidade, pontualidade e flexibilidade.\nII. Análise de desempenho e auditorias são dispensáveis, pois a confiança substitui o controle.\nIII. É necessário apoio técnico aos fornecedores para desenvolvimento conjunto de processos.\nIV. O papel do comprador se restringe apenas à negociação de preços.\n\nAssinale a alternativa correta:",
+      "options": [
+        "Apenas I e III.",
+        "Apenas II e IV.",
+        "Apenas I, II e III.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 0,
+      "explanation": "As afirmações I e III estão corretas. I: compradores devem garantir qualidade, pontualidade e flexibilidade. III: há apoio técnico e desenvolvimento conjunto. II é falsa: análise de desempenho e auditorias são realizadas mesmo com confiança. IV é falsa: o papel vai além da negociação de preços, incluindo gestão de risco e relacionamento.",
+      "tags": ["toyota", "comprador_estrategico", "gestao_risco", "auditoria"]
+    }
+  ]
+}

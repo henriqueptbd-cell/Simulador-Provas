@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "seguranca_do_trabalho",
+    "discipline_label": "Segurança do Trabalho",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "SEG-TRAB-001",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que representa a aplicação das Normas Regulamentadoras (NRs) no ambiente organizacional, segundo o texto?",
+      "options": [
+        "Apenas uma exigência burocrática sem impacto na operação da empresa.",
+        "Um dos pilares fundamentais para a preservação da saúde e segurança dos trabalhadores, além de contribuir para a eficiência operacional e sustentabilidade.",
+        "Uma recomendação opcional para empresas de grande porte.",
+        "Uma norma exclusiva para o setor da construção civil."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: as NRs são pilares para saúde, segurança, eficiência operacional e sustentabilidade. A alternativa A é falsa: não é apenas burocracia. A alternativa C é falsa: as NRs são obrigatórias, não opcionais. A alternativa D é falsa: as NRs abrangem múltiplos setores, não só construção civil.",
+      "tags": ["nrs", "seguranca_trabalho", "saude_trabalhador"]
+    },
+    {
+      "id": "SEG-TRAB-002",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Qual empresa brasileira foi utilizada como caso real para demonstrar a aplicação das Normas Regulamentadoras na construção civil?",
+      "options": [
+        "Andrade Gutierrez",
+        "Queiroz Galvão",
+        "Odebrecht Engenharia & Construção",
+        "Camargo Corrêa"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: o caso apresentado é da Odebrecht Engenharia & Construção. As demais alternativas são outras grandes empresas da construção civil, mas não as mencionadas no texto como caso de estudo.",
+      "tags": ["odebrecht", "caso_real", "construcao_civil"]
+    },
+    {
+      "id": "SEG-TRAB-003",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "No caso apresentado, quais foram os principais problemas identificados na Odebrecht antes da implementação do programa estruturado de segurança?",
+      "options": [
+        "Falta de matéria-prima e atraso na entrega de insumos.",
+        "Quedas de altura, falhas na sinalização de áreas de risco, uso inadequado de EPIs e ausência de treinamentos específicos.",
+        "Greves e conflitos trabalhistas recorrentes.",
+        "Problemas de pagamento e inadimplência de clientes."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: os problemas incluíam quedas de altura, falhas de sinalização, uso inadequado de EPIs e falta de treinamentos. As demais alternativas apresentam problemas não mencionados no texto como os principais identificados na área de segurança.",
+      "tags": ["problemas_identificados", "acidentes_trabalho", "epi"]
+    },
+    {
+      "id": "SEG-TRAB-004",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Quais são as Normas Regulamentadoras mencionadas no texto como as principais descumpridas pela Odebrecht antes do plano de ação?",
+      "options": [
+        "NR-10, NR-12 e NR-17",
+        "NR-5, NR-7 e NR-9",
+        "NR-6, NR-18 e NR-35",
+        "NR-15, NR-16 e NR-20"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: as NRs mencionadas foram NR-6 (EPI), NR-18 (Condições e Meio Ambiente de Trabalho na Construção Civil) e NR-35 (Trabalho em Altura). As demais alternativas trazem NRs importantes, mas não citadas no caso.",
+      "tags": ["nr6", "nr18", "nr35", "normas_regulamentadoras"]
+    },
+    {
+      "id": "SEG-TRAB-005",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O que a NR-35, mencionada no caso, regulamenta especificamente?",
+      "options": [
+        "O uso de Equipamentos de Proteção Individual (EPIs).",
+        "As condições e meio ambiente de trabalho na indústria da construção.",
+        "O trabalho em altura.",
+        "A segurança em máquinas e equipamentos."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a NR-35 trata especificamente do Trabalho em Altura. A alternativa A é a NR-6. A alternativa B é a NR-18. A alternativa D é a NR-12 (máquinas e equipamentos).",
+      "tags": ["nr35", "trabalho_altura", "normas_regulamentadoras"]
+    },
+    {
+      "id": "SEG-TRAB-006",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Com base no texto, quais foram os três pilares principais do plano de ação estruturado pela Odebrecht para transformar a gestão de segurança do trabalho?",
+      "options": [
+        "Redução de custos, terceirização e automação.",
+        "Adequação técnica às NRs, capacitação dos trabalhadores e fortalecimento da cultura de segurança.",
+        "Contratação de auditores externos, redução de jornada e benefícios salariais.",
+        "Substituição de todos os trabalhadores, novas máquinas e fechamento de obras."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: os três pilares foram adequação técnica às NRs, capacitação dos trabalhadores e fortalecimento da cultura de segurança. As demais alternativas trazem elementos não mencionados no texto como pilares principais.",
+      "tags": ["plano_acao", "adequacao_tecnica", "capacitacao", "cultura_seguranca"]
+    },
+    {
+      "id": "SEG-TRAB-007",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O que a empresa implementou especificamente para atender à NR-6?",
+      "options": [
+        "Treinamentos para trabalho em altura.",
+        "Sistemas de proteção coletiva, como guarda-corpos e redes.",
+        "Sistemas de rastreamento de entrega de EPIs, treinamentos obrigatórios e campanhas internas de conscientização.",
+        "Análise de risco antes da execução das tarefas."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: para a NR-6 (EPI), a empresa implementou rastreamento de EPIs, treinamentos obrigatórios e campanhas de conscientização. A alternativa A refere-se à NR-35. A alternativa B refere-se à NR-18. A alternativa D é um procedimento para trabalho em altura (NR-35).",
+      "tags": ["nr6", "epi", "rastreamento", "treinamento"]
+    },
+    {
+      "id": "SEG-TRAB-008",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre os resultados alcançados pela Odebrecht após a implementação do programa de segurança:\n\nI. Houve redução significativa nos índices de acidentes de trabalho, especialmente quedas.\nII. Os afastamentos por motivos de saúde aumentaram devido ao rigor das novas normas.\nIII. A empresa passou a atender de forma mais consistente às exigências do Ministério do Trabalho.\nIV. Os custos com indenizações e seguros aumentaram significativamente.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e III.",
+        "Apenas II e IV.",
+        "Apenas I, II e III.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 0,
+      "explanation": "As afirmações I e III estão corretas. I: houve redução significativa nos acidentes. III: a empresa passou a atender melhor as exigências do Ministério do Trabalho. II é falsa: os afastamentos diminuíram. IV é falsa: os custos com indenizações e seguros foram reduzidos.",
+      "tags": ["resultados", "reducao_acidentes", "conformidade_legal"]
+    },
+    {
+      "id": "SEG-TRAB-009",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Qual foi o maior desafio enfrentado pela Odebrecht durante a implementação do programa de segurança, segundo o texto?",
+      "options": [
+        "Falta de recursos financeiros para investimentos.",
+        "Resistência dos trabalhadores às novas práticas, considerando-as burocráticas ou desnecessárias.",
+        "Falta de apoio dos órgãos fiscalizadores.",
+        "Dificuldade de contratar profissionais especializados em segurança."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: o maior desafio foi a resistência dos trabalhadores às novas práticas. Para superar, a empresa adotou abordagem participativa. As demais alternativas não são apontadas como principais desafios no texto.",
+      "tags": ["resistencia", "cultura_organizacional", "desafios"]
+    },
+    {
+      "id": "SEG-TRAB-010",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Para superar a resistência dos trabalhadores, qual abordagem a Odebrecht adotou?",
+      "options": [
+        "Imposição de punições severas para quem descumprisse as normas.",
+        "Demissão dos trabalhadores resistentes e contratação de novos colaboradores.",
+        "Abordagem participativa, incentivando sugestões de melhorias e reconhecendo comportamentos seguros com programas de incentivo.",
+        "Terceirização total das atividades de segurança para empresas especializadas."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a empresa adotou abordagem participativa, incentivando sugestões e reconhecendo comportamentos seguros. As demais alternativas apresentam abordagens autoritárias ou terceirizantes, não mencionadas no texto.",
+      "tags": ["abordagem_participativa", "reconhecimento", "programas_incentivo"]
+    },
+    {
+      "id": "SEG-TRAB-011",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que a NR-18, mencionada no caso, regulamenta?",
+      "options": [
+        "A utilização de Equipamentos de Proteção Individual (EPIs).",
+        "As condições e meio ambiente de trabalho na indústria da construção civil.",
+        "O trabalho em altura.",
+        "A segurança em instalações elétricas."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a NR-18 trata das Condições e Meio Ambiente de Trabalho na Indústria da Construção Civil. A alternativa A é NR-6. A alternativa C é NR-35. A alternativa D é NR-10.",
+      "tags": ["nr18", "construcao_civil", "condicoes_trabalho"]
+    },
+    {
+      "id": "SEG-TRAB-012",
+      "subject": "seguranca_do_trabalho",
+      "topic": "normas_regulamentadoras",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Com base no caso da Odebrecht, qual a principal lição aprendida sobre a aplicação das Normas Regulamentadoras?",
+      "options": [
+        "As NRs são apenas exigências legais que geram custos sem retorno para a empresa.",
+        "A aplicação das NRs vai além do cumprimento legal, configurando-se como elemento estratégico que promove proteção dos trabalhadores e ganhos operacionais, financeiros e reputacionais.",
+        "As NRs devem ser aplicadas apenas em empresas de grande porte, pois pequenas empresas não têm estrutura para cumpri-las.",
+        "A segurança do trabalho é responsabilidade exclusiva do setor de Recursos Humanos."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a lição é que as NRs vão além da lei, sendo elemento estratégico para proteção e ganhos. A alternativa A é falsa: as NRs trazem retorno. A alternativa C é falsa: as NRs aplicam-se a empresas de todos os portes. A alternativa D é falsa: segurança é responsabilidade de todos.",
+      "tags": ["licoes_aprendidas", "estrategico", "competitividade"]
+    }
+  ]
+}

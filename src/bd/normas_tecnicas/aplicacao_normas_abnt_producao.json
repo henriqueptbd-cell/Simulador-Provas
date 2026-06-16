@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "normas_tecnicas",
+    "discipline_label": "Normas Técnicas",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "NRM-WEG-001",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Qual empresa brasileira é utilizada como caso real de aplicação das normas ABNT na padronização de processos produtivos?",
+      "options": [
+        "Embraer",
+        "Vale S.A.",
+        "WEG S.A.",
+        "Petrobras"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a WEG S.A. é a empresa do caso apresentado. As demais alternativas são outras grandes empresas brasileiras, mas não mencionadas no texto.",
+      "tags": ["weg", "caso_real", "abnt"]
+    },
+    {
+      "id": "NRM-WEG-002",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Em que cidade está localizada a sede da WEG S.A.?",
+      "options": [
+        "Joinville (SC)",
+        "Blumenau (SC)",
+        "Jaraguá do Sul (SC)",
+        "Florianópolis (SC)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a WEG tem sede em Jaraguá do Sul (SC). As demais alternativas são outras cidades catarinenses, mas não a sede da empresa.",
+      "tags": ["weg", "jaragua_sul", "sede"]
+    },
+    {
+      "id": "NRM-WEG-003",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Quais foram os principais problemas identificados na WEG antes da implementação das normas ABNT?",
+      "options": [
+        "Greves e conflitos trabalhistas recorrentes.",
+        "Variações na qualidade dos produtos, retrabalho, dificuldades de rastreabilidade e não conformidades em auditorias.",
+        "Falta de matéria-prima e dependência de fornecedores internacionais.",
+        "Queda nas vendas e perda de participação de mercado."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: os problemas incluíam variações de qualidade, retrabalho, dificuldades de rastreabilidade e não conformidades. As demais alternativas apresentam problemas não mencionados no texto.",
+      "tags": ["problemas_identificados", "qualidade", "retrabalho", "rastreabilidade"]
+    },
+    {
+      "id": "NRM-WEG-004",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Segundo o diagnóstico realizado na WEG, quais foram as principais causas das inconsistências nos processos?",
+      "options": [
+        "Falta de investimento em máquinas e equipamentos modernos.",
+        "Ausência de documentação padronizada, falta de integração entre setores e treinamento insuficiente sobre normas.",
+        "Excesso de funcionários e alta rotatividade de pessoal.",
+        "Localização geográfica desfavorável e logística ineficiente."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: as causas foram falta de documentação padronizada, falta de integração, diferenças de interpretação e treinamento insuficiente. As demais alternativas não são apontadas como causas principais no texto.",
+      "tags": ["diagnostico", "causas", "documentacao", "treinamento"]
+    },
+    {
+      "id": "NRM-WEG-005",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que são Procedimentos Operacionais Padrão (POPs) no contexto da padronização da WEG?",
+      "options": [
+        "Documentos que descrevem a missão e visão da empresa.",
+        "Documentos que padronizam as etapas da produção com base em normas técnicas, garantindo critérios uniformes.",
+        "Relatórios financeiros anuais da empresa.",
+        "Contratos de trabalho dos colaboradores."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: POPs são documentos que padronizam etapas da produção com base em normas técnicas. As demais alternativas descrevem outros tipos de documentos não relacionados à padronização operacional.",
+      "tags": ["pop", "procedimentos_operacionais", "padronizacao"]
+    },
+    {
+      "id": "NRM-WEG-006",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Quais ações a WEG implementou na área de controle de qualidade alinhada às normas técnicas?",
+      "options": [
+        "Redução do número de inspeções para acelerar a produção.",
+        "Inspeções sistemáticas em cada etapa, ensaios laboratoriais conforme padrões ABNT, registro e rastreabilidade de produtos.",
+        "Eliminação completa da etapa de inspeção, confiando apenas nos fornecedores.",
+        "Terceirização total do controle de qualidade para consultorias externas."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a WEG implementou inspeções sistemáticas, ensaios laboratoriais, registro e rastreabilidade. As demais alternativas representariam redução ou eliminação do controle, o oposto do que foi feito.",
+      "tags": ["controle_qualidade", "inspecoes", "rastreabilidade"]
+    },
+    {
+      "id": "NRM-WEG-007",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Como a WEG abordou a necessidade de integração entre setores durante a implementação das normas?",
+      "options": [
+        "Criando departamentos isolados para cada norma.",
+        "Adotando ferramentas de gestão que permitiram compartilhamento de informações em tempo real e alinhamento de especificações técnicas.",
+        "Centralizando todas as decisões em um único gestor.",
+        "Eliminando a comunicação entre áreas para evitar conflitos."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a empresa adotou ferramentas de gestão para compartilhamento de informações em tempo real. As demais alternativas representariam isolamento ou centralização excessiva, contrariando a integração.",
+      "tags": ["integracao", "setores", "ferramentas_gestao"]
+    },
+    {
+      "id": "NRM-WEG-008",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre os desafios enfrentados pela WEG na implementação das normas:\n\nI. Resistência à mudança por parte de colaboradores.\nII. Necessidade de investimentos em tecnologia e treinamento.\nIII. Ausência total de desafios, pois a implementação foi imediata e sem custos.\nIV. Complexidade na interpretação de algumas normas técnicas.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, II e IV.",
+        "Apenas II, III e IV.",
+        "I, II, III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "As afirmações I, II e IV estão corretas: resistência à mudança, necessidade de investimentos e complexidade de interpretação foram desafios. III é falsa: houve sim desafios significativos no processo.",
+      "tags": ["desafios", "resistencia", "investimentos", "complexidade"]
+    },
+    {
+      "id": "NRM-WEG-009",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Qual abordagem a WEG utilizou para superar a resistência dos colaboradores às mudanças?",
+      "options": [
+        "Imposição de punições severas para quem não seguisse as novas normas.",
+        "Demissão dos colaboradores resistentes e contratação de novos.",
+        "Abordagem participativa, envolvendo os colaboradores no processo de mudança e destacando os benefícios da padronização.",
+        "Terceirização completa da produção para evitar o contato com colaboradores resistentes."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a WEG adotou abordagem participativa, envolvendo colaboradores e destacando benefícios. As demais alternativas representam abordagens autoritárias ou de evitação, não mencionadas no texto.",
+      "tags": ["resistencia", "abordagem_participativa", "mudanca"]
+    },
+    {
+      "id": "NRM-WEG-010",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Quais resultados a WEG alcançou após a implementação das normas ABNT?",
+      "options": [
+        "Aumento do retrabalho e dos desperdícios.",
+        "Redução da qualidade e confiabilidade dos produtos.",
+        "Redução de retrabalho, aumento da qualidade, melhoria na rastreabilidade, maior eficiência produtiva e conformidade com mercados internacionais.",
+        "Perda de competitividade e dificuldade de exportação."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a WEG obteve redução de retrabalho, aumento da qualidade, melhoria na rastreabilidade, maior eficiência e conformidade internacional. As demais alternativas apresentam resultados negativos, contrários ao relatado.",
+      "tags": ["resultados", "qualidade", "eficiencia", "competitividade"]
+    },
+    {
+      "id": "NRM-WEG-011",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O que a WEG implementou para garantir a melhoria contínua após a padronização?",
+      "options": [
+        "Auditorias internas periódicas e ciclos de melhoria contínua.",
+        "Redução das inspeções para acelerar a produção.",
+        "Eliminação dos treinamentos após a certificação inicial.",
+        "Foco exclusivo na redução de custos, ignorando a qualidade."
+      ],
+      "correctIndex": 0,
+      "explanation": "A alternativa A está correta: a WEG passou a realizar auditorias internas periódicas e ciclos de melhoria contínua. As demais alternativas representariam retrocesso no processo de qualidade.",
+      "tags": ["auditorias", "melhoria_continua", "qualidade"]
+    },
+    {
+      "id": "NRM-WEG-012",
+      "subject": "normas_tecnicas",
+      "topic": "aplicacao_normas_abnt_producao",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Com base no caso da WEG, qual é a principal lição aprendida sobre padronização?",
+      "options": [
+        "A padronização é útil apenas para grandes empresas multinacionais.",
+        "A padronização deve ser integrada à estratégia da empresa, com capacitação dos colaboradores e melhoria contínua constante.",
+        "Normas técnicas são desnecessárias quando a empresa já tem tradição no mercado.",
+        "A padronização é um processo rápido e de baixo custo."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a padronização deve ser estratégica, com capacitação e melhoria contínua. As demais alternativas apresentam visões equivocadas: a padronização beneficia empresas de todos os portes, não é desnecessária para empresas tradicionais e não é rápida nem barata.",
+      "tags": ["licoes_aprendidas", "estrategia", "melhoria_continua"]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "ADM-PROD-009",
+      "subject": "producao_e_operacoes",
+      "topic": "custos_de_estoque",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Quais são os principais custos associados à manutenção de estoques, mencionados no caso da Zara?",
+      "options": [
+        "Apenas custo de aquisição e frete.",
+        "Armazenagem, seguro, obsolescência e capital investido.",
+        "Apenas custo de mão de obra e imposto de renda.",
+        "Custo de marketing e propaganda."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: os custos de estoque incluem armazenagem, seguro, obsolescência e capital investido. A alternativa A é incompleta (custo de aquisição e frete são parte do custo total, mas não os únicos). As alternativas C e D trazem custos que não estão diretamente relacionados à manutenção de estoques.",
+      "tags": ["zara", "custos_estoque", "armazenagem", "obsolescencia"]
+    },
+    {
+      "id": "ADM-PROD-010",
+      "subject": "producao_e_operacoes",
+      "topic": "custos_de_estoque",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "A Zara revolucionou a indústria da moda com seu modelo fast fashion. Qual estratégia a empresa adotou para reduzir os custos de estoque?",
+      "options": [
+        "Produzir grandes quantidades com antecedência para ganhar escala.",
+        "Manter estoques elevados em centros de distribuição centralizados.",
+        "Produzir em pequenos lotes e com alta frequência, reduzindo o tempo dos produtos no estoque.",
+        "Terceirizar toda a produção para a Ásia, reduzindo custos unitários."
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: a Zara produz em pequenos lotes com alta frequência, reduzindo o tempo que o produto fica parado. A alternativa A é o modelo tradicional que gera altos custos de estoque. A alternativa B é o oposto da estratégia Zara. A alternativa D é falsa: a Zara mantém produção próxima aos centros de distribuição na Europa.",
+      "tags": ["zara", "fast_fashion", "pequenos_lotes", "alta_frequencia"]
+    }
+  ]
+}

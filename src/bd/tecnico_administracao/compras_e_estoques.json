@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "tecnico_administracao",
+    "discipline_label": "Técnico em Administração",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "ADM-COMP-001",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Qual é o princípio fundamental do Sistema Just in Time (JIT) da Toyota?",
+      "options": [
+        "Manter grandes estoques para garantir disponibilidade.",
+        "Comprar apenas o necessário, no momento exato e na quantidade certa.",
+        "Centralizar todas as compras em um único fornecedor global.",
+        "Produzir o máximo possível para ganhar escala."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: o JIT preconiza comprar apenas o necessário, na hora certa e na quantidade exata. A é o modelo tradicional que a Toyota rejeitou. C e D não representam o JIT.",
+      "tags": ["toyota", "just_in_time", "jit", "compras"]
+    },
+    {
+      "id": "ADM-COMP-002",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Como a Toyota transformou seus compradores no modelo JIT?",
+      "options": [
+        "Eles passaram a atuar apenas na negociação de preços.",
+        "Eles passaram a atuar como gestores de relacionamento e risco, garantindo qualidade, pontualidade e flexibilidade dos fornecedores.",
+        "Eles foram substituídos por sistemas automatizados.",
+        "Eles passaram a trabalhar apenas com fornecedores internacionais."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: os compradores tornaram-se gestores de relacionamento e risco. A é a visão tradicional. C não ocorreu. D é incorreta, a Toyota reduziu número de fornecedores, mas não se limitou apenas a internacionais.",
+      "tags": ["toyota", "compradores", "gestao_risco", "relacionamento"]
+    },
+    {
+      "id": "ADM-COMP-003",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que a Amazon utiliza para prever demanda em seu processo de compras?",
+      "options": [
+        "Apenas dados históricos do ano anterior.",
+        "Inteligência artificial e algoritmos avançados.",
+        "Pesquisas manuais com consumidores.",
+        "Informações exclusivas dos concorrentes."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a Amazon usa IA e algoritmos avançados para prever demanda. As demais alternativas descrevem métodos menos sofisticados.",
+      "tags": ["amazon", "previsao_demanda", "ia", "algoritmos"]
+    },
+    {
+      "id": "ADM-COMP-004",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O que a Amazon monitora em tempo real para controlar seu processo de compras?",
+      "options": [
+        "Apenas o nível de estoque.",
+        "Indicadores como tempo de entrega, nível de serviço e custo.",
+        "Apenas o preço dos produtos.",
+        "Apenas a satisfação dos funcionários."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a Amazon monitora tempo de entrega, nível de serviço e custo. As demais alternativas são mais limitadas e não abrangem o controle completo mencionado.",
+      "tags": ["amazon", "indicadores", "monitoramento", "tempo_real"]
+    },
+    {
+      "id": "ADM-COMP-005",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que representa a curva dente de serra na gestão de estoques?",
+      "options": [
+        "O aumento contínuo dos custos logísticos.",
+        "O comportamento do estoque ao longo do tempo: diminui com as vendas e aumenta na reposição.",
+        "A variação sazonal dos preços.",
+        "A redução gradativa da demanda."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a curva dente de serra representa a queda do estoque com as vendas e o aumento na reposição. As demais alternativas descrevem outros fenômenos.",
+      "tags": ["curva_dente_de_serra", "estoque", "reposicao"]
+    },
+    {
+      "id": "ADM-COMP-006",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Qual sistema o Walmart utiliza para permitir que o fornecedor acompanhe o estoque e realize a reposição automaticamente?",
+      "options": [
+        "ERP",
+        "CRM",
+        "VMI (Vendor Managed Inventory)",
+        "MRP"
+      ],
+      "correctIndex": 2,
+      "explanation": "A alternativa C está correta: VMI (Vendor Managed Inventory) é o sistema onde o fornecedor gerencia o estoque. A é ERP (sistema integrado de gestão). B é CRM (gestão de relacionamento com clientes). D é MRP (planejamento de materiais).",
+      "tags": ["walmart", "vmi", "vendor_managed_inventory", "reposicao"]
+    },
+    {
+      "id": "ADM-COMP-007",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que é estoque de segurança e qual sua finalidade?",
+      "options": [
+        "Estoque para liquidações promocionais.",
+        "Estoque mantido para prevenir faltas causadas por incertezas como atrasos de fornecedores ou aumento inesperado da demanda.",
+        "Estoque de produtos obsoletos.",
+        "Estoque exclusivo para exportação."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: estoque de segurança protege contra incertezas. As demais alternativas descrevem outros tipos de estoque com finalidades diferentes.",
+      "tags": ["estoque_seguranca", "risco", "incerteza"]
+    },
+    {
+      "id": "ADM-COMP-008",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre a gestão de estoques da Apple:\n\nI. A Apple utiliza estoques de segurança para lidar com incertezas na cadeia de suprimentos.\nII. A empresa diversifica fornecedores e regiões de produção para reduzir riscos.\nIII. Manter estoque de segurança elevado não gera custos adicionais.\nIV. Durante a pandemia, a Apple aumentou temporariamente o estoque de segurança.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, II e IV.",
+        "Apenas II, III e IV.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "As afirmações I, II e IV estão corretas. III é falsa: estoque de segurança elevado aumenta custos de armazenagem e capital investido.",
+      "tags": ["apple", "estoque_seguranca", "diversificacao", "pandemia"]
+    },
+    {
+      "id": "ADM-COMP-009",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Quais são os principais custos de estoque mencionados no caso da Zara?",
+      "options": [
+        "Apenas custo de aquisição.",
+        "Armazenagem, seguro, obsolescência e capital investido.",
+        "Apenas custo de transporte.",
+        "Custos de marketing e propaganda."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: os custos são armazenagem, seguro, obsolescência e capital investido. As demais alternativas são incompletas ou incorretas.",
+      "tags": ["zara", "custos_estoque", "armazenagem", "obsolescencia"]
+    },
+    {
+      "id": "ADM-COMP-010",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Qual estratégia a Zara adotou para reduzir os custos de estoque?",
+      "options": [
+        "Produzir grandes quantidades com antecedência.",
+        "Produzir em pequenos lotes e com alta frequência.",
+        "Manter estoques elevados em centros de distribuição.",
+        "Terceirizar toda a produção para a Ásia."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a Zara produz em pequenos lotes com alta frequência. A é o modelo tradicional. C é o oposto da estratégia Zara. D é incorreta, a Zara mantém produção próxima à Europa.",
+      "tags": ["zara", "pequenos_lotes", "alta_frequencia", "fast_fashion"]
+    },
+    {
+      "id": "ADM-COMP-011",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre a gestão de compras da Toyota:\n\nI. A Toyota aumentou o número de fornecedores para reduzir riscos.\nII. Contratos de longo prazo foram estabelecidos com fornecedores confiáveis.\nIII. O modelo JIT exige alto nível de coordenação, pois qualquer falha no fornecimento pode parar a produção.\nIV. A gestão de compras na Toyota envolve planejamento rigoroso e planos de contingência.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas II, III e IV.",
+        "Apenas I, II e III.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "As afirmações II, III e IV estão corretas. I é falsa: a Toyota REDUZIU o número de fornecedores, optando por poucos porém confiáveis.",
+      "tags": ["toyota", "fornecedores", "jit", "coordenacao"]
+    },
+    {
+      "id": "ADM-COMP-012",
+      "subject": "tecnico_administracao",
+      "topic": "compras_e_estoques",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O que são compras dinâmicas, conceito utilizado pela Amazon?",
+      "options": [
+        "Compras realizadas apenas no início do ano.",
+        "A capacidade de mudar fornecedores rapidamente dependendo da demanda, preços e disponibilidade.",
+        "Compras exclusivas de produtos digitais.",
+        "Compras realizadas apenas com fornecedores locais."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: compras dinâmicas são a capacidade de mudar fornecedores rapidamente conforme condições de mercado. As demais alternativas não representam o conceito mencionado.",
+      "tags": ["amazon", "compras_dinamicas", "fornecedores", "flexibilidade"]
+    }
+  ]
+}

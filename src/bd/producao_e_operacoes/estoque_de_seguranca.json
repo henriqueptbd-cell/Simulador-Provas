@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "ADM-PROD-007",
+      "subject": "producao_e_operacoes",
+      "topic": "estoque_de_seguranca",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O que é estoque de segurança e qual sua principal finalidade?",
+      "options": [
+        "Estoque mantido para atender picos sazonais de vendas.",
+        "Estoque mantido para prevenir faltas causadas por incertezas, como atrasos de fornecedores ou aumento inesperado da demanda.",
+        "Estoque de produtos com baixa rotatividade que serão liquidadados.",
+        "Estoque de matéria-prima para produção de novos lotes."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: estoque de segurança protege contra incertezas na demanda ou no suprimento. A alternativa A descreve estoque sazonal. A alternativa C descreve estoque obsoleto ou encalhado. A alternativa D é estoque de matéria-prima para produção, não necessariamente de segurança.",
+      "tags": ["estoque_seguranca", "risco", "incerteza"]
+    },
+    {
+      "id": "ADM-PROD-008",
+      "subject": "producao_e_operacoes",
+      "topic": "estoque_de_seguranca",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "No caso da Apple durante a pandemia de COVID-19, foram adotadas medidas para gerenciar riscos na cadeia de suprimentos. Analise as afirmações:\n\nI. A Apple aumentou temporariamente o estoque de segurança para garantir disponibilidade de produtos.\nII. A empresa utiliza exclusivamente um único fornecedor para todos os componentes.\nIII. A definição do estoque de segurança envolve análise da variabilidade da demanda e do tempo de reposição.\nIV. Manter estoque de segurança elevado não gera custos adicionais para a empresa.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e III.",
+        "Apenas II e IV.",
+        "Apenas I, II e III.",
+        "Apenas III e IV."
+      ],
+      "correctIndex": 0,
+      "explanation": "As afirmações I e III estão corretas. I: a Apple aumentou o estoque de segurança em períodos críticos. III: o cálculo do estoque de segurança considera variabilidade da demanda e do tempo de reposição. II é falsa: a Apple diversifica fornecedores e regiões para reduzir riscos. IV é falsa: estoque de segurança elevado aumenta custos (armazenagem, capital investido).",
+      "tags": ["apple", "estoque_seguranca", "risco", "pandemia"]
+    }
+  ]
+}

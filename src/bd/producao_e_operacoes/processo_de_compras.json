@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "ADM-PROD-003",
+      "subject": "producao_e_operacoes",
+      "topic": "processo_de_compras",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "A Amazon utiliza tecnologia avançada para otimizar seu processo de compras. Como a empresa faz a previsão de demanda?",
+      "options": [
+        "Baseando-se apenas em dados históricos de vendas do ano anterior.",
+        "Através de inteligência artificial e análise de dados.",
+        "Utilizando exclusivamente as informações fornecidas pelos vendedores.",
+        "Com base em pesquisas de opinião com consumidores."
+      ],
+      "correctIndex": 1,
+      "explanation": "A alternativa B está correta: a Amazon utiliza inteligência artificial e algoritmos avançados para prever demanda, incluindo o que será vendido, em quais regiões e quantidades. As demais alternativas descrevem métodos menos sofisticados ou parciais.",
+      "tags": ["amazon", "previsao_demanda", "ia", "algoritmos"]
+    },
+    {
+      "id": "ADM-PROD-004",
+      "subject": "producao_e_operacoes",
+      "topic": "processo_de_compras",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre o processo de compras da Amazon:\n\nI. A execução das compras é amplamente automatizada por sistemas integrados.\nII. A empresa trabalha apenas com grandes fabricantes, evitando pequenos vendedores.\nIII. Indicadores como tempo de entrega e custo são monitorados em tempo real.\nIV. O marketplace da Amazon permite diversificar fornecedores e reduzir riscos.\n\nAssinale a alternativa com apenas afirmações CORRETAS:",
+      "options": [
+        "Apenas I e II.",
+        "Apenas I, III e IV.",
+        "Apenas II, III e IV.",
+        "I, II, III e IV."
+      ],
+      "correctIndex": 1,
+      "explanation": "As afirmações I, III e IV estão corretas. I: a Amazon automatiza pedidos aos fornecedores. III: indicadores são monitorados em tempo real para ajustes rápidos. IV: o marketplace permite trabalhar com pequenos vendedores, diversificando fornecedores. II é falsa: a Amazon trabalha tanto com grandes fabricantes quanto com pequenos vendedores por meio do marketplace.",
+      "tags": ["amazon", "automacao", "marketplace", "indicadores"]
+    }
+  ]
+}
