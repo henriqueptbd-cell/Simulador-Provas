@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "discipline": "tecnico_administracao",
-    "discipline_label": "Técnico em Administração",
+    "discipline": "producao_e_operacoes",
+    "discipline_label": "Produção e Operações",
     "semester": 1,
     "exam": "p1",
     "exam_label": "P1",
@@ -10,7 +10,7 @@
   "questions": [
     {
       "id": "ADM-COMP-001",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -27,7 +27,7 @@
     },
     {
       "id": "ADM-COMP-002",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -44,7 +44,7 @@
     },
     {
       "id": "ADM-COMP-003",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -61,7 +61,7 @@
     },
     {
       "id": "ADM-COMP-004",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -78,7 +78,7 @@
     },
     {
       "id": "ADM-COMP-005",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -95,7 +95,7 @@
     },
     {
       "id": "ADM-COMP-006",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -112,7 +112,7 @@
     },
     {
       "id": "ADM-COMP-007",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -129,7 +129,7 @@
     },
     {
       "id": "ADM-COMP-008",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "hard",
       "style": "tecnico_adm",
@@ -146,7 +146,7 @@
     },
     {
       "id": "ADM-COMP-009",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "easy",
       "style": "tecnico_adm",
@@ -163,7 +163,7 @@
     },
     {
       "id": "ADM-COMP-010",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "medium",
       "style": "tecnico_adm",
@@ -180,7 +180,7 @@
     },
     {
       "id": "ADM-COMP-011",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "hard",
       "style": "tecnico_adm",
@@ -197,7 +197,7 @@
     },
     {
       "id": "ADM-COMP-012",
-      "subject": "tecnico_administracao",
+      "subject": "producao_e_operacoes",
       "topic": "compras_e_estoques",
       "difficulty": "medium",
       "style": "tecnico_adm",
