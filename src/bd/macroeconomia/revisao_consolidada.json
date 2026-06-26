@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "discipline": "macroeconomia",
+    "discipline_label": "Macroeconomia",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "REV-MAC-001",
+      "subject": "macroeconomia",
+      "topic": "conceito_macroeconomia",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre o conceito e o objeto de estudo da macroeconomia, assinale a alternativa correta.",
+      "options": [
+        "A macroeconomia estuda as decisões individuais de consumidores e empresas, ignorando variáveis agregadas.",
+        "A macroeconomia analisa o comportamento agregado da economia, estudando variáveis como produção, inflação, juros e emprego.",
+        "A macroeconomia e a microeconomia são idênticas, diferenciando-se apenas pela escala territorial de análise.",
+        "A macroeconomia se limita ao estudo da política fiscal, excluindo a política monetária do seu escopo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: a macroeconomia estuda o comportamento agregado da economia, analisando produção, inflação, juros e emprego, tratando o sistema como um todo. A está errada: decisões individuais são objeto da microeconomia. C está errada: são ramos distintos — micro foca decisões individuais, macro foca agregados. D está errada: a macroeconomia abrange tanto a política fiscal quanto a monetária.",
+      "tags": ["macroeconomia", "conceito", "variaveis_agregadas", "microeconomia"]
+    },
+    {
+      "id": "REV-FLX-002",
+      "subject": "macroeconomia",
+      "topic": "fluxo_circular_renda",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O fluxo circular de renda é um modelo que demonstra a interdependência entre os agentes econômicos. Sua ideia central pode ser resumida como:",
+      "options": [
+        "O governo é o único agente capaz de injetar recursos na economia.",
+        "As empresas produzem independentemente da renda das famílias.",
+        "O gasto de uma pessoa é a renda de outra, mostrando que a economia é interdependente.",
+        "As exportações são a única fonte de crescimento econômico sustentável."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: o fluxo circular demonstra que o gasto de um agente se transforma na renda de outro, evidenciando a interdependência da economia. A está errada: o governo é um dos agentes, não o único. B está errada: a produção depende da renda e do consumo das famílias. D está errada: exportações são apenas um componente do PIB.",
+      "tags": ["fluxo_circular", "renda", "interdependencia", "agentes_economicos"]
+    },
+    {
+      "id": "REV-SEL-003",
+      "subject": "macroeconomia",
+      "topic": "selic",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "A taxa Selic é o principal instrumento de política monetária no Brasil. Sobre seus efeitos, analise as afirmações e marque a alternativa correta.\n\nI. A Selic é definida pelo Banco Central, por meio do COPOM.\nII. Selic alta encarece o crédito, reduz o consumo e diminui o valuation das empresas.\nIII. Selic alta estimula o setor imobiliário, pois reduz o custo do financiamento.\nIV. A Selic funciona como o \"preço do dinheiro no tempo\", controlando o ritmo da economia.",
+      "options": [
+        "Apenas I, II e IV estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas I e III estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: a Selic é definida pelo COPOM do Banco Central. II está correta: Selic alta torna crédito caro, reduz consumo e investimento, e diminui valuation ao aumentar a taxa de desconto. IV está correta: a Selic é o preço do dinheiro e controla o ritmo da economia. III está errada: Selic alta prejudica o setor imobiliário, que depende de financiamento. Portanto, apenas I, II e IV estão corretas.",
+      "tags": ["selic", "copom", "politica_monetaria", "credito", "juros"]
+    },
+    {
+      "id": "REV-INF-004",
+      "subject": "macroeconomia",
+      "topic": "inflacao_revisao",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Sobre os tipos de inflação, associe corretamente:\n\n1. Inflação de demanda\n2. Inflação de custos\n3. Inflação inercial\n4. Deflação\n\nA. Indexação baseada na inflação passada — característica do Brasil pré-Plano Real.\nB. Queda generalizada e contínua dos preços — pode gerar retração e desemprego.\nC. Excesso de consumo — \"muito dinheiro perseguindo poucos bens\".\nD. Aumento de insumos como energia, salários e câmbio.",
+      "options": [
+        "1-C, 2-D, 3-A, 4-B.",
+        "1-D, 2-C, 3-B, 4-A.",
+        "1-A, 2-B, 3-C, 4-D.",
+        "1-B, 2-A, 3-D, 4-C."
+      ],
+      "correctIndex": 0,
+      "explanation": "A associação correta é: 1-C (inflação de demanda = excesso de consumo), 2-D (inflação de custos = aumento de insumos), 3-A (inflação inercial = indexação pela inflação passada), 4-B (deflação = queda generalizada de preços). As demais alternativas apresentam associações incorretas entre os conceitos e suas definições.",
+      "tags": ["inflacao", "tipos_inflacao", "deflacao", "associacao"]
+    },
+    {
+      "id": "REV-IPC-005",
+      "subject": "macroeconomia",
+      "topic": "ipca_revisao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre o IPCA, analise as afirmações e marque a alternativa correta.\n\nI. É o índice oficial do governo federal, usado pelo Banco Central para verificar o cumprimento da meta de inflação.\nII. Abrange famílias com renda de 1 a 40 salários mínimos nas principais regiões metropolitanas.\nIII. Alimentação e bebidas (21%) e Transportes (20%) são os grupos de maior peso, tornando o índice sensível a choques externos.\nIV. O IPCA é calculado pela FGV e usado exclusivamente para reajuste de aluguéis.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: o IPCA é o índice oficial e referência para a meta de inflação. II está correta: cobre renda de 1 a 40 salários mínimos. III está correta: alimentação e transporte somam cerca de 41%, gerando sensibilidade a commodities e câmbio. IV está errada: o IPCA é calculado pelo IBGE, não pela FGV, e não é exclusivo para aluguéis. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["ipca", "indice_oficial", "ibge", "meta_inflacao", "composicao"]
+    },
+    {
+      "id": "REV-PIB-006",
+      "subject": "macroeconomia",
+      "topic": "pib_revisao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre o PIB e sua fórmula pela ótica da demanda, assinale a alternativa correta.",
+      "options": [
+        "PIB = Consumo + Investimentos + Gastos do governo + Exportações",
+        "PIB = Consumo + Investimentos + Gastos do governo + (Exportações – Importações)",
+        "PIB = Consumo + Gastos do governo + Importações",
+        "PIB = Investimentos + Exportações – Importações"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: PIB = C + I + G + (X – M). A está errada: faltou subtrair as importações. C está errada: faltam investimentos e exportações líquidas, além de somar importações em vez de subtrair. D está errada: omite consumo e gastos do governo, que são componentes essenciais.",
+      "tags": ["pib", "formula", "otica_demanda", "componentes"]
+    },
+    {
+      "id": "REV-DES-007",
+      "subject": "macroeconomia",
+      "topic": "desemprego_revisao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Para que uma pessoa seja considerada desempregada segundo os critérios oficiais, é necessário atender simultaneamente a três condições. Assinale a alternativa que as apresenta corretamente.",
+      "options": [
+        "Não ter trabalhado no período, estar disponível para assumir trabalho e ter procurado ativamente.",
+        "Ter mais de 18 anos, estar inscrito no SINE e ter ensino médio completo.",
+        "Não ter carteira assinada, trabalhar menos de 20 horas semanais e receber até 1 salário mínimo.",
+        "Estar desempregado há mais de 6 meses, ter dependentes e receber seguro-desemprego."
+      ],
+      "correctIndex": 0,
+      "explanation": "Alternativa A está correta: os três critérios oficiais são — não trabalhou no período, estava disponível e procurou ativamente. B está errada: inscrição no SINE e escolaridade não são critérios oficiais. C está errada: descreve características de informalidade ou subocupação, não o conceito de desempregado. D está errada: duração do desemprego e recebimento de benefício não definem o desempregado oficial.",
+      "tags": ["desemprego", "criterios", "forca_trabalho", "procura_ativa"]
+    },
+    {
+      "id": "REV-MET-008",
+      "subject": "macroeconomia",
+      "topic": "metricas_mercado_trabalho",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre a taxa de participação na força de trabalho, considere dois países hipotéticos:\n\nPaís A: desemprego 5%, participação 70%\nPaís B: desemprego 5%, participação 50%\n\nAssinale a interpretação correta.",
+      "options": [
+        "Ambos os países possuem mercados de trabalho igualmente saudáveis, pois a taxa de desemprego é idêntica.",
+        "O País B pode estar mascarando uma situação de desalento, pois muitas pessoas podem ter desistido de procurar emprego.",
+        "O País A está necessariamente em pior situação, pois a taxa de participação mais alta indica mais pessoas desempregadas.",
+        "A taxa de participação não tem relação com a saúde do mercado de trabalho."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: com desemprego de 5% mas participação de apenas 50%, o País B pode ter muitos desalentados que desistiram de procurar, mascarando a real fragilidade do mercado. A está errada: taxas de desemprego iguais com participações diferentes indicam situações distintas. C está errada: participação mais alta geralmente indica mercado mais ativo. D está errada: a taxa de participação é fundamental para interpretar o desemprego.",
+      "tags": ["taxa_participacao", "desalento", "forca_trabalho", "mercado_trabalho"]
+    },
+    {
+      "id": "REV-CRE-009",
+      "subject": "macroeconomia",
+      "topic": "credito_revisao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre a relação entre mercado de crédito e atividade econômica, assinale a alternativa correta.",
+      "options": [
+        "Juros altos barateiam o crédito, estimulando consumo e investimento, o que eleva o PIB.",
+        "O crédito não possui relação significativa com o nível de atividade econômica.",
+        "Juros baixos tornam o crédito mais barato, estimulando consumo e investimento, contribuindo para o crescimento do PIB.",
+        "A crise de 2008 demonstrou que o crédito é irrelevante para a estabilidade econômica global."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: juros baixos → crédito barato → maior consumo e investimento → PIB cresce. A está errada: juros altos encarecem o crédito, não o barateiam. B está errada: o crédito é fundamental para a atividade econômica. D está errada: a crise de 2008 mostrou exatamente o oposto — o crédito teve papel central na geração e propagação da crise.",
+      "tags": ["credito", "juros", "pib", "consumo", "crise_2008"]
+    },
+    {
+      "id": "REV-PRO-010",
+      "subject": "macroeconomia",
+      "topic": "produtividade_revisao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "No longo prazo, a riqueza das nações depende principalmente de um fator específico. Assinale a alternativa que identifica corretamente esse fator.",
+      "options": [
+        "Extensão territorial e abundância de recursos naturais.",
+        "Produtividade: a capacidade de produzir mais com menos tempo, menos recursos e maior tecnologia.",
+        "Tamanho da população economicamente ativa.",
+        "Volume de reservas internacionais em moeda estrangeira."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: a produtividade é o motor do crescimento de longo prazo — produzir mais com menos. A está errada: recursos naturais não garantem desenvolvimento sustentável. C está errada: quantidade de trabalhadores não garante eficiência. D está errada: reservas internacionais são importantes, mas não o fator principal da riqueza das nações.",
+      "tags": ["produtividade", "crescimento_longo_prazo", "riqueza_nacoes", "eficiencia"]
+    },
+    {
+      "id": "REV-IDH-011",
+      "subject": "macroeconomia",
+      "topic": "idh_revisao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre o IDH (Índice de Desenvolvimento Humano), analise as afirmações e marque a alternativa correta.\n\nI. Foi criado pela ONU para medir desenvolvimento humano além da produção econômica.\nII. Varia de 0 a 1, considerando renda, educação e longevidade.\nIII. O Brasil possui IDH classificado como \"muito alto\" (acima de 0,800).\nIV. Crescimento econômico não significa automaticamente desenvolvimento humano elevado.",
+      "options": [
+        "Apenas I, II e IV estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas I e III estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: o IDH foi criado pela ONU para ir além do PIB. II está correta: varia de 0 a 1 com três dimensões. IV está correta: um país pode ter PIB alto com baixo desenvolvimento humano. III está errada: o Brasil tem IDH 0,760, classificado como \"alto\" (0,700–0,799), não \"muito alto\" (acima de 0,800). Portanto, apenas I, II e IV estão corretas.",
+      "tags": ["idh", "desenvolvimento_humano", "onu", "classificacao"]
+    },
+    {
+      "id": "REV-GIN-012",
+      "subject": "macroeconomia",
+      "topic": "gini_revisao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O Índice de Gini mede a desigualdade de renda e varia de 0 a 1. Sobre ele, assinale a alternativa correta.",
+      "options": [
+        "Gini próximo de 0 indica desigualdade máxima, enquanto 1 indica igualdade perfeita.",
+        "O Brasil possui um dos menores Índices de Gini do mundo, refletindo sua distribuição de renda equilibrada.",
+        "Países com Gini elevado tendem a apresentar menor coesão social, maior instabilidade política e menor crescimento sustentável.",
+        "Dois países com o mesmo PIB per capita terão necessariamente o mesmo Índice de Gini."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: desigualdade elevada (Gini alto) gera violência, instabilidade política, baixa mobilidade social e menor crescimento sustentável. A está errada: 0 = igualdade perfeita, 1 = desigualdade máxima. B está errada: o Brasil tem Gini alto (aproximadamente 0,53), sendo um dos mais desiguais. D está errada: PIB per capita e Gini são indicadores independentes.",
+      "tags": ["gini", "desigualdade", "coesao_social", "crescimento_sustentavel"]
+    },
+    {
+      "id": "REV-EXE-013",
+      "subject": "macroeconomia",
+      "topic": "exercicio_pratico",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Considere os seguintes dados de uma economia:\n\nConsumo = R$ 1,2 trilhão\nInvestimentos = R$ 400 bilhões\nGastos do governo = R$ 350 bilhões\nExportações = R$ 250 bilhões\nImportações = R$ 180 bilhões\nPopulação = 80 milhões\nPIB potencial = R$ 2,2 trilhões\n\nAnalise as afirmações e marque a alternativa correta.\n\nI. O PIB efetivo é de R$ 2,02 trilhões, abaixo do PIB potencial.\nII. A balança comercial apresenta superávit de R$ 70 bilhões.\nIII. O PIB per capita é de R$ 25.250.\nIV. A economia está operando acima de sua capacidade potencial, indicando risco de superaquecimento.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: PIB = 1.200+400+350+(250–180) = 2.020 bi = R$ 2,02 tri, abaixo do potencial de R$ 2,2 tri (há ociosidade). II está correta: balança = 250–180 = +70 bi (superávit). III está correta: PIB per capita = 2,02 tri / 80 mi = R$ 25.250. IV está errada: PIB efetivo (2,02 tri) está abaixo do potencial (2,2 tri), indicando ociosidade, não superaquecimento. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["pib_efetivo", "pib_potencial", "pib_per_capita", "superavit", "ociosidade"]
+    },
+    {
+      "id": "REV-CON-014",
+      "subject": "macroeconomia",
+      "topic": "conclusao_revisao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "De acordo com a conclusão geral do material, as economias mais desenvolvidas combinam múltiplos fatores. Assinale a alternativa que reúne corretamente esses fatores.",
+      "options": [
+        "Extensão territorial, população numerosa e abundância de matérias-primas.",
+        "Produtividade, educação, inovação, instituições fortes e baixa desigualdade.",
+        "Altas taxas de inflação, juros elevados e mercado de trabalho informal.",
+        "Dependência de exportações de commodities e baixa carga tributária."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: as economias desenvolvidas combinam produtividade (motor do crescimento), educação (capital humano), inovação (diferencial competitivo), instituições fortes (estabilidade) e baixa desigualdade (coesão social). A está errada: recursos naturais não garantem desenvolvimento. C está errada: inflação alta, juros elevados e informalidade são problemas. D está errada: dependência de commodities é característica de economias emergentes.",
+      "tags": ["desenvolvimento", "produtividade", "educacao", "inovacao", "instituicoes"]
+    },
+    {
+      "id": "REV-INT-015",
+      "subject": "macroeconomia",
+      "topic": "integracao_conceitos",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre a integração dos conceitos macroeconômicos e marque a alternativa correta.\n\nI. Uma elevação da Selic tende a reduzir o consumo e o investimento, impactando negativamente o PIB.\nII. O aumento do desemprego reduz a renda das famílias, o que pressiona o consumo para baixo e pode aprofundar uma recessão.\nIII. A inflação de custos pode ser desencadeada pela alta do dólar, que encarece insumos e se espalha pela economia.\nIV. Em uma recessão, o PIB cai, o desemprego sobe, o crédito se contrai e o desalento tende a aumentar.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 3,
+      "explanation": "Todas as afirmações estão corretas e demonstram a interligação dos fenômenos macroeconômicos. I: Selic alta → crédito caro → menos consumo e investimento → PIB reduz. II: desemprego → renda menor → consumo cai → recessão se aprofunda. III: dólar alto → insumos caros → inflação de custos se espalha. IV: recessão combina queda do PIB, desemprego, contração do crédito e aumento do desalento. A macroeconomia forma um sistema integrado onde todos os conceitos se influenciam mutuamente.",
+      "tags": ["integracao", "sistema_macroeconomico", "selic", "pib", "desemprego", "inflacao"]
+    }
+  ]
+}

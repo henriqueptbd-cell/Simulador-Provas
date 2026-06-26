@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "macroeconomia",
+    "discipline_label": "Macroeconomia",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "MAC-FCR-001",
+      "subject": "macroeconomia",
+      "topic": "fluxo_circular_de_renda",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O fluxo circular de renda é um modelo fundamental da macroeconomia. Assinale a alternativa que melhor descreve sua ideia central.",
+      "options": [
+        "O governo é o único agente capaz de gerar renda e consumo na economia.",
+        "O gasto de uma pessoa é a renda de outra, demonstrando a interdependência entre os agentes econômicos.",
+        "A produção é determinada exclusivamente pelas exportações líquidas de um país.",
+        "As empresas operam de forma isolada, sem influência do ambiente macroeconômico."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o fluxo circular de renda demonstra que a economia é interdependente, onde o gasto de um agente se transforma na renda de outro. A está errada: o governo é um dos agentes, mas não o único. C está errada: as exportações são apenas um componente. D está errada: o modelo justamente mostra que as empresas não operam isoladas.",
+      "tags": ["fluxo_circular", "renda", "interdependencia", "agentes_economicos"]
+    },
+    {
+      "id": "MAC-PIB-002",
+      "subject": "macroeconomia",
+      "topic": "pib",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O Produto Interno Bruto (PIB) é um dos principais indicadores macroeconômicos. Pela ótica da demanda, qual é a fórmula correta do PIB?",
+      "options": [
+        "PIB = C + I + G + M",
+        "PIB = C + I + G + (X – M)",
+        "PIB = C + G + (X + M)",
+        "PIB = I + G + X – C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: pela ótica da demanda, PIB = C (Consumo das famílias) + I (Investimento privado) + G (Gastos do governo) + (X – M) (Exportações líquidas). A está errada: usa apenas M, não as exportações líquidas. C está errada: omite o investimento e soma exportações com importações. D está errada: subtrai o consumo, que é componente positivo do PIB.",
+      "tags": ["pib", "formula_pib", "otica_demanda", "componentes_pib"]
+    },
+    {
+      "id": "MAC-PIB-003",
+      "subject": "macroeconomia",
+      "topic": "pib",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Considere os seguintes dados de uma economia:\n\nConsumo (C) = R$ 1.200 bi\nInvestimento (I) = R$ 400 bi\nGastos do Governo (G) = R$ 500 bi\nExportações (X) = R$ 200 bi\nImportações (M) = R$ 350 bi\n\nCalcule o PIB e assinale a alternativa correta.",
+      "options": [
+        "PIB = R$ 2.300 bi, com superávit externo de R$ 150 bi.",
+        "PIB = R$ 1.950 bi, com déficit externo de R$ 150 bi.",
+        "PIB = R$ 2.100 bi, com déficit externo de R$ 350 bi.",
+        "PIB = R$ 1.950 bi, com superávit externo de R$ 150 bi."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: PIB = 1200 + 400 + 500 + (200 – 350) = 1200 + 400 + 500 – 150 = R$ 1.950 bi. O setor externo apresenta déficit de R$ 150 bi, pois as importações superam as exportações nesse valor. A está errada: PIB seria 2.300 se somasse M em vez de subtrair. C está errada: PIB e déficit incorretos. D está errada: há déficit, não superávit.",
+      "tags": ["pib", "calculo_pib", "deficit_externo", "exportacoes_liquidas"]
+    },
+    {
+      "id": "MAC-PIB-004",
+      "subject": "macroeconomia",
+      "topic": "pib",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre as limitações do PIB como indicador, assinale a alternativa correta.",
+      "options": [
+        "O PIB mede com precisão a qualidade de vida e a distribuição de renda da população.",
+        "O PIB é um indicador completo que reflete todos os aspectos do bem-estar social.",
+        "O PIB não mede qualidade de vida nem distribuição de renda, sendo apenas um indicador de produção agregada.",
+        "O PIB considera apenas o setor industrial, ignorando serviços e agricultura."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: o PIB é um indicador de produção agregada e não mede qualidade de vida ou como a renda é distribuída entre a população. A e B estão erradas: o PIB tem limitações conhecidas e não reflete bem-estar social. D está errada: o PIB considera todos os setores (indústria, serviços e agricultura).",
+      "tags": ["pib", "limitacoes_pib", "qualidade_vida", "distribuicao_renda"]
+    },
+    {
+      "id": "MAC-INF-005",
+      "subject": "macroeconomia",
+      "topic": "inflacao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre os tipos de inflação, analise as afirmações e marque a alternativa correta.\n\nI. A inflação de demanda ocorre quando há excesso de consumo em relação à capacidade produtiva.\nII. A inflação de custos é causada pelo aumento de insumos como energia e matérias-primas.\nIII. A inflação inercial está relacionada a reajustes automáticos baseados no histórico de inflação passada.\nIV. A inflação de custos não afeta os preços finais ao consumidor.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: inflação de demanda decorre do excesso de procura. II está correta: inflação de custos vem do aumento de insumos. III está correta: inflação inercial é baseada em reajustes automáticos pelo histórico. IV está errada: a inflação de custos impacta diretamente os preços finais ao consumidor, como no exemplo do aumento do dólar que eleva combustível e fretes. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["inflacao", "tipos_inflacao", "inflacao_demanda", "inflacao_custos", "inflacao_inercial"]
+    },
+    {
+      "id": "MAC-INF-006",
+      "subject": "macroeconomia",
+      "topic": "inflacao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "A inflação é um fenômeno macroeconômico com impactos diretos nas empresas. Assinale a alternativa que apresenta um impacto correto da inflação sobre os negócios.",
+      "options": [
+        "A inflação aumenta o poder de compra dos consumidores e reduz a incerteza.",
+        "A inflação reduz o poder de compra e pode corroer as margens de lucro sem que o gestor perceba.",
+        "A inflação não afeta as margens de lucro, pois os preços são sempre reajustados automaticamente.",
+        "A inflação beneficia todas as empresas igualmente, independentemente do setor."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: a inflação reduz o poder de compra, aumenta a incerteza nos negócios e pode corroer margens de lucro de forma silenciosa. A está errada: a inflação reduz, não aumenta, o poder de compra. C está errada: nem sempre é possível reajustar preços automaticamente. D está errada: os efeitos da inflação variam conforme o setor e a capacidade de repasse de custos.",
+      "tags": ["inflacao", "impactos_inflacao", "poder_compra", "margens_lucro"]
+    },
+    {
+      "id": "MAC-SEL-007",
+      "subject": "macroeconomia",
+      "topic": "taxa_de_juros",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "A taxa Selic é o principal instrumento de política monetária no Brasil. Sobre seus efeitos na economia e nas empresas, assinale a alternativa correta.",
+      "options": [
+        "Selic alta estimula o consumo e o investimento, pois o crédito fica mais barato.",
+        "Selic alta encarece o crédito, reduz o consumo e diminui o valuation das empresas.",
+        "A Selic é definida pelo Ministério da Fazenda, sem participação do Banco Central.",
+        "A Selic alta beneficia o setor imobiliário, pois reduz o custo do financiamento."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: Selic alta encarece o crédito, desestimula consumo e investimento, e reduz o valuation das empresas ao aumentar a taxa de desconto. A está errada: Selic alta torna o crédito mais caro, não mais barato. C está errada: a Selic é definida pelo COPOM (Comitê de Política Monetária do Banco Central). D está errada: Selic alta prejudica o setor imobiliário, que depende de financiamento.",
+      "tags": ["selic", "taxa_juros", "copom", "politica_monetaria", "credito"]
+    },
+    {
+      "id": "MAC-DES-008",
+      "subject": "macroeconomia",
+      "topic": "desemprego",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre o conceito de desemprego utilizado nas estatísticas oficiais, analise as afirmações e marque a alternativa correta.\n\nI. A taxa de desemprego mede o percentual da força de trabalho que está sem emprego e procurando ativamente.\nII. Quem não está procurando trabalho não é considerado desempregado nas estatísticas oficiais.\nIII. Em períodos de recessão, a tendência é que a taxa de desemprego aumente.\nIV. O desemprego não tem relação com o nível de consumo da economia.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "Apenas II, III e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: o desemprego considera quem busca ativamente trabalho. II está correta: quem não procura não entra na estatística. III está correta: recessão reduz produção, gerando demissões. IV está errada: desemprego reduz a renda das famílias, impactando diretamente o consumo. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["desemprego", "forca_trabalho", "recessao", "consumo"]
+    },
+    {
+      "id": "MAC-CIC-009",
+      "subject": "macroeconomia",
+      "topic": "ciclo_economico",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "O ciclo econômico clássico descreve a oscilação da economia entre diferentes fases. Assinale a alternativa que apresenta corretamente as fases do ciclo econômico.",
+      "options": [
+        "Crescimento e estabilidade apenas.",
+        "Expansão e recessão, alternando períodos de aquecimento e contração da economia.",
+        "Apenas recessão, pois a economia tende sempre a encolher.",
+        "Inflação e deflação, sem relação com o nível de produção."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o ciclo econômico oscila entre expansão (economia aquecida, inflação pressionada) e recessão (PIB cai, desemprego sobe, crédito se contrai). A está errada: faltou a fase de recessão. C está errada: a economia também tem fases de expansão. D está errada: inflação e deflação são fenômenos de preços, não definem as fases do ciclo econômico.",
+      "tags": ["ciclo_economico", "expansao", "recessao", "oscilacao"]
+    },
+    {
+      "id": "MAC-IMP-010",
+      "subject": "macroeconomia",
+      "topic": "impacto_macroeconomia_administracao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Um gestor estratégico precisa compreender o impacto das variáveis macroeconômicas em suas decisões. Associe corretamente:\n\n1. Selic alta\n2. Inflação elevada\n3. PIB em queda\n4. Dólar alto\n\nA. Reduz o nível de demanda e as vendas da empresa.\nB. Encarece o crédito e reduz o valuation das empresas.\nC. Aumenta o custo de insumos importados.\nD. Pressiona margens e exige reajuste de preços.",
+      "options": [
+        "1-B, 2-D, 3-A, 4-C.",
+        "1-A, 2-B, 3-C, 4-D.",
+        "1-C, 2-A, 3-D, 4-B.",
+        "1-D, 2-C, 3-B, 4-A."
+      ],
+      "correctIndex": 0,
+      "explanation": "A associação correta é: 1-B (Selic alta encarece crédito e reduz valuation), 2-D (inflação pressiona margens e exige reajuste de preços), 3-A (PIB em queda reduz demanda e vendas), 4-C (dólar alto aumenta custo de insumos importados). As demais alternativas apresentam associações incorretas entre as variáveis e seus impactos.",
+      "tags": ["selic", "inflacao", "pib", "cambio", "gestao_estrategica"]
+    },
+    {
+      "id": "MAC-PAN-011",
+      "subject": "macroeconomia",
+      "topic": "exemplo_pratico_pandemia",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Com base no exemplo da pandemia no Brasil apresentado no material, assinale a alternativa que descreve corretamente uma ação de política macroeconômica adotada no período.",
+      "options": [
+        "O Banco Central aumentou a Selic para conter o consumo durante a pandemia.",
+        "O governo reduziu os gastos públicos para equilibrar as contas fiscais.",
+        "O Banco Central reduziu a Selic para estimular a economia diante da crise.",
+        "As exportações foram suspensas para priorizar o mercado interno."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: durante a pandemia, o Banco Central reduziu a Selic para estimular a economia, barateando o crédito. A está errada: a Selic foi reduzida, não aumentada. B está errada: houve aumento de gastos, como o Auxílio Emergencial. D está errada: não houve suspensão geral de exportações.",
+      "tags": ["pandemia", "selic", "politica_monetaria", "crise"]
+    },
+    {
+      "id": "MAC-INT-012",
+      "subject": "macroeconomia",
+      "topic": "sistema_integrado",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre a interligação dos conceitos macroeconômicos e marque a alternativa correta.\n\nI. Uma elevação da Selic tende a reduzir o consumo, o que pode impactar negativamente o PIB.\nII. O aumento do desemprego reduz a renda das famílias, pressionando o consumo para baixo.\nIII. A inflação de custos pode ser desencadeada por uma alta do dólar, que encarece insumos importados.\nIV. Em uma recessão, o PIB cai, o desemprego sobe e o crédito tende a se contrair.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 3,
+      "explanation": "Todas as afirmações estão corretas e demonstram a interligação do sistema macroeconômico. I está correta: Selic alta desestimula consumo e reduz PIB. II está correta: desemprego reduz renda e consumo. III está correta: alta do dólar encarece insumos, gerando inflação de custos. IV está correta: recessão combina queda do PIB, aumento do desemprego e contração do crédito. Nenhuma empresa atua no vácuo — todos esses fatores se influenciam mutuamente.",
+      "tags": ["sistema_integrado", "interligacao", "selic", "pib", "desemprego", "inflacao"]
+    }
+  ]
+}
