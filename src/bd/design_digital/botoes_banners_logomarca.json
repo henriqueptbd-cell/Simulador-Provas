@@ -22,7 +22,7 @@
         "Code to Algorithm - código para algoritmo, referência à programação do banner."
       ],
       "correctIndex": 1,
-      "explanation": "Call to Action (CTA) está correta pois é o termo usado para medir a eficácia de botões e banners em gerar engajamento. A está errada pois não é uma sigla real da área. C está errada pois não existe no contexto. D está errada pois se refere à programação, não ao design.",
+      "explanation": "Call to Action (CTA) está correta, pois é o termo usado para medir a eficácia de botões e banners em gerar engajamento. A alternativa 'Click to Access' está errada, pois não é uma sigla real da área. A alternativa 'Color to Attention' está errada, pois não existe nesse contexto. A alternativa 'Code to Algorithm' está errada, pois se refere à programação, não ao design.",
       "tags": ["cta", "banners", "marketing_digital"]
     },
     {
@@ -39,7 +39,7 @@
         "Logotipo só é usado em materiais impressos, logomarca apenas em materiais digitais."
       ],
       "correctIndex": 1,
-      "explanation": "A alternativa B está correta: logotipo = nome escrito de forma estilizada; logomarca = desenho/símbolo. A está invertida. C está errada pois existe diferença conceitual. D está errada pois ambos podem ser usados em qualquer meio.",
+      "explanation": "A alternativa correta afirma que logotipo é a parte escrita de forma estilizada (o nome da marca) e logomarca é o desenho/símbolo que a representa. A alternativa que inverte esses conceitos está errada. A alternativa que diz que são sinônimos está errada, pois existe diferença conceitual. A alternativa que restringe o uso a meios específicos está errada, pois ambos podem ser usados em qualquer meio.",
       "tags": ["logotipo", "logomarca", "identidade_visual"]
     },
     {
@@ -56,7 +56,7 @@
         "Logotipo da empresa e selos de segurança."
       ],
       "correctIndex": 1,
-      "explanation": "Comunicação e promoção estão corretas conforme a aula: banner estratégico foca nesses dois elementos. A está errada pois são recursos secundários. C está errada pois texto longo prejudica a objetividade. D está errada pois são elementos complementares, não os fundamentais.",
+      "explanation": "Comunicação e promoção estão corretos, conforme a aula: banner estratégico foca nesses dois elementos. A alternativa que sugere cores vibrantes e animações complexas está errada, pois são recursos secundários. A alternativa que sugere texto longo está errada, pois prejudica a objetividade. A alternativa que sugere logotipo e selos de segurança está errada, pois são elementos complementares, não os fundamentais.",
       "tags": ["banner_estrategico", "comunicacao", "promocao"]
     },
     {
@@ -73,7 +73,7 @@
         "Criar banner animado com 10 imagens em sequência, sem definir um objetivo claro de navegação."
       ],
       "correctIndex": 1,
-      "explanation": "A alternativa B está correta pois segue as dicas: banner clicável, posicionamento estratégico (superior/lateral), frase curta e criativa. A está errada pois banner só com texto é ineficaz e rodapé não é local de destaque. C está errada pois texto longo e página de contato não são adequados. D está errada pois excesso de imagens sem objetivo claro prejudica a comunicação.",
+      "explanation": "A alternativa correta é a que propõe banner clicável com link direto para a coleção em liquidação, posicionamento estratégico (superior ou lateral) e frase curta e criativa, seguindo as dicas da aula. A alternativa que sugere banner só com texto no rodapé está errada, pois banner sem imagem é ineficaz e rodapé não é local de destaque. A alternativa que sugere texto longo na página de contato está errada, pois não atrai o usuário. A alternativa que sugere animação com 10 imagens sem objetivo claro está errada, pois o excesso prejudica a comunicação.",
       "tags": ["banner_pratico", "cta", "posicionamento"],
       "practical": true
     },
@@ -91,7 +91,7 @@
         "Apenas I e III estão corretas."
       ],
       "correctIndex": 0,
-      "explanation": "I e II estão corretas: banner home ocupa página inicial; banner informativo = régua/vitrine. III está errada pois mini banners ficam ao lado da vitrine de produtos e podem ser clicáveis. IV está errada pois banners mobile aparecem em celulares e tablets via navegador também.",
+      "explanation": "Apenas as afirmações I e II estão corretas: banner home ocupa a página inicial e é o mais visível; banner informativo também é chamado de régua ou vitrine. A afirmação III está errada, pois mini banners ficam ao lado da vitrine de produtos e podem ser clicáveis. A afirmação IV está errada, pois banners mobile aparecem em celulares e tablets via navegador também.",
       "tags": ["tipos_banner", "home", "mobile"]
     }
   ]
