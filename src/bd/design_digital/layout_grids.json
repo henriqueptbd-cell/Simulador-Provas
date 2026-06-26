@@ -22,7 +22,7 @@
         "Substituir a necessidade de usar cores e tipografia no layout."
       ],
       "correctIndex": 1,
-      "explanation": "A alternativa B está correta: a função principal do grid é organizar informações com consistência visual. A está errada pois as linhas do grid não são visíveis ao usuário final. C e D estão erradas pois grid não tem relação direta com SEO nem substitui cores/tipografia.",
+      "explanation": "A função principal do grid é organizar as informações dentro de uma estrutura, mantendo a consistência visual entre as telas. A alternativa que menciona decorar a página com linhas visíveis está errada, pois as linhas do grid não são visíveis ao usuário final. A alternativa que relaciona grid com aumento de peso de imagens e SEO está errada, pois não há relação direta. A alternativa que afirma que o grid substitui cores e tipografia está errada, pois são elementos complementares, não substitutos.",
       "tags": ["grid", "organizacao", "consistencia_visual"]
     },
     {
@@ -39,7 +39,7 @@
         "Zonas espaciais"
       ],
       "correctIndex": 2,
-      "explanation": "Calhas (gutters) estão corretas - são espaços em branco que separam colunas e linhas. Margens (A) são espaços entre borda e conteúdo. Módulos (B) são unidades formadas por coluna + linha base. Zonas espaciais (D) são conjuntos de módulos.",
+      "explanation": "Calhas (gutters) são os espaços em branco que separam colunas e linhas em um grid. A alternativa 'Margens' está errada, pois margens são os espaços entre a borda da tela e o conteúdo. A alternativa 'Módulos' está errada, pois módulos são as unidades formadas pela interseção de coluna e linha base. A alternativa 'Zonas espaciais' está errada, pois zonas espaciais são conjuntos de módulos agrupados.",
       "tags": ["grid", "gutters", "calhas", "anatomia_grid"]
     },
     {
@@ -56,7 +56,7 @@
         "Linhas invisíveis que impedem a reorganização do conteúdo em telas menores."
       ],
       "correctIndex": 1,
-      "explanation": "Breakpoints são intervalos de layouts para diferentes tamanhos de tela. A está errada, não são pontos de parada para recarregar. C e D estão erradas pois não são erros nem linhas que impedem reorganização.",
+      "explanation": "Breakpoints são intervalos de layouts predeterminados para diferentes tamanhos de tela (celular, tablet, desktop). A alternativa que menciona pontos de parada para recarregar a página está errada, pois breakpoints não têm relação com recarregamento. As alternativas que mencionam erros de renderização e linhas que impedem reorganização estão erradas, pois breakpoints são pontos de adaptação, não de bloqueio.",
       "tags": ["breakpoints", "responsividade", "grid"]
     },
     {
@@ -73,7 +73,7 @@
         "Grid hierárquico, que divide a tela apenas horizontalmente."
       ],
       "correctIndex": 2,
-      "explanation": "Grid modular é o mais adequado para portais de notícias com grande volume de informações não relacionadas, pois usa colunas + guias horizontais (módulos). A está errada: uma coluna é para textos contínuos como livros. B está errada: duas colunas é para revistas com menos complexidade. D está errada: grid hierárquico divide horizontalmente, mas o modular oferece mais controle.",
+      "explanation": "O grid modular é o mais adequado para portais de notícias com grande volume de informações não relacionadas, pois utiliza colunas verticais combinadas com múltiplas guias horizontais, formando módulos que permitem organizar conteúdos diversos. A alternativa que sugere grid de uma coluna está errada, pois esse tipo é mais indicado para textos contínuos como livros e artigos. A alternativa que sugere grid de duas colunas está errada, pois é mais adequada para revistas com menos complexidade. A alternativa que sugere grid hierárquico está errada, pois embora também organize conteúdos, o modular oferece mais controle para informações volumosas e não relacionadas.",
       "tags": ["grid_modular", "portal_noticias", "layout_complexo"],
       "practical": true
     },
@@ -91,7 +91,7 @@
         "Apenas I e IV estão corretas."
       ],
       "correctIndex": 1,
-      "explanation": "II e III estão corretas: colunas devem ter largura percentual para responsividade; grid de linha de base serve para elementos textuais. I está errada: margens podem se adaptar em breakpoints diferentes. IV está errada: gutters têm largura fixa dentro de um mesmo breakpoint (mudam apenas entre breakpoints).",
+      "explanation": "Apenas as afirmações II e III estão corretas: colunas em grids responsivos devem ter largura percentual (relativa), não fixa em pixels, para se adaptarem aos diferentes tamanhos de tela; o grid de linha de base serve como referência visual para a disposição horizontal de elementos textuais. A afirmação I está errada, pois as margens podem (e geralmente devem) se adaptar em breakpoints diferentes para melhor aproveitamento do espaço. A afirmação IV está errada, pois as calhas (gutters) têm largura fixa dentro de um mesmo breakpoint, mudando apenas entre breakpoints diferentes.",
       "tags": ["anatomia_grid", "breakpoints", "gutters", "colunas"]
     }
   ]

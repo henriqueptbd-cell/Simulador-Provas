@@ -22,7 +22,7 @@
         "Elementos devem ser distribuídos aleatoriamente pela página para gerar criatividade."
       ],
       "correctIndex": 1,
-      "explanation": "Proximidade = agrupar itens relacionados para organizar e facilitar leitura. A está errada: não relacionados devem ficar separados. C está errada: distâncias podem variar conforme relação. D está errada: aleatoriedade prejudica organização.",
+      "explanation": "O princípio da proximidade estabelece que itens relacionados entre si devem ser agrupados para organizar informações e facilitar a leitura. A alternativa que afirma que elementos não relacionados devem ficar próximos está errada, pois eles devem ficar separados para evitar confusão. A alternativa que defende a mesma distância entre todos os elementos está errada, pois as distâncias podem variar conforme a relação entre eles. A alternativa que propõe distribuição aleatória está errada, pois a aleatoriedade prejudica a organização.",
       "tags": ["proximidade", "layout", "composicao"]
     },
     {
@@ -39,7 +39,7 @@
         "Garantir que todos os textos tenham o mesmo tamanho e estilo."
       ],
       "correctIndex": 1,
-      "explanation": "Contraste destaca elementos importantes e cria atração visual. A está errada: uniformidade é oposta ao contraste. C e D estão erradas: contraste trabalha com diferenças, não eliminação delas.",
+      "explanation": "O princípio do contraste serve para destacar elementos importantes, criando 'conflito' visual que atrai a atenção do usuário. A alternativa que propõe uniformidade visual está errada, pois a uniformidade é oposta ao conceito de contraste. A alternativa que sugere eliminar diferenças entre fontes e cores está errada, pois o contraste trabalha justamente com as diferenças. A alternativa que defende que todos os textos tenham o mesmo tamanho e estilo está errada, pois isso anularia o contraste.",
       "tags": ["contraste", "layout", "hierarquia_visual"]
     },
     {
@@ -56,7 +56,7 @@
         "Copyright, Copyleft, Royalty free, Rights-managed e Domínio público."
       ],
       "correctIndex": 1,
-      "explanation": "As 5 características são: proximidade, espaço em branco, alinhamento, contraste/hierarquia e repetição. A está errada: são elementos, não princípios de composição. C está errada: é anatomia de grid. D está errada: são tipos de direitos autorais.",
+      "explanation": "As 5 características fundamentais de layout e composição são: proximidade, espaço em branco, alinhamento, contraste/hierarquia e repetição. A alternativa que lista cores, tipografia, imagens, animações e vídeos está errada, pois esses são elementos visuais, não princípios de composição. A alternativa que lista margens, colunas, módulos, calhas e breakpoints está errada, pois esses são componentes da anatomia de um grid. A alternativa que lista tipos de licenças e direitos autorais está errada, pois pertence a outro tema.",
       "tags": ["layout", "composicao", "principios_design"]
     },
     {
@@ -73,7 +73,7 @@
         "Deixar margens generosas ao redor do conteúdo principal para criar espaço em branco (respiro)."
       ],
       "correctIndex": 2,
-      "explanation": "Usar 7 tipos diferentes de fontes é incorreto - o princípio do contraste não recomenda excesso de variações, e a boa prática sugere evitar muitos tipos de fontes. A está correta: repetição de padrão é boa prática. B está correta: agrupar contato é proximidade. D está correta: margens generosas são espaço em branco adequado.",
+      "explanation": "A aplicação incorreta é usar 7 tipos diferentes de fontes na mesma página para criar contraste e hierarquia. O princípio do contraste não recomenda excesso de variações — a boa prática sugere limitar a quantidade de fontes (geralmente duas ou três) para manter a unidade visual. As demais alternativas descrevem aplicações corretas: utilizar o mesmo padrão de botões em todas as páginas aplica corretamente o princípio da repetição; agrupar informações de contato em um único bloco aplica corretamente o princípio da proximidade; deixar margens generosas ao redor do conteúdo principal aplica corretamente o princípio do espaço em branco (respiro).",
       "tags": ["layout_pratico", "fontes", "contraste", "erro_comum"],
       "practical": true
     },
@@ -91,7 +91,7 @@
         "Apenas I e IV estão corretas."
       ],
       "correctIndex": 1,
-      "explanation": "II e III estão corretas: alinhamento com grids e repetição para familiarização são boas práticas. I está errada: espaço em branco é essencial para respiro. IV está errada: contraste é importante para destacar elementos, não deve ser evitado.",
+      "explanation": "Apenas as afirmações II e III estão corretas: o alinhamento dos elementos deve ser feito com apoio dos grids para manter a aparência organizada; a repetição de elementos como cores, fontes e botões ajuda o usuário a se familiarizar com a interface. A afirmação I está errada, pois o espaço em branco (respiro) é essencial para a legibilidade e organização, não devendo ser minimizado ao máximo. A afirmação IV está errada, pois o contraste é um princípio importante para destacar elementos e criar hierarquia visual, não devendo ser evitado.",
       "tags": ["layout", "espaco_branco", "repeticao", "alinhamento"]
     }
   ]

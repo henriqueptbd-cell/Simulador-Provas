@@ -22,7 +22,7 @@
         "Direitos que expiram automaticamente após 10 anos da criação da obra."
       ],
       "correctIndex": 1,
-      "explanation": "Direitos morais são de reconhecimento da autoria, inalteráveis e intransferíveis. A está errada: isso descreve direitos patrimoniais. C está errada: violaria os direitos morais. D está errada: direitos autorais não expiram em 10 anos (no Brasil, geralmente 70 anos após a morte do autor).",
+      "explanation": "Direitos morais são de reconhecimento da autoria, inalteráveis e intransferíveis. A alternativa que menciona uso comercial e transferência está errada, pois isso descreve direitos patrimoniais. A alternativa que permite modificar sem citar o autor está errada, pois violaria os direitos morais. A alternativa que afirma que expiram em 10 anos está errada, pois direitos autorais no Brasil duram, em regra, 70 anos após a morte do autor.",
       "tags": ["direitos_morais", "lei_9610", "autoria"]
     },
     {
@@ -39,7 +39,7 @@
         "Permite uso apenas mediante pagamento de royalties para o autor."
       ],
       "correctIndex": 1,
-      "explanation": "CC BY permite cópia, modificação e distribuição (inclusive comercial) desde que dê crédito ao autor. A está errada: não é restrita a fins educacionais. C está errada: permite modificações sim. D está errada: não exige pagamento, é gratuita com atribuição.",
+      "explanation": "CC BY permite cópia, modificação e distribuição (inclusive comercial) desde que seja dado crédito ao autor. A alternativa que restringe a fins educacionais sem crédito está errada, pois a licença não tem essa restrição e exige atribuição. A alternativa que proíbe modificações e distribuição comercial está errada, pois o CC BY permite ambas. A alternativa que exige pagamento de royalties está errada, pois a licença é gratuita, bastando a atribuição.",
       "tags": ["creative_commons", "cc_by", "licencas"]
     },
     {
@@ -56,7 +56,7 @@
         "Copyright permite uso comercial ilimitado, Copyleft permite apenas uso pessoal."
       ],
       "correctIndex": 1,
-      "explanation": "Copyright = autor tem todos os direitos, uso só com autorização. Copyleft = permite alterações, mas nova obra mantém mesma licença, sem uso comercial (similar ao CC SA). A está errada: Copyleft exige atribuição sim. C está errada: ambos se aplicam a vários tipos de obra. D está errada: Copyleft não permite uso comercial.",
+      "explanation": "Copyright significa que o autor detém todos os direitos, sendo necessário autorização para uso da obra. Copyleft permite alterações, mas exige que a nova obra mantenha a mesma licença e, na definição adotada nesta disciplina, veda o uso comercial (similar ao CC BY-NC-SA). A alternativa que afirma que Copyleft não exige atribuição está errada, pois exige sim. A alternativa que restringe cada um a um tipo de obra está errada, pois ambos se aplicam a várias categorias. A alternativa que afirma que Copyright permite uso comercial ilimitado está errada, pois o Copyright exige autorização do autor.",
       "tags": ["copyright", "copyleft", "licencas"]
     },
     {
@@ -73,7 +73,7 @@
         "Usar imagens de redes sociais sem se preocupar com créditos, pois elas são automaticamente de domínio público após serem postadas."
       ],
       "correctIndex": 1,
-      "explanation": "Bancos como Unsplash e Pixabay são seguros e recomendados. A está errada: nem tudo no Google é domínio público. C está errada: remover marca d'água é ilegal. D está errada: postar em rede social não torna a obra domínio público.",
+      "explanation": "Usar bancos gratuitos como Unsplash e Pixabay é a prática mais segura e recomendada, pois disponibilizam imagens livres de direitos autorais ou com licenças permissivas. A alternativa que afirma que tudo no Google Imagens é domínio público está errada: muitas imagens têm direitos autorais. A alternativa que sugere remover marcas d'água está errada, pois isso é ilegal. A alternativa que afirma que postar em rede social torna a obra domínio público está errada, pois o autor mantém os direitos sobre a obra.",
       "tags": ["bancos_imagens", "direitos_autorais_pratica", "unsplash", "pixabay"],
       "practical": true
     },
@@ -91,7 +91,7 @@
         "Modificar uma foto de banco de imagens pago e redistribuí-la como sua sem pagar a licença."
       ],
       "correctIndex": 1,
-      "explanation": "A alternativa B está correta: a lei permite citação em livros para fins de estudo ou crítica, com indicação de nome e origem. A está errada: uso comercial de imagem de artista sem autorização é ilegal. C está errada: distribuir filme completo viola direitos. D está errada: modificar e redistribuir sem licença viola direitos patrimoniais.",
+      "explanation": "A alternativa correta é a que menciona a reprodução de obra de arte completa em livro didático para análise crítica, com indicação de nome do autor e origem. A lei permite esse tipo de citação para fins de estudo ou crítica (Art. 46, III). A alternativa que propõe estampar camisetas com foto de artista famoso para venda está errada, pois configura uso comercial sem autorização, o que é ilegal. A alternativa que sugere postar filme completo no YouTube está errada, pois distribuir obra completa sem autorização viola direitos autorais. A alternativa que propõe modificar e redistribuir foto de banco pago sem licença está errada, pois viola direitos patrimoniais.",
       "tags": ["lei_9610", "excecoes", "uso_sem_autorizacao", "art46"]
     }
   ]
