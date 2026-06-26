@@ -16,13 +16,13 @@
       "style": "fatec_dsm",
       "statement": "Considere a tabela criada com o comando:\n\nCREATE TABLE tbpessoa (\n    id INTEGER PRIMARY KEY,\n    nome VARCHAR(40) NOT NULL,\n    email VARCHAR(30),\n    idade INTEGER\n);\n\nQual das alternativas a seguir insere CORRETAMENTE um registro nesta tabela?",
       "options": [
-        "INSERT INTO tbpessoa VALUES (1, 'Ana', 'ana@email.com', 22);",
+        "INSERT INTO tbpessoa VALUES ('Ana', 1, 'ana@email.com', 22);",
         "INSERT INTO tbpessoa (id, nome, email, idade) VALUES (1, 'Ana', 'ana@email.com', 22);",
         "INSERT INTO tbpessoa (nome, email, idade) VALUES ('Ana', 'ana@email.com', 22);",
         "INSERT INTO tbpessoa SET id=1, nome='Ana', email='ana@email.com', idade=22;"
       ],
       "correctIndex": 1,
-      "explanation": "A alternativa correta é a B, pois especifica as colunas e os valores na mesma ordem. A é válida APENAS se os valores estiverem na ordem exata das colunas da tabela, mas é considerada má prática. C é inválida porque a coluna id é PK e NOT NULL, então é obrigatória. D usa sintaxe do MySQL (SET), não é SQL padrão.",
+      "explanation": "B está correta: especifica explicitamente as colunas e os valores correspondentes — a forma mais segura e recomendada. A está errada: os valores estão na ordem errada ('Ana' seria inserido na coluna INTEGER id, causando erro de tipo). C está errada: a coluna id é PK e NOT NULL, portanto obrigatória — omiti-la causa erro. D usa sintaxe SET do MySQL, não é SQL padrão.",
       "tags": ["insert", "sintaxe", "dml"]
     },
     {
@@ -89,8 +89,8 @@
         "SELECT * FROM tbpessoa WHERE idade > 25 AND idade IS NOT NULL;",
         "SELECT * FROM tbpessoa WHERE idade > 25 OR idade IS NOT NULL;"
       ],
-      "correctIndex": 2,
-      "explanation": "C está correta: a condição idade > 25 exclui valores NULL (pois NULL não é maior que 25) e também exclui 18 e 25, retornando apenas 30 e 40. A está incorreta: embora pareça correta, alguns SGBDs podem ter comportamento estranho com NULL. B está incorreta: incluiria idade=25 também. D está incorreta: OR idade IS NOT NULL traria praticamente todos os registros.",
+      "correctIndex": 0,
+      "explanation": "A está correta: 'idade > 25' exclui automaticamente valores NULL, pois em SQL padrão 'NULL > 25' avalia para UNKNOWN — e apenas condições TRUE passam no WHERE. Retorna apenas 30 e 40. B está incorreta: '>= 25' incluiria também a pessoa com idade=25. C também funciona, mas é redundante: o 'AND idade IS NOT NULL' não acrescenta nada, pois NULL já é excluído pela comparação '>'. D está incorreta: 'OR idade IS NOT NULL' retornaria 4 registros (18, 25, 30 e 40), pois qualquer valor não nulo passa no OR.",
       "tags": ["where", "operadores_comparacao", "null"]
     },
     {
