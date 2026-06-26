@@ -1,0 +1,267 @@
+{
+  "_meta": {
+    "discipline": "macroeconomia",
+    "discipline_label": "Macroeconomia",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "PIB-CON-001",
+      "subject": "macroeconomia",
+      "topic": "conceito_pib",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre o conceito de Produto Interno Bruto (PIB), assinale a alternativa correta.",
+      "options": [
+        "O PIB mede com precisão a felicidade, a desigualdade e a qualidade de vida da população.",
+        "O PIB é o valor total de todos os bens e serviços finais produzidos dentro de um país em determinado período, sendo o ponto de partida da análise econômica.",
+        "O PIB considera apenas a produção do setor industrial, excluindo serviços e agricultura.",
+        "O PIB é calculado exclusivamente pela soma das exportações de um país."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o PIB é o valor total dos bens e serviços finais produzidos internamente em um período, medindo o tamanho e o crescimento da economia, mas sendo apenas o ponto de partida da análise. A está errada: o PIB não mede felicidade, desigualdade, qualidade ambiental ou segurança. C está errada: o PIB inclui todos os setores (indústria, serviços e agricultura). D está errada: exportações são apenas um componente; a fórmula completa é C + I + G + (X – M).",
+      "tags": ["pib", "conceito", "producao", "bens_servicos_finais"]
+    },
+    {
+      "id": "PIB-FOR-002",
+      "subject": "macroeconomia",
+      "topic": "calculo_pib",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Considere os seguintes dados de uma economia e calcule o PIB:\n\nConsumo (C) = R$ 1,2 trilhão\nInvestimentos (I) = R$ 400 bilhões\nGastos do governo (G) = R$ 350 bilhões\nExportações (X) = R$ 250 bilhões\nImportações (M) = R$ 180 bilhões\n\nAssinale a alternativa com o PIB e a situação da balança comercial.",
+      "options": [
+        "PIB = R$ 2,02 trilhões, com déficit comercial de R$ 70 bilhões.",
+        "PIB = R$ 2,02 trilhões, com superávit comercial de R$ 70 bilhões.",
+        "PIB = R$ 2,38 trilhões, com superávit comercial de R$ 250 bilhões.",
+        "PIB = R$ 1,95 trilhão, com déficit comercial de R$ 180 bilhões."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: PIB = 1.200 + 400 + 350 + (250 – 180) = 1.200 + 400 + 350 + 70 = R$ 2.020 bilhões = R$ 2,02 trilhões. Balança comercial = 250 – 180 = +R$ 70 bilhões (superávit). A está errada: há superávit, não déficit. C está errada: somou importações em vez de subtrair (2.380). D está errada: PIB e balança calculados incorretamente.",
+      "tags": ["pib", "calculo_pib", "balanca_comercial", "superavit"]
+    },
+    {
+      "id": "PIB-COM-003",
+      "subject": "macroeconomia",
+      "topic": "componentes_pib",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre os componentes do PIB pela ótica da demanda, associe corretamente:\n\n1. Consumo das famílias (C)\n2. Investimentos (I)\n3. Gastos do governo (G)\n4. Exportações líquidas (X – M)\n\nA. Máquinas, fábricas, infraestrutura e construção — bens de capital, não ações financeiras.\nB. Alimentação, moradia, saúde, lazer, transporte e educação privada — maior componente do PIB.\nC. Exportações menos importações — saldo da balança comercial.\nD. Saúde pública, educação, segurança, salários de servidores, infraestrutura e defesa.",
+      "options": [
+        "1-B, 2-A, 3-D, 4-C.",
+        "1-D, 2-B, 3-A, 4-C.",
+        "1-A, 2-C, 3-B, 4-D.",
+        "1-C, 2-D, 3-B, 4-A."
+      ],
+      "correctIndex": 0,
+      "explanation": "A associação correta é: 1-B (Consumo das famílias é o maior componente do PIB, cerca de 65-70%), 2-A (Investimentos = bens de capital como máquinas e infraestrutura, não ações), 3-D (Gastos do governo incluem saúde pública, educação, segurança), 4-C (Exportações líquidas = saldo da balança comercial). As demais alternativas apresentam associações incorretas.",
+      "tags": ["pib", "componentes", "consumo", "investimento", "governo", "exportacoes"]
+    },
+    {
+      "id": "DES-CON-004",
+      "subject": "macroeconomia",
+      "topic": "conceito_desemprego",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Para que uma pessoa seja considerada desempregada segundo os critérios oficiais, é necessário que atenda a determinadas condições. Analise as afirmações e marque a alternativa correta.\n\nI. Não ter trabalhado no período de referência.\nII. Estar disponível para assumir trabalho imediatamente.\nIII. Ter procurado ativamente por trabalho, tomando medidas concretas.\nIV. Estar matriculado em curso de qualificação profissional, mesmo sem procurar trabalho.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I, II e III estão corretas: os três critérios definem oficialmente o desempregado — não trabalhou, está disponível e procurou ativamente. IV está errada: quem apenas estuda e não procura trabalho não é considerado desempregado, podendo ser classificado como inativo. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["desemprego", "criterios", "forca_trabalho", "procura_ativa"]
+    },
+    {
+      "id": "DES-CAT-005",
+      "subject": "macroeconomia",
+      "topic": "categorias_desemprego",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre as categorias relacionadas ao mercado de trabalho, assinale a alternativa que descreve corretamente o conceito de desalentado.",
+      "options": [
+        "Trabalhador que está empregado, mas em jornada inferior à que gostaria.",
+        "Trabalhador que atua sem carteira assinada ou proteção legal.",
+        "Pessoa que gostaria de trabalhar, mas desistiu de procurar emprego por fatores como falta de vagas ou crise prolongada.",
+        "Pessoa que nunca trabalhou e não tem interesse em ingressar no mercado de trabalho."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: o desalentado é aquele que gostaria de trabalhar, mas desistiu de procurar devido a fatores como falta de vagas, crise prolongada, baixa qualificação ou discriminação. A descreve o subempregado/subocupado. B descreve o trabalhador informal. D descreve o inativo (que não trabalha e não procura).",
+      "tags": ["desalento", "mercado_trabalho", "desemprego", "categorias"]
+    },
+    {
+      "id": "DES-TAX-006",
+      "subject": "macroeconomia",
+      "topic": "taxa_desemprego",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Considere uma economia com 90 milhões de empregados e 10 milhões de desempregados que estão procurando ativamente. A taxa de desemprego aberto é:",
+      "options": [
+        "9%",
+        "11,1%",
+        "10%",
+        "5%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: Força de trabalho = 90 mi (empregados) + 10 mi (desempregados) = 100 milhões. Taxa de desemprego = (10 / 100) × 100 = 10%. A (9%) seria 10/110. B (11,1%) seria 10/90. D (5%) não corresponde a nenhum cálculo correto.",
+      "tags": ["taxa_desemprego", "calculo", "forca_trabalho", "desemprego_aberto"]
+    },
+    {
+      "id": "DES-SUB-007",
+      "subject": "macroeconomia",
+      "topic": "subutilizacao",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Sobre a subutilização da força de trabalho medida pelo IBGE, analise as afirmações e marque a alternativa correta.\n\nI. A subutilização é considerada a medida mais realista da fragilidade do mercado de trabalho.\nII. A subutilização soma desempregados, subocupados por horas e desalentados.\nIII. A taxa de desemprego aberto isoladamente pode mascarar a real situação do mercado, especialmente em crises.\nIV. O desalento tende a diminuir durante crises econômicas prolongadas.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: a subutilização amplia o olhar sobre o mercado de trabalho. II está correta: a fórmula inclui desempregados + subocupados + desalentados. III está correta: a taxa de desemprego aberto pode cair porque pessoas desistem de procurar (viram desalentadas), mascarando a gravidade. IV está errada: em crises, o desalento tende a aumentar, pois mais pessoas desistem de procurar. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["subutilizacao", "ibge", "desalento", "subocupacao", "mercado_trabalho"]
+    },
+    {
+      "id": "CRE-PIB-008",
+      "subject": "macroeconomia",
+      "topic": "credito_pib",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre a relação entre mercado de crédito e PIB, assinale a alternativa correta.",
+      "options": [
+        "Juros baixos encarecem o crédito, reduzindo o consumo e o investimento.",
+        "Juros altos barateiam o crédito, estimulando o consumo e o PIB.",
+        "Juros baixos tornam o crédito mais barato, estimulando consumo e investimento, o que contribui para o crescimento do PIB.",
+        "O crédito não possui relação significativa com o nível de atividade econômica."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: juros baixos → crédito barato → aumento do consumo e investimento → PIB cresce. A e B estão erradas: invertem a relação entre juros e crédito. D está errada: o crédito é fundamental para consumo, investimento e atividade econômica, como demonstrado na crise de 2008.",
+      "tags": ["credito", "pib", "juros", "consumo", "investimento"]
+    },
+    {
+      "id": "PRO-CON-009",
+      "subject": "macroeconomia",
+      "topic": "produtividade",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "De acordo com o material de estudo, a produtividade é considerada o fator mais importante para a riqueza das nações no longo prazo. Assinale a alternativa que melhor define produtividade.",
+      "options": [
+        "Aumento do número de trabalhadores empregados, independentemente da eficiência.",
+        "Capacidade de produzir mais com menos tempo, menos recursos e maior tecnologia.",
+        "Acumulação de reservas internacionais em moeda estrangeira.",
+        "Crescimento do consumo das famílias acima do PIB."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: produtividade é produzir mais com menos — tempo, recursos, tecnologia — sendo o motor do crescimento de longo prazo. A está errada: quantidade de trabalhadores não garante eficiência. C está errada: reservas internacionais são outro conceito. D está errada: consumo acima do PIB é insustentável e não define produtividade.",
+      "tags": ["produtividade", "crescimento_longo_prazo", "eficiencia", "tecnologia"]
+    },
+    {
+      "id": "IDH-CON-010",
+      "subject": "macroeconomia",
+      "topic": "idh",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre o IDH (Índice de Desenvolvimento Humano), assinale a alternativa correta.",
+      "options": [
+        "O IDH mede exclusivamente a produção econômica dos países, assim como o PIB.",
+        "O IDH foi criado pela ONU e varia de 0 a 1, considerando renda, educação e longevidade.",
+        "Crescimento econômico sempre significa desenvolvimento humano elevado.",
+        "O IDH é calculado apenas para países desenvolvidos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o IDH foi criado pela ONU para medir desenvolvimento humano além do PIB, variando de 0 a 1 e considerando renda, educação e longevidade. A está errada: o IDH vai além da produção econômica. C está errada: um país pode ter PIB alto com baixa educação e alta desigualdade. D está errada: o IDH é calculado para praticamente todos os países.",
+      "tags": ["idh", "desenvolvimento_humano", "onu", "renda", "educacao", "longevidade"]
+    },
+    {
+      "id": "GIN-CON-011",
+      "subject": "macroeconomia",
+      "topic": "indice_gini",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "O Índice de Gini é um importante indicador de desigualdade de renda. Sobre ele, assinale a alternativa correta.",
+      "options": [
+        "O Índice de Gini varia de 0 a 1, sendo que 0 representa desigualdade máxima e 1 representa igualdade perfeita.",
+        "Países como Noruega e Dinamarca apresentam Gini elevado, indicando alta concentração de renda.",
+        "Dois países com o mesmo PIB per capita podem ter qualidade de vida completamente diferente devido a diferenças no Índice de Gini.",
+        "O Brasil possui um dos menores Índices de Gini do mundo, refletindo sua baixa desigualdade."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: o Gini revela como a renda é distribuída — mesmo PIB per capita com Ginis diferentes implica qualidade de vida distinta. A está errada: 0 = igualdade perfeita, 1 = desigualdade máxima. B está errada: Noruega e Dinamarca têm Gini baixo (alta igualdade). D está errada: o Brasil tem Gini alto (aproximadamente 0,53), sendo um dos países mais desiguais do mundo.",
+      "tags": ["gini", "desigualdade", "distribuicao_renda", "coesao_social"]
+    },
+    {
+      "id": "PIB-PER-012",
+      "subject": "macroeconomia",
+      "topic": "pib_per_capita",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Considere os dados do exercício prático:\n\nConsumo = R$ 1,2 trilhão | Investimentos = R$ 400 bi | Gastos do governo = R$ 350 bi | Exportações = R$ 250 bi | Importações = R$ 180 bi | População = 80 milhões | PIB potencial = R$ 2,2 trilhões\n\nAnalise as afirmações e marque a alternativa correta.\n\nI. O PIB efetivo é de R$ 2,02 trilhões, abaixo do PIB potencial.\nII. A balança comercial apresenta superávit de R$ 70 bilhões.\nIII. O PIB per capita é de R$ 25.250.\nIV. O PIB efetivo está acima do PIB potencial, indicando superaquecimento da economia.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: PIB = 1.200+400+350+(250–180) = 2.020 bi = R$ 2,02 tri, abaixo do potencial de R$ 2,2 tri (há ociosidade). II está correta: balança = 250–180 = +70 bi (superávit). III está correta: PIB per capita = 2,02 tri / 80 mi = R$ 25.250. IV está errada: PIB efetivo (2,02 tri) está abaixo do potencial (2,2 tri), não acima — indica economia operando abaixo da capacidade, não superaquecimento. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["pib_efetivo", "pib_potencial", "pib_per_capita", "ociosidade"]
+    },
+    {
+      "id": "PIB-LIM-013",
+      "subject": "macroeconomia",
+      "topic": "limitacoes_pib",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre as limitações do PIB e a necessidade de indicadores complementares, assinale a alternativa correta.",
+      "options": [
+        "O PIB sozinho é suficiente para avaliar o bem-estar e o desenvolvimento de um país.",
+        "Além do PIB, é necessário observar indicadores como IDH, Índice de Gini, produtividade e renda real para uma análise completa.",
+        "Países com PIB elevado nunca apresentam pobreza extrema ou desigualdade significativa.",
+        "O IDH substituiu o PIB como principal indicador econômico mundial."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o PIB é apenas o ponto de partida — é preciso complementá-lo com IDH (desenvolvimento humano), Gini (desigualdade), produtividade e renda real. A está errada: o PIB não mede bem-estar, desigualdade ou sustentabilidade. C está errada: países com PIB alto podem ter pobreza extrema e alta desigualdade. D está errada: o IDH complementa, não substitui, o PIB.",
+      "tags": ["pib", "limitacoes", "idh", "gini", "indicadores"]
+    },
+    {
+      "id": "COM-PAI-014",
+      "subject": "macroeconomia",
+      "topic": "comparativo_paises",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Comparando países desenvolvidos e emergentes, analise as afirmações e marque a alternativa correta.\n\nI. Países desenvolvidos geralmente apresentam PIB per capita alto, IDH muito alto e produtividade elevada.\nII. Países emergentes frequentemente possuem Índice de Gini maior, indicando maior desigualdade.\nIII. A Holanda se destaca por combinar alta renda per capita com baixa desigualdade (Gini 0,29).\nIV. O Brasil possui PIB elevado, mas IDH médio (0,760) e Gini alto (0,53), caracterizando um país desenvolvido.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: países desenvolvidos combinam alto PIB per capita, IDH elevado e alta produtividade. II está correta: emergentes tendem a ter Gini mais alto (maior desigualdade). III está correta: Holanda tem PIB per capita de US$ 72 mil, IDH 0,946 e Gini 0,29. IV está errada: apesar de PIB elevado, o Brasil é classificado como país emergente, não desenvolvido, devido ao IDH médio, alta desigualdade e produtividade menor. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["paises_desenvolvidos", "paises_emergentes", "comparativo", "idh", "gini"]
+    },
+    {
+      "id": "CON-GER-015",
+      "subject": "macroeconomia",
+      "topic": "conclusao_geral",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "De acordo com a conclusão geral do material de estudo, uma economia forte não depende apenas de PIB elevado. Assinale a alternativa que apresenta corretamente os fatores combinados pelas economias mais desenvolvidas.",
+      "options": [
+        "Apenas recursos naturais abundantes e grande extensão territorial.",
+        "Produtividade, educação, inovação, instituições fortes e baixa desigualdade.",
+        "Alta inflação e juros elevados para controlar o consumo.",
+        "Desemprego elevado e informalidade para flexibilizar o mercado de trabalho."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: as economias mais desenvolvidas combinam produtividade (motor do crescimento), educação (capital humano), inovação (diferencial competitivo), instituições fortes (estabilidade jurídica) e baixa desigualdade (coesão social). A está errada: recursos naturais não garantem desenvolvimento. C e D estão erradas: inflação alta, desemprego elevado e informalidade são problemas, não fatores de desenvolvimento.",
+      "tags": ["desenvolvimento", "produtividade", "educacao", "inovacao", "instituicoes", "desigualdade"]
+    }
+  ]
+}

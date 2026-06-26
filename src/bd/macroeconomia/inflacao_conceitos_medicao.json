@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "discipline": "macroeconomia",
+    "discipline_label": "Macroeconomia",
+    "semester": 1,
+    "exam": "p1",
+    "exam_label": "P1",
+    "courses": ["ADM"]
+  },
+  "questions": [
+    {
+      "id": "INF-CON-001",
+      "subject": "macroeconomia",
+      "topic": "conceito_inflacao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre o conceito de inflação, assinale a alternativa correta.",
+      "options": [
+        "Inflação é o aumento pontual do preço de um único produto em um mês específico.",
+        "Inflação é o aumento generalizado e contínuo dos preços de bens e serviços, implicando perda do poder de compra da moeda.",
+        "Inflação ocorre apenas quando todos os produtos da economia apresentam aumento de preços simultaneamente.",
+        "Inflação é sinônimo de aumento de preços causado exclusivamente por excesso de demanda."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: inflação é o aumento generalizado (atinge diversos setores) e contínuo (persistente no tempo) dos preços, resultando em perda do poder de compra da moeda. A está errada: aumento pontual de um único produto não caracteriza inflação. C está errada: não é necessário que todos os produtos aumentem simultaneamente. D está errada: existem outros tipos de inflação além da de demanda, como a de custos e a inercial.",
+      "tags": ["inflacao", "conceito", "poder_compra", "aumento_generalizado"]
+    },
+    {
+      "id": "INF-TIP-002",
+      "subject": "macroeconomia",
+      "topic": "tipos_inflacao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre os tipos de inflação e marque a alternativa correta.\n\nI. A inflação de demanda é caracterizada pelo excesso de consumo em relação à oferta, podendo ser resumida como \"muito dinheiro perseguindo poucos bens\".\nII. A inflação de custos ocorre quando há aumento nos custos de produção, como energia, salários e câmbio.\nIII. A inflação inercial está relacionada à indexação de preços com base na inflação passada, sendo muito presente no Brasil antes do Plano Real.\nIV. A estagflação é a combinação de inflação elevada com alto crescimento econômico.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: inflação de demanda é o excesso de procura sobre a oferta. II está correta: inflação de custos decorre do aumento de insumos produtivos. III está correta: inflação inercial é baseada na indexação pela inflação passada, característica do Brasil pré-Real. IV está errada: estagflação é a combinação de inflação alta com baixo crescimento econômico (estagnação + inflação). Portanto, apenas I, II e III estão corretas.",
+      "tags": ["inflacao_demanda", "inflacao_custos", "inflacao_inercial", "estagflacao"]
+    },
+    {
+      "id": "INF-TIP-003",
+      "subject": "macroeconomia",
+      "topic": "tipos_inflacao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre deflação, hiperinflação e inflação importada, assinale a alternativa correta.",
+      "options": [
+        "A deflação é sempre positiva, pois significa que os preços estão caindo e o consumidor ganha poder de compra.",
+        "A hiperinflação é uma inflação moderada que permite o planejamento econômico de longo prazo.",
+        "A inflação importada está relacionada à variação cambial, como a alta do dólar que encarece combustíveis e outros insumos.",
+        "A deflação estimula o consumo e o investimento, gerando crescimento econômico acelerado."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: a inflação importada ocorre via câmbio — quando o dólar sobe, produtos importados e insumos atrelados ao dólar (como combustíveis) ficam mais caros. A está errada: a deflação pode gerar retração econômica, desemprego e espiral deflacionária. B está errada: hiperinflação é extremamente elevada e descontrolada, impedindo qualquer planejamento. D está errada: a deflação tende a retrair consumo e investimento, pois agentes adiam decisões esperando preços menores.",
+      "tags": ["deflacao", "hiperinflacao", "inflacao_importada", "cambio"]
+    },
+    {
+      "id": "INF-IPC-004",
+      "subject": "macroeconomia",
+      "topic": "ipca",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre o IPCA (Índice de Preços ao Consumidor Amplo), assinale a alternativa correta.",
+      "options": [
+        "É um índice calculado pela FGV, utilizado exclusivamente para reajuste de aluguéis.",
+        "É o índice oficial do governo federal, usado pelo Banco Central para verificar o cumprimento da meta de inflação.",
+        "Mede apenas a variação de preços de alimentos e transportes, ignorando outros grupos.",
+        "Abrange apenas famílias com renda de até 1 salário mínimo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o IPCA é o índice oficial do governo federal, calculado pelo IBGE, e é a referência do Banco Central para a meta de inflação. A está errada: é calculado pelo IBGE, não pela FGV, e não é exclusivo para aluguéis. C está errada: mede nove grupos de despesas, não apenas alimentos e transportes. D está errada: abrange famílias com renda de 1 a 40 salários mínimos.",
+      "tags": ["ipca", "indice_oficial", "banco_central", "meta_inflacao"]
+    },
+    {
+      "id": "INF-IPC-005",
+      "subject": "macroeconomia",
+      "topic": "ipca",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre a composição do IPCA por grupos, associe corretamente:\n\n1. Alimentação e bebidas\n2. Transportes\n3. Habitação\n4. Saúde e cuidados pessoais\n\nA. Peso de aproximadamente 15%\nB. Peso de aproximadamente 21%\nC. Peso de aproximadamente 13%\nD. Peso de aproximadamente 20%",
+      "options": [
+        "1-B, 2-D, 3-A, 4-C.",
+        "1-D, 2-A, 3-B, 4-C.",
+        "1-A, 2-C, 3-D, 4-B.",
+        "1-C, 2-B, 3-D, 4-A."
+      ],
+      "correctIndex": 0,
+      "explanation": "A associação correta é: 1-B (Alimentação e bebidas ≈ 21%), 2-D (Transportes ≈ 20%), 3-A (Habitação ≈ 15%), 4-C (Saúde e cuidados pessoais ≈ 13%). Alimentação e transportes juntos representam cerca de 41% do índice, o que explica sua alta sensibilidade a choques externos como commodities e câmbio.",
+      "tags": ["ipca", "composicao", "grupos", "pesos"]
+    },
+    {
+      "id": "INF-IPC-006",
+      "subject": "macroeconomia",
+      "topic": "ipca",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Considere os seguintes dados de variação de preços por grupo do IPCA e calcule a inflação anual:\n\nGrupo | Peso | Variação\nAlimentação e bebidas | 21% | 8,0%\nTransportes | 20% | 6,5%\nHabitação | 15% | 4,0%\nSaúde e cuidados pessoais | 13% | 9,0%\nDespesas pessoais | 10% | 5,5%\nArtigos de residência | 8% | 3,0%\nEducação | 6% | 7,0%\nVestuário | 4% | 2,5%\nComunicação | 3% | 1,5%\n\nAssinale a alternativa com o valor correto do IPCA anual.",
+      "options": [
+        "5,50%",
+        "6,12%",
+        "7,25%",
+        "6,50%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta. Cálculo: Alimentação 0,21×8,0=1,68; Transportes 0,20×6,5=1,30; Habitação 0,15×4,0=0,60; Saúde 0,13×9,0=1,17; Despesas pessoais 0,10×5,5=0,55; Artigos de residência 0,08×3,0=0,24; Educação 0,06×7,0=0,42; Vestuário 0,04×2,5=0,10; Comunicação 0,03×1,5=0,045. Soma = 1,68+1,30+0,60+1,17+0,55+0,24+0,42+0,10+0,045 = 6,115%, arredondando para 6,12%. A (5,50%) ignora grupos importantes. C (7,25%) e D (6,50%) são resultados de cálculos incorretos.",
+      "tags": ["ipca", "calculo_inflacao", "pesos", "variacao"]
+    },
+    {
+      "id": "INF-LIM-007",
+      "subject": "macroeconomia",
+      "topic": "limitacoes_indices_inflacao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "Sobre as limitações dos índices de inflação, analise as afirmações e marque a alternativa correta.\n\nI. O IPCA reflete com exatidão a inflação sentida por cada indivíduo, independentemente do seu perfil de consumo.\nII. A \"desigualdade inflacionária\" indica que os mais pobres são mais impactados pela alta de alimentos e transportes, enquanto os mais ricos são mais afetados por serviços, educação e saúde.\nIII. O IPCA não captura a valorização de imóveis, o que significa que bolhas imobiliárias podem não ser refletidas no índice.\nIV. A \"cesta média\" utilizada no IPCA representa perfeitamente o consumo de todas as famílias brasileiras.",
+      "options": [
+        "Apenas I e IV estão corretas.",
+        "Apenas II e III estão corretas.",
+        "Apenas I, II e III estão corretas.",
+        "II, III e IV estão corretas."
+      ],
+      "correctIndex": 1,
+      "explanation": "II está correta: a desigualdade inflacionária reflete que diferentes perfis de consumo sofrem impactos distintos da inflação. III está correta: o IPCA mede preços de bens e serviços consumidos, não capturando valorização de ativos como imóveis. I está errada: o IPCA usa uma cesta média que não reflete a inflação real de cada indivíduo. IV está errada: a cesta média é uma aproximação, não uma representação perfeita do consumo de todas as famílias. Portanto, apenas II e III estão corretas.",
+      "tags": ["ipca", "limitacoes", "desigualdade_inflacionaria", "cesta_media", "bolha_imobiliaria"]
+    },
+    {
+      "id": "INF-MET-008",
+      "subject": "macroeconomia",
+      "topic": "meta_inflacao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre a origem e o propósito da meta de inflação no Brasil, assinale a alternativa correta.",
+      "options": [
+        "A meta de inflação foi criada durante o Plano Real para substituir o IPCA como índice oficial.",
+        "A meta de inflação surgiu como um compromisso público de estabilidade de preços, funcionando como âncora para a economia após o período de hiperinflação.",
+        "A meta de inflação foi adotada para permitir que os preços variassem livremente, sem intervenção do Banco Central.",
+        "A meta de inflação é definida anualmente pelo IBGE, sem participação do Conselho Monetário Nacional."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: a meta de inflação surge como solução para a falta de confiança do período hiperinflacionário, estabelecendo um compromisso público de estabilidade de preços que serve como âncora para a economia. A está errada: a meta usa o IPCA como referência, não o substitui. C está errada: a meta implica controle, não liberdade total de preços. D está errada: a meta é definida pelo Conselho Monetário Nacional (CMN), não pelo IBGE.",
+      "tags": ["meta_inflacao", "plano_real", "hiperinflacao", "estabilidade", "confianca"]
+    },
+    {
+      "id": "INF-CTR-009",
+      "subject": "macroeconomia",
+      "topic": "controle_inflacao",
+      "difficulty": "medium",
+      "style": "tecnico_adm",
+      "statement": "São razões que justificam o controle da inflação, EXCETO:",
+      "options": [
+        "A inflação reduz o poder de compra, fazendo com que os salários reais caiam se não forem reajustados acima da inflação.",
+        "A inflação gera incerteza econômica, dificultando o planejamento de empresas e famílias e reduzindo investimentos.",
+        "A inflação aumenta a desigualdade, pois os mais pobres gastam proporcionalmente mais com itens como alimentos e transporte.",
+        "A inflação controlada estimula a indexação generalizada de contratos, garantindo previsibilidade para todos os agentes econômicos."
+      ],
+      "correctIndex": 3,
+      "explanation": "Alternativa D é a exceção, pois a indexação generalizada é justamente um problema associado à inflação (inflação inercial), não uma razão para controlá-la. O controle da inflação visa reduzir a necessidade de indexação. A está correta como razão: perda de poder de compra. B está correta: incerteza reduz investimentos. C está correta: inflação afeta desproporcionalmente os mais pobres.",
+      "tags": ["controle_inflacao", "poder_compra", "desigualdade", "indexacao"]
+    },
+    {
+      "id": "INF-FON-010",
+      "subject": "macroeconomia",
+      "topic": "fontes_dados_inflacao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "Sobre as fontes oficiais de dados de inflação no Brasil, assinale a alternativa correta.",
+      "options": [
+        "O IPCA e o INPC são calculados pela FGV, enquanto o IGP-M é calculado pelo IBGE.",
+        "O IBGE é a fonte oficial do IPCA e do INPC, enquanto a FGV calcula o IGP-M.",
+        "O Banco Central calcula diretamente todos os índices de inflação do Brasil.",
+        "Os dados de inflação brasileiros são calculados exclusivamente pelo FMI e Banco Mundial."
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternativa B está correta: o IBGE é responsável pelo IPCA e INPC (índices oficiais), enquanto a FGV calcula o IGP-M e outros índices da família IGP. A está errada: inverte as atribuições. C está errada: o Banco Central utiliza os índices, mas não os calcula. D está errada: FMI e Banco Mundial compilam dados internacionais, mas não calculam os índices brasileiros.",
+      "tags": ["ibge", "fgv", "banco_central", "ipca", "igp_m"]
+    },
+    {
+      "id": "INF-CON-011",
+      "subject": "macroeconomia",
+      "topic": "conclusao_inflacao",
+      "difficulty": "easy",
+      "style": "tecnico_adm",
+      "statement": "De acordo com o material de estudo, a estabilidade de preços é fundamental para a economia porque:",
+      "options": [
+        "Permite que o governo aumente os impostos sem impacto no consumo.",
+        "Garante que os salários nunca precisem ser reajustados.",
+        "É condição necessária para o crescimento sustentável e a redução da desigualdade.",
+        "Elimina completamente a possibilidade de crises econômicas."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alternativa C está correta: sem estabilidade de preços, não há crescimento sustentável nem redução da desigualdade, pois a incerteza inibe investimentos e a inflação afeta desproporcionalmente os mais pobres. A está errada: estabilidade não tem relação com aumento de impostos. B está errada: salários continuam podendo ser reajustados por outros fatores. D está errada: estabilidade reduz, mas não elimina completamente a possibilidade de crises.",
+      "tags": ["estabilidade_precos", "crescimento_sustentavel", "desigualdade", "conclusao"]
+    },
+    {
+      "id": "INF-IMP-012",
+      "subject": "macroeconomia",
+      "topic": "impactos_inflacao",
+      "difficulty": "hard",
+      "style": "tecnico_adm",
+      "statement": "Analise as afirmações sobre os impactos da inflação na economia e na vida cotidiana e marque a alternativa correta.\n\nI. Uma inflação de 10% ao ano significa que R$ 100,00 hoje compram o equivalente a aproximadamente R$ 90,00 no ano seguinte.\nII. A inflação de custos pode ser desencadeada pela alta do dólar, que encarece insumos como combustíveis, espalhando-se para outros setores via custo de transporte.\nIII. A deflação, apesar de parecer benéfica ao consumidor, pode gerar retração econômica e aumento do desemprego.\nIV. A inflação afeta igualmente todas as classes sociais, independentemente da composição de sua cesta de consumo.",
+      "options": [
+        "Apenas I, II e III estão corretas.",
+        "Apenas II e IV estão corretas.",
+        "Apenas I e IV estão corretas.",
+        "I, II, III e IV estão corretas."
+      ],
+      "correctIndex": 0,
+      "explanation": "I está correta: inflação de 10% reduz o poder de compra em aproximadamente 10%. II está correta: alta do dólar → combustível sobe → frete encarece → inflação se espalha pela economia. III está correta: deflação pode levar à espiral deflacionária com retração e desemprego. IV está errada: a inflação afeta desigualmente as classes sociais, pois os mais pobres gastam proporcionalmente mais com alimentos e transporte. Portanto, apenas I, II e III estão corretas.",
+      "tags": ["inflacao", "deflacao", "poder_compra", "desigualdade", "cambio"]
+    }
+  ]
+}
