@@ -22,7 +22,7 @@
         "O Direito do Trabalho surgiu com a Constituição de 1988, antes não existia legislação trabalhista no Brasil."
       ],
       "correctIndex": 1,
-      "explanation": "Alternativa B está correta: o Direito do Trabalho está presente nas relações de trabalho com a finalidade de proteger o trabalhador, regulamentar as relações entre empregados e empregadores e consolidar as garantias da relação de trabalho. A está errada: também se aplica a servidores públicos em certos aspectos. C está errada: é ramo autônomo, não subordinado ao Direito Civil. D está errada: a Constituição de 1934 já instituiu direitos trabalhistas (salário mínimo, jornada de 8h, férias).",
+      "explanation": "O Direito do Trabalho tem como finalidade proteger o trabalhador, regulamentar as relações entre empregados e empregadores e consolidar as garantias da relação de trabalho. A alternativa que restringe sua aplicação apenas ao setor privado está errada, pois o Direito do Trabalho também se aplica a servidores públicos em certos aspectos (ex.: celetistas da administração indireta). A alternativa que o classifica como ramo do Direito Civil está errada, pois o Direito do Trabalho é um ramo autônomo do Direito, com princípios e regras próprias. A alternativa que afirma que o Direito do Trabalho surgiu apenas com a Constituição de 1988 está errada, pois a Constituição de 1934 já instituiu direitos trabalhistas relevantes, como salário mínimo, jornada de 8 horas e férias.",
       "tags": ["conceito", "finalidade", "protecao_trabalhador"]
     },
     {
@@ -39,7 +39,7 @@
         "A Consolidação das Leis do Trabalho (CLT) não contém normas de Direito Coletivo, apenas de Direito Individual."
       ],
       "correctIndex": 2,
-      "explanation": "Alternativa C está correta: o Direito Individual regula a relação empregado × empregador (contrato de trabalho), enquanto o Direito Coletivo regula as relações coletivas entre empregados, empregadores e associações coletivas (negociação coletiva, ACT, CCT). A está errada: inverteu os conceitos. B está errada: ação trabalhista individual é exemplo de Direito Individual, não Coletivo. D está errada: a CLT contém normas de ambas as divisões.",
+      "explanation": "O Direito Individual do Trabalho trata das relações entre empregado e empregador (contrato de trabalho, verbas trabalhistas, jornada etc.), enquanto o Direito Coletivo do Trabalho regula as relações coletivas entre empregados, empregadores e suas associações representativas, como convenções coletivas de trabalho (CCT) e acordos coletivos de trabalho (ACT). A alternativa que inverte esses conceitos está errada. A alternativa que cita ação trabalhista individual como exemplo de Direito Coletivo está errada, pois esta é típica do Direito Individual. A alternativa que nega a existência de normas de Direito Coletivo na CLT está errada, pois a CLT contém normas de ambas as divisões (ex.: Título VI, arts. 511 a 610).",
       "tags": ["direito_individual", "direito_coletivo", "divisao"]
     },
     {
@@ -56,7 +56,7 @@
         "Regimento interno do sindicato dos empregadores, ainda que não aprovado em assembleia."
       ],
       "correctIndex": 3,
-      "explanation": "Alternativa D é a exceção, pois o regimento interno do sindicato, sem aprovação em assembleia ou previsão legal, não é considerado fonte formal do Direito do Trabalho. As demais alternativas listam fontes reconhecidas: CF, CLT, convenções/acordos coletivos, jurisprudência e OIT.",
+      "explanation": "A exceção é o regimento interno do sindicato dos empregadores que não tenha sido aprovado em assembleia, pois este não é considerado fonte formal do Direito do Trabalho. As fontes formais do Direito do Trabalho incluem: a Constituição Federal (fonte máxima), a CLT e demais leis (fontes estatais), as convenções e acordos coletivos de trabalho (fontes negociais ou autônomas), a jurisprudência dos tribunais trabalhistas e as convenções e recomendações da Organização Internacional do Trabalho — OIT (fontes internacionais).",
       "tags": ["fontes", "clt", "oit", "convencao_coletiva"]
     },
     {
@@ -73,7 +73,7 @@
         "Apenas III e IV estão corretas."
       ],
       "correctIndex": 1,
-      "explanation": "I está correta: o princípio da proteção se subdivide em in dubio pro operário, norma mais favorável e condição mais benéfica. II está errada: o princípio da primazia da realidade afirma exatamente o oposto — os fatos prevalecem sobre os documentos. III está correta: definição do princípio da dignidade humana. IV está correta: princípio da irrenunciabilidade impede o trabalhador de abrir mão de direitos de ordem pública, como férias. Portanto, I, III e IV estão corretas.",
+      "explanation": "Apenas as afirmações I, III e IV estão corretas. I está correta: o princípio da proteção do trabalhador se subdivide em três vertentes — in dubio pro operário (na dúvida, interpreta-se a favor do trabalhador), norma mais favorável (aplica-se a norma mais benéfica ao trabalhador, independentemente de sua hierarquia) e condição mais benéfica (as vantagens já conquistadas pelo trabalhador não podem ser suprimidas). II está errada: o princípio da primazia da realidade afirma exatamente o oposto — os fatos que efetivamente ocorrem na relação de trabalho prevalecem sobre os documentos formais (ex.: se na prática há subordinação, há vínculo de emprego, ainda que o contrato diga o contrário). III está correta: o princípio da dignidade humana refere-se à proteção dos direitos humanos inerentes a cada indivíduo e à satisfação de suas necessidades básicas no âmbito laboral. IV está correta: o princípio da irrenunciabilidade impede o trabalhador de abrir mão de direitos de ordem pública, como férias, 13º salário e FGTS, ainda que por vontade própria.",
       "tags": ["principios", "protecao", "primazia_realidade", "dignidade_humana", "irrenunciabilidade"]
     },
     {
@@ -90,7 +90,7 @@
         "O trabalho autônomo e o eventual caracterizam relação de emprego, pois há prestação de serviço remunerado."
       ],
       "correctIndex": 1,
-      "explanation": "Alternativa B está correta: todo empregado é um trabalhador, mas nem todo trabalhador é empregado. Trabalho é todo esforço físico ou intelectual; emprego é o trabalho subordinado, não eventual, sob dependência e remuneração. A está errada: trabalhadores autônomos, eventuais, voluntários não são empregados. C está errada: não são sinônimos — relação de trabalho é gênero, relação de emprego é espécie. D está errada: autônomo e eventual não geram relação de emprego, pois falta subordinação ou habitualidade.",
+      "explanation": "Emprego é uma espécie do gênero relação de trabalho, caracterizando-se pelo trabalho subordinado, não eventual, pessoal e oneroso. Assim, todo empregado é um trabalhador, mas nem todo trabalhador é empregado. A alternativa que afirma que toda relação de trabalho gera vínculo de emprego está errada, pois trabalhadores autônomos, eventuais, voluntários e estagiários exercem relação de trabalho, mas não são empregados. A alternativa que trata os termos como sinônimos está errada, pois relação de trabalho é gênero (abrange todas as formas de prestação de serviço) e relação de emprego é espécie (aquela que reúne os requisitos do art. 3º da CLT). A alternativa que classifica o trabalho autônomo e eventual como relação de emprego está errada, pois a estes falta, respectivamente, a subordinação e a não eventualidade (habitualidade).",
       "tags": ["relacao_emprego", "relacao_trabalho", "empregado"]
     },
     {
@@ -107,7 +107,7 @@
         "Autonomia plena — o empregado define livremente sua jornada e forma de execução do serviço, sem qualquer ingerência do empregador."
       ],
       "correctIndex": 3,
-      "explanation": "Alternativa D é a exceção, pois a autonomia plena não é requisito do empregado; ao contrário, a subordinação (poder de direção do empregador) é um dos elementos essenciais (art. 3º CLT). A, B e C estão corretas: pessoalidade, não eventualidade e subordinação são requisitos previstos no art. 3º.",
+      "explanation": "A exceção (requisito que NÃO caracteriza a relação de emprego) é a autonomia plena. O art. 3º da CLT estabelece como requisitos da relação de emprego: pessoalidade (o serviço deve ser prestado pessoalmente pelo empregado, sem se fazer substituir por terceiro), não eventualidade (a prestação de serviço deve ser habitual, permanente, contínua), subordinação (o empregado está sob o poder de direção, controle e disciplina do empregador) e onerosidade (recebimento de salário pela prestação do serviço). A autonomia plena é característica do trabalhador autônomo, e não do empregado, que está subordinado ao poder diretivo do empregador.",
       "tags": ["empregado", "artigo_3_clt", "requisitos", "subordinacao"]
     },
     {
@@ -124,7 +124,7 @@
         "Se ultrapassado o prazo máximo, o contrato se extingue automaticamente, sem qualquer direito para o empregado."
       ],
       "correctIndex": 2,
-      "explanation": "Alternativa C está correta: o contrato por prazo determinado é válido nas hipóteses do art. 443 §2º: serviço de natureza transitória, atividades empresariais de caráter transitório ou contrato de experiência. O prazo máximo é de 2 anos (art. 445 CLT). A está errada: 90 dias é prazo do contrato de experiência, não do contrato por prazo determinado em geral. B está errada: atividades empresariais de caráter transitório são uma das hipóteses permitidas. D está errada: se ultrapassado 2 anos, o contrato passa a vigorar por prazo indeterminado.",
+      "explanation": "O contrato por prazo determinado tem prazo máximo de 2 anos (art. 445 da CLT) e é válido nas hipóteses do art. 443, §2º: serviço cuja natureza ou transitoriedade justifique a predeterminação do prazo, atividades empresariais de caráter transitório ou contrato de experiência. A alternativa que menciona prazo máximo de 90 dias está errada, pois 90 dias é o prazo máximo específico do contrato de experiência, e não do contrato por prazo determinado em geral. A alternativa que exclui as atividades empresariais de caráter transitório está errada, pois estas são uma das hipóteses expressamente permitidas. A alternativa que afirma que o contrato se extingue automaticamente ao ultrapassar o prazo está errada, pois, conforme o art. 445, parágrafo único, se ultrapassado o prazo de 2 anos ou ocorrer mais de uma prorrogação, o contrato passa a vigorar por prazo indeterminado.",
       "tags": ["contrato_prazo_determinado", "artigo_443", "clt"]
     },
     {
@@ -141,7 +141,7 @@
         "O contrato de experiência não precisa cumprir requisitos formais, podendo ser apenas verbal."
       ],
       "correctIndex": 3,
-      "explanation": "Alternativa D é a incorreta, pois o contrato de experiência, como qualquer contrato por prazo determinado, deve cumprir requisitos formais; caso contrário, será descaracterizado. A está correta: prazo máximo 90 dias. B está correta: exemplos de prorrogação (30+60, 45+45). C está correta: a recontratação por experiência para mesma função em menos de 6 meses descaracteriza o contrato.",
+      "explanation": "A alternativa INCORRETA é a que afirma que o contrato de experiência não precisa cumprir requisitos formais e pode ser apenas verbal. Na verdade, o contrato de experiência, como qualquer contrato por prazo determinado, deve observar requisitos formais para sua validade, devendo ser celebrado por escrito e anotado na CTPS do empregado. Caso contrário, será descaracterizado e passará a vigorar por prazo indeterminado. As demais alternativas estão corretas: o prazo máximo é de 90 dias; pode ser prorrogado uma única vez, desde que o total não ultrapasse 90 dias (ex.: 30+60 ou 45+45); e a recontratação para a mesma função em intervalo inferior a 6 meses pode descaracterizar o contrato de experiência.",
       "tags": ["contrato_experiencia", "prazo_90_dias", "descaracterizacao"]
     },
     {
@@ -158,7 +158,7 @@
         "Apenas III e IV estão corretas."
       ],
       "correctIndex": 0,
-      "explanation": "I está correta: no contrato intermitente, o trabalhador só presta serviço quando convocado. II está correta: o intermitente tem férias, 13º, FGTS e repouso semanal, mas seguro-desemprego é vetado. III está correta: o salário por hora deve ser igual ou maior que o salário mínimo por hora ou ao valor pago a outros funcionários. IV está errada: durante a inatividade não há pagamento — só recebe pelas horas trabalhadas. Portanto, apenas I, II e III estão corretas.",
+      "explanation": "Apenas as afirmações I, II e III estão corretas. I está correta: no contrato intermitente (art. 452-A da CLT), o trabalhador presta serviços apenas quando convocado pelo empregador, recebendo somente pelas horas efetivamente trabalhadas. II está correta: o trabalhador intermitente tem direito a férias proporcionais com terço constitucional, 13º salário proporcional, FGTS (recolhimento mensal) e repouso semanal remunerado, mas não tem direito ao seguro-desemprego (art. 452-A, §6º). III está correta: o valor da hora de trabalho do intermitente não pode ser inferior ao salário mínimo por hora ou ao valor pago aos demais empregados do estabelecimento que exerçam a mesma função. IV está errada: durante os períodos de inatividade (intervalo entre uma convocação e outra), o trabalhador intermitente não recebe qualquer remuneração, pois o contrato se caracteriza justamente pela alternância entre períodos de prestação de serviço e de inatividade.",
       "tags": ["contrato_intermitente", "lei_13467", "reforma_trabalhista", "direitos"]
     },
     {
@@ -175,7 +175,7 @@
         "O autônomo tem direito a seguro-desemprego e FGTS, assim como o temporário."
       ],
       "correctIndex": 2,
-      "explanation": "Alternativa C está correta: o temporário tem vínculo com a empresa de trabalho temporário (não com a tomadora) e direitos trabalhistas. O autônomo não tem vínculo de emprego, não possui direitos trabalhistas típicos da CLT, mas deve recolher previdência. A está errada: autônomo não tem vínculo. B está errada: o temporário é contratado pela empresa de trabalho temporário, não diretamente pelo tomador. D está errada: autônomo não tem seguro-desemprego nem FGTS.",
+      "explanation": "O trabalhador temporário tem vínculo empregatício com a empresa de trabalho temporário (regida pela Lei 6.019/74), que é a responsável por todos os encargos trabalhistas, e não com a empresa tomadora dos serviços. Possui direitos como férias proporcionais, 13º salário, FGTS e repouso semanal remunerado. Já o trabalhador autônomo não possui vínculo de emprego com o tomador de serviços, não tem direitos trabalhistas típicos da CLT (como férias e 13º salário), mas deve recolher contribuição previdenciária como contribuinte individual. A alternativa que afirma que ambos possuem vínculo com a tomadora está errada, pois o autônomo não tem vínculo. A alternativa que inverte a forma de contratação está errada: o temporário é contratado pela empresa de trabalho temporário, e não diretamente pela tomadora. A alternativa que atribui seguro-desemprego e FGTS ao autônomo está errada, pois estes são direitos exclusivos do empregado com vínculo formal.",
       "tags": ["trabalhador_temporario", "trabalhador_autonomo", "vinculo_empregaticio", "previdencia"]
     }
   ]
